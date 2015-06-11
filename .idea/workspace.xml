@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59426e74-1ed5-4b09-831d-af502f5868fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson3/task5/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson3/task6/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson3/task5/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson3/task6/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson3/task5/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson3/task6/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson3/task2/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson3/task4/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson3/task5/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson3/task6/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson3/task2/task2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson3/task4/task4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson3/task5/task5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson3/task5/.idea/task5.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson3/task6/task6.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson3/task6/.idea/task6.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson3/task5/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson3/task6/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson3/task5/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson3/task6/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="59426e74-1ed5-4b09-831d-af502f5868fd" name="Default" comment="" />
     <ignored path="nkartovskaya.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
