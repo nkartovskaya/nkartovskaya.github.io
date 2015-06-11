@@ -1,0 +1,47 @@
+div {
+    font-weight: bold;
+}
+span {
+    color: white;
+    border-radius: 7px;
+}
+span[class=red] {
+    background-color: red;
+}
+span[class=green] {
+    background-color: green;
+}
+span[class=blue] {
+    background-color: blue;
+}
+label {
+    text-decoration: underline;
+}
+label[for=red] {
+    color: red;
+}
+label[for=green] {
+    color: green;
+}
+label[for=blue] {
+    color: blue;
+}
+input:checked[id=red]~span[class=red] {
+    background-color: white;
+}
+input:checked[id=red]~label[for=red] {
+    color: white;
+}
+input:checked[id=green]~span[class=green] {
+    background-color: white;
+}
+input:checked[id=green]~label[for=green] {
+    color: white;
+}
+input:checked[id=blue]~span[class=blue] {
+    background-color: white;
+}
+input:checked[id=blue]~label[for=blue] {
+    color: white;
+}
+
