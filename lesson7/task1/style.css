@@ -1,0 +1,93 @@
+.table {
+    width: 402px;
+    height: 1122px;
+    font-size: 80px;
+    font-family: Inpact, sans-serif;
+    letter-spacing: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px 15px 15px 0;
+    position: absolute;
+    z-index: 1;
+    text-shadow: 0 0 7px rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.83);
+    transition: all 5s ease-out;
+    -webkit-transition: all 5s ease-out;
+    -moz-transition: all 5s ease-out;
+    -o-transition: all 5s ease-out;
+}
+
+.line1 {
+    font-size: 1.1em;
+    letter-spacing: 0.7em;
+    height: 15%;
+    margin-right: 0;
+}
+
+.line2 {
+    font-size: 0.9em;
+    letter-spacing: 0.57em;
+    height: 12%;
+}
+
+.line3 {
+    font-size: 0.8em;
+    letter-spacing: 0.3em;
+    height: 12%;
+}
+
+.line4 {
+    font-size: 0.7em;
+    letter-spacing: 0.25em;
+    height: 10%;
+}
+
+.line5 {
+    font-size: 0.6em;
+    letter-spacing: 0.37em;
+    height: 10%;
+}
+
+.line6 {
+    font-size: 0.5em;
+    letter-spacing: 0.36em;
+    height: 8%;
+}
+
+.line7 {
+    font-size: 0.4em;
+    letter-spacing: 0.60em;
+    height: 7%;
+}
+
+.line8 {
+    font-size: 0.35em;
+    letter-spacing: 0.55em;
+    height: 7%;
+}
+
+.line9 {
+    font-size: 0.25em;
+    letter-spacing: 1em;
+    height: 5%;
+}
+
+.line10 {
+    font-size: 0.2em;
+    letter-spacing: 1.14em;
+    height: 3%;
+    border-bottom: solid rgba(255, 0, 0, 0.2) 2px;
+}
+
+.line11 {
+    font-size: 0.15em;
+    letter-spacing: 1.65em;
+    height: 4%;
+    padding-top: 20px;
+}
+
+.line12 {
+    font-size: 0.15em;
+    letter-spacing: 1.65em;
+    height: 4%;
+}
