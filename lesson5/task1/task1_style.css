@@ -1,0 +1,66 @@
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    height: 30px;
+    padding: 5px 15px 0 15px;
+    box-sizing: border-box;
+    margin: 0;
+}
+.first_level {
+    position: relative;
+    width: 766.662px;
+}
+.item_first_level {
+    font-family: 'Oswald', sans-serif;
+    display: block;
+    float: left;
+    width: auto;
+    margin: 0;
+    background-color: #5c98f9;
+    font-weight: normal;
+    font-size: 80%;
+}
+.item_first_level:hover {
+    background-color: #f5f5f5;
+    color: #b1b1b1;
+}
+.item_first_level a:hover {
+    color: #b1b1b1;
+}
+.second_level {
+    padding: 0;
+    display: none;
+    width: 900px;
+}
+.item_second_level {
+    float: left;
+    width: auto;
+    left: auto;
+    color: #b1b1b1;
+    background-color: #f5f5f5;
+    list-style-type: none;
+}
+.item_first_level:hover  .second_level {
+    display: block;
+    position: absolute;
+    width: 766.662px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 90%;
+    background-color: #f5f5f5;
+    color: #b1b1b1;
+    left: 40px;
+}
+.item_first_level:hover .item_second_level {
+    color: #b1b1b1;
+}
+.item_first_level:hover .item_second_level a {
+    color: #b1b1b1;
+}
+
+
