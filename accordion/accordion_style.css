@@ -1,0 +1,62 @@
+.container {
+    font-family: 'Oswald', sans-serif;
+    width: 279px;
+    height: 157px;
+    text-align: center;
+}
+input {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+label {
+    display: block;
+    width: 279px;
+    height: 34px;
+    background-image: url("images/bg_default.png");
+    padding-top: 5px;
+    margin: 0px;
+    outline: solid #e6e6e6 1px;
+}
+article {
+    display: block;
+    width: 269px;
+    height: auto;
+    visibility: hidden;
+    position: absolute;
+    font-size: 80%;
+    font-style: italic;
+    background: rgb(247, 247, 247);
+    outline: solid #e6e6e6 1px;
+    padding: 5px;
+}
+label:hover {
+    background-image: url("images/bg_hover.png");
+    cursor: pointer;
+}
+label:active {
+    background-image: url("images/bg_active.png");
+}
+input:checked[id=checkbox1]~article[class=checkbox1],
+input:checked[id=checkbox2]~article[class=checkbox2],
+input:checked[id=checkbox3]~article[class=checkbox3],
+input:checked[id=checkbox4]~article[class=checkbox4] {
+    visibility: visible;
+    position: relative;
+}
+input:checked[id=checkbox1]~label[for=checkbox1],
+input:checked[id=checkbox2]~label[for=checkbox2],
+input:checked[id=checkbox3]~label[for=checkbox3],
+input:checked[id=checkbox4]~label[for=checkbox4] {
+    background-image: url("images/bg_checked.png");
+}
+input:checked[id=checkbox1]~label:hover[for=checkbox1],
+input:checked[id=checkbox2]~label:hover[for=checkbox2],
+input:checked[id=checkbox3]~label:hover[for=checkbox3],
+input:checked[id=checkbox4]~label:hover[for=checkbox4] {
+    background-image: url("images/bg_checked_hover.png");
+}
+
