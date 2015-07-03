@@ -1,0 +1,84 @@
+@media only screen and (max-width: 1920px){
+    .portfolio {
+        background: white;
+        color: #454545;
+        width: 1164px;
+        height: 717px;
+        margin: 0 auto;
+        padding: 5px;
+        font-family: "Trebuchet MS", sans-serif;
+    }
+    .portfolio:hover {
+        background: #eeeeee;
+        background-size: 100%;
+    }
+    h1, h4 {
+        text-align: center;
+    }
+    .card {
+        position: relative;
+        float: left;
+        width: 358px;
+        height: 258px;
+    }
+}
+@media only screen and (max-width: 1800px) {
+    .portfolio {
+        background: white;
+        color: #454545;
+        width: 776px;
+        height: 985px;
+        margin: 0 auto;
+        padding: 5px;
+        font-family: "Trebuchet MS", sans-serif;
+    }
+    .portfolio:hover {
+        background: #eeeeee;
+        background-size: 100%;
+    }
+    h1, h4 {
+        text-align: center;
+    }
+    .card {
+        position: relative;
+        float: left;
+        width: 358px;
+        height: 258px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .portfolio {
+        background: white;
+        color: #454545;
+        width: 388px;
+        height: 1869px;
+        margin: 0 auto;
+        padding: 5px;
+        font-family: "Trebuchet MS", sans-serif;
+    }
+    .portfolio:hover {
+        background: #eeeeee;
+        background-size: 100%;
+    }
+    h1, h4 {
+        text-align: center;
+    }
+    .card {
+        position: relative;
+        width: 358px;
+        height: 258px;
+    }
+}
+.second_background {
+    width: 358px;
+    height: 258px;
+    margin: 15px;
+    float: left;
+    z-index: 10;
+}
+.second_background:hover {
+    background: rgba(76, 171, 255, 0.51);
+    z-index: 10;
+    position: relative;
+}
+
