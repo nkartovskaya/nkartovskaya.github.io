@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59426e74-1ed5-4b09-831d-af502f5868fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson6/task2/images/bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson6/task2/images/client1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson6/task2/images/client2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson6/task1/images/galochka.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson6/task2/images/task2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson6/task1/task1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson6/task1/task1_style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson6/task2/task2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson6/task2/task6_style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson8/task1/style_task1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson8/task2/style_task2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson8/task1/task1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson8/task2/task2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nkartovskaya.github.io.iws" />
@@ -217,7 +212,19 @@
       <option name="project" value="LOCAL" />
       <updated>1435935200477</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update">
+      <created>1435935217420</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1435935217420</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update">
+      <created>1435935239791</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1435935239791</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
