@@ -316,175 +316,157 @@ span.services {
     right: 18.82%;
     top: 172px;
 }
-.poster_container1,
-.poster_container2,
-.poster_container3 {
-    width: 289px;
-    height: 439px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(90, 90, 90, 0.56);
-    float: left;
-    margin: 10px 1px 10px 1px;
-    -webkit-transition: width 0.3s;
-    -moz-transition: width 0.3s;
-    -ms-transition: width 0.3s;
-    -o-transition: width 0.3s;
-    transition: width 0.3s;
-}
+    .poster_container1,
+    .poster_container3 {
+        width: 289px;
+        height: 439px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(90, 90, 90, 0.56);
+        float: left;
+        margin: 10px 1px 10px 1px;
+        background: none;
+    }
 
-.poster_header1 {
-    background-color: #63d0e7;
-}
+    .poster_container2 {
+        border: solid #e06b1a 3px;
+        border-radius: 10px;
+        margin: 0;
+        width: 295px;
+        height: 445px;
+        z-index: 10;
+        float: left;
+        background: none;
+    }
 
-.poster_header2 {
-    background-color: #ee8129;
-}
+    .poster_header1 {
+        background-color: #63d0e7;
+    }
 
-.poster_header3 {
-    background-color: #4ad496;
-}
+    .poster_header2 {
+        background-color: #ee8129;
+    }
 
-.poster_header1,
-.poster_header2,
-.poster_header3 {
-    font-family: "Trebuchet MS", sans-serif;
-    height: 36px;
-    border-radius: 6px 6px 0 0;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    font-size: 30px;
-    font-weight: bold;
-}
+    .poster_header3 {
+        background-color: #4ad496;
+    }
 
-.poster_body {
-    font-family: 'Futura BT Book', sans-serif;
-    font-size: 1.5em;
-    height: 90px;
-    text-align: center;
-    padding: 7px 0 0 0;
-    color: #6d6d6d;
-}
+    .poster_header1,
+    .poster_header2,
+    .poster_header3 {
+        font-family: "Trebuchet MS", sans-serif;
+        height: 36px;
+        border-radius: 6px 6px 0 0;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+        font-weight: bold;
+    }
 
-span.price {
-    font-size: 3em;
-    font-weight: bolder;
-}
+    .poster_body {
+        font-family: 'Futura BT Book', sans-serif;
+        font-size: 1.5em;
+        height: 90px;
+        text-align: center;
+        padding: 7px 0 0 0;
+        color: #6d6d6d;
+    }
 
-sup {
-    display: inline-block;
-    position: absolute;
-    font-weight: bold;
-}
+    span.price {
+        font-size: 3em;
+        font-weight: bolder;
+    }
 
-.poster_body p {
-    display: inline-block;
-    height: 55px;
-    margin: 10px 0 0 0;
-    padding: 0;
-}
+    sup {
+        display: inline-block;
+        position: absolute;
+        font-weight: bold;
+    }
 
-a {
-    text-decoration: none;
-    list-style-type: none;
-}
+    .poster_body p {
+        display: inline-block;
+        height: 55px;
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
 
-.poster_menu {
-    margin: auto;
-    width: 255px;
-    padding: 0;
-}
+    a {
+        text-decoration: none;
+        list-style-type: none;
+    }
 
-.service_list {
-    padding-left: 0;
-    margin-top: 50px;
-}
+    .poster_menu {
+        margin: auto;
+        width: 255px;
+        padding: 0;
+    }
 
-.service_list li {
-    font-family: Calibry, sans-serif;
-    display: block;
-    font-size: 0.9375em;
-    font-weight: bold;
-    width: auto;
-    height: 31px;
-    padding: 5px 0 0 24px;
-    margin-top: 1px;
-}
+    .service_list {
+        padding-left: 0;
+        margin-top: 50px;
+    }
 
-.service_listli:before {
-    content: url("images/galochka.png");
-}
+    .service_list li {
+        font-family: Calibry, sans-serif;
+        display: block;
+        font-size: 0.9375em;
+        font-weight: bold;
+        width: auto;
+        height: 31px;
+        padding: 5px 0 0 24px;
+        margin-top: 1px;
+    }
 
-.service_list li:nth-of-type(2n) {
-    background: #f5f5f5;
-}
+    .service_list li:before {
+        content: url("images/galochka.png");
+    }
 
-.service_list li:nth-of-type(2n+1) {
-    background: rgba(204, 228, 250, 0.42);
-}
+    .service_list li:nth-of-type(2n) {
+        background: #f5f5f5;
+    }
 
-.service_list li a {
-    color: #999999;
-}
+    .service_list li:nth-of-type(2n+1) {
+        background: rgba(204, 228, 250, 0.42);
+    }
 
-.poster_button1,
-.poster_button3 {
-    background-color: #407cb3;
-    border-bottom: solid #294164 2px;
-}
+    .service_list li a {
+        color: #999999;
+    }
 
-.poster_button2 {
-    background-color: #ee6d1a;
-    border-bottom: solid #a54e28 2px;
-}
+    .poster_button1, .poster_button3 {
+        background-color: #407cb3;
+        border-bottom: solid #294164 2px;
+    }
 
-.poster_button1,
-.poster_button2,
-.poster_button3 {
-    font-family: 'Open Sans', sans-serif;
-    margin: auto;
-    width: 251px;
-    height: 31px;
-    text-align: center;
-    padding-top: 5px;
-    border-radius: 5px;
-    font-size: 0.875em;
-    font-weight: bold;
-}
+    .poster_button2 {
+        background-color: #ee6d1a;
+        border-bottom: solid #a54e28 2px;
+    }
 
-.poster_button1 a,
-.poster_button2 a,
-.poster_button3 a {
-    color: white;
-    width: 251px;
-    height: 17px;
-    display: block;
-    padding: 2px 0 5px 0;
-}
+    .poster_button1,
+    .poster_button2,
+    .poster_button3 {
+        font-family: 'Open Sans', sans-serif;
+        margin: auto;
+        width: 251px;
+        height: 31px;
+        text-align: center;
+        padding-top: 5px;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: bold;
+    }
 
-.poster_container1:hover {
-    border: solid #63d0e7 3px;
-}
+    .poster_button1 a,
+    .poster_button2 a,
+    .poster_button3 a {
+        color: white;
+        width: 251px;
+        height: 17px;
+        display: block;
+        padding: 2px 0 5px 0;
+    }
 
-.poster_container2:hover {
-    border: solid #e06b1a 3px;
-
-}
-
-.poster_container3:hover {
-    border: solid #4ad496 3px;
-
-}
-
-.poster_container1:hover,
-.poster_container2:hover,
-.poster_container3:hover {
-    border-radius: 10px;
-    margin: 0;
-    width: 295px;
-    height: 445px;
-    z-index: 10;
-}
 
 /*Pricing END*/
 
@@ -960,7 +942,6 @@ span.footer_bold {
         top: 172px;
     }
     .poster_container1,
-    .poster_container2,
     .poster_container3 {
         width: 289px;
         height: 439px;
@@ -968,11 +949,18 @@ span.footer_bold {
         box-shadow: 0 0 10px rgba(90, 90, 90, 0.56);
         float: left;
         margin: 10px 1px 10px 1px;
-        -webkit-transition: width 0.3s;
-        -moz-transition: width 0.3s;
-        -ms-transition: width 0.3s;
-        -o-transition: width 0.3s;
-        transition: width 0.3s;
+        background: none;
+    }
+
+    .poster_container2 {
+        border: solid #e06b1a 3px;
+        border-radius: 10px;
+        margin: 0;
+        width: 295px;
+        height: 445px;
+        z-index: 10;
+        float: left;
+        background: none;
     }
 
     .poster_header1 {
@@ -1054,7 +1042,7 @@ span.footer_bold {
         margin-top: 1px;
     }
 
-    .service_listli:before {
+    .service_list li:before {
         content: url("images/galochka.png");
     }
 
@@ -1090,7 +1078,7 @@ span.footer_bold {
         text-align: center;
         padding-top: 5px;
         border-radius: 5px;
-        font-size: 0.875em;
+        font-size: 14px;
         font-weight: bold;
     }
 
@@ -1104,29 +1092,6 @@ span.footer_bold {
         padding: 2px 0 5px 0;
     }
 
-    .poster_container1:hover {
-        border: solid #63d0e7 3px;
-    }
-
-    .poster_container2:hover {
-        border: solid #e06b1a 3px;
-
-    }
-
-    .poster_container3:hover {
-        border: solid #4ad496 3px;
-
-    }
-
-    .poster_container1:hover,
-    .poster_container2:hover,
-    .poster_container3:hover {
-        border-radius: 10px;
-        margin: 0;
-        width: 295px;
-        height: 445px;
-        z-index: 10;
-    }
 
     /*Pricing END*/
 
@@ -1652,7 +1617,7 @@ span.footer_bold {
         margin-top: 1px;
     }
 
-    .service_listli:before {
+    .service_list li:before {
         content: url("images/galochka.png");
     }
 
