@@ -1,0 +1,1271 @@
+@font-face {
+    font-family: Helvetica;
+    src: url('fonts/Helvetica-Regular.ttf')
+}
+
+@font-face {
+    font-family: "ArialRegular";
+    src: url("fonts/ArialRegular/ArialRegular.eot");
+    src: url("fonts/ArialRegular/ArialRegular.eot?#iefix")format("embedded-opentype"),
+    url("fonts/ArialRegular/ArialRegular.woff") format("woff"),
+    url("fonts/ArialRegular/ArialRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "ArialBold"; */
+@font-face {
+    font-family: "ArialBold";
+    src: url("fonts/ArialBold/ArialBold.eot");
+    src: url("fonts/ArialBold/ArialBold.eot?#iefix")format("embedded-opentype"),
+    url("fonts/ArialBold/ArialBold.woff") format("woff"),
+    url("fonts/ArialBold/ArialBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "ArialItalic"; */
+@font-face {
+    font-family: "ArialItalic";
+    src: url("fonts/ArialItalic/ArialItalic.eot");
+    src: url("fonts/ArialItalic/ArialItalic.eot?#iefix")format("embedded-opentype"),
+    url("fonts/ArialItalic/ArialItalic.woff") format("woff"),
+    url("fonts/ArialItalic/ArialItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "ArialBlack"; */
+@font-face {
+    font-family: "ArialBlack";
+    src: url("fonts/ArialBlack/ArialBlack.eot");
+    src: url("fonts/ArialBlack/ArialBlack.eot?#iefix")format("embedded-opentype"),
+    url("fonts/ArialBlack/ArialBlack.woff") format("woff"),
+    url("fonts/ArialBlack/ArialBlack.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "ArialBoldItalic"; */
+@font-face {
+    font-family: "ArialBoldItalic";
+    src: url("fonts/ArialBoldItalic/ArialBoldItalic.eot");
+    src: url("fonts/ArialBoldItalic/ArialBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("fonts/ArialBoldItalic/ArialBoldItalic.woff") format("woff"),
+    url("fonts/ArialBoldItalic/ArialBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+#wrapper {
+    width: 100%;
+    font-family: Helvetica, ArialRegular;
+    padding: 0;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 1980px) and (min-width: 1000px) {
+    .header_inside,
+    .banner_inside,
+    .university_description_inside,
+    .benefits_inside,
+    .comments_inside,
+    .start_inside,
+    .footer_inside {
+        width: 990px;
+        margin: 0 auto;
+        padding: 0;
+        position: relative;
+    }
+    header {
+        height: 76px;
+        background-color: #3498db;
+    }
+
+    .logo img {
+        width: 49px;
+        height: 49px;
+        border: solid white 1px;
+        border-radius: 50%;
+        float: left;
+        margin: 12px 12px 0 0;
+    }
+
+    .logo img a {
+        width: 49px;
+        height: 49px;
+    }
+
+    .logo p {
+        font-size: 26px;
+        color: white;
+        display: inline-block;
+        margin: 23px 0 23px 0;
+        float: left;
+    }
+
+    .connect {
+        position: absolute;
+        margin: 22px 0 0 840px;
+    }
+
+    .connect p {
+        font-size: 13px;
+        color: white;
+        width: 50px;
+        float: left;
+        margin: 7px 5px 0 0;
+    }
+
+    .connect p a {
+        color: white;
+    }
+
+    .facebook {
+        display: inline-block;
+        width: 27px;
+        height: 27px;
+        background: url("images/social_icons.png") 0 0;
+    }
+
+    .google {
+        display: inline-block;
+        width: 27px;
+        height: 27px;
+        background: url("images/social_icons.png") 30px 0;
+    }
+
+    .twitter {
+        display: inline-block;
+        width: 27px;
+        height: 27px;
+        background: url("images/social_icons.png") 60px 0;
+    }
+
+    .banner {
+        height: 350px;
+        background-image: url("images/bg_banner.png");
+    }
+
+    .banner_text {
+        width: 416px;
+    }
+
+    h1 {
+        font-size: 50px;
+        color: white;
+        font-weight: bold;
+        margin: 0;
+        padding: 75px 0 0 0;
+    }
+
+    .banner p {
+        font-size: 30px;
+        color: white;
+        width: 620px;
+    }
+
+    form {
+        width: 360px;
+        height: 537px;
+        background-color: white;
+        border-bottom: solid #3498db 4px;
+        border-left: solid #9c9c9c 1px;
+        border-right: solid #9c9c9c 1px;
+        border-top: solid #9c9c9c 1px;
+        clear: both;
+        position: absolute;
+        left: 630px;
+        top: 30px;
+    }
+
+    form h2 {
+        font-size: 25px;
+        color: #333333;
+        text-align: center;
+        margin: 15px 0 15px 0;
+    }
+
+    select {
+        background-color: #f2f2f2;
+        border: solid #e6e6e6 1px;
+        width: 320px;
+        height: 37px;
+        margin: 0 0 10px 20px;
+        font-size: 15px;
+        color: #333333;
+    }
+
+    input {
+        background-color: #f2f2f2;
+        border: solid #e6e6e6 1px;
+        border-shadow: none;
+        width: 314px;
+        height: 35px;
+        margin: 0 0 10px 20px;
+        padding: 0 0 0 4px;
+        font-size: 15px;
+        color: #333333;
+    }
+
+    textarea {
+        background-color: #f2f2f2;
+        border: solid #e6e6e6 1px;
+        width: 314px;
+        height: 75px;
+        margin: 0 0 10px 20px;
+        padding: 0 0 0 4px;
+        font-size: 15px;
+        color: #333333;
+        font-family: Helvetica, sans-serif;
+    }
+
+    input[type=submit] {
+        font-size: 25px;
+        color: white;
+        background-color: #e74c3c;
+        width: 220px;
+        height: 50px;
+        margin-left: 19.44444%;
+        margin-top: 25px;
+    }
+
+    .university_description {
+        height: 250px;
+        background-color: #f2f2f2;
+    }
+
+    .university_description_inside h2 {
+        font-size: 15px;
+        font-weight: bold;
+        color: #333333;
+        padding-top: 28px;
+        margin-top: 0;
+        width: 416px;
+    }
+
+    .university_description_inside p {
+        font-size: 13px;
+        color: #333333;
+        margin: 15px 0 15px 0;
+        line-height: 20px;
+        width: 580px;
+    }
+
+    .benefits {
+        height: 531px;
+        background-color: #ffffff;
+    }
+
+    .benefits_inside h2 {
+        font-size: 25px;
+        color: #3498db;
+        margin: 40px 0 32px 0;
+    }
+
+    .benefits_inside img {
+        width: 289px;
+        height: 158px;
+        margin: 0 20px 20px 0;
+    }
+    .description {
+        width: 289px;
+        height: 531px;
+        float: left;
+        margin-right: 60px;
+    }
+
+    .description:last-child {
+        margin-right: 0;
+    }
+
+    .description h3 {
+        font-size: 15px;
+        font-weight: bold;
+        color: #333333;
+        text-align: center;
+        width: 289px;
+    }
+
+    .description p {
+        font-size: 13px;
+        color: #4d4d4d;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .description a {
+        text-decoration: none;
+        font-size: 13px;
+        color: #333333;
+        display: block;
+        border: solid #ebebeb 1px;
+        border-radius: 50%;
+        margin-left: 40%;
+        margin-bottom: 37px;
+        padding-top: 15px;
+        text-align: center;
+        width: 50px;
+        height: 32px;
+    }
+
+    .benefits_inside {
+        height: 531px;
+        border-bottom: solid #f2f2f2 1px;
+    }
+
+    .comments {
+        height: 255px;
+        background-color: #ffffff;
+    }
+
+    .comments_inside h2 {
+        font-size: 25px;
+        color: #3498db;
+        float: left;
+        width: 650px;
+        margin-top: -20px;
+    }
+
+    .comments_inside a {
+        text-decoration: none;
+        display: inline-block;
+        width: 37px;
+        height: 35px;
+        font-size: 25px;
+        text-align: center;
+        font-weight: bold;
+        padding-top: 2px;
+    }
+
+    .first_button {
+        border: solid #e7e7e7 1px;
+        border-radius: 50%;
+        background-color: #f2f2f2;
+        color: #333333;
+        position: absolute;
+        top: 30px;
+        right: 60px;
+    }
+
+    .second_button {
+        border: solid #e7e7e7 1px;
+        border-radius: 50%;
+        color: #8b8b8b;
+        position: absolute;
+        top: 30px;
+        right: 20px;
+    }
+
+    .comments_inside p {
+        font-size: 13px;
+        color: #333333;
+        line-height: 20px;
+        margin: 0;
+        width: 750px;
+    }
+
+    .comments_inside span.signature {
+        font-size: 13px;
+        color: #333333;
+        margin-top: 15px;
+        display: inline-block;
+        width: 720px;
+        font-weight: bold;
+        text-align: right;
+    }
+
+    .comments_inside span.quotes {
+        font-size: 50px;
+        font-weight: bold;
+        color: #f2f2f2;
+        display: block;
+        width: 720px;
+        height: 40px;
+    }
+
+    .comments_inside span.quotes:last-child {
+        text-align: right;
+    }
+
+    .start {
+        height: 190px;
+        background-color: #f2f2f2;
+    }
+
+    .start_inside a {
+        width: 540px;
+        height: 60px;
+        text-decoration: none;
+        display: inline-block;
+        background-color: #e74c3c;
+        color: white;
+        font-size: 25px;
+        padding: 0;
+        margin-top: 65px;
+    }
+
+    .start_inside p {
+        margin-top: 12px;
+        text-align: center;
+    }
+
+    .start_inside span {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        border: solid #ffffff 2px;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 25px;
+        padding: 0 0 1px 1px;
+    }
+
+    .start_inside img {
+        position: absolute;
+        top: -174px;
+        left: 710px;
+    }
+
+    footer {
+        height: 193px;
+        background-color: #3498db;
+    }
+
+    .footer_inside .logo {
+        padding-top: 50px;
+    }
+
+    .footer_inside .logo p {
+        width: 180px;
+        margin: 7px 0 23px 0;
+        border-right: solid #2980b9 2px;
+    }
+
+    .footer_inside .connect {
+        margin: 10px 0 0 270px;
+    }
+
+    .copyright {
+        font-size: 13px;
+        color: white;
+        margin: 45px 0 0 270px;
+    }
+    .button_top {
+        font-size: 25px;
+        color: #ffffff;
+        font-weight: bold;
+        text-decoration: none;
+        display: inline-block;
+        width: 100px;
+        height: 65px;
+        border: solid #e7e7e7 2px;
+        border-radius: 50%;
+        position: fixed;
+        background-color: rgba(231, 76, 60, 0.45);
+        right: 25%;
+        bottom: 5%;
+        text-align: center;
+        padding-top: 35px;
+    }
+    .button_top:hover {
+        background-color: rgba(231, 76, 60, 0.67);
+    }
+}
+
+/* ----------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 999px) and (min-width: 800px) {
+    .header_inside,
+    .banner_inside,
+    .university_description_inside,
+    .benefits_inside,
+    .comments_inside,
+    .start_inside,
+    .footer_inside {
+        width: 758px;
+        margin: 0 auto;
+        padding: 0;
+        position: relative;
+    }
+    header {
+        height: 76px;
+        background-color: #3498db;
+    }
+
+    .logo img {
+        width: 49px;
+        height: 49px;
+        border: solid white 1px;
+        border-radius: 50%;
+        float: left;
+        margin: 12px 12px 0 0;
+    }
+
+    .logo img a {
+        width: 49px;
+        height: 49px;
+    }
+
+    .logo p {
+        font-size: 26px;
+        color: white;
+        display: inline-block;
+        margin: 23px 0 23px 0;
+        float: left;
+    }
+
+    .connect {
+        position: absolute;
+        margin: 22px 0 0 610px;
+    }
+
+    .connect p {
+        font-size: 13px;
+        color: white;
+        width: 50px;
+        float: left;
+        margin: 7px 5px 0 0;
+    }
+
+    .connect p a {
+        color: white;
+    }
+
+    .facebook {
+        display: inline-block;
+        width: 27px;
+        height: 27px;
+        background: url("images/social_icons.png") 0 0;
+    }
+
+    .google {
+        display: inline-block;
+        width: 27px;
+        height: 27px;
+        background: url("images/social_icons.png") 30px 0;
+    }
+
+    .twitter {
+        display: inline-block;
+        width: 27px;
+        height: 27px;
+        background: url("images/social_icons.png") 60px 0;
+    }
+
+    .banner {
+        height: 350px;
+        background-image: url("images/bg_banner.png");
+    }
+
+    .banner_text {
+        width: 416px;
+    }
+
+    h1 {
+        font-size: 45px;
+        color: white;
+        font-weight: bold;
+        margin: 0;
+        padding: 75px 0 0 0;
+    }
+
+    .banner p {
+        font-size: 25px;
+        color: white;
+    }
+
+    form {
+        width: 340px;
+        height: 505px;
+        background-color: white;
+        border-bottom: solid #3498db 4px;
+        border-left: solid #9c9c9c 1px;
+        border-right: solid #9c9c9c 1px;
+        border-top: solid #9c9c9c 1px;
+        clear: both;
+        position: absolute;
+        left: 417px;
+        top: 30px;
+    }
+
+    form h2 {
+        font-size: 20px;
+        color: #333333;
+        text-align: center;
+        margin: 15px 0 15px 0;
+    }
+
+    select {
+        background-color: #f2f2f2;
+        border: solid #e6e6e6 1px;
+        width: 300px;
+        height: 37px;
+        margin: 0 0 10px 20px;
+        font-size: 15px;
+        color: #333333;
+    }
+
+    input {
+        background-color: #f2f2f2;
+        border: solid #e6e6e6 1px;
+        border-shadow: none;
+        width: 294px;
+        height: 35px;
+        margin: 0 0 10px 20px;
+        padding: 0 0 0 4px;
+        font-size: 15px;
+        color: #333333;
+    }
+
+    textarea {
+        background-color: #f2f2f2;
+        border: solid #e6e6e6 1px;
+        width: 294px;
+        height: 75px;
+        margin: 0 0 10px 20px;
+        padding: 0 0 0 4px;
+        font-size: 15px;
+        color: #333333;
+        font-family: Helvetica, sans-serif;
+    }
+
+    input[type=submit] {
+        font-size: 20px;
+        color: white;
+        background-color: #e74c3c;
+        width: 220px;
+        height: 50px;
+        margin-left: 60px;
+    }
+
+    .university_description {
+        height: 250px;
+        background-color: #f2f2f2;
+    }
+
+    .university_description_inside h2 {
+        font-size: 15px;
+        font-weight: bold;
+        color: #333333;
+        padding-top: 28px;
+        margin-top: 0;
+        width: 416px;
+    }
+
+    .university_description_inside p {
+        font-size: 13px;
+        color: #333333;
+        margin: 15px 0 15px 0;
+        line-height: 20px;
+        width: 410px;
+    }
+
+    .benefits {
+        height: 715px;
+        background-color: #ffffff;
+    }
+
+    .benefits_inside h2 {
+        font-size: 20px;
+        color: #3498db;
+        margin: 40px 0 32px 0;
+    }
+
+    .benefits_inside img {
+        width: 289px;
+        height: 158px;
+        float: left;
+        margin: 0 20px 20px 0;
+    }
+    .description {
+        width: 758px;
+    }
+
+    .description:last-child {
+        margin-right: 0;
+    }
+
+    .description h3 {
+        font-size: 15px;
+        font-weight: bold;
+        color: #333333;
+        text-align: left;
+        width: 758px;
+    }
+
+    .description p {
+        font-size: 13px;
+        color: #4d4d4d;
+        text-align: left;
+        line-height: 20px;
+    }
+
+    .description a {
+        text-decoration: none;
+        font-size: 13px;
+        color: #333333;
+        display: block;
+        border: solid #ebebeb 1px;
+        border-radius: 50%;
+        margin-left: 313px;
+        margin-bottom: 37px;
+        padding-top: 15px;
+        text-align: center;
+        width: 50px;
+        height: 32px;
+    }
+
+    .benefits_inside {
+        height: 678px;
+        border-bottom: solid #f2f2f2 1px;
+    }
+
+    .comments {
+        height: 255px;
+        background-color: #ffffff;
+    }
+
+    .comments_inside h2 {
+        font-size: 20px;
+        color: #3498db;
+        width: 670px;
+        float: left;
+        margin: 0;
+    }
+
+    .comments_inside a {
+        text-decoration: none;
+        display: inline-block;
+        width: 37px;
+        height: 35px;
+        font-size: 25px;
+        text-align: center;
+        font-weight: bold;
+        padding-top: 2px;
+    }
+
+    .first_button {
+        border: solid #e7e7e7 1px;
+        border-radius: 50%;
+        background-color: #f2f2f2;
+        color: #333333;
+    }
+
+    .second_button {
+        border: solid #e7e7e7 1px;
+        border-radius: 50%;
+        color: #8b8b8b;
+    }
+
+    .comments_inside p {
+        font-size: 13px;
+        color: #333333;
+        line-height: 20px;
+        margin: 0;
+        width: 536px;
+    }
+
+    .comments_inside span.signature {
+        font-size: 13px;
+        color: #333333;
+        margin-top: 15px;
+        display: inline-block;
+        width: 532px;
+        font-weight: bold;
+        text-align: right;
+    }
+
+    .comments_inside span.quotes {
+        font-size: 50px;
+        font-weight: bold;
+        color: #f2f2f2;
+        display: block;
+        width: 533px;
+        height: 40px;
+    }
+
+    .comments_inside span.quotes:last-child {
+        text-align: right;
+    }
+
+    .start {
+        height: 190px;
+        background-color: #f2f2f2;
+    }
+
+    .start_inside a {
+        width: 468px;
+        height: 60px;
+        text-decoration: none;
+        display: inline-block;
+        background-color: #e74c3c;
+        color: white;
+        font-size: 20px;
+        padding: 0;
+        margin-top: 65px;
+    }
+
+    .start_inside p {
+        margin-top: 12px;
+        text-align: center;
+    }
+
+    .start_inside span {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        border: solid #ffffff 2px;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 25px;
+        padding: 0 0 1px 1px;
+    }
+
+    .start_inside img {
+        position: absolute;
+        top: -174px;
+        left: 555px;
+    }
+
+    footer {
+        height: 193px;
+        background-color: #3498db;
+    }
+
+    .footer_inside .logo {
+        padding-top: 50px;
+    }
+
+    .footer_inside .logo p {
+        width: 180px;
+        margin: 7px 0 23px 0;
+        border-right: solid #2980b9 2px;
+    }
+
+    .footer_inside .connect {
+        margin: 0 0 0 270px;
+    }
+
+    .copyright {
+        font-size: 13px;
+        color: white;
+        margin: 35px 0 0 270px;
+    }
+    .button_top {
+        font-size: 20px;
+        color: #ffffff;
+        font-weight: bold;
+        text-decoration: none;
+        display: inline-block;
+        width: 80px;
+        height: 50px;
+        border: solid #e7e7e7 2px;
+        border-radius: 50%;
+        position: fixed;
+        background-color: rgba(231, 76, 60, 0.45);
+        right: 5%;
+        bottom: 5%;
+        text-align: center;
+        padding-top: 27px;
+    }
+    .button_top:hover {
+        background-color: rgba(231, 76, 60, 0.67);
+    }
+}
+
+/* ----------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 799px) and (min-width: 320px) {
+
+    .header_inside,
+    .banner_inside,
+    .university_description_inside,
+    .benefits_inside,
+    .comments_inside,
+    .start_inside,
+    .footer_inside {
+        width: 320px;
+        margin: 0 auto;
+        padding: 0;
+        position: relative;
+    }
+    header {
+        height: 160px;
+        background-color: #3498db;
+    }
+
+    .logo img,
+    .logo a img  {
+        width: 49px;
+        height: 49px;
+        border: solid white 1px;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        margin: 17px 0 25px 0;
+        left: 126px;
+    }
+
+    .logo p,
+    .logo a p  {
+        font-size: 20px;
+        color: white;
+        display: inline-block;
+        border-bottom: solid #2980b9 1px;
+        text-decoration: none;
+        position: relative;
+        padding: 37px 5px 6px 15px;
+    }
+
+    .connect {
+        margin: 0 0 0 77px;
+    }
+
+    .connect p {
+        font-size: 13px;
+        color: white;
+        width: 50px;
+        float: left;
+        margin: 7px 5px 0 0;
+    }
+
+    .connect p a {
+        color: white;
+    }
+
+    .facebook {
+        display: inline-block;
+        width: 27px;
+        height: 27px;
+        background: url("images/social_icons.png") 0 0;
+    }
+
+    .google {
+        display: inline-block;
+        width: 27px;
+        height: 27px;
+        background: url("images/social_icons.png") 30px 0;
+    }
+
+    .twitter {
+        display: inline-block;
+        width: 27px;
+        height: 27px;
+        background: url("images/social_icons.png") 60px 0;
+    }
+
+    .banner {
+        height: 350px;
+        background-image: url("images/bg_banner.png");
+    }
+
+    .banner_text {
+        width: 280px;
+        text-align: center;
+    }
+
+    .banner_inside h1 {
+        font-size: 40px;
+        color: white;
+        font-weight: bold;
+        margin: 0;
+        padding: 40px 0 0 0;
+    }
+
+    .banner p {
+        font-size: 16px;
+        color: white;
+        line-height: 20px;
+        padding: 0 10px 0 30px;
+    }
+
+    form {
+        width: 93.75%;
+        height: 536px;
+        background-color: white;
+        border-bottom: solid #3498db 4px;
+        border-left: solid #9c9c9c 1px;
+        border-right: solid #9c9c9c 1px;
+        border-top: solid #9c9c9c 1px;
+        clear: both;
+        position: absolute;
+        left: 3.125%;
+        top: 197px;
+    }
+
+    form h2 {
+        font-size: 20px;
+        color: #333333;
+        text-align: center;
+        margin: 35px 0 35px 0;
+    }
+
+    select {
+        background-color: #f2f2f2;
+        border: solid #e6e6e6 1px;
+        width: 259px;
+        height: 37px;
+        margin: 0 0 10px 20px;
+        font-size: 15px;
+        color: #333333;
+    }
+
+    input {
+        background-color: #f2f2f2;
+        border: solid #e6e6e6 1px;
+        border-shadow: none;
+        width: 253px;
+        height: 35px;
+        margin: 0 0 10px 20px;
+        padding: 0 0 0 4px;
+        font-size: 15px;
+        color: #333333;
+    }
+
+    textarea {
+        background-color: #f2f2f2;
+        border: solid #e6e6e6 1px;
+        width: 253px;
+        height: 75px;
+        margin: 0 0 10px 20px;
+        padding: 0 0 0 4px;
+        font-size: 15px;
+        color: #333333;
+        font-family: Helvetica, sans-serif;
+    }
+
+    input[type=submit] {
+        font-size: 20px;
+        color: white;
+        background-color: #e74c3c;
+        width: 200px;
+        height: 50px;
+        margin-left: 49px;
+    }
+
+    .university_description {
+        height: 680px;
+        background-color: #f2f2f2;
+    }
+
+    .university_description_inside h2 {
+        font-size: 15px;
+        font-weight: bold;
+        color: #333333;
+        padding-top: 415px;
+        text-align: center;
+    }
+
+    .university_description_inside p {
+        font-size: 13px;
+        color: #333333;
+        margin: 0 auto;
+        line-height: 20px;
+        width: 280px;
+        text-align: center;
+    }
+
+    .benefits {
+        height: 1426px;
+        background-color: #ffffff;
+    }
+
+    .benefits_inside h2 {
+        font-size: 20px;
+        color: #3498db;
+        text-align: center;
+    }
+
+    .description {
+        width: 290px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .description h3 {
+        font-size: 15px;
+        font-weight: bold;
+        color: #333333;
+        text-align: center;
+    }
+
+    .description p {
+        font-size: 13px;
+        color: #4d4d4d;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .description a {
+        text-decoration: none;
+        font-size: 13px;
+        color: #333333;
+        display: block;
+        border: solid #ebebeb 1px;
+        border-radius: 50%;
+        margin: auto;
+        padding-top: 18px;
+        text-align: center;
+        width: 50px;
+        height: 32px;
+    }
+
+    .benefits_inside {
+        height: 1426px;
+        border-bottom: solid #f2f2f2 1px;
+    }
+
+    .comments {
+        height: 505px;
+        background-color: #ffffff;
+    }
+
+    .comments_inside h2 {
+        font-size: 20px;
+        color: #3498db;
+        width: 280px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 40px 0 20px 0;
+    }
+
+    .comments_inside a {
+        text-decoration: none;
+        display: inline-block;
+        width: 37px;
+        height: 35px;
+        font-size: 25px;
+        text-align: center;
+        font-weight: bold;
+        padding-top: 2px;
+
+    }
+
+    .first_button {
+        border: solid #e7e7e7 1px;
+        border-radius: 50%;
+        background-color: #f2f2f2;
+        color: #333333;
+        position: absolute;
+        left: 35%;
+    }
+
+    .second_button {
+        border: solid #e7e7e7 1px;
+        border-radius: 50%;
+        color: #8b8b8b;
+        position: absolute;
+        left: 50%;
+    }
+
+    .comments_inside p {
+        font-size: 13px;
+        color: #333333;
+        width: 280px;
+        line-height: 20px;
+        margin: 0;
+    }
+
+    .comments_inside span.signature {
+        font-size: 13px;
+        color: #333333;
+        margin-top: 15px;
+        display: inline-block;
+        width: 290px;
+        font-weight: bold;
+        text-align: right;
+    }
+
+    .comments_inside span.quotes {
+        font-size: 50px;
+        font-weight: bold;
+        color: #f2f2f2;
+        display: block;
+        width: 280px;
+        height: 60px;
+        position: relative;
+        top: 25px;
+    }
+
+    .comments_inside span.quotes:last-child {
+        text-align: right;
+        top: -5px;
+    }
+
+    .start {
+        height: 240px;
+        background-color: #f2f2f2;
+    }
+
+    .start_inside a {
+        width: 93.75%;
+        height: 130px;
+        text-decoration: none;
+        display: inline-block;
+        background-color: #e74c3c;
+        color: white;
+        font-size: 20px;
+        padding: 0;
+        margin-top: 65px;
+        position: absolute;
+        z-index: 10;
+        left: 3%;
+    }
+
+    .start_inside p {
+        margin-top: 14px;
+        text-align: center;
+        width: 200px;
+        margin-left: 18.75%;
+        line-height: 30px;
+    }
+
+    .start_inside span {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        border: solid #ffffff 2px;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 20px;
+        padding: 0 0 2px 2px;
+    }
+
+    .start_inside img {
+        position: absolute;
+        top: -124px;
+        left: 52px;
+    }
+
+    footer {
+        height: 315px;
+        background-color: #3498db;
+    }
+    .copyright {
+        font-size: 13px;
+        color: white;
+        margin: 45px 0 0 10px;
+        text-align: center;
+        line-height: 20px;
+    }
+    .button_top {
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: bold;
+        text-decoration: none;
+        display: inline-block;
+        width: 60px;
+        height: 39px;
+        border: solid #e7e7e7 2px;
+        border-radius: 50%;
+        position: fixed;
+        background-color: rgba(231, 76, 60, 0.45);
+        right: 5%;
+        bottom: 5%;
+        text-align: center;
+        padding-top: 21px;
+    }
+    .button_top:hover {
+        background-color: rgba(231, 76, 60, 0.67);
+    }
+}
+
