@@ -1,0 +1,67 @@
+.box {
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+.front {
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(to bottom, rgba(45, 181, 248, 0.27), rgba(37, 86, 128, 0.87));
+    border: solid #3072a8 1px;
+    position: absolute;
+ }
+.back {
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(to bottom, rgba(45, 181, 248, 0.27), rgba(37, 86, 128, 0.87));
+    border: solid #3072a8 1px;
+    position: absolute;
+}
+.bottom {
+    width: 250px;
+    height: 250px;
+    background-color: rgba(41, 128, 185, 0.54);
+    border: solid #3072a8 1px;
+    position: absolute;
+}
+.left_side {
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(to bottom, rgba(45, 181, 248, 0.27), rgba(37, 86, 128, 0.87));
+    border: solid #3072a8 1px;
+    position: absolute;
+}
+.right_side {
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(to bottom, rgba(45, 181, 248, 0.27), rgba(37, 86, 128, 0.87));
+    border: solid #3072a8 1px;
+    position: absolute;
+}
+.box:hover .front {
+    top: 304px;
+    left: 400px;
+}
+.box:hover .back {
+    top: 51px;
+    left: 100px;
+}
+.box:hover .left_side {
+    -webkit-transform: skewY(40deg);
+    width: 300px;
+    top: 178px;
+    left: 100px;
+}
+.box:hover .right_side {
+    -webkit-transform: skewY(40deg);
+    width: 300px;
+    top: 178px;
+    left: 351px;
+}
+.box:hover .bottom {
+    -webkit-transform: skewX(50deg);
+    width: 250px;
+    top: 303px;
+    left: 250px;
+}
+
