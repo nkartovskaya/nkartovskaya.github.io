@@ -1,0 +1,346 @@
+@media only screen and (max-width: 1920px) and  (min-width: 1799px) {
+    .portfolio {
+        background: white;
+        color: #454545;
+        width: 1164px;
+        height: 717px;
+        margin: 0 auto;
+        padding: 5px;
+        font-family: "Trebuchet MS", sans-serif;
+        position: relative;
+    }
+    .portfolio:hover {
+        background: #eeeeee;
+        background-size: 100%;
+    }
+    h1, h4 {
+        text-align: center;
+    }
+    .container {
+        position: relative;
+        float: left;
+    }
+    .card {
+        position: relative;
+        float: left;
+        width: 358px;
+        height: 258px;
+        margin: 15px;
+    }
+    .second_background {
+        width: 358px;
+        height: 258px;
+        margin: 15px;
+        float: left;
+        position: absolute;
+        z-index: 10;
+        background: none;
+    }
+    .second_background:hover {
+        visibility: visible;
+        background-color: rgba(45, 163, 255, 0.75);
+    }
+    .zoom, .link {
+        position: absolute;
+        border: solid white 1px;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        border-radius: 3px;
+        display: block;
+        width: 21px;
+        height: 21px;
+        visibility: hidden;
+    }
+    .zoom {
+        top: 41.27%;
+        left: 43.7%;
+    }
+    .link {
+        top: 41.27%;
+        left: 50%;
+    }
+    .second_background:hover .zoom {
+        visibility: visible;
+    }
+    .second_background:hover .link {
+        visibility: visible;
+    }
+    a.zoom img {
+        visibility: hidden;
+    }
+    #big_size_card1,
+    #big_size_card2,
+    #big_size_card3,
+    #big_size_card4,
+    #big_size_card5,
+    #big_size_card6 {
+        width: 1164px;
+        height: 800px;
+        margin: auto;
+        position: absolute;
+        z-index: 30;
+        display: none;
+    }
+    #big_size_card1 img,
+    #big_size_card2 img,
+    #big_size_card3 img,
+    #big_size_card4 img,
+    #big_size_card5 img,
+    #big_size_card6 img {
+        width: 1164px;
+        height: 800px;
+    }
+    #close1,
+    #close2,
+    #close3,
+    #close4,
+    #close5,
+    #close6 {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        width: 21px;
+        height: 21px;
+        text-align: center;
+        font-weight: bold;
+        background-color: rgba(45, 163, 255, 0.75);
+        border: solid white 1px;
+        border-radius: 3px;
+        box-shadow: none;
+        color: white;
+    }
+    #card1,
+    #card2,
+    #card3,
+    #card4,
+    #card5,
+    #card6 {
+        visibility: hidden;
+    }
+}
+@media only screen and (max-width: 1800px) and  (min-width: 699px) {
+    .portfolio {
+        background: white;
+        color: #454545;
+        width: 776px;
+        height: 985px;
+        margin: 0 auto;
+        padding: 5px;
+        font-family: "Trebuchet MS", sans-serif;
+        position: relative;
+    }
+    .portfolio:hover {
+        background: #eeeeee;
+        background-size: 100%;
+    }
+    h1, h4 {
+        text-align: center;
+    }
+    .container {
+        position: relative;
+        float: left;
+    }
+    .card {
+        position: relative;
+        float: left;
+        width: 358px;
+        height: 258px;
+        margin: 15px;
+    }
+    .second_background {
+        width: 358px;
+        height: 258px;
+        margin: 15px;
+        float: left;
+        position: absolute;
+        z-index: 10;
+        background: none;
+    }
+    .second_background:hover {
+        visibility: visible;
+        background-color: rgba(45, 163, 255, 0.75);
+    }
+    .zoom, .link {
+        position: absolute;
+        border: solid white 1px;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        border-radius: 3px;
+        display: block;
+        width: 21px;
+        height: 21px;
+        visibility: hidden;
+    }
+    .zoom {
+        top: 41.27%;
+        left: 43.7%;
+    }
+    .link {
+        top: 41.27%;
+        left: 50%;
+    }
+    .second_background:hover .zoom {
+        visibility: visible;
+    }
+    .second_background:hover .link {
+        visibility: visible;
+    }
+    a.zoom img {
+        visibility: hidden;
+    }
+    #big_size_card1,
+    #big_size_card2,
+    #big_size_card3,
+    #big_size_card4,
+    #big_size_card5,
+    #big_size_card6 {
+        width: 776px;
+        height: 559px;
+        margin: auto;
+        position: absolute;
+        z-index: 30;
+        display: none;
+    }
+    #big_size_card1 img,
+    #big_size_card2 img,
+    #big_size_card3 img,
+    #big_size_card4 img,
+    #big_size_card5 img,
+    #big_size_card6 img {
+        width: 776px;
+        height: 559px;
+    }
+    #close1,
+    #close2,
+    #close3,
+    #close4,
+    #close5,
+    #close6 {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        width: 21px;
+        height: 21px;
+        text-align: center;
+        font-weight: bold;
+        background-color: rgba(45, 163, 255, 0.75);
+        border: solid white 1px;
+        border-radius: 3px;
+        box-shadow: none;
+        color: white;
+    }
+    #card1,
+    #card2,
+    #card3,
+    #card4,
+    #card5,
+    #card6 {
+        visibility: hidden;
+    }
+
+}
+@media only screen and (max-width: 700px) {
+    .portfolio {
+        background: white;
+        color: #454545;
+        width: 388px;
+        height: 1905px;
+        margin: 0 auto;
+        padding: 5px;
+        font-family: "Trebuchet MS", sans-serif;
+    }
+    .portfolio:hover {
+        background: #eeeeee;
+        background-size: 100%;
+    }
+    h1, h4 {
+        text-align: center;
+    }
+    .container {
+        position: relative;
+        float: left;
+    }
+    .card {
+        width: 358px;
+        height: 258px;
+        margin: 15px;
+    }
+    .zoom, .link {
+        position: absolute;
+        border: solid white 1px;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        border-radius: 3px;
+        display: block;
+        width: 21px;
+        height: 21px;
+        visibility: hidden;
+    }
+    .zoom {
+        top: 41.27%;
+        left: 43.7%;
+    }
+    .link {
+        top: 41.27%;
+        left: 50%;
+    }
+    .second_background:hover .zoom {
+        visibility: visible;
+    }
+    .second_background:hover .link {
+        visibility: visible;
+    }
+    #big_size_card1,
+    #big_size_card2,
+    #big_size_card3,
+    #big_size_card4,
+    #big_size_card5,
+    #big_size_card6 {
+        width: 388px;
+        height: 279px;
+        margin: auto;
+        position: absolute;
+        z-index: 30;
+        display: none;
+    }
+    #big_size_card1 img,
+    #big_size_card2 img,
+    #big_size_card3 img,
+    #big_size_card4 img,
+    #big_size_card5 img,
+    #big_size_card6 img {
+        width: 388px;
+        height: 279px;
+    }
+    #close1,
+    #close2,
+    #close3,
+    #close4,
+    #close5,
+    #close6 {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        width: 21px;
+        height: 21px;
+        text-align: center;
+        font-weight: bold;
+        background-color: rgba(45, 163, 255, 0.75);
+        border: solid white 1px;
+        border-radius: 3px;
+        box-shadow: none;
+        color: white;
+        visibility: hidden;
+    }
+    #card1,
+    #card2,
+    #card3,
+    #card4,
+    #card5,
+    #card6 {
+        visibility: hidden;
+    }
+}
