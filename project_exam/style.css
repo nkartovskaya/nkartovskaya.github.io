@@ -1,3 +1,22 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
 @font-face {
     font-family: Helvetica;
     src: url('fonts/Helvetica-Regular.ttf')
@@ -6,53 +25,56 @@
 @font-face {
     font-family: "ArialRegular";
     src: url("fonts/ArialRegular/ArialRegular.eot");
-    src: url("fonts/ArialRegular/ArialRegular.eot?#iefix")format("embedded-opentype"),
+    src: url("fonts/ArialRegular/ArialRegular.eot?#iefix") format("embedded-opentype"),
     url("fonts/ArialRegular/ArialRegular.woff") format("woff"),
     url("fonts/ArialRegular/ArialRegular.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
+
 /* font-family: "ArialBold"; */
 @font-face {
     font-family: "ArialBold";
     src: url("fonts/ArialBold/ArialBold.eot");
-    src: url("fonts/ArialBold/ArialBold.eot?#iefix")format("embedded-opentype"),
+    src: url("fonts/ArialBold/ArialBold.eot?#iefix") format("embedded-opentype"),
     url("fonts/ArialBold/ArialBold.woff") format("woff"),
     url("fonts/ArialBold/ArialBold.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
+
 /* font-family: "ArialItalic"; */
 @font-face {
     font-family: "ArialItalic";
     src: url("fonts/ArialItalic/ArialItalic.eot");
-    src: url("fonts/ArialItalic/ArialItalic.eot?#iefix")format("embedded-opentype"),
+    src: url("fonts/ArialItalic/ArialItalic.eot?#iefix") format("embedded-opentype"),
     url("fonts/ArialItalic/ArialItalic.woff") format("woff"),
     url("fonts/ArialItalic/ArialItalic.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
+
 /* font-family: "ArialBlack"; */
 @font-face {
     font-family: "ArialBlack";
     src: url("fonts/ArialBlack/ArialBlack.eot");
-    src: url("fonts/ArialBlack/ArialBlack.eot?#iefix")format("embedded-opentype"),
+    src: url("fonts/ArialBlack/ArialBlack.eot?#iefix") format("embedded-opentype"),
     url("fonts/ArialBlack/ArialBlack.woff") format("woff"),
     url("fonts/ArialBlack/ArialBlack.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
+
 /* font-family: "ArialBoldItalic"; */
 @font-face {
     font-family: "ArialBoldItalic";
     src: url("fonts/ArialBoldItalic/ArialBoldItalic.eot");
-    src: url("fonts/ArialBoldItalic/ArialBoldItalic.eot?#iefix")format("embedded-opentype"),
+    src: url("fonts/ArialBoldItalic/ArialBoldItalic.eot?#iefix") format("embedded-opentype"),
     url("fonts/ArialBoldItalic/ArialBoldItalic.woff") format("woff"),
     url("fonts/ArialBoldItalic/ArialBoldItalic.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
-
 
 #wrapper {
     width: 100%;
@@ -60,7 +82,6 @@
     padding: 0;
     margin: 0;
 }
-
 
 @media screen and (max-width: 1980px) and (min-width: 1000px) {
     .header_inside,
@@ -75,6 +96,7 @@
         padding: 0;
         position: relative;
     }
+
     header {
         height: 76px;
         background-color: #3498db;
@@ -94,7 +116,7 @@
         height: 49px;
     }
 
-    .logo p {
+    .logo span {
         font-size: 26px;
         color: white;
         display: inline-block;
@@ -102,9 +124,10 @@
         float: left;
     }
 
-    .connect {
+    header .connect {
         position: absolute;
-        margin: 22px 0 0 840px;
+        margin: 22px 0 0 0;
+        right: 0;
     }
 
     .connect p {
@@ -173,7 +196,7 @@
         border-top: solid #9c9c9c 1px;
         clear: both;
         position: absolute;
-        left: 630px;
+        right: 0;
         top: 30px;
     }
 
@@ -262,10 +285,11 @@
     }
 
     .benefits_inside img {
-        width: 289px;
-        height: 158px;
+        width: 290px;
+        height: 193px;
         margin: 0 20px 20px 0;
     }
+
     .description {
         width: 289px;
         height: 531px;
@@ -320,9 +344,7 @@
     .comments_inside h2 {
         font-size: 25px;
         color: #3498db;
-        float: left;
         width: 650px;
-        margin-top: -20px;
     }
 
     .comments_inside a {
@@ -421,8 +443,8 @@
 
     .start_inside img {
         position: absolute;
-        top: -174px;
-        left: 710px;
+        right: 30px;
+        bottom: -65px;
     }
 
     footer {
@@ -434,21 +456,42 @@
         padding-top: 50px;
     }
 
-    .footer_inside .logo p {
-        width: 180px;
-        margin: 7px 0 23px 0;
+    .footer_inside .logo a img {
+        margin: 20px 0 0 0;
+    }
+
+    .footer_inside .logo a span {
+        width: 170px;
+        margin: 17px 0 23px 20px;
         border-right: solid #2980b9 2px;
+        display: inline-block;
+        float: left;
+    }
+
+    .footer_inside .logo a {
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
     }
 
     .footer_inside .connect {
-        margin: 10px 0 0 270px;
+        padding: 15px 0 0 10px;
+
+    }
+
+    .footer_inside .connect p {
+        display: inline-block;
+        padding-left: 20px;
     }
 
     .copyright {
         font-size: 13px;
         color: white;
-        margin: 45px 0 0 270px;
+        display: inline-block;
+        padding-left: 20px;
+        width: 650px;
     }
+
     .button_top {
         font-size: 25px;
         color: #ffffff;
@@ -466,6 +509,7 @@
         text-align: center;
         padding-top: 35px;
     }
+
     .button_top:hover {
         background-color: rgba(231, 76, 60, 0.67);
     }
@@ -486,6 +530,7 @@
         padding: 0;
         position: relative;
     }
+
     header {
         height: 76px;
         background-color: #3498db;
@@ -505,7 +550,7 @@
         height: 49px;
     }
 
-    .logo p {
+    .logo span {
         font-size: 26px;
         color: white;
         display: inline-block;
@@ -513,9 +558,10 @@
         float: left;
     }
 
-    .connect {
+    header .connect {
         position: absolute;
-        margin: 22px 0 0 610px;
+        margin: 22px 0 0 0;
+        right: 0;
     }
 
     .connect p {
@@ -583,7 +629,7 @@
         border-top: solid #9c9c9c 1px;
         clear: both;
         position: absolute;
-        left: 417px;
+        right: 0;
         top: 30px;
     }
 
@@ -670,11 +716,16 @@
         margin: 40px 0 32px 0;
     }
 
-    .benefits_inside img {
+    .benefits_inside .image {
         width: 289px;
         height: 158px;
         float: left;
         margin: 0 20px 20px 0;
+        overflow: hidden;
+    }
+
+    .benefits_inside img {
+        margin: 0 0 -35px 0;
     }
     .description {
         width: 758px;
@@ -690,6 +741,7 @@
         color: #333333;
         text-align: left;
         width: 758px;
+        margin: 20px 0 20px 0;
     }
 
     .description p {
@@ -706,8 +758,7 @@
         display: block;
         border: solid #ebebeb 1px;
         border-radius: 50%;
-        margin-left: 313px;
-        margin-bottom: 37px;
+        margin: 10px 0 37px 313px;
         padding-top: 15px;
         text-align: center;
         width: 50px;
@@ -823,7 +874,7 @@
     .start_inside img {
         position: absolute;
         top: -174px;
-        left: 555px;
+        right: 40px;
     }
 
     footer {
@@ -835,21 +886,42 @@
         padding-top: 50px;
     }
 
-    .footer_inside .logo p {
+    .footer_inside .logo a img {
+        margin: 20px 0 0 0;
+    }
+
+    .footer_inside .logo a span {
         width: 180px;
-        margin: 7px 0 23px 0;
+        margin: 17px 0 23px 20px;
         border-right: solid #2980b9 2px;
+        display: inline-block;
+        float: left;
+    }
+
+    .footer_inside .logo a {
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
     }
 
     .footer_inside .connect {
-        margin: 0 0 0 270px;
+        padding: 10px 0 0 10px;
+
+    }
+
+    .footer_inside .connect p {
+        display: inline-block;
+        padding-left: 10px;
     }
 
     .copyright {
         font-size: 13px;
         color: white;
-        margin: 35px 0 0 270px;
+        display: inline-block;
+        padding-left: 10px;
+        width: 450px;
     }
+
     .button_top {
         font-size: 20px;
         color: #ffffff;
@@ -867,6 +939,7 @@
         text-align: center;
         padding-top: 27px;
     }
+
     .button_top:hover {
         background-color: rgba(231, 76, 60, 0.67);
     }
@@ -888,13 +961,14 @@
         padding: 0;
         position: relative;
     }
+
     header {
         height: 160px;
         background-color: #3498db;
     }
 
-    .logo img,
-    .logo a img  {
+    header .logo img,
+    header .logo a img {
         width: 49px;
         height: 49px;
         border: solid white 1px;
@@ -905,8 +979,8 @@
         left: 126px;
     }
 
-    .logo p,
-    .logo a p  {
+    header .logo span,
+    header .logo a span {
         font-size: 20px;
         color: white;
         display: inline-block;
@@ -916,11 +990,13 @@
         padding: 37px 5px 6px 15px;
     }
 
-    .connect {
-        margin: 0 0 0 77px;
+    header .connect {
+        position: relative;
+        margin-top: 5px;
+        left: 77px;
     }
 
-    .connect p {
+    header .connect p {
         font-size: 13px;
         color: white;
         width: 50px;
@@ -928,7 +1004,7 @@
         margin: 7px 5px 0 0;
     }
 
-    .connect p a {
+    header .connect p a {
         color: white;
     }
 
@@ -968,13 +1044,13 @@
         color: white;
         font-weight: bold;
         margin: 0;
-        padding: 40px 0 0 0;
+        padding: 40px 0 10px 20px;
     }
 
     .banner p {
         font-size: 16px;
         color: white;
-        line-height: 20px;
+        line-height: 26px;
         padding: 0 10px 0 30px;
     }
 
@@ -1058,10 +1134,10 @@
     .university_description_inside p {
         font-size: 13px;
         color: #333333;
-        margin: 0 auto;
         line-height: 20px;
         width: 280px;
         text-align: center;
+        margin: 15px 0 15px 20px;
     }
 
     .benefits {
@@ -1073,6 +1149,19 @@
         font-size: 20px;
         color: #3498db;
         text-align: center;
+        margin: 30px 0 30px 0;
+    }
+
+    .benefits_inside .image {
+        width: 289px;
+        height: 158px;
+        float: left;
+        margin: 0 20px 20px 0;
+        overflow: hidden;
+    }
+
+    .benefits_inside img {
+        margin: 0 0 -35px 0;
     }
 
     .description {
@@ -1086,6 +1175,7 @@
         font-weight: bold;
         color: #333333;
         text-align: center;
+        margin: 25px 0 20px 0;
     }
 
     .description p {
@@ -1093,6 +1183,8 @@
         color: #4d4d4d;
         text-align: center;
         line-height: 20px;
+        display: inline-block;
+        margin-bottom: 15px;
     }
 
     .description a {
@@ -1162,7 +1254,7 @@
         color: #333333;
         width: 280px;
         line-height: 20px;
-        margin: 0;
+        margin: 0 0 0 20px;
     }
 
     .comments_inside span.signature {
@@ -1170,7 +1262,7 @@
         color: #333333;
         margin-top: 15px;
         display: inline-block;
-        width: 290px;
+        width: 275px;
         font-weight: bold;
         text-align: right;
     }
@@ -1184,6 +1276,7 @@
         height: 60px;
         position: relative;
         top: 25px;
+        left: 20px;
     }
 
     .comments_inside span.quotes:last-child {
@@ -1240,13 +1333,56 @@
         height: 315px;
         background-color: #3498db;
     }
+
+    footer .logo img,
+    footer .logo a img {
+        width: 49px;
+        height: 49px;
+        border: solid white 1px;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        margin: 17px 0 25px 0;
+        left: 126px;
+    }
+
+    footer .logo span,
+    footer .logo a span {
+        font-size: 20px;
+        color: white;
+        display: inline-block;
+        border-bottom: solid #2980b9 1px;
+        text-decoration: none;
+        position: relative;
+        padding: 37px 5px 6px 15px;
+    }
+
+    footer .connect {
+        position: relative;
+        margin-top: 5px;
+        left: 77px;
+    }
+
+    footer .connect p {
+        font-size: 13px;
+        color: white;
+        width: 50px;
+        float: left;
+        margin: 7px 5px 0 0;
+    }
+
+    footer .connect p a {
+        color: white;
+    }
+
     .copyright {
         font-size: 13px;
         color: white;
-        margin: 45px 0 0 10px;
+        margin: 45px 0 0 0;
         text-align: center;
         line-height: 20px;
     }
+
     .button_top {
         font-size: 15px;
         color: #ffffff;
@@ -1264,6 +1400,7 @@
         text-align: center;
         padding-top: 21px;
     }
+
     .button_top:hover {
         background-color: rgba(231, 76, 60, 0.67);
     }
