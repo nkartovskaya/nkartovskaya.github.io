@@ -213,12 +213,12 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         width: 322px;
         height: 35px;
         margin: 0 0 10px 20px;
-        padding: 0 0 0 12px;
+        padding: 0 5px 0 12px;
         font-size: 15px;
         color: #333333;
         background-image: url("images/bg_search_course.png");
         background-repeat: no-repeat;
-        background-position: right;
+        background-position: 98% 0;
         -webkit-appearance: none;
         -moz-appearance: none;
         text-indent: 0.01px;
@@ -455,19 +455,17 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     }
 
     .start_inside p {
-        margin-top: 12px;
+        margin-top: 14px;
         text-align: center;
     }
 
-    .start_inside span {
-        display: inline-block;
-        width: 30px;
-        height: 30px;
-        border: solid #ffffff 2px;
+    .start_inside p:after {
+        content: url("images/arrow_start_button.png");
+        border: solid white 2px;
         border-radius: 50%;
-        text-align: center;
-        font-size: 25px;
-        padding: 0 0 1px 1px;
+        display: inline-block;
+        width: 27px;
+        height: 27px;
     }
 
     .start_inside img {
@@ -525,27 +523,6 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         width: 650px;
     }
 
-    .button_top {
-        font-size: 25px;
-        color: #ffffff;
-        font-weight: bold;
-        text-decoration: none;
-        display: inline-block;
-        width: 100px;
-        height: 65px;
-        border: solid #e7e7e7 2px;
-        border-radius: 50%;
-        position: fixed;
-        background-color: rgba(231, 76, 60, 0.45);
-        right: 25%;
-        bottom: 5%;
-        text-align: center;
-        padding-top: 35px;
-    }
-
-    .button_top:hover {
-        background-color: rgba(231, 76, 60, 0.67);
-    }
 }
 
 /* ----------------------------------------------------------------------------------------- */
@@ -684,7 +661,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         color: #333333;
         background-image: url("images/bg_search_course.png");
         background-repeat: no-repeat;
-        background-position: right;
+        background-position: 98% 0;
         -webkit-appearance: none;
         -moz-appearance: none;
         text-indent: 0.01px;
@@ -915,19 +892,19 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     }
 
     .start_inside p {
-        margin-top: 12px;
+        margin-top: 13px;
         text-align: center;
     }
 
-    .start_inside span {
-        display: inline-block;
-        width: 30px;
-        height: 30px;
-        border: solid #ffffff 2px;
+    .start_inside p:after {
+        content: url("images/arrow_start_button.png");
+        border: solid white 2px;
         border-radius: 50%;
-        text-align: center;
-        font-size: 25px;
-        padding: 0 0 1px 1px;
+        display: inline-block;
+        width: 28px;
+        height: 25px;
+        padding: 4px 0 0 2px;
+        margin-left: 10px;
     }
 
     .start_inside img {
@@ -986,27 +963,6 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         width: 450px;
     }
 
-    .button_top {
-        font-size: 20px;
-        color: #ffffff;
-        font-weight: bold;
-        text-decoration: none;
-        display: inline-block;
-        width: 80px;
-        height: 50px;
-        border: solid #e7e7e7 2px;
-        border-radius: 50%;
-        position: fixed;
-        background-color: rgba(231, 76, 60, 0.45);
-        right: 5%;
-        bottom: 5%;
-        text-align: center;
-        padding-top: 27px;
-    }
-
-    .button_top:hover {
-        background-color: rgba(231, 76, 60, 0.67);
-    }
 }
 
 /* ----------------------------------------------------------------------------------------- */
@@ -1151,7 +1107,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         color: #333333;
         background-image: url("images/bg_search_course.png");
         background-repeat: no-repeat;
-        background-position: right;
+        background-position: 98% 0;
         -webkit-appearance: none;
         -moz-appearance: none;
         text-indent: 0.01px;
@@ -1409,6 +1365,22 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         line-height: 30px;
     }
 
+    .start_inside p {
+        margin-top: 14px;
+        text-align: center;
+    }
+
+    .start_inside p:after {
+        content: url("images/arrow_start_button.png");
+        border: solid white 2px;
+        border-radius: 50%;
+        display: inline-block;
+        width: 29px;
+        height: 27px;
+        padding: 2px 0 0 0;
+        margin-top: 4px;
+    }
+
     .start_inside span {
         display: inline-block;
         width: 30px;
@@ -1481,26 +1453,5 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         padding: 0 35px 0 35px;
     }
 
-    .button_top {
-        font-size: 15px;
-        color: #ffffff;
-        font-weight: bold;
-        text-decoration: none;
-        display: inline-block;
-        width: 60px;
-        height: 39px;
-        border: solid #e7e7e7 2px;
-        border-radius: 50%;
-        position: fixed;
-        background-color: rgba(231, 76, 60, 0.45);
-        right: 5%;
-        bottom: 5%;
-        text-align: center;
-        padding-top: 21px;
-    }
-
-    .button_top:hover {
-        background-color: rgba(231, 76, 60, 0.67);
-    }
 }
 
