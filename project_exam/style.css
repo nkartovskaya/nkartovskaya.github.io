@@ -210,21 +210,29 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     select {
         background-color: #f2f2f2;
         border: solid #e6e6e6 1px;
-        width: 320px;
-        height: 37px;
+        width: 322px;
+        height: 35px;
         margin: 0 0 10px 20px;
+        padding: 0 0 0 12px;
         font-size: 15px;
         color: #333333;
+        background-image: url("images/bg_search_course.png");
+        background-repeat: no-repeat;
+        background-position: right;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        text-indent: 0.01px;
+        text-overflow: "";
     }
 
     input {
         background-color: #f2f2f2;
         border: solid #e6e6e6 1px;
         border-shadow: none;
-        width: 314px;
+        width: 308px;
         height: 35px;
         margin: 0 0 10px 20px;
-        padding: 0 0 0 4px;
+        padding: 0 0 0 12px;
         font-size: 15px;
         color: #333333;
     }
@@ -232,23 +240,24 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     textarea {
         background-color: #f2f2f2;
         border: solid #e6e6e6 1px;
-        width: 314px;
+        width: 308px;
         height: 75px;
         margin: 0 0 10px 20px;
-        padding: 0 0 0 4px;
+        padding: 5px 0 0 12px;
         font-size: 15px;
         color: #333333;
         font-family: Helvetica, sans-serif;
     }
 
-    input[type=submit] {
+    button[class=submit] {
         font-size: 25px;
         color: white;
         background-color: #e74c3c;
         width: 220px;
         height: 50px;
         margin-left: 19.44444%;
-        margin-top: 25px;
+        margin-top: 15px;
+        border: none;
     }
 
     .university_description {
@@ -287,7 +296,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     .benefits_inside img {
         width: 290px;
         height: 193px;
-        margin: 0 20px 20px 0;
+        margin: 0 20px 10px 0;
     }
 
     .description {
@@ -307,6 +316,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         color: #333333;
         text-align: center;
         width: 289px;
+        margin: 0 0 15px 0;
     }
 
     .description p {
@@ -314,6 +324,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         color: #4d4d4d;
         text-align: center;
         line-height: 20px;
+        margin: 0 0 15px 0;
     }
 
     .description a {
@@ -325,10 +336,16 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         border-radius: 50%;
         margin-left: 40%;
         margin-bottom: 37px;
-        padding-top: 15px;
+        padding-top: 17px;
         text-align: center;
         width: 50px;
-        height: 32px;
+        height: 31px;
+    }
+    .description a:hover {
+        color: #333333;
+        border: solid #e7e7e7 1px;
+        background-color: #f2f2f2;
+        font-weight: bold;
     }
 
     .benefits_inside {
@@ -357,24 +374,31 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         font-weight: bold;
         padding-top: 2px;
     }
-
-    .first_button {
-        border: solid #e7e7e7 1px;
-        border-radius: 50%;
-        background-color: #f2f2f2;
-        color: #333333;
-        position: absolute;
-        top: 30px;
-        right: 60px;
-    }
-
+    .first_button,
     .second_button {
         border: solid #e7e7e7 1px;
         border-radius: 50%;
         color: #8b8b8b;
         position: absolute;
+
+    }
+    .second_button {
         top: 30px;
         right: 20px;
+    }
+
+    .first_button {
+        top: 30px;
+        right: 60px;
+    }
+
+    .first_button:hover,
+    .second_button:hover {
+        border: solid #e7e7e7 1px;
+        border-radius: 50%;
+        background-color: #f2f2f2;
+        color: #333333;
+        position: absolute;
     }
 
     .comments_inside p {
@@ -425,6 +449,11 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         margin-top: 65px;
     }
 
+    .start button {
+        background: none;
+        border: none;
+    }
+
     .start_inside p {
         margin-top: 12px;
         text-align: center;
@@ -455,9 +484,13 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     .footer_inside .logo {
         padding-top: 50px;
     }
-
+    .footer_inside .logo img {
+        width: 65px;
+        height: 65px;
+        border: solid white 2px;
+    }
     .footer_inside .logo a img {
-        margin: 20px 0 0 0;
+        margin: 12px 0 0 0;
     }
 
     .footer_inside .logo a span {
@@ -471,7 +504,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     .footer_inside .logo a {
         text-decoration: none;
         color: white;
-        font-size: 25px;
+        font-size: 26px;
     }
 
     .footer_inside .connect {
@@ -621,7 +654,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
     form {
         width: 340px;
-        height: 505px;
+        height: 535px;
         background-color: white;
         border-bottom: solid #3498db 4px;
         border-left: solid #9c9c9c 1px;
@@ -637,7 +670,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         font-size: 20px;
         color: #333333;
         text-align: center;
-        margin: 15px 0 15px 0;
+        margin: 20px 0 20px 0;
     }
 
     select {
@@ -646,18 +679,26 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         width: 300px;
         height: 37px;
         margin: 0 0 10px 20px;
+        padding: 0 0 0 12px;
         font-size: 15px;
         color: #333333;
+        background-image: url("images/bg_search_course.png");
+        background-repeat: no-repeat;
+        background-position: right;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        text-indent: 0.01px;
+        text-overflow: "";
     }
 
     input {
         background-color: #f2f2f2;
         border: solid #e6e6e6 1px;
         border-shadow: none;
-        width: 294px;
+        width: 286px;
         height: 35px;
         margin: 0 0 10px 20px;
-        padding: 0 0 0 4px;
+        padding: 0 0 0 12px;
         font-size: 15px;
         color: #333333;
     }
@@ -665,22 +706,24 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     textarea {
         background-color: #f2f2f2;
         border: solid #e6e6e6 1px;
-        width: 294px;
+        width: 286px;
         height: 75px;
-        margin: 0 0 10px 20px;
-        padding: 0 0 0 4px;
+        margin: 0 0 5px 20px;
+        padding: 0 0 0 12px;
         font-size: 15px;
         color: #333333;
         font-family: Helvetica, sans-serif;
     }
 
-    input[type=submit] {
+    button[class=submit] {
         font-size: 20px;
         color: white;
         background-color: #e74c3c;
         width: 220px;
         height: 50px;
         margin-left: 60px;
+        margin-top: 15px;
+        border: none;
     }
 
     .university_description {
@@ -713,7 +756,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     .benefits_inside h2 {
         font-size: 20px;
         color: #3498db;
-        margin: 40px 0 32px 0;
+        margin: 30px 0 22px 0;
     }
 
     .benefits_inside .image {
@@ -749,6 +792,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         color: #4d4d4d;
         text-align: left;
         line-height: 20px;
+        margin-bottom: 15px;
     }
 
     .description a {
@@ -758,11 +802,19 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         display: block;
         border: solid #ebebeb 1px;
         border-radius: 50%;
-        margin: 10px 0 37px 313px;
-        padding-top: 15px;
+        margin-left: 40%;
+        margin-bottom: 30px;
+        padding-top: 17px;
+        padding-right: 4px;
         text-align: center;
-        width: 50px;
-        height: 32px;
+        width: 46px;
+        height: 31px;
+    }
+    .description a:hover {
+        color: #333333;
+        border: solid #e7e7e7 1px;
+        background-color: #f2f2f2;
+        font-weight: bold;
     }
 
     .benefits_inside {
@@ -794,17 +846,19 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         padding-top: 2px;
     }
 
-    .first_button {
-        border: solid #e7e7e7 1px;
-        border-radius: 50%;
-        background-color: #f2f2f2;
-        color: #333333;
-    }
-
+    .first_button,
     .second_button {
         border: solid #e7e7e7 1px;
         border-radius: 50%;
         color: #8b8b8b;
+    }
+
+    .first_button:hover,
+    .second_button:hover {
+        border: solid #e7e7e7 1px;
+        border-radius: 50%;
+        background-color: #f2f2f2;
+        color: #333333;
     }
 
     .comments_inside p {
@@ -855,6 +909,11 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         margin-top: 65px;
     }
 
+    .start button {
+        background: none;
+        border: none;
+    }
+
     .start_inside p {
         margin-top: 12px;
         text-align: center;
@@ -887,7 +946,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     }
 
     .footer_inside .logo a img {
-        margin: 20px 0 0 0;
+        margin: 12px 0 0 0;
     }
 
     .footer_inside .logo a span {
@@ -901,24 +960,29 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     .footer_inside .logo a {
         text-decoration: none;
         color: white;
-        font-size: 25px;
+        font-size: 26px;
+    }
+    .footer_inside .logo img {
+        width: 65px;
+        height: 65px;
+        border: solid white 2px;
     }
 
     .footer_inside .connect {
-        padding: 10px 0 0 10px;
+        padding: 15px 0 0 10px;
 
     }
 
     .footer_inside .connect p {
         display: inline-block;
-        padding-left: 10px;
+        padding-left: 20px;
     }
 
     .copyright {
         font-size: 13px;
         color: white;
         display: inline-block;
-        padding-left: 10px;
+        padding-left: 20px;
         width: 450px;
     }
 
@@ -994,6 +1058,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         position: relative;
         margin-top: 5px;
         left: 77px;
+        width: 150px;
     }
 
     header .connect p {
@@ -1072,7 +1137,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         font-size: 20px;
         color: #333333;
         text-align: center;
-        margin: 35px 0 35px 0;
+        margin: 20px 0 20px 0;
     }
 
     select {
@@ -1081,18 +1146,26 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         width: 259px;
         height: 37px;
         margin: 0 0 10px 20px;
+        padding: 0 0 0 6px;
         font-size: 15px;
         color: #333333;
+        background-image: url("images/bg_search_course.png");
+        background-repeat: no-repeat;
+        background-position: right;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        text-indent: 0.01px;
+        text-overflow: "";
     }
 
     input {
         background-color: #f2f2f2;
         border: solid #e6e6e6 1px;
         border-shadow: none;
-        width: 253px;
+        width: 249px;
         height: 35px;
         margin: 0 0 10px 20px;
-        padding: 0 0 0 4px;
+        padding: 0 0 0 8px;
         font-size: 15px;
         color: #333333;
     }
@@ -1100,22 +1173,24 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     textarea {
         background-color: #f2f2f2;
         border: solid #e6e6e6 1px;
-        width: 253px;
+        width: 249px;
         height: 75px;
-        margin: 0 0 10px 20px;
-        padding: 0 0 0 4px;
+        margin: 0 0 5px 20px;
+        padding: 5px 0 0 8px;
         font-size: 15px;
         color: #333333;
         font-family: Helvetica, sans-serif;
     }
 
-    input[type=submit] {
+    button[class=submit] {
         font-size: 20px;
         color: white;
         background-color: #e74c3c;
         width: 200px;
         height: 50px;
         margin-left: 49px;
+        margin-top: 15px;
+        border: none;
     }
 
     .university_description {
@@ -1194,11 +1269,18 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         display: block;
         border: solid #ebebeb 1px;
         border-radius: 50%;
-        margin: auto;
-        padding-top: 18px;
+        margin-left: 40%;
+        margin-bottom: 37px;
+        padding-top: 17px;
         text-align: center;
         width: 50px;
-        height: 32px;
+        height: 31px;
+    }
+    .description a:hover {
+        color: #333333;
+        border: solid #e7e7e7 1px;
+        background-color: #f2f2f2;
+        font-weight: bold;
     }
 
     .benefits_inside {
@@ -1232,22 +1314,32 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
     }
 
-    .first_button {
-        border: solid #e7e7e7 1px;
-        border-radius: 50%;
-        background-color: #f2f2f2;
-        color: #333333;
-        position: absolute;
-        left: 35%;
-    }
-
+    .first_button,
     .second_button {
         border: solid #e7e7e7 1px;
         border-radius: 50%;
         color: #8b8b8b;
         position: absolute;
+
+    }
+
+    .first_button {
+        left: 36%;
+    }
+
+    .second_button {
         left: 50%;
     }
+
+    .first_button:hover,
+    .second_button:hover {
+        border: solid #e7e7e7 1px;
+        border-radius: 50%;
+        background-color: #f2f2f2;
+        color: #333333;
+        position: absolute;
+    }
+
 
     .comments_inside p {
         font-size: 13px;
@@ -1304,6 +1396,11 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         left: 3%;
     }
 
+    .start button {
+        background: none;
+        border: none;
+    }
+
     .start_inside p {
         margin-top: 14px;
         text-align: center;
@@ -1342,7 +1439,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         border-radius: 50%;
         display: inline-block;
         position: relative;
-        margin: 17px 0 25px 0;
+        margin: 17px 0 25px 12px;
         left: 126px;
     }
 
@@ -1354,13 +1451,13 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         border-bottom: solid #2980b9 1px;
         text-decoration: none;
         position: relative;
-        padding: 37px 5px 6px 15px;
+        padding: 37px 15px 6px 15px;
     }
 
     footer .connect {
         position: relative;
-        margin-top: 5px;
-        left: 77px;
+        margin: 5px auto;
+        width: 150px;
     }
 
     footer .connect p {
@@ -1378,9 +1475,10 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     .copyright {
         font-size: 13px;
         color: white;
-        margin: 45px 0 0 0;
+        margin: 45px 0 0 10px;
         text-align: center;
         line-height: 20px;
+        padding: 0 35px 0 35px;
     }
 
     .button_top {
