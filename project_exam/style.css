@@ -102,6 +102,35 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         background-color: #3498db;
     }
 
+    .logo_circle_top,
+    .logo_circle_bottom {
+        color: white;
+        border: solid white 2px;
+        text-align: center;
+        border-radius: 50%;
+        float: left;
+    }
+
+    .logo_circle_top a,
+    .logo_circle_bottom a {
+        text-decoration: none;
+        color: white;
+    }
+    .logo_circle_top {
+        width: 48px;
+        height: 35px;
+        font-size: 20px;
+        padding-top: 13px;
+        margin: 12px 12px 0 0;
+    }
+    .logo_circle_bottom {
+        width: 65px;
+        height: 47px;
+        font-size: 26px;
+        padding-top: 18px;
+        margin: 10px 1px 0 0;
+    }
+
     .logo img {
         width: 49px;
         height: 49px;
@@ -109,11 +138,6 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         border-radius: 50%;
         float: left;
         margin: 12px 12px 0 0;
-    }
-
-    .logo img a {
-        width: 49px;
-        height: 49px;
     }
 
     .logo span {
@@ -482,18 +506,11 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     .footer_inside .logo {
         padding-top: 50px;
     }
-    .footer_inside .logo img {
-        width: 65px;
-        height: 65px;
-        border: solid white 2px;
-    }
-    .footer_inside .logo a img {
-        margin: 12px 0 0 0;
-    }
 
     .footer_inside .logo a span {
         width: 170px;
         margin: 17px 0 23px 20px;
+        padding-right: 8px;
         border-right: solid #2980b9 2px;
         display: inline-block;
         float: left;
@@ -546,18 +563,33 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         background-color: #3498db;
     }
 
-    .logo img {
-        width: 49px;
-        height: 49px;
-        border: solid white 1px;
+    .logo_circle_top,
+    .logo_circle_bottom {
+        color: white;
+        border: solid white 2px;
+        text-align: center;
         border-radius: 50%;
         float: left;
-        margin: 12px 12px 0 0;
     }
 
-    .logo img a {
-        width: 49px;
-        height: 49px;
+    .logo_circle_top a,
+    .logo_circle_bottom a {
+        text-decoration: none;
+        color: white;
+    }
+    .logo_circle_top {
+        width: 48px;
+        height: 35px;
+        font-size: 20px;
+        padding-top: 13px;
+        margin: 12px 12px 0 0;
+    }
+    .logo_circle_bottom {
+        width: 65px;
+        height: 47px;
+        font-size: 26px;
+        padding-top: 18px;
+        margin: 10px 1px 0 0;
     }
 
     .logo span {
@@ -986,17 +1018,36 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         height: 160px;
         background-color: #3498db;
     }
+    .header_inside {
+        padding-top: 15px;
+    }
 
-    header .logo img,
-    header .logo a img {
-        width: 49px;
-        height: 49px;
-        border: solid white 1px;
+    .logo_circle_top,
+    .logo_circle_bottom {
+        color: white;
+        border: solid white 2px;
+        text-align: center;
         border-radius: 50%;
-        display: inline-block;
-        position: relative;
-        margin: 17px 0 25px 0;
-        left: 126px;
+    }
+
+    .logo_circle_top a,
+    .logo_circle_bottom a {
+        text-decoration: none;
+        color: white;
+    }
+    .logo_circle_top {
+        width: 48px;
+        height: 35px;
+        font-size: 20px;
+        padding-top: 13px;
+        margin: 0 auto;
+    }
+    .logo_circle_bottom {
+        width: 48px;
+        height: 35px;
+        font-size: 20px;
+        padding-top: 12px;
+        margin: 0 auto;
     }
 
     header .logo span,
@@ -1006,13 +1057,13 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         display: inline-block;
         border-bottom: solid #2980b9 1px;
         text-decoration: none;
-        position: relative;
-        padding: 37px 5px 6px 15px;
+        padding: 10px 5px 6px 15px;
+        margin-left: 18%;
     }
 
     header .connect {
         position: relative;
-        margin-top: 5px;
+        margin-top: 9px;
         left: 77px;
         width: 150px;
     }
@@ -1402,17 +1453,8 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         height: 315px;
         background-color: #3498db;
     }
-
-    footer .logo img,
-    footer .logo a img {
-        width: 49px;
-        height: 49px;
-        border: solid white 1px;
-        border-radius: 50%;
-        display: inline-block;
-        position: relative;
-        margin: 17px 0 25px 12px;
-        left: 126px;
+    .footer_inside {
+        padding-top: 32px;
     }
 
     footer .logo span,
@@ -1422,8 +1464,8 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         display: inline-block;
         border-bottom: solid #2980b9 1px;
         text-decoration: none;
-        position: relative;
-        padding: 37px 15px 6px 15px;
+        padding: 11px 15px 6px 15px;
+        margin-left: 18%;
     }
 
     footer .connect {
@@ -1447,7 +1489,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     .copyright {
         font-size: 13px;
         color: white;
-        margin: 45px 0 0 10px;
+        margin: 37px 0 0 10px;
         text-align: center;
         line-height: 20px;
         padding: 0 35px 0 35px;
