@@ -1,0 +1,186 @@
+@media only screen and (max-width: 1920px){
+    .portfolio {
+        background: white;
+        color: #454545;
+        width: 1164px;
+        height: 717px;
+        margin: 0 auto;
+        padding: 5px;
+        font-family: "Trebuchet MS", sans-serif;
+    }
+    .portfolio:hover {
+        background: #eeeeee;
+        background-size: 100%;
+    }
+    h1, h4 {
+        text-align: center;
+    }
+    .container {
+        position: relative;
+        float: left;
+    }
+    .card {
+        position: relative;
+        float: left;
+        width: 358px;
+        height: 258px;
+        margin: 15px;
+    }
+    .second_background {
+        width: 358px;
+        height: 258px;
+        margin: 15px;
+        float: left;
+        position: absolute;
+        z-index: 10;
+        background: none;
+    }
+    .second_background:hover {
+        visibility: visible;
+        background-color: rgba(45, 163, 255, 0.75);
+    }
+    .img_zoom, .img_link {
+        position: absolute;
+        border: solid white 1px;
+        border-radius: 3px;
+        visibility: hidden;
+    }
+    .img_zoom {
+        top: 41.27%;
+        left: 43.7%;
+    }
+    .img_link {
+        top: 41.27%;
+        left: 50%;
+    }
+    .second_background:hover .img_zoom {
+        visibility: visible;
+    }
+    .second_background:hover .img_link {
+        visibility: visible;
+    }
+}
+@media only screen and (max-width: 1800px) {
+    .portfolio {
+        background: white;
+        color: #454545;
+        width: 776px;
+        height: 985px;
+        margin: 0 auto;
+        padding: 5px;
+        font-family: "Trebuchet MS", sans-serif;
+    }
+    .portfolio:hover {
+        background: #eeeeee;
+        background-size: 100%;
+    }
+    h1, h4 {
+        text-align: center;
+    }
+    .container {
+        position: relative;
+        float: left;
+    }
+    .card {
+        position: relative;
+        float: left;
+        width: 358px;
+        height: 258px;
+        margin: 15px;
+    }
+    .second_background {
+        width: 358px;
+        height: 258px;
+        margin: 15px;
+        float: left;
+        position: absolute;
+        z-index: 10;
+        background: none;
+    }
+    .second_background:hover {
+        visibility: visible;
+        background-color: rgba(45, 163, 255, 0.75);
+    }
+    .img_zoom, .img_link {
+        position: absolute;
+        border: solid white 1px;
+        border-radius: 3px;
+        visibility: hidden;
+    }
+    .img_zoom {
+        top: 41.27%;
+        left: 43.7%;
+    }
+    .img_link {
+        top: 41.27%;
+        left: 50%;
+    }
+    .second_background:hover .img_zoom {
+        visibility: visible;
+    }
+    .second_background:hover .img_link {
+        visibility: visible;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .portfolio {
+        background: white;
+        color: #454545;
+        width: 388px;
+        height: 1869px;
+        margin: 0 auto;
+        padding: 5px;
+        font-family: "Trebuchet MS", sans-serif;
+    }
+    .portfolio:hover {
+        background: #eeeeee;
+        background-size: 100%;
+    }
+    h1, h4 {
+        text-align: center;
+    }
+    .container {
+        position: relative;
+        float: left;
+    }
+    .card {
+        position: relative;
+        float: left;
+        width: 358px;
+        height: 258px;
+        margin: 15px;
+    }
+    .second_background {
+        width: 358px;
+        height: 258px;
+        margin: 15px;
+        float: left;
+        position: absolute;
+        z-index: 10;
+        background: none;
+    }
+    .second_background:hover {
+        visibility: visible;
+        background-color: rgba(45, 163, 255, 0.75);
+    }
+    .img_zoom, .img_link {
+        position: absolute;
+        border: solid white 1px;
+        border-radius: 3px;
+        visibility: hidden;
+    }
+    .img_zoom {
+        top: 41.27%;
+        left: 43.7%;
+    }
+    .img_link {
+        top: 41.27%;
+        left: 50%;
+    }
+    .second_background:hover .img_zoom {
+        visibility: visible;
+    }
+    .second_background:hover .img_link {
+        visibility: visible;
+    }
+}

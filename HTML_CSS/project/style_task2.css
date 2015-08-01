@@ -1,0 +1,2719 @@
+/*GENERAL*/
+body {
+    background-color: #2e2e2e;
+    width: 100%;
+    margin: 0;
+}
+
+/*Fonts*/
+@font-face {
+    font-family: Futura BT Book;
+    src: url(fonts/ufonts.com_futurabt-book-opentype.otf);
+}
+
+@font-face {
+    font-family: Calibry Italic;
+    src: url(fonts/Calibri%20Italic.ttf);
+}
+
+@font-face {
+    font-family: "Trebuchet MS";
+    src: url(fonts/Trebuchet%20MS%20Bold.ttf);
+}
+
+@font-face {
+    font-family: MyriadPro;
+    src: url(fonts/MyriadPro-Regular.otf);
+}
+
+/*Fonts END*/
+
+/*GENERAL END*/
+
+/*Screen 1920x1080*/
+/*Header*/
+@media screen and (max-width: 1980px) and (min-width: 1279px) {
+
+    .wrapper {
+        width: 72.91666666666%;
+        margin: auto;
+        background-color: #535353;
+    }
+
+    header {
+        height: 116px;
+        background-color: white;
+    }
+
+    /*Logo*/
+    .logo {
+        position: relative;
+        float: left;
+        width: 35%;
+        text-align: right;
+        padding: 35px 0 0 0;
+        margin: 0;
+        font-family: 'Futura BT Book', sans-serif;
+    }
+
+    .company {
+        color: #ee8129;
+        font-size: 2.25rem;
+    }
+
+    .name {
+        color: #3070a8;
+        font-size: 2.25rem;
+        font-weight: bolder;
+    }
+
+    /*Menu*/
+    ul {
+        position: relative;
+        padding-top: 0;
+        margin: 0;
+        font-family: MyriadPro, sans-serif;
+        overflow: hidden;
+    }
+
+    .banner_navigation li {
+        display: block;
+        background-color: white;
+        float: left;
+        margin-top: 74px;
+        padding: 0 11px 16px 11px;
+    }
+
+    .banner_navigation li a {
+        color: #d6d6d6;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.05rem;
+    }
+
+    .banner_navigation li a:hover {
+        color: #3070a8;
+    }
+
+    .banner_navigation li:hover {
+        border-bottom: solid #3070a8 3px;
+    }
+
+    /*Banner*/
+    .banner {
+        height: 505px;
+        background-size: 100% 100%;
+        background: url("images/banner.png") no-repeat;
+        color: white;
+        text-align: center;
+        padding-top: 80px;
+    }
+
+    .banner_first_line {
+        font-family: 'Futura BT Book', sans-serif;
+        font-size: 2.25rem;
+        margin: 0;
+    }
+
+    .banner_second_line {
+        font-family: 'Futura BT Book', sans-serif;
+        font-size: 2.5rem;
+    }
+
+    .banner_third_line {
+        font-family: Calibry, sans-serif;
+        font-style: italic;
+        font-size: 1.25rem;
+    }
+
+    .button a {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1rem;
+        display: inline-block;
+        width: 245px;
+        height: 41px;
+        padding: 22px 0 0 0;
+        text-decoration: none;
+        outline: solid white 1px;
+        color: white;
+        z-index: 10;
+    }
+
+    .button a:hover {
+        outline: solid #1b3d5d 1px;
+        background-color: rgba(255, 255, 255, 0.44);
+        color: #1b3d5d;
+        font-weight: bold;
+    }
+
+    /*Banner END*/
+    /*Services*/
+    .services {
+        height: 566px;
+        margin: 0;
+        background-color: #ffffff;
+    }
+
+    .services_container {
+        width: 85.7%; /*Popravit'*/
+        margin: auto;
+    }
+
+    .services_name {
+        font-family: "Trebuchet MS", sans-serif;
+        font-size: 1.875rem;
+        color: #41525c;
+        text-align: center;
+        margin-top: 0;
+        padding-top: 67px;
+    }
+
+    .services_property {
+        width: 33.3%;
+        float: left;
+        text-align: center;
+        margin: 30px 0 0 0;
+    }
+
+    .property_name {
+        font-family: 'Futura BT Book', sans-serif;
+        font-size: 1.6em;
+        color: #3070a8;
+        padding: 20px 0 0 0;
+        margin: 0;
+    }
+
+    .property_description {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.875rem;
+        color: #999999;
+        padding: 0 20px 0 20px;
+    }
+
+    /*Services END*/
+    /*Our benefit*/
+    .our_benefit {
+        height: 581px;
+        margin: 0;
+        background-size: cover;
+        background: url("images/middle_section.png") no-repeat;
+    }
+
+    .line_big_orange {
+        /*Popravit' otstup*/
+        font-family: 'Futura BT Book', sans-serif;
+        font-size: 1.625rem;
+        line-height: 1.846rem;
+        text-transform: uppercase;
+        color: #ee8129;
+        padding-top: 87px;
+        margin: 0 auto;
+        width: 85.7%;
+    }
+
+    .line_italic_white {
+        /*Popravit' otstup*/
+        font-family: 'Open Sans', sans-serif;
+        font-style: italic;
+        font-size: 1.1875rem;
+        line-height: 1.579;
+        color: #ffffff;
+        margin: 0 auto;
+        width: 85.7%;
+    }
+
+    .our_benefit_list {
+        /*Popravit' otstup*/
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.875rem;
+        line-height: 2.143;
+        color: #9d9d9d;
+        margin: 0 auto;
+        width: 85.7%;
+    }
+
+    .our_benefit_list li:hover {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.875rem;
+        line-height: 2.143;
+        color: #2c5c86;
+    }
+
+    /*Middle section END*/
+    /*Pricing*/
+    .pricing {
+        height: 710px;
+        background-color: white;
+    }
+
+    .pricing_name {
+        font-family: "Trebuchet MS", sans-serif;
+        font-size: 1.875rem;
+        color: #41525c;
+        text-align: center;
+        margin: 0;
+        padding: 67px;
+    }
+
+    .posters {
+        width: 885px;
+        height: 350px;
+        margin: auto;
+    }
+
+    .poster_container_blue,
+    .poster_container_green {
+        width: 289px;
+        height: 439px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(90, 90, 90, 0.56);
+        float: left;
+        margin: 10px 1px 10px 1px;
+        background: none;
+    }
+
+    .poster_container_orange {
+        border: solid #ee8129 3px;
+        border-radius: 10px;
+        margin: 0;
+        width: 295px;
+        height: 445px;
+        z-index: 10;
+        float: left;
+        background: none;
+    }
+
+    .poster_header_blue {
+        background-color: #63d0e7;
+    }
+
+    .poster_header_orange {
+        background-color: #ee8129;
+    }
+
+    .poster_header_green {
+        background-color: #4ad496;
+    }
+
+    .poster_header_blue,
+    .poster_header_orange,
+    .poster_header_green {
+        font-family: "Trebuchet MS", sans-serif;
+        height: 36px;
+        border-radius: 6px 6px 0 0;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .poster_body {
+        font-family: 'Futura BT Book', sans-serif;
+        font-size: 1.5rem;
+        height: 90px;
+        text-align: center;
+        padding: 7px 0 0 0;
+        color: #6d6d6d;
+    }
+
+    span.price {
+        font-size: 4.5rem;
+        font-weight: bolder;
+    }
+
+    sup {
+        display: inline-block;
+        position: absolute;
+        font-weight: bold;
+    }
+
+    .poster_body p {
+        display: inline-block;
+        height: 55px;
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
+
+    a {
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .poster_menu {
+        margin: auto;
+        width: 255px;
+        padding: 0;
+    }
+
+    .service_list {
+        padding-left: 0;
+        margin-top: 50px;
+    }
+
+    .service_list li {
+        font-family: Calibry, sans-serif;
+        display: block;
+        font-size: 0.9375rem;
+        font-weight: bold;
+        width: auto;
+        height: 31px;
+        padding: 5px 0 0 24px;
+        margin-top: 1px;
+    }
+
+    .service_list li:before {
+        content: url("images/galochka.png");
+    }
+
+    .service_list li:nth-of-type(2n) {
+        background: #f5f5f5;
+    }
+
+    .service_list li:nth-of-type(2n+1) {
+        background: rgba(204, 228, 250, 0.42);
+    }
+
+    .service_list li a {
+        color: #999999;
+    }
+
+    .poster_button_blue, .poster_button_green {
+        background-color: #407cb3;
+        border-bottom: solid #294164 2px;
+    }
+
+    .poster_button_orange {
+        background-color: #ee6d1a;
+        border-bottom: solid #a54e28 2px;
+    }
+
+    .poster_button_blue,
+    .poster_button_orange,
+    .poster_button_green {
+        font-family: 'Open Sans', sans-serif;
+        margin: auto;
+        width: 251px;
+        height: 31px;
+        text-align: center;
+        padding-top: 5px;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .poster_button_blue a,
+    .poster_button_orange a,
+    .poster_button_green a {
+        color: white;
+        width: 251px;
+        height: 17px;
+        display: block;
+        padding: 2px 0 5px 0;
+    }
+
+    /*Pricing END*/
+    /*Clients says*/
+    .clients_says {
+        height: 312px;
+        background-image: url("images/client_says.png");
+    }
+
+    .question {
+        font-family: 'Oswald', sans-serif;
+        margin: 0;
+        padding: 20px 0 0 0;
+    }
+
+    .clients_says p {
+        font-family: 'Futura BT Book', sans-serif;
+        text-align: center;
+    }
+
+    .orange {
+        color: #ff901c;
+        font-size: 2.5rem;
+    }
+
+    .blue {
+        color: #3a699a;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+    .poster {
+        /*Dobavit' otstup*/
+        width: 85.7%; /*Popravit'*/
+        margin: auto;
+    }
+
+    .foto_woman,
+    .comment_woman,
+    .foto_man,
+    .comment_man {
+        float: left;
+        position: relative;
+    }
+
+    .comment_woman,
+    .comment_man {
+        background-color: aliceblue;
+        margin: 0 45px 0 0;
+        width: 29%;
+        height: 80px;
+        padding: 10px;
+        left: 18px;
+    }
+
+    .foto_woman:after,
+    .foto_man:after {
+        content: "";
+        color: white;
+        width: 0;
+        height: 0;
+        border-right: solid aliceblue 14px;
+        border-top: solid transparent 10px;
+        border-left: solid transparent 4px;
+        border-bottom: solid transparent 10px;
+        position: absolute;
+        margin: 36px 0 0 0;
+    }
+
+    .clients_says_name {
+        font-family: 'Open Sans', sans-serif;
+        font-style: italic;
+        color: #3070a8;
+        font-weight: bold;
+        font-size: 0.65625rem;
+    }
+
+    .empty {
+        color: aliceblue;
+        letter-spacing: 1px;
+    }
+
+    .report {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.65625rem;
+        color: #666666;
+    }
+
+    hr {
+        border: 0.1rem dotted #c2c2c2;
+    }
+
+    /*Clients says END*/
+    /*Map*/
+    .map {
+        height: 335px;
+        margin: 0;
+        background-color: white;
+    }
+
+    .contacts {
+        /*Pomenyat' width i otstup*/
+        width: 42.85715%;
+        height: 335px;
+        position: relative;
+        float: left;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        color: #666666;
+        line-height: 0.1rem;
+        margin: 0 auto;
+        margin-left: 7.14285%;
+    }
+
+    .flag {
+        position: relative;
+    }
+
+    .flag:before {
+        content: url("images/flag.png");
+        position: relative;
+        top: 10px;
+        padding-right: 50px;
+    }
+
+    .phone {
+        position: relative;
+    }
+
+    .phone:before {
+        content: url("images/phone.png");
+        position: relative;
+        top: 10px;
+        padding-right: 54px;
+    }
+
+    .mail {
+        position: relative;
+    }
+
+    .mail:before {
+        content: url("images/mail.png");
+        position: relative;
+        top: 5px;
+        padding-right: 54px;
+    }
+
+    .empty_icon {
+        position: relative;
+        left: 80px;
+    }
+
+    .social_icons img {
+        padding-right: 20px;
+    }
+
+    #map-canvas {
+        width: 50%;
+        height: 335px;
+        background-color: #CCC;
+        position: relative;
+        float: left;
+    }
+
+    /*Map END*/
+    /*Footer*/
+    footer {
+        height: 104px;
+        background-color: #3070a8;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1rem;
+    }
+
+    .footer_comment {
+        margin: 0;
+        padding: 25px;
+    }
+
+    .footer_normal {
+        color: white;
+    }
+
+    span.footer_bold {
+        color: white;
+        font-weight: 900;
+    }
+
+    .footer_bold_grey {
+        font-weight: 900;
+        color: #26435d;
+    }
+}
+
+/*Footer END*/
+
+@media screen and (max-width: 1280px) and (min-width: 799px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    header {
+        height: 116px;
+        background-color: white;
+    }
+
+    /*Logo*/
+    .logo {
+        position: relative;
+        float: left;
+        width: 35%;
+        text-align: right;
+        padding: 35px 0 0 0;
+        margin: 0;
+        font-family: 'Futura BT Book', sans-serif;
+    }
+
+    .company {
+        color: #ee8129;
+        font-size: 2.25rem;
+    }
+
+    .name {
+        color: #3070a8;
+        font-size: 2.25rem;
+        font-weight: bolder;
+    }
+
+    /*Menu*/
+    ul {
+        position: relative;
+        padding-top: 0;
+        margin: 0;
+        font-family: MyriadPro, sans-serif;
+        overflow: hidden;
+    }
+
+    .banner_navigation li {
+        display: block;
+        background-color: white;
+        float: left;
+        margin-top: 70px;
+        padding: 0 11px 16px 11px;
+    }
+
+    .banner_navigation li a {
+        color: #d6d6d6;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.2rem;
+    }
+
+    .banner_navigation li a:hover {
+        color: #3070a8;
+    }
+
+    .banner_navigation li:hover {
+        border-bottom: solid #3070a8 3px;
+    }
+
+    /*Banner*/
+    .banner {
+        height: 505px;
+        background-size: 100% 100%;
+        background: url("images/banner.png") no-repeat;
+        color: white;
+        text-align: center;
+        padding-top: 80px;
+    }
+
+    .banner_first_line {
+        font-family: 'Futura BT Book', sans-serif;
+        font-size: 2.25rem;
+        margin: 0;
+    }
+
+    .banner_second_line {
+        font-family: 'Futura BT Book', sans-serif;
+        font-size: 2.5rem;
+    }
+
+    .banner_third_line {
+        font-family: Calibry, sans-serif;
+        font-style: italic;
+        font-size: 1.25rem;
+    }
+
+    .button a {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1rem;
+        display: inline-block;
+        width: 245px;
+        height: 41px;
+        padding: 22px 0 0 0;
+        text-decoration: none;
+        outline: solid white 1px;
+        color: white;
+        z-index: 10;
+    }
+
+    .button a:hover {
+        outline: solid #1b3d5d 1px;
+        background-color: rgba(255, 255, 255, 0.44);
+        color: #1b3d5d;
+        font-weight: bold;
+    }
+
+    /*Banner END*/
+    /*Services*/
+    .services {
+        height: 566px;
+        margin: 0;
+        background-color: #ffffff;
+    }
+
+    .services_container {
+        width: 85.7%; /*Popravit'*/
+        margin: auto;
+    }
+
+    .services_name {
+        font-family: "Trebuchet MS", sans-serif;
+        font-size: 1.875rem;
+        color: #41525c;
+        text-align: center;
+        margin-top: 0;
+        padding-top: 67px;
+    }
+
+    .services_property {
+        width: 33.3%;
+        float: left;
+        text-align: center;
+        margin: 77px 0 0 0;
+    }
+
+    .property_name {
+        font-family: 'Futura BT Book', sans-serif;
+        font-size: 1.6em;
+        color: #3070a8;
+        padding: 20px 0 0 0;
+        margin: 0;
+    }
+
+    .property_description {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.875rem;
+        color: #999999;
+        padding: 0 20px 0 20px;
+    }
+
+    /*Services END*/
+    /*Our benefit*/
+    .our_benefit {
+        height: 581px;
+        margin: 0;
+        background-size: cover;
+        background: url("images/middle_section.png") no-repeat;
+    }
+
+    .line_big_orange {
+        /*Popravit' otstup*/
+        font-family: 'Futura BT Book', sans-serif;
+        font-size: 1.625rem;
+        line-height: 1.846rem;
+        text-transform: uppercase;
+        color: #ee8129;
+        padding-top: 87px;
+        margin: 0 auto;
+        width: 85.7%;
+    }
+
+    .line_italic_white {
+        /*Popravit' otstup*/
+        font-family: 'Open Sans', sans-serif;
+        font-style: italic;
+        font-size: 1.1875rem;
+        line-height: 1.579;
+        color: #ffffff;
+        margin: 0 auto;
+        width: 85.7%;
+    }
+
+    .our_benefit_list {
+        /*Popravit' otstup*/
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.875rem;
+        line-height: 2.143;
+        color: #9d9d9d;
+        margin: 0 auto;
+        width: 85.7%;
+    }
+
+    .our_benefit_list li:hover {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.875rem;
+        line-height: 2.143;
+        color: #2c5c86;
+    }
+
+    /*Middle section END*/
+    /*Pricing*/
+    .pricing {
+        height: 710px;
+        background-color: white;
+    }
+
+    .pricing_name {
+        font-family: "Trebuchet MS", sans-serif;
+        font-size: 1.875rem;
+        color: #41525c;
+        text-align: center;
+        margin: 0;
+        padding: 67px;
+    }
+
+    .posters {
+        width: 885px;
+        height: 350px;
+        margin: auto;
+    }
+
+    .poster_container_blue,
+    .poster_container_green {
+        width: 289px;
+        height: 439px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(90, 90, 90, 0.56);
+        float: left;
+        margin: 10px 1px 10px 1px;
+        background: none;
+    }
+
+    .poster_container_orange {
+        border: solid #ee8129 3px;
+        border-radius: 10px;
+        margin: 0;
+        width: 295px;
+        height: 445px;
+        z-index: 10;
+        float: left;
+        background: none;
+    }
+
+    .poster_header_blue {
+        background-color: #63d0e7;
+    }
+
+    .poster_header_orange {
+        background-color: #ee8129;
+    }
+
+    .poster_header_green {
+        background-color: #4ad496;
+    }
+
+    .poster_header_blue,
+    .poster_header_orange,
+    .poster_header_green {
+        font-family: "Trebuchet MS", sans-serif;
+        height: 36px;
+        border-radius: 6px 6px 0 0;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .poster_body {
+        font-family: 'Futura BT Book', sans-serif;
+        font-size: 1.5rem;
+        height: 90px;
+        text-align: center;
+        padding: 7px 0 0 0;
+        color: #6d6d6d;
+    }
+
+    span.price {
+        font-size: 4.5rem;
+        font-weight: bolder;
+    }
+
+    sup {
+        display: inline-block;
+        position: absolute;
+        font-weight: bold;
+    }
+
+    .poster_body p {
+        display: inline-block;
+        height: 55px;
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
+
+    a {
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .poster_menu {
+        margin: auto;
+        width: 255px;
+        padding: 0;
+    }
+
+    .service_list {
+        padding-left: 0;
+        margin-top: 50px;
+    }
+
+    .service_list li {
+        font-family: Calibry, sans-serif;
+        display: block;
+        font-size: 0.9375rem;
+        font-weight: bold;
+        width: auto;
+        height: 31px;
+        padding: 5px 0 0 24px;
+        margin-top: 1px;
+    }
+
+    .service_list li:before {
+        content: url("images/galochka.png");
+    }
+
+    .service_list li:nth-of-type(2n) {
+        background: #f5f5f5;
+    }
+
+    .service_list li:nth-of-type(2n+1) {
+        background: rgba(204, 228, 250, 0.42);
+    }
+
+    .service_list li a {
+        color: #999999;
+    }
+
+    .poster_button_blue, .poster_button_green {
+        background-color: #407cb3;
+        border-bottom: solid #294164 2px;
+    }
+
+    .poster_button_orange {
+        background-color: #ee6d1a;
+        border-bottom: solid #a54e28 2px;
+    }
+
+    .poster_button_blue,
+    .poster_button_orange,
+    .poster_button_green {
+        font-family: 'Open Sans', sans-serif;
+        margin: auto;
+        width: 251px;
+        height: 31px;
+        text-align: center;
+        padding-top: 5px;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .poster_button_blue a,
+    .poster_button_orange a,
+    .poster_button_green a {
+        color: white;
+        width: 251px;
+        height: 17px;
+        display: block;
+        padding: 2px 0 5px 0;
+    }
+
+    /*Pricing END*/
+    /*Clients says*/
+    .clients_says {
+        height: 312px;
+        background-image: url("images/client_says.png");
+    }
+
+    .question {
+        font-family: 'Oswald', sans-serif;
+        margin: 0;
+        padding: 20px 0 0 0;
+    }
+
+    .clients_says p {
+        font-family: 'Futura BT Book', sans-serif;
+        text-align: center;
+    }
+
+    .orange {
+        color: #ff901c;
+        font-size: 2.5rem;
+    }
+
+    .blue {
+        color: #3a699a;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+    .poster {
+        /*Dobavit' otstup*/
+        width: 85.7%; /*Popravit'*/
+        margin: auto;
+    }
+
+    .foto_woman,
+    .comment_woman,
+    .foto_man,
+    .comment_man {
+        float: left;
+        position: relative;
+    }
+
+    .comment_woman,
+    .comment_man {
+        background-color: aliceblue;
+        margin: 0 60px 0 0;
+        width: 30%;
+        height: 80px;
+        padding: 10px;
+        left: 18px;
+    }
+
+    .foto_woman:after,
+    .foto_man:after {
+        content: "";
+        color: white;
+        width: 0;
+        height: 0;
+        border-right: solid aliceblue 14px;
+        border-top: solid transparent 10px;
+        border-left: solid transparent 4px;
+        border-bottom: solid transparent 10px;
+        position: absolute;
+        margin: 36px 0 0 0;
+    }
+
+    .clients_says_name {
+        font-family: 'Open Sans', sans-serif;
+        font-style: italic;
+        color: #3070a8;
+        font-weight: bold;
+        font-size: 0.65625rem;
+    }
+
+    .empty {
+        color: aliceblue;
+        letter-spacing: 8px;
+    }
+
+    .report {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.65625rem;
+        color: #666666;
+    }
+
+    hr {
+        border: 0.1rem dotted #c2c2c2;
+    }
+
+    /*Clients says END*/
+    /*Map*/
+    .map {
+        height: 335px;
+        margin: 0;
+        background-color: white;
+    }
+
+    .contacts {
+        /*Pomenyat' width i otstup*/
+        width: 42.85715%;
+        height: 335px;
+        position: relative;
+        float: left;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        color: #666666;
+        line-height: 0.1rem;
+        margin: 0 auto;
+        margin-left: 7.14285%;
+    }
+
+    .flag {
+        position: relative;
+    }
+
+    .flag:before {
+        content: url("images/flag.png");
+        position: relative;
+        top: 10px;
+        padding-right: 50px;
+    }
+
+    .phone {
+        position: relative;
+    }
+
+    .phone:before {
+        content: url("images/phone.png");
+        position: relative;
+        top: 10px;
+        padding-right: 54px;
+    }
+
+    .mail {
+        position: relative;
+    }
+
+    .mail:before {
+        content: url("images/mail.png");
+        position: relative;
+        top: 5px;
+        padding-right: 54px;
+    }
+
+    .empty_icon {
+        position: relative;
+        left: 80px;
+    }
+
+    .social_icons img {
+        padding-right: 20px;
+    }
+
+    #map-canvas {
+        width: 50%;
+        height: 335px;
+        background-color: #CCC;
+        position: relative;
+        float: left;
+    }
+
+    /*Map END*/
+    /*Footer*/
+    footer {
+        height: 104px;
+        background-color: #3070a8;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1rem;
+    }
+
+    .footer_comment {
+        margin: 0;
+        padding: 25px;
+    }
+
+    .footer_normal {
+        color: white;
+    }
+
+    span.footer_bold {
+        color: white;
+        font-weight: 900;
+    }
+
+    .footer_bold_grey {
+        font-weight: 900;
+        color: #26435d;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 479px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    header {
+        height: 116px;
+        background-color: white;
+    }
+
+    /*Logo*/
+    .logo {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        padding: 28px 0 0 0;
+        margin: 0;
+        font-family: 'Futura BT Book', sans-serif;
+    }
+
+    .company {
+        color: #ee8129;
+        font-size: 2.25rem;
+    }
+
+    .name {
+        color: #3070a8;
+        font-size: 2.25rem;
+        font-weight: bolder;
+    }
+
+    /*Menu*/
+    ul {
+        position: relative;
+        padding: 5px 0 0 5px;
+        margin: 0;
+        font-family: MyriadPro, sans-serif;
+        overflow: hidden;
+    }
+
+    .banner_navigation li {
+        display: block;
+        background-color: white;
+        float: left;
+        margin-top: 9px;
+        padding: 0 5px 5px 5px;
+    }
+
+    .banner_navigation li a {
+        color: #d6d6d6;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1rem;
+    }
+
+    .banner_navigation li a:hover {
+        color: #3070a8;
+    }
+
+    .banner_navigation li:hover {
+        border-bottom: solid #3070a8 3px;
+    }
+
+    /*Banner*/
+    .banner {
+        height: 505px;
+        background-size: 100% 100%;
+        background: url("images/banner.png") no-repeat;
+        color: white;
+        text-align: center;
+        padding-top: 80px;
+    }
+
+    .banner_first_line {
+        font-family: 'Futura BT Book', sans-serif;
+        font-size: 2.25rem;
+        margin: 0;
+    }
+
+    .banner_second_line {
+        font-family: 'Futura BT Book', sans-serif;
+        font-size: 2.5rem;
+    }
+
+    .banner_third_line {
+        font-family: Calibry, sans-serif;
+        font-style: italic;
+        font-size: 1.25rem;
+    }
+
+    .button a {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1rem;
+        display: inline-block;
+        width: 245px;
+        height: 41px;
+        padding: 22px 0 0 0;
+        text-decoration: none;
+        outline: solid white 1px;
+        color: white;
+        z-index: 10;
+    }
+
+    .button a:hover {
+        outline: solid #1b3d5d 1px;
+        background-color: rgba(255, 255, 255, 0.44);
+        color: #1b3d5d;
+        font-weight: bold;
+    }
+
+    /*Banner END*/
+    /*Services*/
+    .services {
+        height: 566px;
+        margin: 0;
+        background-color: #ffffff;
+    }
+
+    .services_container {
+        width: 85.7%; /*Popravit'*/
+        margin: auto;
+    }
+
+    .services_name {
+        font-family: "Trebuchet MS", sans-serif;
+        font-size: 1.5rem;
+        color: #41525c;
+        text-align: center;
+        margin-top: 0;
+        padding-top: 35px;
+    }
+
+    .services_property {
+        width: 33.3%;
+        float: left;
+        text-align: center;
+        margin: 77px 0 0 0;
+    }
+
+    .property_name {
+        font-family: 'Futura BT Book', sans-serif;
+        font-size: 1.5em;
+        color: #3070a8;
+        padding: 20px 0 0 0;
+        margin: 0;
+    }
+
+    .property_description {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.75rem;
+        color: #999999;
+        padding: 0 20px 0 20px;
+    }
+
+    /*Services END*/
+    /*Our benefit*/
+    .our_benefit {
+        height: 581px;
+        margin: 0;
+        background-size: cover;
+        background: url("images/middle_section.png") no-repeat;
+    }
+
+    .line_big_orange {
+        /*Popravit' otstup*/
+        font-family: 'Futura BT Book', sans-serif;
+        font-size: 1.5rem;
+        line-height: 1.846rem;
+        text-transform: uppercase;
+        color: #ee8129;
+        padding-top: 50px;
+        margin: 0 auto;
+        width: 85.7%;
+    }
+
+    .line_italic_white {
+        /*Popravit' otstup*/
+        font-family: 'Open Sans', sans-serif;
+        font-style: italic;
+        font-size: 1.1rem;
+        line-height: 1.7rem;
+        color: #ffffff;
+        margin: 0 auto;
+        width: 85.7%;
+    }
+
+    .our_benefit_list {
+        /*Popravit' otstup*/
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.83rem;
+        line-height: 1.7rem;
+        color: #9d9d9d;
+        margin: 0 auto;
+        width: 85.7%;
+    }
+
+    /*Middle section END*/
+    /*Pricing*/
+    .pricing {
+        height: 1600px;
+        background-color: white;
+    }
+
+    .pricing_name {
+        font-family: "Trebuchet MS", sans-serif;
+        font-size: 1.5rem;
+        color: #41525c;
+        text-align: center;
+        margin: 0;
+        padding: 67px;
+    }
+
+    .posters {
+        width: 310px;
+        height: 350px;
+        margin: auto;
+    }
+
+    .poster_container_blue,
+    .poster_container_green {
+        width: 289px;
+        height: 439px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(90, 90, 90, 0.56);
+        float: left;
+        background: none;
+        margin: 4px;
+    }
+
+    .poster_container_orange {
+        border: solid #ee8129 3px;
+        border-radius: 10px;
+        margin: 0;
+        width: 295px;
+        height: 445px;
+        z-index: 10;
+        float: left;
+        background: none;
+
+    }
+
+    .poster_header_blue {
+        background-color: #63d0e7;
+    }
+
+    .poster_header_orange {
+        background-color: #ee8129;
+    }
+
+    .poster_header_green {
+        background-color: #4ad496;
+    }
+
+    .poster_header_blue,
+    .poster_header_orange,
+    .poster_header_green {
+        font-family: "Trebuchet MS", sans-serif;
+        height: 36px;
+        border-radius: 6px 6px 0 0;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .poster_body {
+        font-family: 'Futura BT Book', sans-serif;
+        font-size: 1.5rem;
+        height: 90px;
+        text-align: center;
+        padding: 7px 0 0 0;
+        color: #6d6d6d;
+    }
+
+    span.price {
+        font-size: 4.5rem;
+        font-weight: bolder;
+    }
+
+    sup {
+        display: inline-block;
+        position: absolute;
+        font-weight: bold;
+    }
+
+    .poster_body p {
+        display: inline-block;
+        height: 55px;
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
+
+    a {
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .poster_menu {
+        margin: auto;
+        width: 255px;
+        padding: 0;
+    }
+
+    .service_list {
+        padding-left: 0;
+        margin-top: 50px;
+    }
+
+    .service_list li {
+        font-family: Calibry, sans-serif;
+        display: block;
+        font-size: 0.9375rem;
+        font-weight: bold;
+        width: auto;
+        height: 31px;
+        padding: 5px 0 0 24px;
+        margin-top: 1px;
+    }
+
+    .service_list li:before {
+        content: url("images/galochka.png");
+    }
+
+    .service_list li:nth-of-type(2n) {
+        background: #f5f5f5;
+    }
+
+    .service_list li:nth-of-type(2n+1) {
+        background: rgba(204, 228, 250, 0.42);
+    }
+
+    .service_list li a {
+        color: #999999;
+    }
+
+    .poster_button_blue, .poster_button_green {
+        background-color: #407cb3;
+        border-bottom: solid #294164 2px;
+    }
+
+    .poster_button_orange {
+        background-color: #ee6d1a;
+        border-bottom: solid #a54e28 2px;
+    }
+
+    .poster_button_blue,
+    .poster_button_orange,
+    .poster_button_green {
+        font-family: 'Open Sans', sans-serif;
+        margin: auto;
+        width: 251px;
+        height: 31px;
+        text-align: center;
+        padding-top: 5px;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .poster_button_blue a,
+    .poster_button_orange a,
+    .poster_button_green a {
+        color: white;
+        width: 251px;
+        height: 17px;
+        display: block;
+        padding: 2px 0 5px 0;
+    }
+
+    /*Pricing END*/
+    /*Clients says*/
+    .clients_says {
+        height: 320px;
+        background-image: url("images/client_says.png");
+    }
+
+    .question {
+        font-family: 'Oswald', sans-serif;
+        margin: 0;
+        padding: 10px 0 0 0;
+    }
+
+    .clients_says p {
+        font-family: 'Futura BT Book', sans-serif;
+        text-align: center;
+    }
+
+    .orange {
+        color: #ff901c;
+        font-size: 1.5rem;
+    }
+
+    .blue {
+        color: #3a699a;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .poster {
+        /*Dobavit' otstup*/
+        width: 85.7%; /*Popravit'*/
+        margin: auto;
+    }
+
+    .foto_woman,
+    .foto_man {
+        padding: 0 5px 0 5px;
+        width: 100px;
+        float: left;
+    }
+
+    .comment_woman,
+    .comment_man {
+        background-color: aliceblue;
+        margin: 0 0 5px 122px;
+        width: 75%;
+        height: 80px;
+        padding: 10px;
+    }
+
+    .foto_man {
+        clear: left;
+    }
+
+    .foto_woman:after,
+    .foto_man:after {
+        content: "";
+        color: white;
+        width: 0;
+        height: 0;
+        border-right: solid aliceblue 14px;
+        border-top: solid transparent 10px;
+        border-left: solid transparent 4px;
+        border-bottom: solid transparent 10px;
+        position: absolute;
+        margin: 36px 0 0 0;
+    }
+
+    .clients_says_name {
+        font-family: 'Open Sans', sans-serif;
+        font-style: italic;
+        color: #3070a8;
+        font-weight: bold;
+        font-size: 0.65625rem;
+    }
+
+    .empty {
+        color: aliceblue;
+        letter-spacing: 8px;
+    }
+
+    .report {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.65625rem;
+        color: #666666;
+    }
+
+    hr {
+        border: 0.1rem dotted #c2c2c2;
+        width: 350px;
+    }
+
+    /*Clients says END*/
+    /*Map*/
+    .map {
+        height: 335px;
+        margin: 0;
+        background-color: white;
+    }
+
+    .contacts {
+        /*Pomenyat' width i otstup*/
+        width: 42.85715%;
+        height: 335px;
+        position: relative;
+        float: left;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        color: #666666;
+        line-height: 0.1rem;
+        margin: 0 auto;
+        margin-left: 7.14285%;
+    }
+
+    .flag {
+        position: relative;
+    }
+
+    .flag:before {
+        content: url("images/flag.png");
+        position: relative;
+        top: 10px;
+        padding-right: 50px;
+    }
+
+    .phone {
+        position: relative;
+    }
+
+    .phone:before {
+        content: url("images/phone.png");
+        position: relative;
+        top: 10px;
+        padding-right: 54px;
+    }
+
+    .mail {
+        position: relative;
+    }
+
+    .mail:before {
+        content: url("images/mail.png");
+        position: relative;
+        top: 5px;
+        padding-right: 54px;
+    }
+
+    .empty_icon {
+        position: relative;
+        left: 80px;
+    }
+
+    .social_icons img {
+        padding-right: 20px;
+    }
+
+    #map-canvas {
+        width: 50%;
+        height: 335px;
+        background-color: #CCC;
+        position: relative;
+        float: left;
+    }
+
+    /*Map END*/
+    /*Footer*/
+    footer {
+        height: 104px;
+        background-color: #3070a8;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1rem;
+    }
+
+    .footer_comment {
+        margin: 0;
+        padding: 25px;
+    }
+
+    .footer_normal {
+        color: white;
+    }
+
+    span.footer_bold {
+        color: white;
+        font-weight: 900;
+    }
+
+    .footer_bold_grey {
+        font-weight: 900;
+        color: #26435d;
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 150px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    header {
+        height: 80px;
+        background-color: white;
+    }
+
+    /*Logo*/
+    .logo {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0 0 0;
+        margin: 0;
+        font-family: 'Futura BT Book', sans-serif;
+    }
+
+    .company {
+        color: #ee8129;
+        font-size: 1.5rem;
+    }
+
+    .name {
+        color: #3070a8;
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+
+    /*Menu*/
+    ul {
+        position: relative;
+        padding-top: 0;
+        padding-left: 5px;
+        margin: 0;
+        font-family: MyriadPro, sans-serif;
+        overflow: hidden;
+    }
+
+    .banner_navigation li {
+        display: block;
+        background-color: white;
+        float: left;
+        margin-top: 5px;
+        padding: 0 5px 5px 5px;
+    }
+
+    .banner_navigation li a {
+        color: #d6d6d6;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.55rem;
+    }
+
+    .banner_navigation li a:hover {
+        color: #3070a8;
+    }
+
+    .banner_navigation li:hover {
+        border-bottom: solid #3070a8 3px;
+    }
+
+    /*Banner*/
+    .banner {
+        height: 200px;
+        background-size: 100% 100%;
+        background: url("images/banner.png") no-repeat;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .banner_first_line {
+        font-family: 'Futura BT Book', sans-serif;
+        font-size: 0.85rem;
+        margin: 15px 0 0 0;
+    }
+
+    .banner_second_line {
+        font-family: 'Futura BT Book', sans-serif;
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .banner_third_line {
+        font-family: Calibry, sans-serif;
+        font-style: italic;
+        font-size: 0.55rem;
+        margin: 0;
+    }
+
+    .button a {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.5rem;
+        display: inline-block;
+        width: 120px;
+        height: 20px;
+        padding: 10px 0 0 0;
+        text-decoration: none;
+        outline: solid white 1px;
+        color: white;
+        z-index: 10;
+    }
+
+    /*Banner END*/
+    /*Services*/
+    .services {
+        height: 850px;
+        margin: 0;
+        background-color: #ffffff;
+    }
+
+    .services_container {
+        width: 85.7%; /*Popravit'*/
+        margin: auto;
+    }
+
+    .services_name {
+        font-family: "Trebuchet MS", sans-serif;
+        font-size: 1rem;
+        color: #41525c;
+        text-align: center;
+        margin-top: 0;
+        padding-top: 10px;
+    }
+
+    .services_property {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .property_name {
+        font-family: 'Futura BT Book', sans-serif;
+        font-size: 1em;
+        color: #3070a8;
+        padding: 0;
+        margin: 0;
+    }
+
+    .property_description {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.7rem;
+        color: #999999;
+        padding: 0;
+        margin: 0 0 5px 0;
+    }
+
+    /*Services END*/
+    /*Our benefit*/
+    .our_benefit {
+        height: 450px;
+        margin: 0;
+        background-size: cover;
+        background: url("images/middle_section.png") no-repeat;
+    }
+
+    .line_big_orange {
+        /*Popravit' otstup*/
+        font-family: 'Futura BT Book', sans-serif;
+        font-size: 1rem;
+        line-height: 1.846rem;
+        text-transform: uppercase;
+        color: #ee8129;
+        padding-top: 5px;
+        margin: 0 auto;
+        width: 85.7%;
+    }
+
+    .line_italic_white {
+        /*Popravit' otstup*/
+        font-family: 'Open Sans', sans-serif;
+        font-style: italic;
+        font-size: 0.85rem;
+        line-height: 1.579;
+        color: #ffffff;
+        margin: 0 auto;
+        width: 85.7%;
+    }
+
+    .our_benefit_list {
+        /*Popravit' otstup*/
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.6rem;
+        line-height: 2.143;
+        color: #9d9d9d;
+        margin: 0 auto;
+        width: 85.7%;
+    }
+
+    /*Middle section END*/
+    /*Pricing*/
+    .pricing {
+        width: 100%;
+        height: 1450px;
+        background-color: white;
+    }
+
+    .pricing_name {
+        font-family: "Trebuchet MS", sans-serif;
+        font-size: 1rem;
+        color: #41525c;
+        text-align: center;
+        margin: 0;
+        padding: 5px;
+    }
+
+    .posters {
+        width: 300px;
+        height: 1450px;
+        margin: auto;
+    }
+
+    .poster_container_blue,
+    .poster_container_green {
+        width: 289px;
+        height: 439px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(90, 90, 90, 0.56);
+        margin: 10px 14px 10px 15px;
+        background: none;
+    }
+
+    .poster_container_orange {
+        border: solid #ee8129 3px;
+        border-radius: 10px;
+        margin: 10px 12px 10px 12px;
+        width: 285px;
+        height: 445px;
+        z-index: 10;
+        background: none;
+    }
+
+    .poster_header_blue {
+        background-color: #63d0e7;
+    }
+
+    .poster_header_orange {
+        background-color: #ee8129;
+    }
+
+    .poster_header_green {
+        background-color: #4ad496;
+    }
+
+    .poster_header_blue,
+    .poster_header_orange,
+    .poster_header_green {
+        font-family: "Trebuchet MS", sans-serif;
+        height: 36px;
+        border-radius: 6px 6px 0 0;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .poster_body {
+        font-family: 'Futura BT Book', sans-serif;
+        font-size: 1.5rem;
+        height: 90px;
+        text-align: center;
+        padding: 7px 0 0 0;
+        color: #6d6d6d;
+    }
+
+    span.price {
+        font-size: 4.5rem;
+        font-weight: bolder;
+    }
+
+    sup {
+        display: inline-block;
+        position: absolute;
+        font-weight: bold;
+    }
+
+    .poster_body p {
+        display: inline-block;
+        height: 55px;
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
+
+    a {
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .poster_menu {
+        margin: auto;
+        width: 255px;
+        padding: 0;
+    }
+
+    .service_list {
+        padding-left: 0;
+        margin-top: 50px;
+    }
+
+    .service_list li {
+        font-family: Calibry, sans-serif;
+        display: block;
+        font-size: 0.9375rem;
+        font-weight: bold;
+        width: auto;
+        height: 31px;
+        padding: 5px 0 0 24px;
+        margin-top: 1px;
+    }
+
+    .service_list li:before {
+        content: url("images/galochka.png");
+    }
+
+    .service_list li:nth-of-type(2n) {
+        background: #f5f5f5;
+    }
+
+    .service_list li:nth-of-type(2n+1) {
+        background: rgba(204, 228, 250, 0.42);
+    }
+
+    .service_list li a {
+        color: #999999;
+    }
+
+    .poster_button_blue, .poster_button_green {
+        background-color: #407cb3;
+        border-bottom: solid #294164 2px;
+    }
+
+    .poster_button_orange {
+        background-color: #ee6d1a;
+        border-bottom: solid #a54e28 2px;
+    }
+
+    .poster_button_blue,
+    .poster_button_orange,
+    .poster_button_green {
+        font-family: 'Open Sans', sans-serif;
+        margin: auto;
+        width: 251px;
+        height: 31px;
+        text-align: center;
+        padding-top: 5px;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .poster_button_blue a,
+    .poster_button_orange a,
+    .poster_button_green a {
+        color: white;
+        width: 251px;
+        height: 17px;
+        display: block;
+        padding: 2px 0 5px 0;
+    }
+
+    /*Pricing END*/
+    /*Clients says*/
+    .clients_says {
+        height: 480px;
+        background-image: url("images/client_says.png");
+    }
+
+    .question {
+        font-family: 'Oswald', sans-serif;
+        margin: 0;
+        padding: 5px 0 0 0;
+    }
+
+    .clients_says p {
+        font-family: 'Futura BT Book', sans-serif;
+        text-align: center;
+    }
+
+    .orange {
+        color: #ff901c;
+        font-size: 1rem;
+    }
+
+    .blue {
+        color: #3a699a;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .poster {
+        /*Dobavit' otstup*/
+        width: 100%; /*Popravit'*/
+        margin: auto;
+    }
+
+    .foto_woman,
+    .foto_man {
+        padding: 0 2px 0 2px;
+        margin-left: 34%;
+    }
+
+    .comment_woman,
+    .comment_man {
+        background-color: aliceblue;
+        padding: 5px;
+        margin: 0 5px 5px 5px;
+    }
+
+    .clients_says_name {
+        font-family: 'Open Sans', sans-serif;
+        font-style: italic;
+        color: #3070a8;
+        font-weight: bold;
+        font-size: 0.6rem;
+    }
+
+    .empty {
+        color: aliceblue;
+        letter-spacing: 1px;
+    }
+
+    .report {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.6rem;
+        color: #666666;
+    }
+
+    hr {
+        border: 0.1rem dotted #c2c2c2;
+    }
+
+    /*Clients says END*/
+    /*Map*/
+    .map {
+        height: 560px;
+        margin: 0;
+        background-color: white;
+    }
+
+    .contacts {
+        /*Pomenyat' width i otstup*/
+        width: 92.85715%;
+        height: 280px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.7rem;
+        color: #666666;
+        line-height: 0.1rem;
+        margin: 0 auto;
+        margin-left: 7.14285%;
+    }
+
+    .flag {
+        position: relative;
+        margin: 0;
+    }
+
+    .flag:before {
+        content: url("images/flag.png");
+        position: relative;
+        top: 10px;
+        padding-right: 50px;
+    }
+
+    .phone {
+        position: relative;
+    }
+
+    .phone:before {
+        content: url("images/phone.png");
+        position: relative;
+        top: 10px;
+        padding-right: 54px;
+    }
+
+    .mail {
+        position: relative;
+    }
+
+    .mail:before {
+        content: url("images/mail.png");
+        position: relative;
+        top: 5px;
+        padding-right: 54px;
+    }
+
+    .empty_icon {
+        position: relative;
+        left: 80px;
+        width: 210px;
+    }
+
+    .social_icons img {
+        padding-right: 20px;
+    }
+
+    #map-canvas {
+        width: 100%;
+        height: 280px;
+        background-color: #CCC;
+    }
+
+    /*Map END*/
+    /*Footer*/
+    footer {
+        height: 104px;
+        background-color: #3070a8;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1rem;
+    }
+
+    .footer_comment {
+        margin: 0;
+        padding: 25px;
+    }
+
+    .footer_normal {
+        color: white;
+    }
+
+    span.footer_bold {
+        color: white;
+        font-weight: 900;
+    }
+
+    .footer_bold_grey {
+        font-weight: 900;
+        color: #26435d;
+    }
+}
+
+@media print {
+
+    body {
+        background-color: white;
+    }
+    .wrapper {
+        width: 100%;
+        margin: auto;
+        background-color: white;
+    }
+
+    header {
+        height: 90px;
+        background-color: white;
+    }
+
+    /*Logo*/
+    .logo {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0 0 0;
+        margin: 0;
+        font-family: 'Futura BT Book', sans-serif;
+    }
+
+    .company {
+        color: #ee8129;
+        font-size: 2.25rem;
+    }
+
+    .name {
+        color: #3070a8;
+        font-size: 2.25rem;
+        font-weight: bolder;
+    }
+
+    /*Menu*/
+    ul {
+        width: 0;
+        list-style: none;
+    }
+
+    .banner_navigation li a {
+        color: white;
+
+    }
+
+    /*Banner*/
+    .banner {
+        height: 440px;
+        background-color: white;
+        color: white;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .banner_first_line {
+        font-family: 'Futura BT Book', sans-serif;
+        font-size: 2.25rem;
+        margin: 0;
+        color: black;
+    }
+
+    .banner_second_line {
+        font-family: 'Futura BT Book', sans-serif;
+        font-size: 2.5rem;
+        color: black;
+    }
+
+    .banner_third_line {
+        font-family: Calibry, sans-serif;
+        font-style: italic;
+        font-size: 1.25rem;
+        color: black;
+    }
+
+    .button a {
+        color: white;
+    }
+
+    /*Banner END*/
+    /*Services*/
+    .services {
+        height: 740px;
+        margin: 0;
+        background-color: #ffffff;
+    }
+
+    .services_container {
+        width: 85.7%; /*Popravit'*/
+        margin: auto;
+    }
+
+    .services_name {
+        font-family: "Trebuchet MS", sans-serif;
+        font-size: 1.875rem;
+        color: #41525c;
+        text-align: center;
+        margin-top: 0;
+        padding-top: 25px;
+    }
+
+    .services_property {
+        width: 33.3%;
+        float: left;
+        text-align: center;
+        margin: 77px 0 0 0;
+    }
+
+    .property_name {
+        font-family: 'Futura BT Book', sans-serif;
+        font-size: 1.6em;
+        color: #3070a8;
+        padding: 20px 0 0 0;
+        margin: 0;
+    }
+
+    .property_description {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.875rem;
+        color: #999999;
+        padding: 0 20px 0 20px;
+    }
+
+    /*Services END*/
+    /*Our benefit*/
+    .our_benefit {
+        height: 581px;
+        margin: 0;
+        background-size: cover;
+        background-color: #dbdbdb;
+    }
+
+    .line_big_orange {
+        /*Popravit' otstup*/
+        font-family: 'Futura BT Book', sans-serif;
+        font-size: 1.625rem;
+        line-height: 1.846rem;
+        text-transform: uppercase;
+        color: #ee8129;
+        padding-top: 87px;
+        margin: 0 auto;
+        width: 85.7%;
+    }
+
+    .line_italic_white {
+        /*Popravit' otstup*/
+        font-family: 'Open Sans', sans-serif;
+        font-style: italic;
+        font-size: 1.1875rem;
+        line-height: 1.579;
+        color: #7f7f7f;
+        margin: 0 auto;
+        width: 85.7%;
+    }
+
+    .our_benefit_list {
+        /*Popravit' otstup*/
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.875rem;
+        line-height: 2.143;
+        color: #9d9d9d;
+        margin: 0 auto;
+        width: 85.7%;
+    }
+
+    .our_benefit_list li:hover {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.875rem;
+        line-height: 2.143;
+        color: #2c5c86;
+    }
+
+    /*Middle section END*/
+    /*Pricing*/
+    .pricing {
+        height: 710px;
+        background-color: white;
+    }
+
+    .pricing_name {
+        font-family: "Trebuchet MS", sans-serif;
+        font-size: 1.875rem;
+        color: #41525c;
+        text-align: center;
+        margin: 0;
+        padding: 15px;
+    }
+
+    .posters {
+        width: 885px;
+        height: 350px;
+        margin: auto;
+    }
+
+    .poster_container_blue,
+    .poster_container_green {
+        width: 289px;
+        height: 439px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(90, 90, 90, 0.56);
+        float: left;
+        margin: 10px 1px 10px 1px;
+        background: none;
+    }
+
+    .poster_container_orange {
+        border: solid #ee8129 3px;
+        border-radius: 10px;
+        margin: 0;
+        width: 295px;
+        height: 445px;
+        z-index: 10;
+        float: left;
+        background: none;
+    }
+
+    .poster_header_blue {
+        background-color: #63d0e7;
+    }
+
+    .poster_header_orange {
+        background-color: #ee8129;
+    }
+
+    .poster_header_green {
+        background-color: #4ad496;
+    }
+
+    .poster_header_blue,
+    .poster_header_orange,
+    .poster_header_green {
+        font-family: "Trebuchet MS", sans-serif;
+        height: 36px;
+        border-radius: 6px 6px 0 0;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .poster_body {
+        font-family: 'Futura BT Book', sans-serif;
+        font-size: 1.5rem;
+        height: 90px;
+        text-align: center;
+        padding: 7px 0 0 0;
+        color: #6d6d6d;
+    }
+
+    span.price {
+        font-size: 4.5rem;
+        font-weight: bolder;
+    }
+
+    sup {
+        display: inline-block;
+        position: absolute;
+        font-weight: bold;
+    }
+
+    .poster_body p {
+        display: inline-block;
+        height: 55px;
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
+
+    a {
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .poster_menu {
+        margin: auto;
+        width: 255px;
+        padding: 0;
+    }
+
+    .service_list {
+        padding-left: 0;
+        margin-top: 50px;
+    }
+
+    .service_list li {
+        font-family: Calibry, sans-serif;
+        display: block;
+        font-size: 0.8rem;
+        font-weight: bold;
+        width: auto;
+        height: 31px;
+        padding: 5px 0 0 24px;
+        margin-top: 1px;
+    }
+
+    .service_list li:before {
+        content: url("images/galochka.png");
+    }
+
+    .service_list li:nth-of-type(2n) {
+        background: #f5f5f5;
+    }
+
+    .service_list li:nth-of-type(2n+1) {
+        background: rgba(204, 228, 250, 0.42);
+    }
+
+    .service_list li a {
+        color: #999999;
+    }
+
+    .poster_button_blue, .poster_button_green {
+        background-color: #407cb3;
+        border-bottom: solid #294164 2px;
+    }
+
+    .poster_button_orange {
+        background-color: #ee6d1a;
+        border-bottom: solid #a54e28 2px;
+    }
+
+    .poster_button_blue,
+    .poster_button_orange,
+    .poster_button_green {
+        font-family: 'Open Sans', sans-serif;
+        margin: auto;
+        width: 251px;
+        height: 31px;
+        text-align: center;
+        padding-top: 5px;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .poster_button_blue a,
+    .poster_button_orange a,
+    .poster_button_green a {
+        color: white;
+        width: 251px;
+        height: 17px;
+        display: block;
+        padding: 2px 0 5px 0;
+    }
+
+    /*Pricing END*/
+    /*Clients says*/
+    .clients_says {
+        width: 0;
+        height: 0;
+        visibility: hidden;
+    }
+
+    /*Clients says END*/
+    /*Map*/
+    .map {
+        height: 335px;
+        margin: 0;
+        background-color: white;
+    }
+
+    .contacts {
+        /*Pomenyat' width i otstup*/
+        width: 42.85715%;
+        height: 335px;
+        position: relative;
+        float: left;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        color: #666666;
+        line-height: 0.1rem;
+        margin: 0 auto;
+        margin-left: 7.14285%;
+    }
+
+    .flag {
+        position: relative;
+    }
+
+    .flag:before {
+        content: url("images/flag.png");
+        position: relative;
+        top: 10px;
+        padding-right: 50px;
+    }
+
+    .phone {
+        position: relative;
+    }
+
+    .phone:before {
+        content: url("images/phone.png");
+        position: relative;
+        top: 10px;
+        padding-right: 54px;
+    }
+
+    .mail {
+        position: relative;
+    }
+
+    .mail:before {
+        content: url("images/mail.png");
+        position: relative;
+        top: 5px;
+        padding-right: 54px;
+    }
+
+    .empty_icon {
+        position: relative;
+        left: 80px;
+    }
+
+    .social_icons img {
+        padding-right: 20px;
+    }
+
+    #map-canvas {
+        width: 50%;
+        height: 335px;
+        background-color: #CCC;
+        position: relative;
+        float: left;
+    }
+
+    /*Map END*/
+    /*Footer*/
+    footer {
+        width: 0;
+        height: 0;
+        visibility: hidden;
+    }
+
+}
+
+/*Footer END*/
+

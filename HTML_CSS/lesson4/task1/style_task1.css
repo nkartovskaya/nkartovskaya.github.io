@@ -1,0 +1,32 @@
+div {
+    background-color: #a562f2;
+    width: 900px;
+    margin: auto;
+    height: 35px;
+    box-sizing: border-box;
+}
+ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    width: auto;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    font-family: Impact;
+    color: white;
+    display: inline-block;
+    height: 30px;
+    padding: 5px 15px 0 15px;
+}
+li a:hover {
+    color: darkgrey;
+}
+ul li:hover {
+    box-sizing: border-box;
+    background-color: #e3e3e3;
+    outline: solid #e3e3e3 1px;
+    box-shadow: 0px 1px 1px #cacaca;
+    height: 35px;
+}

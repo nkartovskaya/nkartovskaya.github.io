@@ -1,0 +1,164 @@
+.poster_container_first,
+.poster_container_second,
+.poster_container_third {
+    width: 200px;
+    height: 320px;
+    font-family: "Trebuchet MS", sans-serif;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(90, 90, 90, 0.56);
+    float: left;
+    margin: 10px 1px 10px 1px;
+    -webkit-transition: width 0.3s;
+    -moz-transition: width 0.3s;
+    -ms-transition: width 0.3s;
+    -o-transition: width 0.3s;
+    transition: width 0.3s;
+}
+
+.poster_header_first {
+    background-color: #63d0e7;
+}
+
+.poster_header_second {
+    background-color: #e06b1a;
+}
+
+.poster_header_third {
+    background-color: #4ad496;
+}
+
+.poster_header_first,
+.poster_header_second,
+.poster_header_third {
+    height: 23px;
+    border-radius: 6px 6px 0 0;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.poster_body {
+    height: 90px;
+    text-align: center;
+    padding: 7px 0 0 0;
+    color: #6d6d6d;
+}
+
+span.price {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+sup {
+    display: inline-block;
+    position: absolute;
+    font-weight: bold;
+}
+
+p {
+    display: inline-block;
+    height: 55px;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.poster_menu {
+    margin: auto;
+    width: 180px;
+    padding: 0;
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul li {
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+    width: auto;
+    height: 18px;
+    padding: 3px 0 0 24px;
+    margin-top: 1px;
+}
+
+ul li:before {
+    content: url("images/galochka.png");
+}
+
+ul li:nth-of-type(2n) {
+    background: #f5f5f5;
+}
+
+ul li:nth-of-type(2n+1) {
+    background: rgba(204, 228, 250, 0.42);
+}
+
+ul li a {
+    color: #999999;
+}
+
+.poster_button_first,
+.poster_button_third {
+    background-color: #407cb3;
+    border-bottom: solid #294164 2px;
+}
+
+.poster_button_second {
+    background-color: #ee6d1a;
+    border-bottom: solid #a54e28 2px;
+}
+
+.poster_button_first,
+.poster_button_second,
+.poster_button_third {
+    margin: auto;
+    width: 180px;
+    height: 24px;
+    text-align: center;
+    padding-top: 9px;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.poster_button_first a,
+.poster_button_second a,
+.poster_button_third a {
+    color: white;
+    width: 170px;
+    height: 17px;
+    display: block;
+    padding: 2px 0 5px 0;
+}
+
+.poster_container_first:hover {
+    border: solid #63d0e7 3px;
+}
+
+.poster_container_second:hover {
+    border: solid #e06b1a 3px;
+
+}
+
+.poster_container_third:hover {
+    border: solid #4ad496 3px;
+}
+
+.poster_container_first:hover,
+.poster_container_second:hover,
+.poster_container_third:hover {
+    border-radius: 10px;
+    margin: 0;
+    width: 210px;
+    height: 330px;
+    z-index: 10;
+}
+

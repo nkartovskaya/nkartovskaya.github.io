@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task2</title>
+    <link rel="stylesheet" type="text/css" href="style_task2.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+        function initialize() {
+            var mapCanvas = document.getElementById('map-canvas');
+            var mapOptions = {
+                center: new google.maps.LatLng(44.5403, -78.5463),
+                zoom: 8,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+            var map = new google.maps.Map(mapCanvas, mapOptions)
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <h1 class="logo"><span class="company">Company&nbsp;</span><span class="name">NAME</span></h1>
+        <nav>
+            <ul class="banner_navigation">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li class="next_line"><a href="#">SERVICES</a></li>
+                <li><a href="#">PRICING</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Banner-->
+    <section class="banner">
+        <h2 class="banner_first_line">We are specialists in</h2><br>
+
+        <h2 class="banner_second_line">RESPONSIVE DESIGHS, STATIONARY <br>AND WORDPRESS THEMES</h2><br>
+
+        <p class="banner_third_line">Lorem Ipsum is simply dummy text of the printing and typesetting<br> industry.
+            Lorem Ipsum has been the industry's standard dummy text</p><br>
+        <span class="button"><a href="#">BUTTON NAME</a></span>
+    </section>
+    <!--Services-->
+    <section class="services">
+        <h2 class="services_name">LOREM IPSUM IS SIMPLY DUMMY TEXT OF THE PRINTING</h2>
+
+        <div class="services_container">
+            <div class="services_property">
+                <div><img src="images/2.png"></div>
+                <h3 class="property_name">PROTECT</h3><br>
+
+                <p class="property_description">100% of the customer funds are stored offline in secure cold storage.
+                    We offer two factor authentication on all accounts, mobile alerts and delays
+                    withdrawals, and spending and transfer limits.</p>
+            </div>
+            <div class="services_property">
+                <div><img src="images/2.png"></div>
+                <h3 class="property_name">ALERT</h3><br>
+
+                <p class="property_description">100% of the customer funds are stored offline in secure cold storage.
+                    We offer two factor authentication on all accounts, mobile alerts and delays
+                    withdrawals, and spending and transfer limits.</p>
+            </div>
+            <div class="services_property">
+                <div><img src="images/3.png"></div>
+                <h3 class="property_name">DETECT</h3><br>
+
+                <p class="property_description">100% of the customer funds are stored offline in secure cold storage.
+                    We offer two factor authentication on all accounts, mobile alerts and delays
+                    withdrawals, and spending and transfer limits.</p>
+            </div>
+        </div>
+    </section>
+    <!--middle section-->
+    <section class="our_benefit">
+        <h2 class="line_big_orange">Lorem Ipsum is simply dummy text of the printing<br> and typesetting industry.
+            Lorem Ipsum has been....</h2><br>
+
+        <h3 class="line_italic_white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+        <br>
+        <ul class="our_benefit_list">
+            <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum<br>
+                has been the industry's standart dummy text of the<br> printing and typesetting industry.<br></li>
+            <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum<br>
+                has been the industry's standart dummy text<br></li>
+            <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum<br>
+                has been the industry's standart dummy text of the<br> printing and typesetting industry.<br></li>
+        </ul>
+    </section>
+    <!--pricing-->
+    <section class="pricing">
+        <h2 class="pricing_name">WE ARE A VERY FLEXIBLE OFFERS FOR YOU TO CHOOSE</h2>
+
+        <div class="posters">
+            <div class="poster_container_blue">
+                <div class="poster_header_blue">STANDART</div>
+                <div class="poster_body">
+                    <span class="iconic">ICONIC GRAPHICS</span><br>
+
+                    <p><sup>$</sup><span class="price">&nbsp;10</span><sub>&nbsp;Monthly</sub></p>
+                </div>
+                <div class="poster_menu">
+                    <ul class="service_list">
+                        <li><a href="#">&nbsp;&nbsp;&nbsp;Unmetered Traffic</a></li>
+                        <li><a href="#">&nbsp;&nbsp;&nbsp;Unlimited Domain</a></li>
+                        <li><a href="#">&nbsp;&nbsp;&nbsp;Unlimitad Databases</a></li>
+                        <li><a href="#">&nbsp;&nbsp;&nbsp;Unlimited e-Mails</a></li>
+                    </ul>
+                </div>
+                <div class="poster_button_blue"><a href="#">ENROLL TODAY</a></div>
+            </div>
+
+            <!-- 2 poster-->
+            <div class="poster_container_orange">
+                <div class="poster_header_orange">BEST VALUE</div>
+                <div class="poster_body">
+                    <span class="iconic">ICONIC GRAPHICS</span><br>
+
+                    <p><sup>$</sup><span class="price">&nbsp;25</span><sub>&nbsp;Monthly</sub></p>
+                </div>
+                <div class="poster_menu">
+                    <ul class="service_list">
+                        <li><a href="#">&nbsp;&nbsp;&nbsp;PHP, PERL, ASP, JSP</a></li>
+                        <li><a href="#">&nbsp;&nbsp;&nbsp;SEMI DEDICATED</a></li>
+                        <li><a href="#">&nbsp;&nbsp;&nbsp;Staging or Production</a></li>
+                        <li><a href="#">&nbsp;&nbsp;&nbsp;Unlimited e-Mails</a></li>
+                    </ul>
+                </div>
+                <div class="poster_button_orange"><a href="#">ENROLL TODAY</a></div>
+            </div>
+
+            <!-- 3 poster-->
+            <div class="poster_container_green">
+                <div class="poster_header_green">ULTIMATE</div>
+                <div class="poster_body">
+                    <span class="iconic">ICONIC GRAPHICS</span><br>
+
+                    <p><sup>$</sup><span class="price">&nbsp;35</span><sub>&nbsp;Monthly</sub></p>
+                </div>
+                <div class="poster_menu">
+                    <ul class="service_list">
+                        <li><a href="#">&nbsp;&nbsp;&nbsp;Semi Dedicated</a></li>
+                        <li><a href="#">&nbsp;&nbsp;&nbsp;1TB Storage</a></li>
+                        <li><a href="#">&nbsp;&nbsp;&nbsp;Faster Site, Better SEO</a></li>
+                        <li><a href="#">&nbsp;&nbsp;&nbsp;Unlimited e-Mails</a></li>
+                    </ul>
+                </div>
+                <div class="poster_button_green"><a href="#">ENROLL TODAY</a></div>
+            </div>
+        </div>
+    </section>
+    <!--clients says-->
+    <section class="clients_says">
+            <h2 class="question"><p><span class="orange">WHAT&nbsp;</span><span class="blue">CLIENT SAYS</span></p>
+            </h2>
+        <div class="poster">
+            <div class="foto_woman"><img src="images/client1.png"></div>
+            <div class="comment_woman">
+                <div class="clients_says_name">
+                    <span>- Stasya Trollo</span>
+                    <span class="empty">EMPTY BLOCK</span>
+                    <span>Customer</span>
+                </div>
+                <hr>
+                <span class="report">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
+            </div>
+            <div class="foto_man"><img src="images/client2.png"></div>
+            <div class="comment_man">
+                <div class="clients_says_name">
+                    <span>- David Soul</span>
+                    <span class="empty">EMPTY BLOCK</span>
+                    <span>Customer</span>
+                </div>
+                <hr>
+                <span class="report">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
+            </div>
+        </div>
+    </section>
+    <section class="map">
+        <div class="contacts">
+            <p class="flag">Iconic Graphics</p><br>
+            <p class="empty_icon">123 Main Street</p><br>
+            <p class="empty_icon">EastWest</p><br>
+            <p class="empty_icon">LHR 54500</p><br>
+            <p class="phone">012/345/6789</p><br>
+            <p class="mail">info@iconicgraphics.com</p>
+            <br>
+            <div class="social_icons">
+                <a href="https://www.facebook.com/"><img src="images/facebook.png"></a>
+                <a href=https://twitter.com/"><img src="images/twitter.png"></a>
+                <a href="https://www.linkedin.com/"><img src="images/linkedin.png"></a>
+            </div>
+        </div>
+        <div id="map-canvas"></div>
+    </section>
+    <footer>
+        <p class="footer_comment"><span class="footer_normal">Copyright &copy; 2014 </span><span class="footer_bold">Company Name. </span><span
+                class="footer_normal">All rights reserved.<br>
+        Designed by </span><span class="footer_bold_grey">IconicGraphics.com</span></p>
+    </footer>
+</div>
+</body>
+</html>
