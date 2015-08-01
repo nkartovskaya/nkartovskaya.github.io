@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Donuts</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="js.js"></script>
+</head>
+<body>
+<div id="form">
+    <form name="orderform">
+            <label>Форма заказа пончиков</label><br><br>
+            <input type="text" id="customerName" value="" placeholder="Имя"/><label id="errorName"></label><br><br>
+            <input type="text" id="cakedonuts" name="cakedonuts" value="" placeholder="Количество обычных пончиков"/><br><br>
+            <input type="text" id="glazeddonuts" name="glazeddonuts" value="" placeholder="Количество глазированых пончиков" onchange="updateOrder();"/><br><br>
+            <input type="text" id="subtotal" name="subtotal" value="" placeholder="Промежуточная сумма" onchange="updateOrder();"/><br><br>
+            <input type="text" id="tax" name="tax" value="" placeholder="Налог"/><br><br>
+            <input type="text" id="total" name="total" value="" placeholder="Сумма к оплате"/><br><br>
+            <input type="text" id="time" name="time" value="" placeholder="Время доставки"/><br><br>
+            <input type="button" value="Сделать заказ" onclick="placeOrder()"/>
+    </form>
+</div>
+</body>
+</html>

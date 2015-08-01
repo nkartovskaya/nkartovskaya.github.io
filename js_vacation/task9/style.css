@@ -1,0 +1,20 @@
+#number {
+    font-size: 20px;
+    width: auto;
+    height: 30px;
+    color: blue;
+    border: solid blue 2px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px darkgrey;
+    text-align: center;
+}
+#grade {
+    font-size: 20px;
+    width: auto;
+    height: 30px;
+    color: lightseagreen;
+    border: solid lightseagreen 2px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px darkgrey;
+    text-align: center;
+}

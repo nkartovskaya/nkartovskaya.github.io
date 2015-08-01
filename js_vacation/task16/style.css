@@ -1,0 +1,18 @@
+label {
+    font-size: 25px;
+}
+#time {
+    width: 70px;
+    height: 70px;
+    border: solid yellow 2px;
+    border-radius: 50%;
+    font-size: 25px;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+#answer {
+    font-size: 25px;
+    background-color: #e4e4e4;
+    border-radius: 5px;
+    width: 500px;
+}

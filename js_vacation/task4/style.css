@@ -1,0 +1,26 @@
+.widthCircle {
+    width: 300px;
+    height: 220px;
+    border: solid blue 2px;
+    border-radius: 50%;
+    margin: 30px;
+    text-align: center;
+    padding-top: 80px;
+    color: blue;
+}
+.areaCircle {
+    width: 302px;
+    height: 222px;
+    background-color: blue;
+    border-radius: 50%;
+    margin: 30px;
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+}
+label {
+    font-size: 20px;
+}
+#radiusCircle {
+    font-size: 30px;
+}

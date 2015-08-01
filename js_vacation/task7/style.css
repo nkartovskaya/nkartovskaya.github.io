@@ -1,0 +1,13 @@
+#aNum, #bNum {
+    width: 100px;
+    height: 50px;
+    border: solid orange 3px;
+    border-radius: 5px;
+    background-color: #cfcfcf;
+    font-size: 20px;
+    text-align: center;
+}
+#result {
+    font-size: 20px;
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+<!-- Ask the user what the current hour is. If the hour is between 6 and 9 a.m.,
+tell the user, “Breakfast is served.” If the hour is between 11 a.m. and 1 p.m., tell
+the user, “Time for lunch.” If the hour is between 5 and 8 p.m., tell the user,
+“It’s dinner time.” For any other hours, tell the user, “Sorry, you’ll have to wait,
+or go get a snack.”-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task16</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="js.js"></script>
+</head>
+<body>
+    <label>What the current hour is?</label><br><br>
+    <input id="timePeriodA" type="radio" name="timePeriod"/>a.m.<br>
+    <input id="timePeriodP" type="radio" name="timePeriod"/>p.m.<br><br>
+    <input id="time" type="text" placeholder="time" onchange="whatToDo()"/><br><br>
+    <input id="answer" type="text" placeholder="answer"/>
+</body>
+</html>

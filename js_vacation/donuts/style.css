@@ -1,0 +1,16 @@
+input {
+    width: 350px;
+    background-color: palegoldenrod;
+    height: 30px;
+    font-size: 18px;
+}
+label {
+    font-size: 25px;
+    color: darkgray;
+}
+.errorName {
+    font-size: 15px;
+    color: red;
+    width: 300px;
+    height: 20px;
+}

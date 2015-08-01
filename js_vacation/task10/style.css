@@ -1,0 +1,14 @@
+#number {
+    text-align: center;
+    font-size: 20px;
+    border: solid brown 2px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px #4c4c4c;
+}
+#result {
+    text-align: center;
+    font-size: 20px;
+    border: solid #f84040 2px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px #adadad;
+}

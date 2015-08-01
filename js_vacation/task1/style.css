@@ -1,0 +1,44 @@
+body {
+    background-color: #000026;
+    font-family: 'Futura BT Book', sans-serif;
+}
+
+.ball {
+    width: 640px;
+    height: 400px;
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    margin: 50px auto;
+    border: solid #390039 5px;
+    padding-top: 80px;
+}
+input {
+    margin: 0 auto;
+    font-size: 18px;
+    background-color: #000026;
+    color: white;
+    font-weight: bold;
+    width: 300px;
+    position: relative;
+    left: 170px;
+    border: solid white 2px;
+    border-radius: 5px;
+}
+input:active {
+    background-color: #000051;
+}
+p {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(98, 96, 156, 0.74);
+    display: inline-block;
+    width: 297px;
+    height: 20px;
+    position: relative;
+    left: 170px;
+    border: solid white 2px;
+    border-radius: 5px;
+    text-align: center;
+    font-style: italic;
+}

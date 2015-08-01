@@ -1,0 +1,18 @@
+.number_first,
+.number_second,
+.result {
+    width: 20px;
+    font-size: 10px;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+}
+.number_first,
+.number_second {
+    background-color: #2fa5ea;
+    color: white;
+}
+.result {
+    background-color: #3a5993;
+    color: white;
+}

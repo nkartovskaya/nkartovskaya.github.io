@@ -1,0 +1,17 @@
+#numberChoice {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 50%;
+    border: solid powderblue 2px;
+    text-align: center;
+    margin: 10px 0 0 20px;
+}
+#yourChoice {
+    width: 350px;
+    font-size: 20px;
+    margin-left: 20px;
+    border: solid powderblue 2px;
+    border-radius: 5px;
+    padding: 0 10px 0 10px;
+}

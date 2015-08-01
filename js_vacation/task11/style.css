@@ -1,0 +1,16 @@
+#startNumber {
+    font-size: 20px;
+    color: white;
+    background: #8c05ff;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: none;
+}
+.result {
+    font-size: 20px;
+    color: #000000;
+    background: #e7aeff;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: none;
+}

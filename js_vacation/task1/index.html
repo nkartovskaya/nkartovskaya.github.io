@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Fortune Teller</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript">
+        alert('Подтверди, что тебе больше 18 лет');
+        var a1=new Array("Киев", "Париж", "Нью-Йорк", "Дели", "Пекин");
+        var a2=new Array("Андрей", "Франсуа", "Джордж", "Мидхун", "Джиан");
+        var a3=new Array("1", "2", "3", "4", "5");
+        var a4=new Array("Дизайнер", "Стилист", "Учительница", "Адвокат", "Программист");
+
+        var temp1=Math.random()*10;
+        if (temp1<2) {
+            city=a1[0];
+        } else  if (temp1<4) {
+            city=a1[1];
+        } else if (temp1<6) {
+            city=a1[2];
+        } else if (temp1<8) {
+            city=a1[3];
+        } else if (temp1<10) {
+            city=a1[4];
+        }
+        function searchCity() {
+            document.getElementById('city_result').innerHTML = city;
+        }
+        var husband;
+        var temp2=Math.random()*10;
+        if (temp2<2) {
+            husband=a2[0];
+        } else if (temp2<4) {
+            husband=a2[1];
+        } else if (temp2<6) {
+            husband=a2[2];
+        } else if (temp2<8) {
+            husband=a2[3];
+        } else if (temp2<10) {
+            husband=a2[4];
+        }
+        function searchHusband() {
+            document.getElementById('husband_result').innerHTML = husband;
+        }
+        var children;
+        var temp3=Math.random()*10;
+        if (temp3<1) {
+            children=a3[0];
+        } else if (temp3<4) {
+            children=a3[1];
+        } else if (temp3<6) {
+            children=a3[2];
+        } else if (temp3<8) {
+            children=a3[3];
+        } else if (temp3<10) {
+            children=a3[4];
+        }
+        function searchChildren() {
+            document.getElementById('children_result').innerHTML = children;
+        }
+        var job;
+        var temp4=Math.random()*10;
+        if (temp4<2) {
+            job=a4[0];
+        } else if (temp4<4) {
+            job=a4[1];
+        } else if (temp4<6) {
+            job=a4[2];
+        } else if (temp4<8) {
+            job=a4[3];
+        } else if (temp4<10) {
+            job=a4[4];
+        }
+        function searchJob() {
+            document.getElementById('job_result').innerHTML = job;
+        }
+    </script>
+</head>
+<body>
+    <div class="ball">
+        <input type="button" onclick="searchCity()" value="Твой будущий город"><br>
+        <p id="city_result">Нажми кнопку</p><br>
+        <input type="button" onclick="searchHusband()" value="Имя будущего мужа"><br>
+        <p id="husband_result">Нажми кнопку</p><br>
+        <input type="button" onclick="searchChildren()" value="Количество детей"><br>
+        <p id="children_result">Нажми кнопку</p><br>
+        <input type="button" onclick="searchJob()" value="Твоя будущая работа"><br>
+        <p id="job_result">Нажми кнопку</p><br>
+    </div>
+</body>
+</html>

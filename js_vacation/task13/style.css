@@ -1,0 +1,8 @@
+#number,
+#grade {
+    font-size: 20px;
+    background-color: #e8e8e8;
+    border: solid #ba378b 2px;
+    box-shadow: 1px 1px 2px pink;
+    text-align: center;
+}

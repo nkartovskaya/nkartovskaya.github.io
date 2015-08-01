@@ -1,0 +1,22 @@
+.foodCalculation {
+    background-image: url("images/bg.jpeg");
+    height: 1200px;
+}
+form {
+    width: 300px;
+    height: 700px;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+    z-index: 10;
+}
+input {
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgb(191, 219, 191);
+    border: solid rgb(129, 101, 74) 2px;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 5px 20px 5px 20px;
+}
