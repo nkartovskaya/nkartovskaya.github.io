@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Word Guesser</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript">
+        var word=new Array ('a','p','p','l','e');
+        function newGame() {
+            for (i=0; i<word.length; i++) {
+                var newInput = document.createElement('input');
+                document.getElementById('inputI').appendChild(newInput);
+                newInput.id='letter';
+                newInput.style.width='50px';
+                newInput.style.height='35px';
+                newInput.style.margin='5px';
+                newInput.style.borderColor='grey';
+                newInput.style.borderWidth='4px';
+                newInput.style.fontSize='20px';
+                newInput.style.textAlign='center';
+                newInput.onchange=function newLetter() {
+                    document.getElementById('resultGame').value='';
+                    var letter=document.getElementById('letter').value;
+                    alert(letter==word[1].toString());
+                    for (j=0; j<word.length; j++) {
+                        if (letter==word[i]) {
+
+                            document.getElementById('resultGame').value='Ok, you are right!'
+                        } else {
+                            document.getElementById('resultGame').value='Sorry, try again, please!';
+                        }
+                    }
+
+                }
+                }
+        }
+    </script>
+</head>
+<body>
+<div id="container">
+
+    <div id="inputI">
+        <input type="button" id="startGame" value="Start game!" onclick="newGame()"/><br><br>
+        <input id="resultGame" placeholder="result"/><br><br>
+    </div><br>
+
+</div>
+</body>
+</html>
