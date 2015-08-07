@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test_function_1</title>
+</head>
+<body>
+<script type="text/javascript">
+    function sum(a, b) { // Function Declaration
+        return (a + b);
+    }
+    alert("SUM1=" + sum(5, 10) + "   SUM11=" + sum(10, 20));
+
+    var myFunction = function myFunction(a, b) { // Function Expression
+        return (a + b);
+    }
+    alert("SUM2=" + (myFunction(5, 10) + "   SUM22=" + myFunction(10, 20)));
+
+    var newSum = new Function('a,b', 'return a+b') //New Function
+    alert("SUM3=" + newSum(5, 10) + "   SUM33=" + newSum(10, 20));
+
+    (function (a, b) { //Self-invoking functions
+        alert("SUM4=" + (a + b));
+    })(5, 10);
+
+
+    var myNextFunction = (function (a, b) { //Self-invoking functions
+        return (a + b);
+    })(5, 10);
+    alert("SUM5=" + myNextFunction);
+
+</script>
+</body>
+</html>
