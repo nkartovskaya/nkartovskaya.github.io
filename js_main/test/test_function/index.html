@@ -11,30 +11,38 @@
             var b = 10;
             return(a+b);
         }
-        alert("SUM1="+(sum()));
+        //alert("SUM1="+(sum()));
 
         var myFunction = function myFunction() { // Function Expression
             var a = 5;
             var b = 10;
             return(a+b);
         }
-        alert("SUM2="+(myFunction()));
+        //alert("SUM2="+(myFunction()));
 
         var newSum = new Function ('a,b', 'return a+b') //New Function
-                alert("SUM3="+newSum(5,10));
+                //alert("SUM3="+newSum(5,10));
 
-        (function(){ //Self-invoking functions
-            var a = 5;
-            var b = 10;
-            alert("SUM4="+(a+b));
-        })();
+        //(function(){ //Self-invoking functions
+           // var a = 5;
+            //var b = 10;
+            //alert("SUM4="+(a+b));
+       // })();
 
         var myNextFunction = (function(){ //Self-invoking functions
             var a = 5;
             var b = 10;
             return(a+b);
         })();
-        alert("SUM5="+myNextFunction);
+        //alert("SUM5="+myNextFunction);
+        //console.log(a+b);
+
+        function sum() {
+            var a=5;
+            var b=5
+            alert(a+b);
+        }
+        alert(sum());
 
     </script>
 </body>
