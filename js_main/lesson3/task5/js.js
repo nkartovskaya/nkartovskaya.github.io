@@ -12,12 +12,15 @@
  # # # #
   # # # #
  */
-for (i=0; i<=8; i++) {
-    for (j=0; j<=8; j++) {
+
+//loop for lines
+    for (j=0; j<8; j++) {
+        //checking if j is even number
         if (j%2==0) {
-            console.log('#');
+            //display line if j is even number
+            console.log('# # # #');
         } else {
-            console.log(' ');
+            //display data if j is odd number
+            console.log(' # # # #');
         }
     }
-}
