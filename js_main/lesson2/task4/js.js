@@ -1,6 +1,6 @@
 //defining variables
-var a = 1, b = 2, result;
+var a = 1, b = 1;
 //checking condition
-var c = ((a + b) >= 3) ? result = 'Yep!' : result = 'Noup!';
+var result = ((a + b) >= 3) ? 'Yep!' : 'Noup!';
 //display data
 alert(result);
