@@ -1,4 +1,4 @@
 //defining variables
-var name = 'admin', text;
+var name = 'admin';
 //checking name
-text = (name == 'admin') ? text = 'Hi' : (name == 'manager') ? text = 'Hello' : (name == '') ? text = 'No login' : text = '';
+var text = (name == 'admin') ? 'Hi' : (name == 'manager') ? 'Hello' : (name == '') ? 'No login' : '';
