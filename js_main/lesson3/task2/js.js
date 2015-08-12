@@ -6,6 +6,7 @@
  Результат должен быть: 2,3,5,7.
  P.S. Код также должен легко модифицироваться для любых других интервалов.*/
 
+
 //loop for number, that is checked. Loop starts from 2, because 1 is not prime number
 for (var i = 2; i <= 10; i++) {
     //loop number-denominator
