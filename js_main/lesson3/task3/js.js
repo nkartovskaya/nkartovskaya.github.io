@@ -3,7 +3,7 @@
  а дл€ чисел, дел€щихс€ на 5 (но не на 3) Ц СBuzzТ.*/
 
 //loop for number that is checked
-for (i = 1; i <= 100; i++) {
+for (var i = 1; i <= 100; i++) {
     //checking if i%5==0 and i%3!=0
     if (i % 5 == 0 && i % 3 != 0) {
         //display data
