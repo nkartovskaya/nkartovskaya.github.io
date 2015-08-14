@@ -3,18 +3,18 @@
  а дл€ чисел, дел€щихс€ на 5 (но не на 3) Ц СBuzzТ.*/
 
 //loop for number that is checked
-for (var i = 1; i <= 100; i++) {
+for (var i = 1; i <= 30; i++) {
     //checking if i%5==0 and i%3!=0
     if (i % 5 == 0 && i % 3 != 0) {
         //display data
-        console.log('Buzz');
+        console.log("If "+'Buzz');
         //checking if first condition is wrong and if i%3==0
     } else if (i % 3 == 0) {
         //display data
-        console.log('Fizz');
+        console.log("If "+'Fizz');
         //all number, if first and second conditions are wrong
     } else {
         //display data
-        console.log(i);
+        console.log("If "+i);
     }
 }
