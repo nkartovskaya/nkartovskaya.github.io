@@ -7,17 +7,23 @@
  Выводит сумму всех значений массива когда ввод прекращен.
  */
 
+    //defining variable sum
 var sum = 0;
+//creating array for saving numbers
 var numberArray = new Array(5);
+//loop for saving numbers and calculating sum
 for (var i = 0; i < 5; i++) {
-    numberArray[i] = +prompt("Vvedite chislo", "");
-
-    if (prompt("Vvedite chislo", "")==null||prompt("Vvedite chislo", "")=="") {
+    //saving number in array
+    numberArray[i] = prompt("Vvedite chislo", "");
+    //checking number null/""/NaN
+    if (numberArray[i] == null || numberArray[i] == "" || isNaN(numberArray[i])) {
         break;
     }
-    console.log(numberArray[i]);
-    sum += numberArray[i];
+    //calculating sum
+    sum += parseInt(numberArray[i]);
 }
+//display array
 console.log(numberArray);
+//display sum
 console.log(sum);
 
