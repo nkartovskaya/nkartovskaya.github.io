@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test_lesson_5_6</title>
+    <script type="text/javascript">
+        //6
+        var person = {};
+        person.name = "Sergey";
+        person.age = 30;
+        console.log(person.name + ":" + person.age);
+        delete person.age
+        console.log(person.age);
+
+        //7
+        var person = {};
+        //person.name="Nadya";
+        if ("name" in person) {
+            console.log("Property already exists");
+        } else {
+            console.log("Ups");
+        }
+        console.log(person.age);
+
+        //8
+        var person = {};
+        person.name = "Vasya";
+        person.activity = "Jazz";
+        console.log(person["name"]);
+        console.log(person);
+
+        //9
+        var person = {
+            "age": 30,
+        }
+        var key = "age";
+        console.log(person[key]);
+
+        //10
+        var menuSetup = {
+            width: 300,
+            height: 200,
+            title: "Menu"
+        }
+        console.log(menuSetup["width"]);
+
+        var menuSetup = {};
+        menuSetup.width = 300;
+        menuSetup.height = 200;
+        menuSetup.title = "Menu";
+        console.log(menuSetup.width);
+
+        //11
+        var user = {
+            name: "Anna",
+            age: 25,
+            size: {
+                top: 90,
+                middle: 60,
+                bottom: 90
+            }
+        };
+        console.log(user.name);
+        console.log(user.size.bottom);
+
+        //12
+        var obj = {
+            width: 200,
+            height: 100,
+            color: "blue"
+        }
+        for (var key in obj) {
+            obj[key] = obj[key] + 20;
+        }
+        console.log(obj);
+
+        //15
+        var menu = {
+            width: 300,
+            height: 200,
+            title: "Menu"
+        }
+        var counter = 0;
+        for (key in menu) {
+            counter++;
+        }
+        console.log(counter);
+
+        menu.color = "yellow";
+        var counter = 0;
+        for (key in menu) {
+            counter++;
+        }
+        console.log(counter);
+
+        //16
+        var user = {
+            name: "Vasya",
+            surname: "Petrov"
+        }
+        user.age = 25;
+        for (var prop in user) {
+            console.log(prop);
+        }
+
+        var codes = {
+            "7": "Russia",
+            "38": "Ukraine",
+            "1": "USA"
+        };
+        for (var item in codes) {
+            console.log(item);
+            console.log(codes);
+            console.log(codes[item]);
+        }
+
+        //17
+        function isEmpty(obj) {
+            var count = 0;
+            for (item in todoList) {
+                count++;
+            }
+            if (count > 0) {
+                console.log("Properties exist");
+            } else {
+                console.log("Object is empty");
+            }
+        }
+        var todoList = {
+            //plan:"Great"
+        };
+        console.log(isEmpty(todoList));
+
+        //18
+        var salaries = {
+            "junior": 1000,
+            "middle": 2500,
+            "senior": 3500,
+            "lead": 5000
+        }
+        function sumSalaries(obj) {
+            var sum = 0;
+            for (item in salaries) {
+                sum += salaries[item];
+            }
+            return sum;
+        }
+        console.log(sumSalaries(obj));
+
+        //20
+        var message = "Hello";
+        var phrase = message;
+        console.log(phrase);
+
+        //21
+        var user = {
+            name: "Sergey",
+        }
+        var admin = user;
+        console.log(admin);
+
+        //24
+        var user = {
+            name: "Sergey",
+            age: 30
+        };
+        var clone = {};
+        for (key in user) {
+            clone[key] = user[key];
+        }
+        console.log(clone);
+        clone.name = "Andrey";
+        console.log(user);
+        console.log(clone);
+
+        //26
+        var arr = [];
+        var fruits = ["Apple", "Orange", "Plump"];
+        console.log(fruits[0]);
+        console.log(fruits[1]);
+        console.log(fruits[2]);
+        fruits[1] = "Pea";
+        fruits[2] = "Lemon";
+        console.log(fruits);
+        console.log(fruits.length);
+
+        //27
+        var arr = [1, "GoIT", {name: "Sergey"}, true];
+        console.log(arr[2]);
+        console.log(arr[2].name);
+
+        //29
+        var fruits = ["Apple", "Orange", "Pea"];
+        console.log(fruits.pop());
+        console.log(fruits);
+        fruits.push("Lemon", "Lime");
+        console.log(fruits);
+
+        //30
+        var fruits = ["Apple", "Orange", "Pea"];
+        console.log(fruits.shift());
+        console.log(fruits);
+        fruits.unshift("Lemon");
+        console.log(fruits);
+
+        //32
+        var fruits = [];
+        fruits[10] = 5;
+        fruits.age = 25;
+        console.log(fruits);
+
+        //35
+        var arr = [];
+        arr[1000] = 5;
+        console.log(arr.length);
+
+        var arr1 = [1, 2, 3, 4, 5, 6];
+        arr1.length = 3;
+        console.log(arr1);
+
+        //37
+        var matrix = [
+            [1, 2, 3],
+            [4, 5, 6],
+            [7, 8, 9]
+        ];
+        console.log(matrix);
+        console.log(matrix[1]);
+        console.log(matrix[1][2]);
+
+        //39
+        var arr = [1, 2, 3, 4, 5, 6];
+        function lastItem(arr) {
+            return arr[arr.length - 1];
+        }
+        console.log(lastItem(arr));
+
+        var arr = [10, 11, 12, 13, 14, 15];
+        var newItem = "kuku";
+        function pushItem(arr, newItem) {
+            arr.push(newItem);
+            return arr;
+        }
+        console.log(pushItem(arr, newItem));
+
+        //40
+        var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        function randomItem(arr) {
+            var number = arr.length - Math.floor(Math.random() * 10);
+            return arr[number];
+        }
+        console.log(randomItem(arr));
+
+        //41
+        var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        function searchItem(arr, value) {
+            var result = 0;
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i] == value) {
+                    result = i;
+                    break;
+                } else {
+                    result = -1;
+                }
+            }
+            return result;
+        }
+        console.log(searchItem(arr, 3));
+
+        //43
+        var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        function filterRange(arr, a, b) {
+            var newArr = [];
+            for (var i = 0; i < arr.length; i++) {
+                console.log(arr[i] < a && arr[i] > b);
+                if (arr[i] > a && arr[i] < b) {
+                    newArr.push(arr[i]);
+                }
+            }
+            return newArr;
+        }
+        console.log(filterRange(arr, 3, 8));
+
+        //45
+        var names = "Masha, Petya, Marina, Vasilij";
+        var arr = names.split(",");
+        console.log(arr);
+
+        var str = "test";
+        console.log(str.split(""));
+
+        //46
+        var arr = ["Masha", "Petya", "Marina", "Vasilij"];
+        var str = arr.join(";");
+        console.log(str)
+
+        //47
+        var arr = ["Ya", "idu", "domoj"];
+        delete arr[1];
+        console.log(arr[1]);
+        console.log(arr);
+
+        //48
+        var arr = ["Ya", "isuchayu", "Javascript"];
+        arr.splice(1, 1);
+        console.log(arr);
+
+        //49
+        var arr = ["Ya", "sejchas", "izuchayu", "JavaScript"];
+        arr.splice(0, 3, "My", "isuchaem");
+        console.log(arr);
+
+        var arr = ["Ya", "sejchas", "izuchayu", "JavaScript"];
+        var removed = arr.splice(0, 2);
+        console.log(removed);
+
+        //50
+        var arr = ["Ya", "izuchayu", "JavaScript"];
+        arr.splice(2, 0, "slozhnyj", "yazyk");
+        console.log(arr);
+
+        //51
+        var arr = [1, 2, 5];
+        arr.splice(-1, 0, 3, 4);
+        console.log(arr);
+
+        //52
+        var arr = ['Почему', 'надо', 'учить', 'JavaScript'];
+        var arr2 = arr.slice(1, 3);
+        console.log(arr2);
+
+        //53
+        var arr = ['Почему', 'надо', 'учить', 'JavaScript'];
+        console.log(arr.slice(1));
+        var arr2 = arr.slice(-2);
+        console.log(arr2);
+        var fullCopy = arr.slice();
+
+        //54
+        var arr = [1, 2, 15];
+        arr.sort();
+        console.log(arr);
+
+        //55
+        function compareNumeric(a, b) {
+            if (a > b) return 1;
+            if (b < a) return -1;
+            return 0;
+        }
+        var arr = [1, 15, 2];
+        arr.sort(compareNumeric);
+        console.log(arr);
+
+        //56
+        var arr = [1, 3, 46, 0];
+        arr.sort(function (a, b) {
+            return a - b
+        });
+        console.log(arr);
+
+        //57
+        var arr = [1, 2, 3];
+        arr.reverse();
+        console.log(arr);
+
+        //58
+        var arr = [1, 2];
+        var newArr = arr.concat(3, 4);
+        console.log(newArr);
+        newArr = arr.concat([3, 4], 5);
+        console.log(newArr);
+
+        //59
+        var arr = [1, 0, false];
+        console.log(arr.indexOf(0));
+        console.log(arr.indexOf(false));
+        console.log(arr.indexOf(null));
+
+        //60
+        var user = {
+            name: "Sergey",
+            age: 30
+        };
+        var keys = Object.keys(user);
+        console.log(keys);
+
+        //61
+        var  arr=["Apple", "Orange", "Pear"];
+        arr.forEach(function(item, i, arr) {
+            console.log(i+": "+item+" Array:"+arr+")");
+        });
+
+        //62
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

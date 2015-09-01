@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test_learn_js</title>
+    <script type="text/javascript">
+        //https://learn.javascript.ru/closures-usage
+
+        //Счетчик
+        function makeCounter() {
+            var currentCount = 1;
+            return function () {
+                return currentCount++;
+            }
+        }
+        var counter = makeCounter();
+        console.log(counter());
+        console.log(counter());
+        console.log(counter());
+
+        var counterNew = makeCounter();
+        console.log(counterNew());
+        //Счетчик-объект
+        function makeCounterNew() {
+            var currentCounterNew = 1;
+            return {
+                reset: function () {
+                    return currentCounterNew = 1;
+                },
+                setCounter: function (counterValue) {
+                    currentCounterNew = counterValue;
+                },
+                getCounter: function () {
+                    return currentCounterNew;
+                }
+            }
+        }
+        var counterNewNew = makeCounterNew();
+        counterNewNew.setCounter(5);
+        console.log(counterNewNew.getCounter());
+        console.log(counterNewNew.reset());
+
+        //Объект счетчика и функция
+        function makeCountNewNew() {
+            var counterNewNew = 1;
+
+            function counterNew() {
+                return counterNewNew++;
+            };
+            counterNew.set = function (counterValueNew) {
+                counterNewNew = counterValueNew;
+            };
+            counterNew.get = function () {
+                return counterNewNew;
+            };
+            counterNew.reset = function () {
+                counterNewNew = 1;
+            };
+            return counterNew;//1
+        }
+        var counter = makeCountNewNew();//2
+        counter.set(6);
+        console.log(counter());
+        console.log(counter());
+
+        //Сумма через замыкание
+        function sum(a) {
+            return function (b) {
+                return a + b;
+            }
+        }
+        console.log(sum(5)(3));
+
+        //Функция строковый буфер
+        function buffer() {
+            var buffer = "";
+            return {
+                set: function (bufferValue) {
+                    buffer = bufferValue;
+                },
+                get: function () {
+                    return buffer;
+                },
+                reset: function () {
+                    return buffer = "empty";
+                }
+            };
+        }
+        var bufferNew = buffer();
+        bufferNew.set("Kuku");
+        console.log(bufferNew.get());
+        console.log(bufferNew.reset());
+
+        //Сортировка
+        var users = [{
+            name: "Vasya",
+            surname: "Ivanov",
+            age: 20
+        },
+            {
+                name: "Petya",
+                surname: "Chapaev",
+                age: 25
+            },
+            {
+                name: "Masha",
+                surname: "Medvedeva",
+                age: 18
+            }];
+        function byField(field) {
+            return function (a, b) {
+                if (a[field] > b[field]) {
+                    return 1;
+                } else if (a[field] < b[field]) {
+                    return -1;
+                } else {
+                    return 0;
+                }
+            }
+        }
+        users.sort(byField("surname"));
+        console.log(users);
+
+        //Армия функций
+        function makeArmy() {
+            var shooters = [];
+            for (var i = 0; i < 5; i++) {
+                var shooter = (function (x) {
+                    return function () {
+                        console.log(x);
+                    };
+                })(i);
+                shooters.push(shooter);
+            }
+            return shooters;
+        }
+        var army=makeArmy();
+        army[0]();
+        army[2]();
+        army[3]();
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

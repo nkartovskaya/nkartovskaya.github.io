@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test_Lesson7</title>
+    <script type="text/javascript">
+        //4
+        var a=5;
+        console.log(window.a);
+
+        window.a=5;
+        console.log(a);
+
+        //5
+        console.log(window);
+
+        var a=5;
+        function f(a) {
+            return a;
+        }
+        console.log(f(5));
+
+        //6
+        console.log("a" in window);
+        console.log(a);
+        console.log(f);
+        console.log(g);
+        var g=function(){};
+        console.log(g);
+
+        //8
+        var i=10;
+        console.log(i);
+        for (i=0; i<20;i++) {
+            console.log(i);
+        }
+        var i=5;
+        console.log(i);
+
+        //9
+        if ("a" in window) {
+            var  a=1;
+        }
+        console.log(a);
+
+        //11
+        function sayHi(name) {
+            var phrase="Privet, "+name;
+            console.log(phrase);
+        }
+        sayHi("Vasya");
+
+        //15
+        var phrase="Privet";
+        function say(name) {
+            console.log(phrase+", "+name);
+        }
+        say("Vasya");
+        phrase="Poka";
+        say("Petya");
+
+        //16
+        function sayHiBye(firstName,lastName) {
+            console.log("Privet, "+getFullName());
+            console.log("Poka, "+getFullName());
+            function getFullName() {
+                return firstName+" "+lastName;
+            }
+        }
+        console.log(sayHiBye("Vasya","Petrov"));
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
