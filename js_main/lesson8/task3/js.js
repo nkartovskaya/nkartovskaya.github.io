@@ -24,3 +24,38 @@
  ¬ажно: в этой задаче fullName должно остатьс€ свойством, а firstName/lastName Ч
  реализованы через get/set. Ћишнее дублирование здесь ни к чему.
  */
+
+function User(fullName) {
+    this.fullName = fullName;
+    var fullNameArray = fullName.split(" ");
+    var firstName = fullNameArray[0];
+    var lastName = fullNameArray[1];
+    return {
+        getFirstName: function () {
+            this.firstName = firstName;
+            return this;
+        },
+        setFirstName: function (firstName) {
+            this.firstName = firstName;
+        },
+        getLastName: function () {
+            this.LastName = lastName;
+            return this;
+        },
+        setLastName: function (lastName) {
+            this.lastName = lastName;
+        }
+    };
+};
+
+var petya = new User("Petya Vasechkin");
+petya.firstName="Vasya";
+petya.lastName="Petechkin";
+console.log(petya.getFirstName());
+console.log(petya.getLastName());
+petya.firstName="Masha";
+petya.setLastName="Mishyna";
+console.log(petya.getFirstName());
+console.log(petya.getLastName());
+
+

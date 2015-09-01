@@ -22,3 +22,7 @@
 
  Article.showStats(); // Всего: 3, Последняя: (дата)
  */
+
+function Article() {
+
+}
