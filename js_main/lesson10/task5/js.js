@@ -30,46 +30,4 @@ function longestWord(string) {
 //calling function and display result
 console.log(longestWord("Web Development Tutorial"));
 
-/*
- animal = {
- //properties:
- height:0,
- weight:0,
- color:0,
- //methods:
- eating:0
- };
 
- cat={
- //properties:
- height:30,
- weight:3,
- color: ["black", "white", "brown"],
- clutches: "sharp",
- //methods:
- eating:
- meow
- }
- dog={
- properties:
- height
- weight
- color
- methods:
- eating
- woof
- hunting
- }
- fish={
- properties:
- height
- weight
- color
- gills
- methods:
- eating
- swimming
- }
-
-
- */

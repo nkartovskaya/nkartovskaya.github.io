@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test_incaps</title>
+    <script type="text/javascript">
+
+
+        function personSet() {
+            var person = {
+                hand: 0,
+                leg: 0,
+                head: 0
+            }
+            return {
+                setHand: function (n) {
+                    if (n = 2) {
+                        person.hand = n;
+                    } else {
+                        person.hand = 2;
+                    }
+                },
+                getHand: function () {
+                    return person.hand;
+                }
+            }
+        }
+        var myPerson = personSet();
+        myPerson.setHand(10);
+        console.log(myPerson.getHand());
+        console.log(myPerson);
+        person.hand = 10;
+        console.log(person.hand);
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -40,4 +40,4 @@ secret.setSecret("Novyj secret");
 //calling function getSecret
 console.log(secret.getSecret());
 
-
+secret="Secret";
