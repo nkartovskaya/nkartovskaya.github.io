@@ -31,3 +31,34 @@
  one or more arguments and the number of arguments is not fixed.
  */
 
+//creating function add
+function add(a, b) {
+    //returning result
+    return a + b;
+}
+//creating function mul
+function mul(a, b) {
+    //returning result
+    return a * b;
+}
+//creating function power
+function power(a, b) {
+    //returning result
+    return Math.pow(a, b);
+}
+//creating lazyFunction for invoking some function
+function lazyFunction(f) {
+    //returning result-some function and displaying result
+    return console.log(f);
+}
+//invoking different functions with their arguments
+lazyFunction(add(2, 3));
+lazyFunction(mul(2, 4));
+lazyFunction(power(3, 3));
+
+
+
+
+
+
+
