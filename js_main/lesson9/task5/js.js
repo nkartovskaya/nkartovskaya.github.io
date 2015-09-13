@@ -10,15 +10,20 @@
  someFunction(1, true, "Foo", "bar")
  */
 
-function spread(f, arg1, arg2, arg3, arg4) {
-return f.apply(f,[].slice.call(arguments,1));
+//crating function spread
+function spread(f) {
+    //returning result
+    return f.apply(f, [].slice.call(arguments, 1));
 }
+//creating function sum - sum of arguments
+function sum() {
+    return [].reduce.call(arguments, function (a, b) {
+        return a + b;
+    });
+}
+//invoking function spread with different lists of arguments
+console.log(spread(sum, 1, true, "Foo", "bar"));//2Foobar
+console.log(spread(sum, 1, 2, "true", "123", "Foo", "bar"));//3true123Foobar
 
-function mul(arg1, arg2, arg3, arg4) {
-    return [].reduce.call(arguments, function(a,b) {
-        return a+b;
-    })
-}
-console.log(spread(mul, 1, true, "Foo", "bar"));
 
 
