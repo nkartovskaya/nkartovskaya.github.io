@@ -25,37 +25,41 @@
  реализованы через get/set. Лишнее дублирование здесь ни к чему.
  */
 
-function User(fullName) {
+//creating function for transforming property "fullName"
+function user(fullName) {
+    //assigning value
     this.fullName = fullName;
+    //defining variable fullNameArray for split it to two items
     var fullNameArray = fullName.split(" ");
-    var firstName = fullNameArray[0];
-    var lastName = fullNameArray[1];
+    //assigning first name
+    this.firstName = fullNameArray[0];
+    //assingning last name
+    this.lastName = fullNameArray[1];
+    //creating methods for setting and getting first and last names
     return {
         getFirstName: function () {
-            this.firstName = firstName;
-            return this;
+            return this.firstName;
         },
         setFirstName: function (firstName) {
             this.firstName = firstName;
         },
         getLastName: function () {
-            this.LastName = lastName;
-            return this;
+            return this.lastName;
         },
         setLastName: function (lastName) {
             this.lastName = lastName;
         }
     };
-};
-
-var petya = new User("Petya Vasechkin");
-petya.firstName="Vasya";
-petya.lastName="Petechkin";
+}
+//creating new object petya
+var petya = new user("Petya Vasechkin");
+//setting new first name
+petya.setFirstName("Masha");
+//getting new first name and displaying result
 console.log(petya.getFirstName());
-console.log(petya.getLastName());
-petya.firstName="Masha";
-petya.setLastName="Mishyna";
-console.log(petya.getFirstName());
+//setting new last name
+petya.setLastName("Sinitsyna");
+//getting new last name and displaying result
 console.log(petya.getLastName());
 
 

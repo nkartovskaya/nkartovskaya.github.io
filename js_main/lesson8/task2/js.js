@@ -33,82 +33,66 @@
  Предусмотрите обработку ошибок. Какая она должна быть – решите сами.
  */
 
-//------------1---------------
-/*
-var string = prompt("Vvedite chislo, operatsyju b eshche odno chislo", "");
+
+//creating function Calculator
 function Calculator() {
+    //creating object operation for "+" and "-"
     var operation = {
+        //creating element of object "+". It is a function, which returns x+y
         "+": function (x, y) {
             return x + y;
         },
+        //creating element of object "-". It is a function, which returns x-y
         "-": function (x, y) {
             return x - y;
         }
     };
-
-    var calculate = function (string) {
-        var task = string.split(" ");
-        x = string[0];
-        oper = string[1];
-        y = string[3];
-        if (oper != "+" || oper != "-") {
-            return console.log("Ya takogo ne umeyu :(");
-        }
+//creating method calculate. It is a function, which splits string
+//to two numbers an operator and returns result. There is also checking whether x and y
+    //are numbers
+    this.calculate = function (string) {
+        //spliting string to x, y, operator
+        var taskArray = string.split(" "),
+            x = +taskArray[0],
+            oper = taskArray[1],
+            y = +taskArray[2]
+        //checking x,y
         if (isNaN(x) || isNaN(y)) {
             return console.log("Nado bylo vvesty chislo :(");
         }
-        return operation[oper](+x, +y);
+        //returning result
+        return operation[oper](x, y);
     }
-}
-var myCalc = Calculator();
-console.log(myCalc.calculate);
-
-*/
-/*function Calculator() {
-
-    var methods = {
-        "-": function (a, b) {
-            return a - b;
-        },
-        "+": function (a, b) {
-            return a + b;
-        }
-    };
-
-    this.calculate = function (str) {
-
-        var split = str.split(' '),
-            a = +split[0],
-            op = split[1],
-            b = +split[2]
-
-        if (!methods[op] || isNaN(a) || isNaN(b)) {
-            return NaN;
-        }
-
-        return methods[op](+a, +b);
-    }
-
+    //constructor this.addMethod for adding new operations with name operation and func
+    // for calculating x, y arrording operation
     this.addMethod = function (name, func) {
-        methods[name] = func;
+        operation[name] = func;
     };
 }
+
+//creating calc as new Calculator
 var calc = new Calculator;
 
-calc.addMethod("*", function (a, b) {
-    return a * b;
+//invoking calc and displaying results for "+" and "-"
+console.log(calc.calculate("2 + 3"));
+console.log(calc.calculate("2 - 3"));
+
+//creating new methods "*", "/", "^" according constructor this.addMethod
+calc.addMethod("*", function (x, y) {
+    return x * y;
 });
-calc.addMethod("/", function (a, b) {
-    return a / b;
+calc.addMethod("/", function (x, y) {
+    if (y!=0) {
+        return x / y;
+    } else {
+        return console.log("Error");
+    }
 });
-calc.addMethod("**", function (a, b) {
-    return Math.pow(a, b);
+calc.addMethod("^", function (x, y) {
+    return Math.pow(x, y);
 });
-
-var result = calc.calculate("2 ** 3");
-alert(result); // 8*/
-
-
-
-
+//invoking calc and displaying results for "*", "/", "^"
+console.log(calc.calculate("2 * 3"));
+console.log(calc.calculate("2 / 3"));
+console.log(calc.calculate("2 ^ 3"));
 

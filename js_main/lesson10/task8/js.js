@@ -12,16 +12,18 @@
  result = ['link', 'menu__item', 'menu', 'header', 'footer', 'sidebar', ... ];
  */
 
-    //creating array
+//creating array
 var arr = ['link', 'menu', 'menu__item', 'menu__item', 'header', 'link', 'footer', 'sidebar', 'link'];
+//defining variable result for unique items
+var result = [];
+//defining variable count for amounts of unique items
+var count = [];
+//defining variable resultObject as result
+var resultObject = [];
+//creating variable newResult for final result
+var finalResult = [];
 //creating function
 function amountUniqueItems() {
-    //defining variable result for unique items
-    var result = [];
-    //defining variable count for amounts of unique items
-    var count = [];
-    //defining variable resultObject as result
-    var resultObject = {};
     //loop for searching unique items
     for (var i = 0; i < arr.length; i++) {
         if (arr.indexOf(arr[i]) >= 0 && result.indexOf(arr[i]) == -1) {
@@ -51,7 +53,36 @@ function amountUniqueItems() {
     //returning result
     return resultObject;
 }
+function isEmptyResultObject() {
+    for (var key in resultObject) {
+        return false;
+    }
+    return true;
+}
+console.log(isEmptyResultObject());
+
+function sortResultObject() {
+
+    while (isEmptyResultObject()==false) {
+        console.log(isEmptyResultObject());
+        var maxAmount = 0;
+        var keyMaxAmount = "";
+        for (var key in resultObject) {
+            if (resultObject[key] > maxAmount) {
+                maxAmount = resultObject[key];
+                keyMaxAmount = key;
+            }
+        }
+        finalResult.push(keyMaxAmount);
+        delete resultObject[keyMaxAmount];
+
+    }
+    console.log(resultObject);
+    console.log(finalResult);
+    return finalResult;
+}
 //invoking function and display result
 console.log(amountUniqueItems());
+console.log(sortResultObject());
 
 
