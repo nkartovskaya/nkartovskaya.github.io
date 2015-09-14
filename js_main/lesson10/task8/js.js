@@ -54,20 +54,18 @@ function amountUniqueItems() {
     return resultObject;
 }
 function isEmptyResultObject() {
-    for (var key in resultObject) {
+    for (var i=0; i<resultObject.length; i++) {
         return false;
     }
     return true;
 }
-console.log(isEmptyResultObject());
-
 function sortResultObject() {
 
-    while (isEmptyResultObject()==false) {
-        console.log(isEmptyResultObject());
+    while (isEmptyResultObject()) {
+        console.log("kuku");
         var maxAmount = 0;
         var keyMaxAmount = "";
-        for (var key in resultObject) {
+        for (var j=0; j<resultObject.length; j++) {
             if (resultObject[key] > maxAmount) {
                 maxAmount = resultObject[key];
                 keyMaxAmount = key;
@@ -75,7 +73,6 @@ function sortResultObject() {
         }
         finalResult.push(keyMaxAmount);
         delete resultObject[keyMaxAmount];
-
     }
     console.log(resultObject);
     console.log(finalResult);
