@@ -4,23 +4,12 @@
  настоящий (в плане моргания).
  */
 
-var color = {"redLight": "red", "yellowLight": "yellow", "greenLight": "green"};
-console.log(color);
-
-/*function normalWork() {
-
- setTimeout(onRed, 1000);
- setTimeout(onYellow, 2000);
- setTimeout(onGreen, 3000);
-
- }*/
-
 function normalWork() {
-    setInterval(function(){
+    setInterval(function () {
         setTimeout(onRed, 500);
         setTimeout(onYellow, 1500);
         setTimeout(onGreen, 2500);
-}, 3000);
+    }, 3000);
 }
 function onRed() {
     document.getElementById("redLight").style.backgroundColor = "red";
