@@ -1,21 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script language = 'javascript'>
-        function startTime() {
-            var date = new Date();
-            var hours = date.getHours();
-            var minutes = date.getMinutes();
-            var seconds = date.getSeconds();
-            if (hours < 10) hours = "0" + hours;
-            if (minutes < 10) minutes = "0" + minutes;
-            if (seconds < 10) seconds = "0" + seconds;
-            document.getElementById("time").innerHTML = hours + ":" + minutes + ":" + seconds;
-            setTimeout(startTime, 1000);
+    <script language='javascript'>
+
+
+        var blink_text = "частота мигания 2000"
+        var speed = 2000
+        var verify = 1;
+        document.write('<span id="blink"></span><br />')
+        blink()
+        function blink() {
+            if (verify == 1) {
+                document.all.blink.innerText = blink_text;
+                verify = 0;
+            }
+            else {
+                document.all.blink.innerText = "";
+                verify = 1;
+            }
+            setTimeout("blink()", speed);
         }
+
+
+        var blink_text1 = "частота мигания 100"
+        var speed1 = 100
+        var verify1 = 1;
+        document.write('<span id="blink1"></span><br />')
+        blink1()
+        function blink1() {
+            if (verify1 == 1) {
+                document.all.blink1.innerText = blink_text1;
+                verify1 = 0;
+            }
+            else {
+                document.all.blink1.innerText = "";
+                verify1 = 1;
+            }
+            setTimeout("blink1()", speed1);
+        }
+
     </script>
 </head>
-<body onLoad = 'startTime()'>
-<b>Р’СЂРµРјСЏ РЅР° СЃР°Р№С‚Рµ: <span id="time"></span></b>
+<body>
+<div id="timer_inp">10</div>
+
 </body>
 </html>
