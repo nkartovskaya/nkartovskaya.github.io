@@ -9,3 +9,4 @@ function startDay() {
         document.getElementById('startDay').value=12;
     }
 }
+
