@@ -1,0 +1,36 @@
+<!--Придумайте самый короткий код для проверки, пуст ли элемент elem.
+
+«Пустой» — значит нет дочерних узлов, даже текстовых.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div class="empty"></div>
+<div class="notEmpty">
+    <ul>
+        <li>P1</li>
+        <li>P2</li>
+        Text
+    </ul>
+</div>
+<script>
+    var elem1=document.getElementsByClassName("empty");
+    var elem2=document.getElementsByClassName("notEmpty");
+
+    if (!elem1.hasChildNodes) {
+        console.log("Elem1 is empty");
+    } else {
+        console.log("Element is not empty");
+    }
+    if (elem2.hasChildNodes) {
+        console.log("Elem2 is empty");
+    } else {
+        console.log("Elem2 is not empty");
+    }
+</script>
+</body>
+</html>
