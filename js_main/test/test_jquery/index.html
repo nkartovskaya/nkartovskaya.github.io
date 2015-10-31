@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery</title>
+    <style>
+        .red_border {
+            border: 1px solid #f84040;
+        }
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            $('p').css('border', '3px solid blue');
+        });
+
+        function selector(select) {
+            var elementSelector = "class";
+
+            document.getElementById(elementSelector);
+            if (select.substr(0, 1) == ".") {
+                elementSelector = select.substr(1);
+                return document.getElementsByClassName(elementSelector);
+            } else if (select.substr(0, 1) == "#") {
+                elementSelector = select.substr(1);
+                return document.getElementById(elementSelector);
+            } else if (select.substr(0, 1) == "") {
+                return new Error("Hello! Fill select!");
+            } else {
+                return document.getElementsByTagName(elementSelector);
+            }
+        }
+        console.log(selector(""));
+
+
+    </script>
+
+</head>
+<body>
+<h1>Lorem ipsum dolor sit amet.</h1>
+
+<p class="class">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+
+<p id="class">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+
+<p class="red_border">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+
+<p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+<button>Show/Hide</button>
+<br>
+<br>
+
+<form action="#">
+    <input type="text" name="name" id="name" value="hello">
+    <input type="submit" value="Send">
+</form>
+<script>
+
+    $(document).ready(function () {
+        $('p').css('border', '3px solid blue');
+    });
+
+    function selector(select) {
+        var elementSelector;
+        if (select.substr(0, 1) == ".") {
+            elementSelector = select.substr(1);
+            return document.getElementsByClassName(elementSelector);
+        } else if (select.substr(0, 1) == "#") {
+            elementSelector = select.substr(1);
+            return document.getElementById(elementSelector);
+        } else if (select.substr(0, 1) == "") {
+            return new Error("Hello! Fill select!");
+        } else {
+            return document.getElementsByTagName(select);
+        }
+    }
+    console.log(selector(".class"));
+    console.log(selector("#class"));
+    console.log(selector("input"));
+    console.log(selector(""));
+
+
+</script>
+</body>
+</html>
