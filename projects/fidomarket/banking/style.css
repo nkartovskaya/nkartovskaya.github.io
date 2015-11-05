@@ -18,3 +18,8 @@ tr.main_nav a {
 .link {
     background-color: #a7d8ee;
 }
+
+.question {
+    background-color: yellow;
+    width: 600px;
+}
