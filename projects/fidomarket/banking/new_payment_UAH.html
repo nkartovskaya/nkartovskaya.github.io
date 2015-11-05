@@ -74,7 +74,60 @@
 </table>
 <hr>
 <label>Платежное получение в UAH</label>
-<button>Сохранить</button>
-<button><a href="payments_UAH.html">Отменить</a></button>
+<p class="comments">Поля приведены для того, чтобы дать пояснения, визуальное отображение полей <br> приводится на <a href="images/plat_dor_UAH.png" target="_blank">скриншоте</a> (скриншот из реального Бифит)</p>
+<label>Платежное поручение</label><input value="1"><br>
+<p class="comments">В текстовом поле находится номер платежного поручения, нумерация последовательная в рамках раздела</p>
+<label>От</label><input value="03.11.2015"><br>
+<p class="comments">По умолчанию заполняется текущая дата</p>
+<label>Дата валютирования</label><input value="-"><br>
+<p class="comments">Поле недоступно</p>
+<label>Плательщик</label><input value="ТОВ Тестуны"><br>
+<p class="comments">Текущий клиент</p>
+<label>Код ЭДРПОУ</label><input value="01234568"><br>
+<p class="comments">Код ЭДРПОУ текущего клиента</p>
+<label>Банк плательщика</label><input value="ПАУО ФИДОБАНК"><br>
+<p class="comments">Всегда ФИДОБАНК</p>
+<label>Счет плательщика</label><select>
+    <option selected>2600000000000</option>
+    <option>2600000000000</option>
+    <option>2600000000000</option>
+</select><br>
+<p class="comments">Поле представляет собой выпадающий список. В списке могут быть только счета в гривне и только те, <br>с которых разрешены документы типа Платежное поручение</p>
+<label>МФО</label><input value="380009"><br>
+<p class="comments">Всегда МФО ФИДОБАНКА</p>
+<label><a href="directory_recipient.html">Получатель</a></label><input><br>
+<p class="comments">Поле заполняется после нажатия на ссылку путем выбора получателя из справочника получателей во <br>всплывающием окне. Скриншот всплывающего окна из Бифит по <a href="images/recipients.png" target="_blank">ссылке</a>. Справочник получателей по <a href="directory_recipient.html" target="_blank">ссылке</a><br>Может заполняться также вручную</p>
+<label>Код ЭДРПОУ</label><input value="78945612"><br>
+<p class="comments">Если получатель выбран из справочник, поле заполняется автоматически. Может заполняться вручную</p>
+<label>Банк получателя</label><input value="МечтаБанк"><br>
+<p class="comments">Если получатель выбран из справочник, поле заполняется автоматически. Если полу не заполнено автоматически,<br> поле заполняется после нажатия на ссылку путем выбора банка из справочника банков во всплывающием окне. Справочник получателей по <a href="directory_banks.html" target="_blank">ссылке</a><br>Заполняться вручную не может</p>
+<label>Счет получателя</label><input value="2600000000000"><br>
+<p class="comments">Если получатель выбран из списка, поле заполняется автоматически. Если поле не заполнено, оно может заполняться вручную</p>
+<label>МФО</label><input value="326459"><br>
+<p class="comments">Если получатель выбран автоматически, поле заполняется автоматически при выборе получателя. Если нет, поле <br>заполняется автоматически при выборе банка из справочника</p>
+<label>Сумма</label><input value="10000"><br>
+<p class="comments">Поле заполняется вручную</p>
+<label>ПДВ</label><select>
+    <option selected>Учитывая ПДВ 20%</option>
+    <option>Учитывая ПДВ 10%</option>
+    <option>Без ПДВ</option>
+</select><br>
+<p class="comments">Поле представляет собой выпадающий список</p>
+<label>Назначение платежа</label><br>
+<textarea cols="80" rows="5">За услуги согласно договора №1 от 15.10.2015г.</textarea><br>
+<p class="comments">Справочник назначений платежа?</p>
+<label>Статус </label><label>Новый</label><br>
+<label>Подписи </label><label>Нет</label><br>
+<br>
+<label>Комментарии банка </label>
+<p class="comments">????</p>
+<label>Связи </label>
+<p class="comments">????</p>
+<label>Комментарий клиента </label>
+<p class="comments">????</p>
+<button><a href="payments_UAH.html">Сохранить</a></button>
+<p class="comments">После нажатия кнопки платеж сохраняется и осуществляется возврат на страницу платежей в гривнах</p>
+<button><a href="payments_UAH.html">Отменить</a></button><br>
+<p class="comments">После нажатия кнопки осуществляется возврат на страницу платежей в гривнах без сохранения платежа</p>
 </body>
 </html>

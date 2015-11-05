@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Справочник получателей платежей</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div>Надежда Картовская ООО "Ромашка"</div>
+<table>
+    <tr>
+        <td><a href="mail.html"><img src="images/emails.png" title="Переписка с банком"></a> </td>
+        <td><a href="help.html"><img src="images/help.png" title="Помощь"></a></td>
+        <td><a href="directory.html"><img src="images/directory.png" title="Справочники"></a></td>
+    </tr>
+</table>
+<p class="comments">Синим цветом выделены пункты основного меню, серым - пункты выпадающего меню</p>
+<table>
+    <tr class="main_nav">
+        <td><a href="index.html">Главная страница ЦФК</a></td>
+        <td><a href="main.html">Главная страница клиента</a></td>
+        <td><a href="payments_UAH.html">Платежи и переводы</a></td>
+        <td><a href="profile.html">Профиль</a></td>
+        <td><a href="security.html">Безопасность</a></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td class="nav_second_level"><a href="payments_UAH.html">Платежи в UAH</a></td>
+        <td class="nav_second_level"><a href="#">Наши параметры</a></td>
+        <td class="nav_second_level"><a href="#">Изменение пароля</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td class="nav_second_level"><a href="payments_currency.html">Платежи в валюте</a></td>
+        <td class="nav_second_level"><a href="#">Сотрудники</a></td>
+        <td class="nav_second_level"><a href="#">Журнал авторизаций</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td class="nav_second_level"><a href="salary.html">Зарплатные ведомости</a></td>
+        <td class="nav_second_level"><a href="#">Права на документы и отчеты</a></td>
+        <td class="nav_second_level"><a href="#">Фильтр IP</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td class="nav_second_level"><a href="application_buy.html">Заявка на покупку валюты</a></td>
+        <td class="nav_second_level"><a href="#">Sms/email информирование</a></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td class="nav_second_level"><a href="application_sale.html">Заявка на продажу валюты</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td class="nav_second_level"><a href="application_exchange.html">Заявка на конвертацию валюты</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+<hr>
+<label>Справочник получателей платежей</label>
+<table>
+    <tr class="nav_second_level">
+        <td>Получатель</td>
+        <td>Код ЭДРПОУ</td>
+        <td>Счет получателя</td>
+        <td>Банк получателя</td>
+        <td>МФО Банка</td>
+        <td>Назначение платежа</td>
+    </tr>
+    <tr>
+        <td>ТОВ "Тестуны 2"</td>
+        <td>45678912</td>
+        <td>2600000000000</td>
+        <td>МечтаБанк</td>
+        <td>321654</td>
+        <td>За услуги согласно договора №1 от 15.10.2015г.</td>
+    </tr>
+</table><br>
+<button>Добавить нового получателя</button><br><br>
+<label>Получатель</label>
+<input><br>
+<p class="comments">Поле заполняется вручную</p>
+<label>Код ЭДРПОУ</label>
+<input><br>
+<p class="comments">Поле заполняется вручную</p>
+<label>Счет получателя</label>
+<input><br>
+<p class="comments">Поле заполяется вручную</p>
+<label><a href="directory_banks.html">Банк получателя</a></label>
+<input><br>
+<p class="comments">Банк выбирается из справочника во всплывающем окне после нажатия ссылки. Содержание справочника по <a href="directory_banks.html">ссылке</a></p>
+<label>МФО Банка</label>
+<input><br>
+<p class="comments">После выбора банка поле заполняется автоматически</p>
+<label>Назначение платежа</label><br>
+<textarea cols="80" rows="5"></textarea><br>
+<p class="comments">Поле заполняется автоматически</p>
+<button><a href="#">Сохранить</a></button><br>
+<p class="comments">После нажатия на кнопку дополняется таблица сохраненных получателей, форма для добавления нового получателя скрывается</p>
+</body>
