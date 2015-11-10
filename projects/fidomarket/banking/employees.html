@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Помощь</title>
+    <title>Сотрудники</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -66,6 +66,58 @@
     </tr>
 </table>
 <hr>
-<!------------Content----------------->
+<!-------------Content---------------->
+<label>Сотрудники</label><br>
+<table>
+    <tr class="nav_second_level">
+        <td>Выбор</td>
+        <td>Имя</td>
+        <td>Отчество</td>
+        <td>Фамилия</td>
+        <td>Наличие главной подписи</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox"></td>
+        <td>Надежда</td>
+        <td>Ивановна</td>
+        <td>Картовская</td>
+        <td>Да</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox"></td>
+        <td>Надежда</td>
+        <td>Ивановна</td>
+        <td>Картовская</td>
+        <td>Нет</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox"></td>
+        <td>Надежда</td>
+        <td>Ивановна</td>
+        <td>Картовская</td>
+        <td>Да</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox"></td>
+        <td>Надежда</td>
+        <td>Ивановна</td>
+        <td>Картовская</td>
+        <td>Нет</td>
+    </tr>
+</table>
+<br>
+<button><a href="#">Добавить сотрудника</a></button><br>
+<p class="comments">Кнопка есть только у сотрудников с главной подписью</p>
+<p class="comments">При нажатии на кнопку появляется форма для добавления нового сотрудника</p>
+<label>Имя</label><input placeholder="Имя"><br><br>
+<label>Отчество</label><input placeholder="Фамилия"><br><br>
+<label>Фамилия</label><input placeholder="Отчество"><br><br>
+<label>Наличие главной подписи</label><input placeholder="Наличие главной подписи"><br><br>
+<p class="question">Возможно, сотрудники с главной подписью должны импортироваться при регистрации клиента,
+    все остальные по умолчанию не имеют главной подписи</p>
+
+<button><a href="#">Удалить сотрудника</a></button><br>
+<p class="comments">Кнопка есть только у сотрудников с главной подписью. Кнопка (если она есть) становится <br>
+    активной при хотя бы одном отмеченном чекбоксе.</p>
 </body>
 </html>

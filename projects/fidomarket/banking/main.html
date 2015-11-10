@@ -21,45 +21,39 @@
         <td><a href="main.html">Главная страница клиента</a></td>
         <td><a href="payments_UAH.html">Платежи и переводы</a></td>
         <td><a href="profile.html">Профиль</a></td>
-        <td><a href="security.html">Безопасность</a></td>
     </tr>
     <tr>
         <td></td>
         <td></td>
         <td class="nav_second_level"><a href="payments_UAH.html">Платежи в UAH</a></td>
-        <td class="nav_second_level"><a href="#">Наши параметры</a></td>
-        <td class="nav_second_level"><a href="#">Изменение пароля</a></td>
+        <td class="nav_second_level"><a href="data.html">Параметры</a></td>
         <td></td>
     </tr>
     <tr>
         <td></td>
         <td></td>
         <td class="nav_second_level"><a href="payments_currency.html">Платежи в валюте</a></td>
-        <td class="nav_second_level"><a href="#">Сотрудники</a></td>
-        <td class="nav_second_level"><a href="#">Журнал авторизаций</a></td>
+        <td class="nav_second_level"><a href="employees.html">Сотрудники</a></td>
         <td></td>
     </tr>
     <tr>
         <td></td>
         <td></td>
         <td class="nav_second_level"><a href="salary.html">Зарплатные ведомости</a></td>
-        <td class="nav_second_level"><a href="#">Права на документы и отчеты</a></td>
-        <td class="nav_second_level"><a href="#">Фильтр IP</a></td>
+        <td class="nav_second_level"><a href="authorities.html">Права на документы и отчеты</a></td>
         <td></td>
     </tr>
     <tr>
         <td></td>
         <td></td>
         <td class="nav_second_level"><a href="application_buy.html">Заявка на покупку валюты</a></td>
-        <td class="nav_second_level"><a href="#">Sms/email информирование</a></td>
-        <td></td>
+        <td class="nav_second_level"><a href="sms_email.html">Sms/email информирование</a></td>
         <td></td>
     </tr>
     <tr>
         <td></td>
         <td></td>
         <td class="nav_second_level"><a href="application_sale.html">Заявка на продажу валюты</a></td>
-        <td></td>
         <td></td>
         <td></td>
     </tr>
@@ -69,13 +63,24 @@
         <td class="nav_second_level"><a href="application_exchange.html">Заявка на конвертацию валюты</a></td>
         <td></td>
         <td></td>
-        <td></td>
     </tr>
 </table>
 <hr>
-    <label>Счета ООО "Ромашка"</label><br>
+<!------------Content----------------->
+    <label>Счета</label><br>
 <p class="comments">Сортировка счетов по умолчанию такая: сначала все счета в гривне, потом в долларах США, потом в евро, потом остальные, если есть в других валютах</p>
-    <table>
+<p class="comments">Голубым цветом выделены вкладки. При выборе каждой вкладки выводится представление для соответствующей группы счетов. <br>
+По умолчанию выводится представление для текущих счетов</p>
+<table>
+    <tr class="link">
+        <td>Текущие счета</td>
+        <td>Депозиты</td>
+        <td>Кредиты</td>
+    </tr>
+    </table>
+<!------------Текущие счета------------->
+<p class="comments">Представление для текущих счетов. Перечень балансовых счетов: 2600...</p>
+<table>
         <tr class="nav_second_level">
             <td>Выбрать все<input type="checkbox" checked></td>
             <td>Порядок</td>
@@ -160,7 +165,183 @@
 <input placeholder="Дата окончания периода"><br><br>
 <button>Сформировать и сохранить</button><br>
 <p class="comments">При нажатии на кнопку формируются и сохраняются на жесткий диск файлы выписок по каждому счету в формате .pdf</p><br><br>
-    <div>Баннер 1</div>
+<hr>
+<!------------Депозитные счета------------->
+<p class="comments">Представление для депозитных счетов. Перечень балансовых счетов: 2610...</p>
+<table>
+    <tr class="nav_second_level">
+        <td>Выбрать все<input type="checkbox" checked></td>
+        <td>Порядок</td>
+        <td>Номер</td>
+        <td>Название</td>
+        <td>Валюта</td>
+        <td>Остаток</td>
+        <td>Лимит овердрафта</td>
+        <td>Заблокированные средства</td>
+        <td>Доступный остаток</td>
+        <td>Редактирование</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" checked></td>
+        <td><button>&#8593;</button><button>&#8595;</button></td>
+        <td><a href="account_details.html">26000000000000</a></td>
+        <td>Основной текущий</td>
+        <td>UAH</td>
+        <td>500000</td>
+        <td>200000</td>
+        <td>1000</td>
+        <td>699000</td>
+        <td><button>Изменить название</button></td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" checked></td>
+        <td><button>&#8593;</button><button>&#8595;</button></td>
+        <td><a href="account_details.html">26000000000000</a></td>
+        <td>Основной текущий</td>
+        <td>UAH</td>
+        <td>500000</td>
+        <td>200000</td>
+        <td>1000</td>
+        <td>699000</td>
+        <td><button>Изменить название</button></td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" checked></td>
+        <td><button>&#8593;</button><button>&#8595;</button></td>
+        <td><a href="account_details.html">26000000000000</a></td>
+        <td>Основной текущий</td>
+        <td>UAH</td>
+        <td>500000</td>
+        <td>200000</td>
+        <td>1000</td>
+        <td>699000</td>
+        <td><button>Изменить название</button></td>
+    </tr>
+</table>
+<br>
+<p class="comments">Остатки в валютах отображаются по номиналу. Остатки в гривневом эквиваленте отображаются по курсу НБУ на дату</p>
+<table>
+    <tr class="nav_second_level">
+        <td>Остаток средств в гривне</td>
+        <td>100 000</td>
+        <td>грн.</td>
+    </tr>
+    <tr class="nav_second_level">
+        <td>Остаток средств в долларах США</td>
+        <td>10 000</td>
+        <td>долларов США</td>
+    </tr>
+    <tr class="nav_second_level">
+        <td>Остаток средств в евро</td>
+        <td>10 000</td>
+        <td>евро</td>
+    </tr>
+    <tr class="nav_second_level">
+        <td>Остаток средств в гривневом эквиваленте</td>
+        <td>1 000 000</td>
+        <td>гривен</td>
+    </tr>
+</table>
+<br><br>
+<button>Сохранить порядок представления счетов</button><br>
+<p class="comments">При нажатии на кнопку сохраняется порядок представления счетов</p>
+<button>Сформировать выписки по всем выбранным счетам</button><br>
+<p class="comments">При нажатии на кнопку открывается возможность выбора периода</p><br>
+<label>Дата начала периода</label>
+<input placeholder="Дата начала периода">
+<label>Дата окончания периода</label>
+<input placeholder="Дата окончания периода"><br><br>
+<button>Сформировать и сохранить</button><br>
+<p class="comments">При нажатии на кнопку формируются и сохраняются на жесткий диск файлы выписок по каждому счету в формате .pdf</p><br><br>
+<hr>
+<!------------Кредитные счета------------->
+<p class="comments">Представление для кредитных счетов. Перечень балансовых счетов: 2062...</p>
+<table>
+    <tr class="nav_second_level">
+        <td>Выбрать все<input type="checkbox" checked></td>
+        <td>Порядок</td>
+        <td>Номер</td>
+        <td>Название</td>
+        <td>Валюта</td>
+        <td>Остаток</td>
+        <td>Лимит овердрафта</td>
+        <td>Заблокированные средства</td>
+        <td>Доступный остаток</td>
+        <td>Редактирование</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" checked></td>
+        <td><button>&#8593;</button><button>&#8595;</button></td>
+        <td><a href="account_details.html">26000000000000</a></td>
+        <td>Основной текущий</td>
+        <td>UAH</td>
+        <td>500000</td>
+        <td>200000</td>
+        <td>1000</td>
+        <td>699000</td>
+        <td><button>Изменить название</button></td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" checked></td>
+        <td><button>&#8593;</button><button>&#8595;</button></td>
+        <td><a href="account_details.html">26000000000000</a></td>
+        <td>Основной текущий</td>
+        <td>UAH</td>
+        <td>500000</td>
+        <td>200000</td>
+        <td>1000</td>
+        <td>699000</td>
+        <td><button>Изменить название</button></td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" checked></td>
+        <td><button>&#8593;</button><button>&#8595;</button></td>
+        <td><a href="account_details.html">26000000000000</a></td>
+        <td>Основной текущий</td>
+        <td>UAH</td>
+        <td>500000</td>
+        <td>200000</td>
+        <td>1000</td>
+        <td>699000</td>
+        <td><button>Изменить название</button></td>
+    </tr>
+</table>
+<br>
+<p class="comments">Остатки в валютах отображаются по номиналу. Остатки в гривневом эквиваленте отображаются по курсу НБУ на дату</p>
+<table>
+    <tr class="nav_second_level">
+        <td>Остаток средств в гривне</td>
+        <td>100 000</td>
+        <td>грн.</td>
+    </tr>
+    <tr class="nav_second_level">
+        <td>Остаток средств в долларах США</td>
+        <td>10 000</td>
+        <td>долларов США</td>
+    </tr>
+    <tr class="nav_second_level">
+        <td>Остаток средств в евро</td>
+        <td>10 000</td>
+        <td>евро</td>
+    </tr>
+    <tr class="nav_second_level">
+        <td>Остаток средств в гривневом эквиваленте</td>
+        <td>1 000 000</td>
+        <td>гривен</td>
+    </tr>
+</table>
+<br><br>
+<button>Сохранить порядок представления счетов</button><br>
+<p class="comments">При нажатии на кнопку сохраняется порядок представления счетов</p>
+<button>Сформировать выписки по всем выбранным счетам</button><br>
+<p class="comments">При нажатии на кнопку открывается возможность выбора периода</p><br>
+<label>Дата начала периода</label>
+<input placeholder="Дата начала периода">
+<label>Дата окончания периода</label>
+<input placeholder="Дата окончания периода"><br><br>
+<button>Сформировать и сохранить</button><br>
+<p class="comments">При нажатии на кнопку формируются и сохраняются на жесткий диск файлы выписок по каждому счету в формате .pdf</p><br><br>
+<div>Баннер 1</div>
     <div>Баннер 2</div>
 <br>
 

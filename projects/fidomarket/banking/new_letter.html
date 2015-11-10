@@ -21,45 +21,39 @@
         <td><a href="main.html">Главная страница клиента</a></td>
         <td><a href="payments_UAH.html">Платежи и переводы</a></td>
         <td><a href="profile.html">Профиль</a></td>
-        <td><a href="security.html">Безопасность</a></td>
     </tr>
     <tr>
         <td></td>
         <td></td>
         <td class="nav_second_level"><a href="payments_UAH.html">Платежи в UAH</a></td>
-        <td class="nav_second_level"><a href="#">Наши параметры</a></td>
-        <td class="nav_second_level"><a href="#">Изменение пароля</a></td>
+        <td class="nav_second_level"><a href="data.html">Параметры</a></td>
         <td></td>
     </tr>
     <tr>
         <td></td>
         <td></td>
         <td class="nav_second_level"><a href="payments_currency.html">Платежи в валюте</a></td>
-        <td class="nav_second_level"><a href="#">Сотрудники</a></td>
-        <td class="nav_second_level"><a href="#">Журнал авторизаций</a></td>
+        <td class="nav_second_level"><a href="employees.html">Сотрудники</a></td>
         <td></td>
     </tr>
     <tr>
         <td></td>
         <td></td>
         <td class="nav_second_level"><a href="salary.html">Зарплатные ведомости</a></td>
-        <td class="nav_second_level"><a href="#">Права на документы и отчеты</a></td>
-        <td class="nav_second_level"><a href="#">Фильтр IP</a></td>
+        <td class="nav_second_level"><a href="authorities.html">Права на документы и отчеты</a></td>
         <td></td>
     </tr>
     <tr>
         <td></td>
         <td></td>
         <td class="nav_second_level"><a href="application_buy.html">Заявка на покупку валюты</a></td>
-        <td class="nav_second_level"><a href="#">Sms/email информирование</a></td>
-        <td></td>
+        <td class="nav_second_level"><a href="sms_email.html">Sms/email информирование</a></td>
         <td></td>
     </tr>
     <tr>
         <td></td>
         <td></td>
         <td class="nav_second_level"><a href="application_sale.html">Заявка на продажу валюты</a></td>
-        <td></td>
         <td></td>
         <td></td>
     </tr>
@@ -69,16 +63,22 @@
         <td class="nav_second_level"><a href="application_exchange.html">Заявка на конвертацию валюты</a></td>
         <td></td>
         <td></td>
-        <td></td>
     </tr>
 </table>
 <hr>
-<label>Новое письмо</label><br><br>
-<input><br><br>
-<input><br><br>
-<input><br><br>
+<!------------Content-----------------><label>Новое письмо</label><br><br>
+<label>Категория письма </label><select>
+    <option>Жалоба</option>
+    <option>Отмена платежа</option>
+    <option>Предложение</option>
+</select><br><br>
 <textarea rows="10" cols="60"></textarea><br><br>
-<button>Сохранить и подписать письмо</button>
-<button><a href="mail.html">Отменить</a></button>
+<button><a href="#">Подписать и отправить</a></button><button><a href="mail.html">Отменить</a></button>
+<p class="comments">При нажатии на кнопку появляется окно для выбора ЭЦП, до нажатия оно скрыто</p>
+<input placeholder="ЭЦП"><button>Обзор</button><button>Применить</button>
+<p class="comments">При нажатии на кнопку "Обзор" на экран выводится окно проводника для поиска файла ЭЦП. После выбора нужного файла, <br>
+    его название появляется в текстовом поле и становится активной кнопка "Применить". <br>
+    При нажатии на нее инициируется процесс наложения ЭЦП на письмо и отправки его в банк. После этого осуществляется <br>
+    возврат на страницу писем с новыми статусами</p>
 </body>
 </html>
