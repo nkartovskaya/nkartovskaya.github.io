@@ -1,0 +1,25 @@
+tr.main_nav {
+    background-color: #00008a;
+}
+tr.main_nav a {
+    color: white;
+}
+.nav_second_level {
+    background-color: #cecece;
+}
+.comments {
+    color: red;
+    font-size: 12px;
+}
+.sidebar {
+    float: left;
+}
+
+.link {
+    background-color: #a7d8ee;
+}
+
+.question {
+    background-color: yellow;
+    width: 600px;
+}
