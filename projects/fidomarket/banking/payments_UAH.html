@@ -127,6 +127,7 @@
             <td>Получатель</td>
             <td>Сумма</td>
             <td>Статус</td>
+            <td>Операции с документом</td>
         </tr>
         <tr>
             <td><a>1</a></td>
@@ -136,6 +137,14 @@
             <td><a>ООО "Одуванчик"</a></td>
             <td><a>15000</a></td>
             <td><a>Новый</a></td>
+            <td>
+                <button style="width: 30px"><a href="#"><img src="images/sign.jpg" title="Подписать"></a></button>
+                <button style="width: 30px"><a href="new_payment_UAH.html"><img src="images/edit.png" title="Редактировать"></a></button>
+                <button style="width: 30px"><a href="new_payment_UAH.html"><img src="images/copy.png" title="Копировать"></a></button>
+                <button style="width: 30px"><a href="#"><img src="images/print.png" title="Печать"></a></button>
+                <button style="width: 30px"><a href="#"><img src="images/delete.png" title="Удалить"></a></button>
+            <p class="comments">Комментарии к кнопкам управления документом ниже на странице</p>
+            </td>
         </tr>
         <tr>
             <td><a>2</a></td>
@@ -145,6 +154,13 @@
             <td><a>ООО "Одуванчик"</a></td>
             <td><a>15000</a></td>
             <td><a>Новый</a></td>
+            <td>
+                <button style="width: 30px"><a href="#"><img src="images/sign.jpg" title="Подписать"></a></button>
+                <button style="width: 30px"><a href="new_payment_UAH.html"><img src="images/edit.png" title="Редактировать"></a></button>
+                <button style="width: 30px"><a href="new_payment_UAH.html"><img src="images/copy.png" title="Копировать"></a></button>
+                <button style="width: 30px"><a href="#"><img src="images/print.png" title="Печать"></a></button>
+                <button style="width: 30px"><a href="#"><img src="images/delete.png" title="Удалить"></a></button>
+            </td>
         </tr>
         <tr>
             <td><a>3</a></td>
@@ -154,6 +170,13 @@
             <td><a>ООО "Одуванчик"</a></td>
             <td><a>15000</a></td>
             <td><a>Новый</a></td>
+            <td>
+                <button style="width: 30px"><a href="#"><img src="images/sign.jpg" title="Подписать"></a></button>
+                <button style="width: 30px"><a href="new_payment_UAH.html"><img src="images/edit.png" title="Редактировать"></a></button>
+                <button style="width: 30px"><a href="new_payment_UAH.html"><img src="images/copy.png" title="Копировать"></a></button>
+                <button style="width: 30px"><a href="#"><img src="images/print.png" title="Печать"></a></button>
+                <button style="width: 30px"><a href="#"><img src="images/delete.png" title="Удалить"></a></button>
+            </td>
         </tr>
         <tr>
             <td><a>4</a></td>
@@ -163,15 +186,38 @@
             <td><a>ООО "Одуванчик"</a></td>
             <td><a>15000</a></td>
             <td><a>Новый</a></td>
+            <td>
+                <button style="width: 30px"><a href="#"><img src="images/sign.jpg" title="Подписать"></a></button>
+                <button style="width: 30px"><a href="new_payment_UAH.html"><img src="images/edit.png" title="Редактировать"></a></button>
+                <button style="width: 30px"><a href="new_payment_UAH.html"><img src="images/copy.png" title="Копировать"></a></button>
+                <button style="width: 30px"><a href="#"><img src="images/print.png" title="Печать"></a></button>
+                <button style="width: 30px"><a href="#"><img src="images/delete.png" title="Удалить"></a></button>
+            </td>
         </tr>
     </table>
+    <br>
     <button><a href="#">Подписать и отправить</a></button>
     <p class="comments">При нажатии на кнопку появляется окно для выбора ЭЦП, до нажатия оно скрыто</p>
-    <input placeholder="ЭЦП"><button>Обзор</button><button>Применить</button>
+    <input placeholder="ЭЦП"><button>Обзор</button><button><a href="payments_UAH.html">Применить</a></button>
     <p class="comments">При нажатии на кнопку "Обзор" на экран выводится окно проводника для поиска файла ЭЦП. После выбора нужного файла, <br>
         его название появляется в текстовом поле и становится активной кнопка "Применить". <br>
-        При нажатии на нее инициируется процесс наложения ЭЦП на группу платежей и отправки их в банк</p>
+        При нажатии на нее инициируется процесс наложения ЭЦП на группу платежей и отправки их в банк. После этого-возврат на страницу платежей.</p>
     </div>
+    <p class="comments">Комментарии к кнопкам управления документом<br>
+    1.Кнопка подписать: при нажатии кнопки происходит то же, что при нажатии кнопки "Подписать и отправить" <br>
+        под таблицей документов-открытие окна для поиска ЭЦП и его применение, только для конкретного документа, <br>
+        в строке которого нажата кнопка.<br><br>
+        2.Кнопка редактировать: при нажатии кнопки пользователь возвращается на страницу, аналогичную странице<br> создания нового платежа, но
+        все поля платежа должны быть заполнены. Номер и дата документа сохраняется<br><br>
+        3.Кнопка копировать: при нажатии кнопки пользователь возвращается на страницу, аналогичную странице<br>
+        создания нового платежа, но все поля должны быть заполнены. Номер и дата документа-текущие.<br><br>
+    4.Кнопка печать: при нажатии на кнопку формируется и сохраняется на компьютере платежное поручение в формате .pdf. Или может быть сразу печатается?<br><br>
+        5.Кнопка удалить: при нажатии кнопки удаление документа.<br><br>
+        Доступность кнопок по статусам:<br>
+        Новые-все кнопки доступны.<br>
+        Все другие статусы: доступна только кнопка "Копировать"<br>
+    </p>
+    <p class="question">Вопрос: как долго документ может находится в статусе Новый? Если в течение срока его "годности"-ок, если больше-какая дата и номер проставляется при редактировании?</p>
     </div>
 </body>
 </html>
