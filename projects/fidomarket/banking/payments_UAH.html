@@ -101,6 +101,7 @@
 
     <table>
         <tr class="link">
+            <td>Все платежи</td>
             <td>Новые</td>
             <td>Доставленные</td>
             <td>Выполненные</td>
@@ -122,7 +123,6 @@
         <tr class="nav_second_level">
             <td>№ документа</td>
             <td>Дата создания</td>
-            <td>Счет 1</td>
             <td>Счет 2</td>
             <td>Получатель</td>
             <td>Сумма</td>
@@ -133,7 +133,6 @@
             <td><a>1</a></td>
             <td><a href="payment_UAH_details.html">31.10.2015</a></td>
             <td><a>2600000000000</a></td>
-            <td><a>2600000000000</a></td>
             <td><a>ООО "Одуванчик"</a></td>
             <td><a>15000</a></td>
             <td><a>Новый</a></td>
@@ -142,6 +141,7 @@
                 <button style="width: 30px"><a href="new_payment_UAH.html"><img src="images/edit.png" title="Редактировать"></a></button>
                 <button style="width: 30px"><a href="new_payment_UAH.html"><img src="images/copy.png" title="Копировать"></a></button>
                 <button style="width: 30px"><a href="#"><img src="images/print.png" title="Печать"></a></button>
+                <button style="width: 30px"><a href="#"><img src="images/save.png" title="Сохранить"></a></button>
                 <button style="width: 30px"><a href="#"><img src="images/delete.png" title="Удалить"></a></button>
             <p class="comments">Комментарии к кнопкам управления документом ниже на странице</p>
             </td>
@@ -150,7 +150,6 @@
             <td><a>2</a></td>
             <td><a href="payment_UAH_details.html">31.10.2015</a></td>
             <td><a>2600000000000</a></td>
-            <td><a>2600000000000</a></td>
             <td><a>ООО "Одуванчик"</a></td>
             <td><a>15000</a></td>
             <td><a>Новый</a></td>
@@ -159,6 +158,7 @@
                 <button style="width: 30px"><a href="new_payment_UAH.html"><img src="images/edit.png" title="Редактировать"></a></button>
                 <button style="width: 30px"><a href="new_payment_UAH.html"><img src="images/copy.png" title="Копировать"></a></button>
                 <button style="width: 30px"><a href="#"><img src="images/print.png" title="Печать"></a></button>
+                <button style="width: 30px"><a href="#"><img src="images/save.png" title="Сохранить"></a></button>
                 <button style="width: 30px"><a href="#"><img src="images/delete.png" title="Удалить"></a></button>
             </td>
         </tr>
@@ -166,7 +166,6 @@
             <td><a>3</a></td>
             <td><a href="payment_UAH_details.html">31.10.2015</a></td>
             <td><a>2600000000000</a></td>
-            <td><a>2600000000000</a></td>
             <td><a>ООО "Одуванчик"</a></td>
             <td><a>15000</a></td>
             <td><a>Новый</a></td>
@@ -175,6 +174,7 @@
                 <button style="width: 30px"><a href="new_payment_UAH.html"><img src="images/edit.png" title="Редактировать"></a></button>
                 <button style="width: 30px"><a href="new_payment_UAH.html"><img src="images/copy.png" title="Копировать"></a></button>
                 <button style="width: 30px"><a href="#"><img src="images/print.png" title="Печать"></a></button>
+                <button style="width: 30px"><a href="#"><img src="images/save.png" title="Сохранить"></a></button>
                 <button style="width: 30px"><a href="#"><img src="images/delete.png" title="Удалить"></a></button>
             </td>
         </tr>
@@ -182,7 +182,6 @@
             <td><a>4</a></td>
             <td><a href="payment_UAH_details.html">31.10.2015</a></td>
             <td><a>2600000000000</a></td>
-            <td><a>2600000000000</a></td>
             <td><a>ООО "Одуванчик"</a></td>
             <td><a>15000</a></td>
             <td><a>Новый</a></td>
@@ -191,12 +190,13 @@
                 <button style="width: 30px"><a href="new_payment_UAH.html"><img src="images/edit.png" title="Редактировать"></a></button>
                 <button style="width: 30px"><a href="new_payment_UAH.html"><img src="images/copy.png" title="Копировать"></a></button>
                 <button style="width: 30px"><a href="#"><img src="images/print.png" title="Печать"></a></button>
+                <button style="width: 30px"><a href="#"><img src="images/save.png" title="Сохранить"></a></button>
                 <button style="width: 30px"><a href="#"><img src="images/delete.png" title="Удалить"></a></button>
             </td>
         </tr>
     </table>
     <br>
-    <button><a href="#">Подписать и отправить</a></button>
+    <button><a href="#">Подписать</a></button>
     <p class="comments">При нажатии на кнопку появляется окно для выбора ЭЦП, до нажатия оно скрыто</p>
     <input placeholder="ЭЦП"><button>Обзор</button><button><a href="payments_UAH.html">Применить</a></button>
     <p class="comments">При нажатии на кнопку "Обзор" на экран выводится окно проводника для поиска файла ЭЦП. После выбора нужного файла, <br>
@@ -211,13 +211,13 @@
         все поля платежа должны быть заполнены. Номер и дата документа сохраняется<br><br>
         3.Кнопка копировать: при нажатии кнопки пользователь возвращается на страницу, аналогичную странице<br>
         создания нового платежа, но все поля должны быть заполнены. Номер и дата документа-текущие.<br><br>
-    4.Кнопка печать: при нажатии на кнопку формируется и сохраняется на компьютере платежное поручение в формате .pdf. Или может быть сразу печатается?<br><br>
-        5.Кнопка удалить: при нажатии кнопки удаление документа.<br><br>
+    4.Кнопка печать: при нажатии на кнопку платежное поручение отправляется на печать<br><br>
+        5.Кнопка сохранить: при нажатии на кнопку платежное поручение формируется и сохраняется на компьютере в формате .pdf.<br><br>
+        6.Кнопка удалить: при нажатии кнопки удаление документа.<br><br>
         Доступность кнопок по статусам:<br>
         Новые-все кнопки доступны.<br>
-        Все другие статусы: доступна только кнопка "Копировать"<br>
+        Все другие статусы: доступны кнопки "Копировать", "Печать", "Сохранить"<br>
     </p>
-    <p class="question">Вопрос: как долго документ может находится в статусе Новый? Если в течение срока его "годности"-ок, если больше-какая дата и номер проставляется при редактировании?</p>
-    </div>
+        </div>
 </body>
 </html>
