@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Моя коллекция</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="stylesheets/screen.css">
+    <link href='https://fonts.googleapis.com/css?family=Jura:400,500,600&subset=latin,cyrillic' rel='stylesheet'
+          type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Bad+Script&subset=latin,cyrillic' rel='stylesheet'
+          type='text/css'>
+    <script src="js/audio.js"></script>
+</head>
+<body>
+<section class="wrapper">
+    <header>
+        <div class="logo_nav">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo_black.png"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Обо мне</a></li>
+                    <li><a href="collection.html">Моя коллекция</a></li>
+                    <li><a href="club.html">Клуб</a></li>
+                    <li><a href="feedback.html">Обратная связь</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="content">
+        <article>
+
+            <div>
+                <input type="checkbox" id="beatles"/><label for="beatles">Beatles</label>
+                <input type="checkbox" id="billie_holiday"/><label for="billie_holiday">Billie Holiday</label>
+                <input type="checkbox" id="bob-dylan"/><label for="bob-dylan">Bob Dylan</label>
+                <input type="checkbox" id="david-bowie"/><label for="david-bowie">David Bowie</label>
+                <input type="checkbox" id="deep-purple"/><label for="deep-purple">Deep Purple</label>
+                <input type="checkbox" id="elvis_preastley"/><label for="elvis_preastley">Elvis Presley</label>
+                <input type="checkbox" id="frank_sinatra"/><label for="frank_sinatra">Frank Sinatra</label>
+                <input type="checkbox" id="iron-maiden"/><label for="iron-maiden">Iron Maiden</label>
+                <input type="checkbox" id="lou-reed"/><label for="lou-reed">Lou Reed</label>
+                <input type="checkbox" id="louis-armstrong"/><label for="louis-armstrong">Louis Armstrong</label>
+                <input type="checkbox" id="machel_jackson"/><label for="machel_jackson">Michael Jackson</label>
+                <input type="checkbox" id="madonna_"/><label for="madonna_">Madonna</label>
+                <input type="checkbox" id="queen_"/><label for="queen_">Queen</label>
+                <input type="checkbox" id="queen-latiffa"/><label for="queen-latiffa">Queen Latifah</label>
+                <input type="checkbox" id="tom-johns"/><label for="tom-johns">Tom Jones</label>
+                <input type="checkbox" id="ulla-pugacheva"/><label for="ulla-pugacheva">Алла Пугачева</label>
+                <input type="checkbox" id="vysotskij_"/><label for="vysotskij_">Владимир Высоцкий</label><br><br>
+
+                <img class="shelf" src="images/collection.jpg">
+
+                <audio id="beatles_1" src="audio/Yesterday.mp3"></audio>
+                <div class="sprite-beatles_1">
+                    <a class="play" onclick="play('beatles_1')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('beatles_1')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('beatles_1')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('beatles_1')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="beatles_2 beatles_block" src="audio/Imagine.mp3"></audio>
+                <div class="sprite-beatles_2">
+                    <a class="play" onclick="play('beatles_2')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('beatles_2')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('beatles_2')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('beatles_2')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="beatles_3 beatles" src="audio/Let_It_Be.mp3"></audio>
+                <div class="sprite-beatles_3">
+                    <a class="play" onclick="play('beatles_3')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('beatles_3')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('beatles_3')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('beatles_3')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="beatles_4 beatles" src="audio/Help!.mp3"></audio>
+                <div class="sprite-beatles_4">
+                    <a class="play" onclick="play('beatles_4')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('beatles_4')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('beatles_4')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('beatles_4')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="beatles_5 beatles" src="audio/Michelle.mp3"></audio>
+                <div class="sprite-beatles_5">
+                    <a class="play" onclick="play('beatles_5')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('beatles_5')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('beatles_5')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('beatles_5')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="beatles_6 beatles" src="audio/All_you_need_is_love.mp3"></audio>
+                <div class="sprite-beatles_6">
+                    <a class="play" onclick="play('beatles_6')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('beatles_6')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('beatles_6')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('beatles_6')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="beatles_7 beatles" src="audio/Something.mp3"></audio>
+                <div class="sprite-beatles_7">
+                    <a class="play" onclick="play('beatles_7')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('beatles_7')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('beatles_7')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('beatles_7')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="beatles_8 beatles" src="audio/Here_Comes_The_Sun.mp3"></audio>
+                <div class="sprite-beatles_8">
+                    <a class="play" onclick="play('beatles_8')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('beatles_8')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('beatles_8')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('beatles_8')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="billie-holiday" src="audio/Please_dont_talk_about_me_whe.mp3"></audio>
+                <div class="sprite-billie-holiday">
+                    <a class="play" onclick="play('billie-holiday')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('billie-holiday')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('billie-holiday')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('billie-holiday')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="bob_dylan" src="audio/Tempest.mp3"></audio>
+                <div class="sprite-bob_dylan">
+                    <a class="play" onclick="play('bob_dylan')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('bob_dylan')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('bob_dylan')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('bob_dylan')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="david-bowie david_bowie" src="audio/The_jean_genie.mp3"></audio>
+                <div class="sprite-david-bowie">
+                    <a class="play" onclick="play('david-bowie')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('david-bowie')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('david-bowie')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('david-bowie')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="deep_purple deep-purple" src="audio/Highway_star.mp3"></audio>
+                <div class="sprite-deep_purple">
+                    <a class="play" onclick="play('deep_purple')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('deep_purple')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('deep_purple')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('deep_purple')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="elvis_preastley_1" src="audio/Cant_Help_Falling_In_Love_With_You.mp3"></audio>
+                <div class="sprite-elvis_preastley_1">
+                    <a class="play" onclick="play('elvis_preastley_1')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('elvis_preastley_1')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('elvis_preastley_1')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('elvis_preastley_1')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="elvis_preastley_2" src="audio/Pretty_woman.mp3"></audio>
+                <div class="sprite-elvis_preastley_2">
+                    <a class="play" onclick="play('elvis_preastley_2')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('elvis_preastley_2')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('elvis_preastley_2')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('elvis_preastley_2')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="elvis_preastley_3" src="audio/Rok_n_roll.mp3"></audio>
+                <div class="sprite-elvis_preastley_3">
+                    <a class="play" onclick="play('elvis_preastley_3')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('elvis_preastley_3')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('elvis_preastley_3')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('elvis_preastley_3')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="frank_sinatra_1" src="audio/FS0.mp3"></audio>
+                <div class="sprite-frank_sinatra_1">
+                    <a class="play" onclick="play('frank_sinatra_1')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('frank_sinatra_1')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('frank_sinatra_1')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('frank_sinatra_1')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="frank_sinatra_2" src="audio/FS1.mp3"></audio>
+                <div class="sprite-frank_sinatra_2">
+                    <a class="play" onclick="play('frank_sinatra_2')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('frank_sinatra_2')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('frank_sinatra_2')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('frank_sinatra_2')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="frank_sinatra_3" src="audio/FS2.mp3"></audio>
+                <div class="sprite-frank_sinatra_3">
+                    <a class="play" onclick="play('frank_sinatra_3')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('frank_sinatra_3')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('frank_sinatra_3')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('frank_sinatra_3')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="iron_maiden" src="audio/Wasting_love.mp3"></audio>
+                <div class="sprite-iron_maiden">
+                    <a class="play" onclick="play('iron_maiden')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('iron_maiden')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('iron_maiden')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('iron_maiden')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="lou_reed" src="audio/Perfect_day.mp3"></audio>
+                <div class="sprite-lou_reed">
+                    <a class="play" onclick="play('lou_reed')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('lou_reed')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('lou_reed')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('lou_reed')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="louis_armstrong" src="audio/Let_my_people_go.mp3"></audio>
+                <div class="sprite-louis_armstrong">
+                    <a class="play" onclick="play('louis_armstrong')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('louis_armstrong')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('louis_armstrong')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('louis_armstrong')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="machel_jackson_1" src="audio/MJ1.lite.mp3"></audio>
+                <div class="sprite-machel_jackson_1">
+                    <a class="play" onclick="play('machel_jackson_1')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('machel_jackson_1')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('machel_jackson_1')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('machel_jackson_1')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="machel_jackson_2" src="audio/I_want_you_to_back.mp3"></audio>
+                <div class="sprite-machel_jackson_2">
+                    <a class="play" onclick="play('machel_jackson_2')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('machel_jackson_2')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('machel_jackson_2')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('machel_jackson_2')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="machel_jackson_3" src="audio/Hold_my_hand.mp3"></audio>
+                <div class="sprite-machel_jackson_3">
+                    <a class="play" onclick="play('machel_jackson_3')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('machel_jackson_3')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('machel_jackson_3')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('machel_jackson_3')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="madonna" src="audio/Hollywood.mp3"></audio>
+                <div class="sprite-madonna">
+                    <a class="play" onclick="play('madonna')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('madonna')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('madonna')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('madonna')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="nautilus" src="audio/Apostol_Andrej.mp3"></audio>
+                <div class="sprite-nautilus">
+                    <a class="play" onclick="play('nautilus')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('nautilus')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('nautilus')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('nautilus')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="queen_1" src="audio/Bohemian_Rhapsody.mp3"></audio>
+                <div class="sprite-queen_1">
+                    <div class="queen_1">
+                        <a class="play" onclick="play('queen_1')">
+                            <div class="sprite-1play_right_arrow"></div>
+                        </a>
+                        <a class="pause" onclick="pause('queen_1')">
+                            <div class="sprite-2pause"></div>
+                        </a>
+                        <a class="volume-" onclick="volumeDecrease('queen_1')">
+                            <div class="sprite-3speaker_volume-"></div>
+                        </a>
+                        <a class="volume+" onclick="volumeIncrease('queen_1')">
+                            <div class="sprite-4speaker_volume"></div>
+                        </a>
+                    </div>
+                </div>
+
+
+                <audio id="queen_2" src="audio/Dont_Stop_Me_Now.mp3"></audio>
+                <div class="sprite-queen_2">
+                    <div class="queen_2">
+                        <a class="play" onclick="play('queen_2')">
+                            <div class="sprite-1play_right_arrow"></div>
+                        </a>
+                        <a class="pause" onclick="pause('queen_2')">
+                            <div class="sprite-2pause"></div>
+                        </a>
+                        <a class="volume-" onclick="volumeDecrease('queen_2')">
+                            <div class="sprite-3speaker_volume-"></div>
+                        </a>
+                        <a class="volume+" onclick="volumeIncrease('queen_2')">
+                            <div class="sprite-4speaker_volume"></div>
+                        </a>
+                    </div>
+                </div>
+
+                <audio id="queen_3" src="audio/Crazy_Little_Thing_Called_Love.mp3"></audio>
+                <div class="sprite-queen_3">
+                    <div class="queen_3">
+                        <a class="play" onclick="play('queen_3')">
+                            <div class="sprite-1play_right_arrow"></div>
+                        </a>
+                        <a class="pause" onclick="pause('queen_3')">
+                            <div class="sprite-2pause"></div>
+                        </a>
+                        <a class="volume-" onclick="volumeDecrease('queen_3')">
+                            <div class="sprite-3speaker_volume-"></div>
+                        </a>
+                        <a class="volume+" onclick="volumeIncrease('queen_3')">
+                            <div class="sprite-4speaker_volume"></div>
+                        </a>
+                    </div>
+                </div>
+
+                <audio id="queen_4" src="audio/Somebody_To_Love.mp3"></audio>
+                <div class="sprite-queen_4">
+                    <div class="queen_4">
+                        <a class="play" onclick="play('queen_4')">
+                            <div class="sprite-1play_right_arrow"></div>
+                        </a>
+                        <a class="pause" onclick="pause('queen_4')">
+                            <div class="sprite-2pause"></div>
+                        </a>
+                        <a class="volume-" onclick="volumeDecrease('queen_4')">
+                            <div class="sprite-3speaker_volume-"></div>
+                        </a>
+                        <a class="volume+" onclick="volumeIncrease('queen_4')">
+                            <div class="sprite-4speaker_volume"></div>
+                        </a>
+                    </div>
+                </div>
+
+                <audio id="queen_5" src="audio/Killer_Queen.mp3"></audio>
+                <div class="sprite-queen_5">
+                    <a class="play" onclick="play('queen_5')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('queen_5')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('queen_5')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('queen_5')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="queen_latiffa" src="audio/I_put_a_spell_on_you.mp3"></audio>
+                <div class="sprite-queen_latiffa">
+                    <a class="play" onclick="play('queen_latiffa')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('queen_latiffa')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('queen_latiffa')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('queen_latiffa')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="tom_johns" src="audio/Kiss_me.mp3"></audio>
+                <div class="sprite-tom_johns">
+                    <a class="play" onclick="play('tom_johns')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('tom_johns')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('tom_johns')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('tom_johns')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="ulla_pugacheva" src="audio/Vsie_mogut_koroli.mp3"></audio>
+                <div class="sprite-ulla_pugacheva">
+                    <a class="play" onclick="play('ulla_pugacheva')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('ulla_pugacheva')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('ulla_pugacheva')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('ulla_pugacheva')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="vysotskij_1" src="audio/Ja_ne_liublu.mp3"></audio>
+                <div class="sprite-vysotskij_1">
+                    <a class="play" onclick="play('vysotskij_1')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('vysotskij_1')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('vysotskij_1')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('vysotskij_1')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="vysotskij_2" src="audio/Ballada_o_borbe.mp3"></audio>
+                <div class="sprite-vysotskij_2">
+                    <a class="play" onclick="play('vysotskij_2')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('vysotskij_2')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('vysotskij_2')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('vysotskij_2')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+                <audio id="vysotskij_3" src="audio/Ballada_o_liubvi.mp3"></audio>
+                <div class="sprite-vysotskij_3">
+                    <a class="play" onclick="play('vysotskij_3')">
+                        <div class="sprite-1play_right_arrow"></div>
+                    </a>
+                    <a class="pause" onclick="pause('vysotskij_3')">
+                        <div class="sprite-2pause"></div>
+                    </a>
+                    <a class="volume-" onclick="volumeDecrease('vysotskij_3')">
+                        <div class="sprite-3speaker_volume-"></div>
+                    </a>
+                    <a class="volume+" onclick="volumeIncrease('vysotskij_3')">
+                        <div class="sprite-4speaker_volume"></div>
+                    </a>
+                </div>
+
+            </div>
+        </article>
+    </div>
+    <footer>
+        <div class="logo_social_icons">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo_grey.png"></a>
+            </div>
+            <div class="social_icons">
+                <p>Присоединяйтесь ко мне</p><br>
+                <a href="https://www.facebook.com" target="_blank">
+                    <div class="sprite-facebook"></div>
+                </a>
+                <a href="https://www.linkedin.com" target="_blank">
+                    <div class="sprite-linkedin"></div>
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <div class="sprite-twitter"></div>
+                </a>
+                <a href="https://www.youtube.com" target="_blank">
+                    <div class="sprite-you-tube"></div>
+                </a>
+            </div>
+            <p>&#169; Все права на сайт принадлежат Доктору Хаусу. 2015</p>
+        </div>
+    </footer>
+</section>
+</body>
+</html>

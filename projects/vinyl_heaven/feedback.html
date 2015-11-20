@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Обратная связь</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251"/>
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="stylesheets/screen.css">
+    <link href='https://fonts.googleapis.com/css?family=Jura:400,500,600&subset=latin,cyrillic' rel='stylesheet'
+          type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Bad+Script&subset=latin,cyrillic' rel='stylesheet'
+          type='text/css'>
+    <script src="js/audio.js"></script>
+</head>
+<body>
+<section class="wrapper">
+    <header>
+        <div class="logo_nav">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo_black.png"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Обо мне</a></li>
+                    <li><a href="collection.html">Моя коллекция</a></li>
+                    <li><a href="club.html">Клуб</a></li>
+                    <li><a href="feedback.html">Обратная связь</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="content">
+        <article>
+            <p>Отвечаю только на письма, которые меня заинтересовали и предложения по обмену пластинок.</p>
+
+            <form id="my_form" name="feedback" method="post" action="sendmail.php">
+                <label>Имя</label><br>
+                <input type="text" name="name" form="my_form" placeholder="Имя" autofocus required pattern="[A-Za-zА-Яа-яЁё]{6,}"><br>
+                <label>E-mail</label><br>
+                <input name="email" form="my_form" type="email" placeholder="E-mail" required><br>
+                <label>Тема</label><br>
+                <input name="topic" form="my_form" placeholder="Тема" required><br>
+                <label>Текст письма</label><br>
+                <textarea name="text" form="my_form" cols="100" rows="8" required maxlength="300"
+                          placeholder="Текст письма"></textarea><br>
+                <input class="button" type="submit" value="Отправить письмо">
+            </form>
+        </article>
+    </div>
+    <footer>
+        <div class="logo_social_icons">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo_grey.png"></a>
+            </div>
+            <div class="social_icons">
+                <p>Присоединяйтесь ко мне</p><br>
+                <a href="https://www.facebook.com" target="_blank">
+                    <div class="sprite-facebook"></div>
+                </a>
+                <a href="https://www.linkedin.com" target="_blank">
+                    <div class="sprite-linkedin"></div>
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <div class="sprite-twitter"></div>
+                </a>
+                <a href="https://www.youtube.com" target="_blank">
+                    <div class="sprite-you-tube"></div>
+                </a>
+            </div>
+            <p>&#169; Все права на сайт принадлежат Доктору Хаусу. 2015</p>
+        </div>
+    </footer>
+</section>
+</body>
+</html>
