@@ -79,18 +79,22 @@ header {
     font-size: 1.1em;
     padding: 30px 50px 30px 50px;
 
-    a {
+    a.invitation {
       text-decoration: none;
       color: whitesmoke;
       border: solid 1px whitesmoke;
       margin: 0 5px 0 5px;
       padding: 0 10px 0 10px;
     }
-    label {
-      display: inline-block;
-      width: 120px;
+    a.invitation:hover {
+      background-color: #a2a2a2;
     }
+
     form {
+      label {
+        display: inline-block;
+        width: 120px;
+      }
 
       input {
         width: 300px;
