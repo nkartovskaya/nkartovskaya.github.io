@@ -24,7 +24,7 @@ header {
   box-shadow: 0 0 15px rgba(0, 0, 0, 8);
 
   .logo_nav {
-    width: 60%;
+    width: 999px;
     margin: 0 auto;
   }
 
@@ -50,7 +50,7 @@ header {
     ul li a {
       text-decoration: none;
       color: #a2a2a2;
-      font-size: 1.7em;
+      font-size: 1.5em;
     }
 
     ul li:hover {
@@ -59,13 +59,13 @@ header {
     }
 
     ul li:first-child {
-      margin-left: 165px;
+      margin-left: 110px;
     }
   }
 }
 
 .content {
-  width: 60%;
+  width: 999px;
   margin: 0 auto;
 
   .foto {
@@ -78,6 +78,8 @@ header {
     color: whitesmoke;
     font-size: 1.1em;
     padding: 30px 50px 30px 50px;
+    min-height: 817px;
+    max-height: 1300px;
 
     a.invitation {
       text-decoration: none;
@@ -88,6 +90,14 @@ header {
     }
     a.invitation:hover {
       background-color: #a2a2a2;
+    }
+    div.shelf {
+      margin: 0 auto;
+    }
+    div.map {
+        border: solid 1px whitesmoke;
+        padding: 5px;
+        height: 450px;
     }
 
     form {
@@ -127,208 +137,208 @@ header {
       }
     }
 
-    #beatles:checked~.sprite-beatles_1,
-    #beatles:checked~.sprite-beatles_2,
-    #beatles:checked~.sprite-beatles_3,
-    #beatles:checked~.sprite-beatles_4,
-    #beatles:checked~.sprite-beatles_5,
-    #beatles:checked~.sprite-beatles_6,
-    #beatles:checked~.sprite-beatles_7,
-    #beatles:checked~.sprite-beatles_8 {
+    #beatles:checked ~ .sprite-beatles_1,
+    #beatles:checked ~ .sprite-beatles_2,
+    #beatles:checked ~ .sprite-beatles_3,
+    #beatles:checked ~ .sprite-beatles_4,
+    #beatles:checked ~ .sprite-beatles_5,
+    #beatles:checked ~ .sprite-beatles_6,
+    #beatles:checked ~ .sprite-beatles_7,
+    #beatles:checked ~ .sprite-beatles_8 {
       visibility: visible;
       transition: 2s;
       position: relative;
     }
 
-    #beatles:checked~.shelf {
+    #beatles:checked ~ .shelf {
       visibility: hidden;
       position: absolute;
     }
 
-    #billie_holiday:checked~.sprite-billie-holiday {
+    #billie_holiday:checked ~ .sprite-billie-holiday {
       visibility: visible;
       transition: 2s;
       position: relative;
     }
 
-    #billie_holiday:checked~.shelf {
+    #billie_holiday:checked ~ .shelf {
       visibility: hidden;
       position: absolute;
     }
 
-    #bob-dylan:checked~.sprite-bob_dylan {
+    #bob-dylan:checked ~ .sprite-bob_dylan {
       visibility: visible;
       transition: 2s;
       position: relative;
     }
 
-    #bob-dylan:checked~.shelf {
+    #bob-dylan:checked ~ .shelf {
       visibility: hidden;
       position: absolute;
     }
 
-    #david-bowie:checked~.sprite-david-bowie {
+    #david-bowie:checked ~ .sprite-david-bowie {
       visibility: visible;
       transition: 2s;
       position: relative;
     }
 
-    #david-bowie:checked~.shelf {
+    #david-bowie:checked ~ .shelf {
       visibility: hidden;
       position: absolute;
     }
 
-    #deep-purple:checked~.sprite-deep_purple {
+    #deep-purple:checked ~ .sprite-deep_purple {
       visibility: visible;
       transition: 2s;
       position: relative;
     }
 
-    #deep-purple:checked~.shelf {
+    #deep-purple:checked ~ .shelf {
       visibility: hidden;
       position: absolute;
     }
 
-    #elvis_preastley:checked~.sprite-elvis_preastley_1,
-    #elvis_preastley:checked~.sprite-elvis_preastley_2,
-    #elvis_preastley:checked~.sprite-elvis_preastley_3 {
+    #elvis_preastley:checked ~ .sprite-elvis_preastley_1,
+    #elvis_preastley:checked ~ .sprite-elvis_preastley_2,
+    #elvis_preastley:checked ~ .sprite-elvis_preastley_3 {
       visibility: visible;
       transition: 2s;
       position: relative;
     }
 
-    #elvis_preastley:checked~.shelf {
+    #elvis_preastley:checked ~ .shelf {
       visibility: hidden;
       position: absolute;
     }
 
-    #frank_sinatra:checked~.sprite-frank_sinatra_1,
-    #frank_sinatra:checked~.sprite-frank_sinatra_2,
-    #frank_sinatra:checked~.sprite-frank_sinatra_3 {
+    #frank_sinatra:checked ~ .sprite-frank_sinatra_1,
+    #frank_sinatra:checked ~ .sprite-frank_sinatra_2,
+    #frank_sinatra:checked ~ .sprite-frank_sinatra_3 {
       visibility: visible;
       transition: 2s;
       position: relative;
     }
 
-    #frank_sinatra:checked~.shelf {
+    #frank_sinatra:checked ~ .shelf {
       visibility: hidden;
       position: absolute;
     }
 
-    #iron-maiden:checked~.sprite-iron_maiden {
+    #iron-maiden:checked ~ .sprite-iron_maiden {
       visibility: visible;
       transition: 2s;
       position: relative;
     }
 
-    #iron-maiden:checked~.shelf {
+    #iron-maiden:checked ~ .shelf {
       visibility: hidden;
       position: absolute;
     }
 
-    #lou-reed:checked~.sprite-iron_maiden {
+    #lou-reed:checked ~ .sprite-iron_maiden {
       visibility: visible;
       transition: 2s;
       position: relative;
     }
 
-    #lou-reed:checked~.shelf {
+    #lou-reed:checked ~ .shelf {
       visibility: hidden;
       position: absolute;
     }
 
-    #louis-armstrong:checked~.sprite-louis_armstrong {
+    #louis-armstrong:checked ~ .sprite-louis_armstrong {
       visibility: visible;
       transition: 2s;
       position: relative;
     }
 
-    #louis-armstrong:checked~.shelf {
+    #louis-armstrong:checked ~ .shelf {
       visibility: hidden;
       position: absolute;
     }
 
-    #machel_jackson:checked~.sprite-machel_jackson_1,
-    #machel_jackson:checked~.sprite-machel_jackson_2,
-    #machel_jackson:checked~.sprite-machel_jackson_3 {
+    #machel_jackson:checked ~ .sprite-machel_jackson_1,
+    #machel_jackson:checked ~ .sprite-machel_jackson_2,
+    #machel_jackson:checked ~ .sprite-machel_jackson_3 {
       visibility: visible;
       transition: 2s;
       position: relative;
     }
 
-    #machel_jackson:checked~.shelf {
-       visibility: hidden;
-       position: absolute;
-     }
-
-    #madonna_:checked~.sprite-madonna {
-      visibility: visible;
-      transition: 2s;
-      position: relative;
-    }
-
-    #madonna_:checked~.shelf {
+    #machel_jackson:checked ~ .shelf {
       visibility: hidden;
       position: absolute;
     }
 
-    #queen_:checked~.sprite-queen_1,
-    #queen_:checked~.sprite-queen_2,
-    #queen_:checked~.sprite-queen_3,
-    #queen_:checked~.sprite-queen_4,
-    #queen_:checked~.sprite-queen_5 {
+    #madonna_:checked ~ .sprite-madonna {
       visibility: visible;
       transition: 2s;
       position: relative;
     }
 
-    #queen_:checked~.shelf {
+    #madonna_:checked ~ .shelf {
       visibility: hidden;
       position: absolute;
     }
 
-    #queen-latiffa:checked~.sprite-queen_latiffa {
+    #queen_:checked ~ .sprite-queen_1,
+    #queen_:checked ~ .sprite-queen_2,
+    #queen_:checked ~ .sprite-queen_3,
+    #queen_:checked ~ .sprite-queen_4,
+    #queen_:checked ~ .sprite-queen_5 {
       visibility: visible;
       transition: 2s;
       position: relative;
     }
 
-    #queen-latiffa:checked~.shelf {
+    #queen_:checked ~ .shelf {
       visibility: hidden;
       position: absolute;
     }
 
-    #tom-johns:checked~.sprite-tom_johns {
+    #queen-latiffa:checked ~ .sprite-queen_latiffa {
       visibility: visible;
       transition: 2s;
       position: relative;
     }
 
-    #tom-johns:checked~.shelf {
+    #queen-latiffa:checked ~ .shelf {
       visibility: hidden;
       position: absolute;
     }
 
-    #ulla-pugacheva:checked~.sprite-ulla_pugacheva {
+    #tom-johns:checked ~ .sprite-tom_johns {
       visibility: visible;
       transition: 2s;
       position: relative;
     }
 
-    #ulla-pugacheva:checked~.shelf {
+    #tom-johns:checked ~ .shelf {
       visibility: hidden;
       position: absolute;
     }
 
-    #vysotskij_:checked~.sprite-vysotskij_1,
-    #vysotskij_:checked~.sprite-vysotskij_2,
-    #vysotskij_:checked~.sprite-vysotskij_3 {
+    #ulla-pugacheva:checked ~ .sprite-ulla_pugacheva {
       visibility: visible;
       transition: 2s;
       position: relative;
     }
 
-    #vysotskij_:checked~.shelf {
+    #ulla-pugacheva:checked ~ .shelf {
+      visibility: hidden;
+      position: absolute;
+    }
+
+    #vysotskij_:checked ~ .sprite-vysotskij_1,
+    #vysotskij_:checked ~ .sprite-vysotskij_2,
+    #vysotskij_:checked ~ .sprite-vysotskij_3 {
+      visibility: visible;
+      transition: 2s;
+      position: relative;
+    }
+
+    #vysotskij_:checked ~ .shelf {
       visibility: hidden;
       position: absolute;
     }
@@ -576,6 +586,7 @@ header {
       width: 220px;
       height: 218px;
       visibility: hidden;
+      position: absolute;
       background: url(../images/sprites.png) no-repeat -0px -7194px;
     }
     .sprite-vysotskij_1 {
@@ -633,6 +644,34 @@ header {
       margin: 0;
       padding: 0;
     }
+    .sprite-house {
+      width: 26px;
+      height: 26px;
+      margin: 17px 0 0 0;
+      background: url(../images/sprites_contacts.png) no-repeat -0px -0px;
+    }
+
+    .sprite-phone {
+      width: 26px;
+      height: 26px;
+      margin: 0;
+      background: url(../images/sprites_contacts.png) no-repeat -0px -26px;
+    }
+    .sprite-skype {
+      width: 26px;
+      height: 26px;
+      margin: 0;
+      background: url(../images/sprites_contacts.png) no-repeat -0px -52px;
+    }
+    p.address,
+    p.phone,
+    p.skype {
+      display: inline-block;
+      margin: 0 0 0 20px;
+    }
+    p.address {
+      margin-top: 17px;
+    }
   }
 }
 
@@ -642,18 +681,18 @@ footer {
   box-shadow: 0 0 15px rgba(0, 0, 0, 8);
 
   .logo_social_icons {
-    width: 60%;
+    width: 999px;
     margin: 0 auto;
 
     p {
       display: inline-block;
-      margin: 48px 0 0 100px;
+      margin: 10px 0 0 170px;
     }
   }
 
   .logo {
     float: left;
-    margin: 15px 210px 0 15px;
+    margin: 15px 145px 0 15px;
   }
 
   .social_icons {
@@ -691,6 +730,12 @@ footer {
   }
 }
 
+@media screen and (max-width: 1980px) and (min-width: 1000px) {
 
+}
+
+@media screen and (max-width: 999px) and (min-width: 800px) {
+
+}
 
 

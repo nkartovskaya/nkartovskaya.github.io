@@ -26,7 +26,7 @@ header {
 }
 /* line 26, ../sass/screen.scss */
 header .logo_nav {
-  width: 60%;
+  width: 999px;
   margin: 0 auto;
 }
 /* line 31, ../sass/screen.scss */
@@ -50,7 +50,7 @@ header nav ul li {
 header nav ul li a {
   text-decoration: none;
   color: #a2a2a2;
-  font-size: 1.7em;
+  font-size: 1.5em;
 }
 /* line 56, ../sass/screen.scss */
 header nav ul li:hover {
@@ -59,12 +59,12 @@ header nav ul li:hover {
 }
 /* line 61, ../sass/screen.scss */
 header nav ul li:first-child {
-  margin-left: 165px;
+  margin-left: 110px;
 }
 
 /* line 67, ../sass/screen.scss */
 .content {
-  width: 60%;
+  width: 999px;
   margin: 0 auto;
 }
 /* line 71, ../sass/screen.scss */
@@ -78,9 +78,11 @@ header nav ul li:first-child {
   color: whitesmoke;
   font-size: 1.1em;
   padding: 30px 50px 30px 50px;
+  min-height: 817px;
+  max-height: 1300px;
   /*---------Buttons------------*/
 }
-/* line 82, ../sass/screen.scss */
+/* line 84, ../sass/screen.scss */
 .content article a.invitation {
   text-decoration: none;
   color: whitesmoke;
@@ -88,16 +90,26 @@ header nav ul li:first-child {
   margin: 0 5px 0 5px;
   padding: 0 10px 0 10px;
 }
-/* line 89, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 .content article a.invitation:hover {
   background-color: #a2a2a2;
 }
 /* line 94, ../sass/screen.scss */
+.content article div.shelf {
+  margin: 0 auto;
+}
+/* line 97, ../sass/screen.scss */
+.content article div.map {
+  border: solid 1px whitesmoke;
+  padding: 5px;
+  height: 450px;
+}
+/* line 104, ../sass/screen.scss */
 .content article form label {
   display: inline-block;
   width: 120px;
 }
-/* line 99, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
 .content article form input {
   width: 300px;
   height: 27px;
@@ -107,14 +119,14 @@ header nav ul li:first-child {
   color: #1e1e1e;
   margin-bottom: 10px;
 }
-/* line 108, ../sass/screen.scss */
+/* line 118, ../sass/screen.scss */
 .content article form textarea {
   border: solid 1px grey;
   padding: 0 10px 2px 10px;
   font-family: 'Bad Script', cursive;
   color: #1e1e1e;
 }
-/* line 114, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 .content article form input.button {
   width: 190px;
   height: 40px;
@@ -126,11 +138,11 @@ header nav ul li:first-child {
   padding: 0 0 10px 0;
   margin-top: 10px;
 }
-/* line 125, ../sass/screen.scss */
+/* line 135, ../sass/screen.scss */
 .content article form input.button:hover {
   background-color: #a2a2a2;
 }
-/* line 130, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 .content article #beatles:checked ~ .sprite-beatles_1,
 .content article #beatles:checked ~ .sprite-beatles_2,
 .content article #beatles:checked ~ .sprite-beatles_3,
@@ -143,56 +155,56 @@ header nav ul li:first-child {
   transition: 2s;
   position: relative;
 }
-/* line 143, ../sass/screen.scss */
+/* line 153, ../sass/screen.scss */
 .content article #beatles:checked ~ .shelf {
   visibility: hidden;
   position: absolute;
 }
-/* line 148, ../sass/screen.scss */
+/* line 158, ../sass/screen.scss */
 .content article #billie_holiday:checked ~ .sprite-billie-holiday {
   visibility: visible;
   transition: 2s;
   position: relative;
 }
-/* line 154, ../sass/screen.scss */
+/* line 164, ../sass/screen.scss */
 .content article #billie_holiday:checked ~ .shelf {
   visibility: hidden;
   position: absolute;
 }
-/* line 159, ../sass/screen.scss */
+/* line 169, ../sass/screen.scss */
 .content article #bob-dylan:checked ~ .sprite-bob_dylan {
   visibility: visible;
   transition: 2s;
   position: relative;
 }
-/* line 165, ../sass/screen.scss */
+/* line 175, ../sass/screen.scss */
 .content article #bob-dylan:checked ~ .shelf {
   visibility: hidden;
   position: absolute;
 }
-/* line 170, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss */
 .content article #david-bowie:checked ~ .sprite-david-bowie {
   visibility: visible;
   transition: 2s;
   position: relative;
 }
-/* line 176, ../sass/screen.scss */
+/* line 186, ../sass/screen.scss */
 .content article #david-bowie:checked ~ .shelf {
   visibility: hidden;
   position: absolute;
 }
-/* line 181, ../sass/screen.scss */
+/* line 191, ../sass/screen.scss */
 .content article #deep-purple:checked ~ .sprite-deep_purple {
   visibility: visible;
   transition: 2s;
   position: relative;
 }
-/* line 187, ../sass/screen.scss */
+/* line 197, ../sass/screen.scss */
 .content article #deep-purple:checked ~ .shelf {
   visibility: hidden;
   position: absolute;
 }
-/* line 192, ../sass/screen.scss */
+/* line 202, ../sass/screen.scss */
 .content article #elvis_preastley:checked ~ .sprite-elvis_preastley_1,
 .content article #elvis_preastley:checked ~ .sprite-elvis_preastley_2,
 .content article #elvis_preastley:checked ~ .sprite-elvis_preastley_3 {
@@ -200,12 +212,12 @@ header nav ul li:first-child {
   transition: 2s;
   position: relative;
 }
-/* line 200, ../sass/screen.scss */
+/* line 210, ../sass/screen.scss */
 .content article #elvis_preastley:checked ~ .shelf {
   visibility: hidden;
   position: absolute;
 }
-/* line 205, ../sass/screen.scss */
+/* line 215, ../sass/screen.scss */
 .content article #frank_sinatra:checked ~ .sprite-frank_sinatra_1,
 .content article #frank_sinatra:checked ~ .sprite-frank_sinatra_2,
 .content article #frank_sinatra:checked ~ .sprite-frank_sinatra_3 {
@@ -213,45 +225,45 @@ header nav ul li:first-child {
   transition: 2s;
   position: relative;
 }
-/* line 213, ../sass/screen.scss */
+/* line 223, ../sass/screen.scss */
 .content article #frank_sinatra:checked ~ .shelf {
   visibility: hidden;
   position: absolute;
 }
-/* line 218, ../sass/screen.scss */
+/* line 228, ../sass/screen.scss */
 .content article #iron-maiden:checked ~ .sprite-iron_maiden {
   visibility: visible;
   transition: 2s;
   position: relative;
 }
-/* line 224, ../sass/screen.scss */
+/* line 234, ../sass/screen.scss */
 .content article #iron-maiden:checked ~ .shelf {
   visibility: hidden;
   position: absolute;
 }
-/* line 229, ../sass/screen.scss */
+/* line 239, ../sass/screen.scss */
 .content article #lou-reed:checked ~ .sprite-iron_maiden {
   visibility: visible;
   transition: 2s;
   position: relative;
 }
-/* line 235, ../sass/screen.scss */
+/* line 245, ../sass/screen.scss */
 .content article #lou-reed:checked ~ .shelf {
   visibility: hidden;
   position: absolute;
 }
-/* line 240, ../sass/screen.scss */
+/* line 250, ../sass/screen.scss */
 .content article #louis-armstrong:checked ~ .sprite-louis_armstrong {
   visibility: visible;
   transition: 2s;
   position: relative;
 }
-/* line 246, ../sass/screen.scss */
+/* line 256, ../sass/screen.scss */
 .content article #louis-armstrong:checked ~ .shelf {
   visibility: hidden;
   position: absolute;
 }
-/* line 251, ../sass/screen.scss */
+/* line 261, ../sass/screen.scss */
 .content article #machel_jackson:checked ~ .sprite-machel_jackson_1,
 .content article #machel_jackson:checked ~ .sprite-machel_jackson_2,
 .content article #machel_jackson:checked ~ .sprite-machel_jackson_3 {
@@ -259,23 +271,23 @@ header nav ul li:first-child {
   transition: 2s;
   position: relative;
 }
-/* line 259, ../sass/screen.scss */
+/* line 269, ../sass/screen.scss */
 .content article #machel_jackson:checked ~ .shelf {
   visibility: hidden;
   position: absolute;
 }
-/* line 264, ../sass/screen.scss */
+/* line 274, ../sass/screen.scss */
 .content article #madonna_:checked ~ .sprite-madonna {
   visibility: visible;
   transition: 2s;
   position: relative;
 }
-/* line 270, ../sass/screen.scss */
+/* line 280, ../sass/screen.scss */
 .content article #madonna_:checked ~ .shelf {
   visibility: hidden;
   position: absolute;
 }
-/* line 275, ../sass/screen.scss */
+/* line 285, ../sass/screen.scss */
 .content article #queen_:checked ~ .sprite-queen_1,
 .content article #queen_:checked ~ .sprite-queen_2,
 .content article #queen_:checked ~ .sprite-queen_3,
@@ -285,45 +297,45 @@ header nav ul li:first-child {
   transition: 2s;
   position: relative;
 }
-/* line 285, ../sass/screen.scss */
+/* line 295, ../sass/screen.scss */
 .content article #queen_:checked ~ .shelf {
   visibility: hidden;
   position: absolute;
 }
-/* line 290, ../sass/screen.scss */
+/* line 300, ../sass/screen.scss */
 .content article #queen-latiffa:checked ~ .sprite-queen_latiffa {
   visibility: visible;
   transition: 2s;
   position: relative;
 }
-/* line 296, ../sass/screen.scss */
+/* line 306, ../sass/screen.scss */
 .content article #queen-latiffa:checked ~ .shelf {
   visibility: hidden;
   position: absolute;
 }
-/* line 301, ../sass/screen.scss */
+/* line 311, ../sass/screen.scss */
 .content article #tom-johns:checked ~ .sprite-tom_johns {
   visibility: visible;
   transition: 2s;
   position: relative;
 }
-/* line 307, ../sass/screen.scss */
+/* line 317, ../sass/screen.scss */
 .content article #tom-johns:checked ~ .shelf {
   visibility: hidden;
   position: absolute;
 }
-/* line 312, ../sass/screen.scss */
+/* line 322, ../sass/screen.scss */
 .content article #ulla-pugacheva:checked ~ .sprite-ulla_pugacheva {
   visibility: visible;
   transition: 2s;
   position: relative;
 }
-/* line 318, ../sass/screen.scss */
+/* line 328, ../sass/screen.scss */
 .content article #ulla-pugacheva:checked ~ .shelf {
   visibility: hidden;
   position: absolute;
 }
-/* line 323, ../sass/screen.scss */
+/* line 333, ../sass/screen.scss */
 .content article #vysotskij_:checked ~ .sprite-vysotskij_1,
 .content article #vysotskij_:checked ~ .sprite-vysotskij_2,
 .content article #vysotskij_:checked ~ .sprite-vysotskij_3 {
@@ -331,22 +343,22 @@ header nav ul li:first-child {
   transition: 2s;
   position: relative;
 }
-/* line 331, ../sass/screen.scss */
+/* line 341, ../sass/screen.scss */
 .content article #vysotskij_:checked ~ .shelf {
   visibility: hidden;
   position: absolute;
 }
-/* line 336, ../sass/screen.scss */
+/* line 346, ../sass/screen.scss */
 .content article span {
   font-weight: bold;
 }
-/* line 339, ../sass/screen.scss */
+/* line 349, ../sass/screen.scss */
 .content article div {
   position: relative;
   float: left;
   margin: 10px;
 }
-/* line 344, ../sass/screen.scss */
+/* line 354, ../sass/screen.scss */
 .content article .sprite-beatles_1 {
   width: 220px;
   height: 218px;
@@ -354,7 +366,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px 0px;
 }
-/* line 351, ../sass/screen.scss */
+/* line 361, ../sass/screen.scss */
 .content article .sprite-beatles_2 {
   width: 220px;
   height: 218px;
@@ -362,7 +374,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -218px;
 }
-/* line 358, ../sass/screen.scss */
+/* line 368, ../sass/screen.scss */
 .content article .sprite-beatles_3 {
   width: 220px;
   height: 218px;
@@ -370,7 +382,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -436px;
 }
-/* line 365, ../sass/screen.scss */
+/* line 375, ../sass/screen.scss */
 .content article .sprite-beatles_4 {
   width: 220px;
   height: 218px;
@@ -378,7 +390,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -654px;
 }
-/* line 372, ../sass/screen.scss */
+/* line 382, ../sass/screen.scss */
 .content article .sprite-beatles_5 {
   width: 220px;
   height: 218px;
@@ -386,7 +398,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -872px;
 }
-/* line 379, ../sass/screen.scss */
+/* line 389, ../sass/screen.scss */
 .content article .sprite-beatles_6 {
   width: 220px;
   height: 218px;
@@ -394,7 +406,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -1090px;
 }
-/* line 386, ../sass/screen.scss */
+/* line 396, ../sass/screen.scss */
 .content article .sprite-beatles_7 {
   width: 220px;
   height: 218px;
@@ -402,7 +414,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -1308px;
 }
-/* line 393, ../sass/screen.scss */
+/* line 403, ../sass/screen.scss */
 .content article .sprite-beatles_8 {
   width: 220px;
   height: 218px;
@@ -410,7 +422,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -1526px;
 }
-/* line 400, ../sass/screen.scss */
+/* line 410, ../sass/screen.scss */
 .content article .sprite-billie-holiday {
   width: 220px;
   height: 218px;
@@ -418,7 +430,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -1744px;
 }
-/* line 407, ../sass/screen.scss */
+/* line 417, ../sass/screen.scss */
 .content article .sprite-bob_dylan {
   width: 220px;
   height: 218px;
@@ -426,7 +438,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -1962px;
 }
-/* line 414, ../sass/screen.scss */
+/* line 424, ../sass/screen.scss */
 .content article .sprite-david-bowie {
   width: 220px;
   height: 218px;
@@ -434,7 +446,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -2180px;
 }
-/* line 421, ../sass/screen.scss */
+/* line 431, ../sass/screen.scss */
 .content article .sprite-deep_purple {
   width: 220px;
   height: 218px;
@@ -442,7 +454,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -2398px;
 }
-/* line 428, ../sass/screen.scss */
+/* line 438, ../sass/screen.scss */
 .content article .sprite-elvis_preastley_1 {
   width: 220px;
   height: 218px;
@@ -450,7 +462,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -2616px;
 }
-/* line 435, ../sass/screen.scss */
+/* line 445, ../sass/screen.scss */
 .content article .sprite-elvis_preastley_2 {
   width: 220px;
   height: 218px;
@@ -458,7 +470,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -2834px;
 }
-/* line 442, ../sass/screen.scss */
+/* line 452, ../sass/screen.scss */
 .content article .sprite-elvis_preastley_3 {
   width: 220px;
   height: 218px;
@@ -466,7 +478,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -3052px;
 }
-/* line 449, ../sass/screen.scss */
+/* line 459, ../sass/screen.scss */
 .content article .sprite-frank_sinatra_1 {
   width: 220px;
   height: 218px;
@@ -474,7 +486,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -3270px;
 }
-/* line 456, ../sass/screen.scss */
+/* line 466, ../sass/screen.scss */
 .content article .sprite-frank_sinatra_2 {
   width: 220px;
   height: 218px;
@@ -482,7 +494,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -3488px;
 }
-/* line 463, ../sass/screen.scss */
+/* line 473, ../sass/screen.scss */
 .content article .sprite-frank_sinatra_3 {
   width: 220px;
   height: 218px;
@@ -490,7 +502,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -3706px;
 }
-/* line 470, ../sass/screen.scss */
+/* line 480, ../sass/screen.scss */
 .content article .sprite-iron_maiden {
   width: 220px;
   height: 218px;
@@ -498,7 +510,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -3924px;
 }
-/* line 477, ../sass/screen.scss */
+/* line 487, ../sass/screen.scss */
 .content article .sprite-lou_reed {
   width: 220px;
   height: 218px;
@@ -506,7 +518,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -4142px;
 }
-/* line 484, ../sass/screen.scss */
+/* line 494, ../sass/screen.scss */
 .content article .sprite-louis_armstrong {
   width: 220px;
   height: 218px;
@@ -514,7 +526,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -4360px;
 }
-/* line 491, ../sass/screen.scss */
+/* line 501, ../sass/screen.scss */
 .content article .sprite-machel_jackson_1 {
   width: 220px;
   height: 218px;
@@ -522,7 +534,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -4578px;
 }
-/* line 498, ../sass/screen.scss */
+/* line 508, ../sass/screen.scss */
 .content article .sprite-machel_jackson_2 {
   width: 220px;
   height: 218px;
@@ -530,7 +542,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -4796px;
 }
-/* line 505, ../sass/screen.scss */
+/* line 515, ../sass/screen.scss */
 .content article .sprite-machel_jackson_3 {
   width: 220px;
   height: 218px;
@@ -538,7 +550,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -5014px;
 }
-/* line 512, ../sass/screen.scss */
+/* line 522, ../sass/screen.scss */
 .content article .sprite-madonna {
   width: 220px;
   height: 218px;
@@ -546,7 +558,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -5232px;
 }
-/* line 519, ../sass/screen.scss */
+/* line 529, ../sass/screen.scss */
 .content article .sprite-nautilus {
   width: 220px;
   height: 218px;
@@ -554,7 +566,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -5450px;
 }
-/* line 526, ../sass/screen.scss */
+/* line 536, ../sass/screen.scss */
 .content article .sprite-queen_1 {
   width: 220px;
   height: 218px;
@@ -562,7 +574,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -5668px;
 }
-/* line 533, ../sass/screen.scss */
+/* line 543, ../sass/screen.scss */
 .content article .sprite-queen_2 {
   width: 220px;
   height: 218px;
@@ -570,7 +582,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -5886px;
 }
-/* line 540, ../sass/screen.scss */
+/* line 550, ../sass/screen.scss */
 .content article .sprite-queen_3 {
   width: 220px;
   height: 218px;
@@ -578,7 +590,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -6104px;
 }
-/* line 547, ../sass/screen.scss */
+/* line 557, ../sass/screen.scss */
 .content article .sprite-queen_4 {
   width: 220px;
   height: 218px;
@@ -586,7 +598,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -6322px;
 }
-/* line 554, ../sass/screen.scss */
+/* line 564, ../sass/screen.scss */
 .content article .sprite-queen_5 {
   width: 220px;
   height: 218px;
@@ -594,7 +606,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -6540px;
 }
-/* line 561, ../sass/screen.scss */
+/* line 571, ../sass/screen.scss */
 .content article .sprite-queen_latiffa {
   width: 220px;
   height: 218px;
@@ -602,7 +614,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -6758px;
 }
-/* line 568, ../sass/screen.scss */
+/* line 578, ../sass/screen.scss */
 .content article .sprite-tom_johns {
   width: 220px;
   height: 218px;
@@ -610,14 +622,15 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -6976px;
 }
-/* line 575, ../sass/screen.scss */
+/* line 585, ../sass/screen.scss */
 .content article .sprite-ulla_pugacheva {
   width: 220px;
   height: 218px;
   visibility: hidden;
+  position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -7194px;
 }
-/* line 581, ../sass/screen.scss */
+/* line 592, ../sass/screen.scss */
 .content article .sprite-vysotskij_1 {
   width: 220px;
   height: 218px;
@@ -625,7 +638,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -7412px;
 }
-/* line 588, ../sass/screen.scss */
+/* line 599, ../sass/screen.scss */
 .content article .sprite-vysotskij_2 {
   width: 220px;
   height: 218px;
@@ -633,7 +646,7 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -7630px;
 }
-/* line 595, ../sass/screen.scss */
+/* line 606, ../sass/screen.scss */
 .content article .sprite-vysotskij_3 {
   width: 220px;
   height: 218px;
@@ -641,36 +654,36 @@ header nav ul li:first-child {
   position: absolute;
   background: url(../images/sprites.png) no-repeat 0px -7848px;
 }
-/* line 603, ../sass/screen.scss */
+/* line 614, ../sass/screen.scss */
 .content article .sprite-1play_right_arrow {
   width: 30px;
   height: 30px;
   background: url(../images/sprites_buttons.png) no-repeat 0px 0px;
 }
-/* line 608, ../sass/screen.scss */
+/* line 619, ../sass/screen.scss */
 .content article .sprite-2pause {
   width: 30px;
   height: 30px;
   background: url(../images/sprites_buttons.png) no-repeat 0px -30px;
 }
-/* line 613, ../sass/screen.scss */
+/* line 624, ../sass/screen.scss */
 .content article .sprite-3speaker_volume- {
   width: 30px;
   height: 30px;
   background: url(../images/sprites_buttons.png) no-repeat 0px -60px;
 }
-/* line 618, ../sass/screen.scss */
+/* line 629, ../sass/screen.scss */
 .content article .sprite-4speaker_volume {
   width: 30px;
   height: 30px;
   background: url(../images/sprites_buttons.png) no-repeat 0px -90px;
 }
-/* line 624, ../sass/screen.scss */
+/* line 635, ../sass/screen.scss */
 .content article button {
   background-color: transparent;
   width: 60px;
 }
-/* line 629, ../sass/screen.scss */
+/* line 640, ../sass/screen.scss */
 .content article div.sprite-1play_right_arrow,
 .content article .sprite-2pause,
 .content article .sprite-3speaker_volume-,
@@ -678,59 +691,91 @@ header nav ul li:first-child {
   margin: 0;
   padding: 0;
 }
+/* line 647, ../sass/screen.scss */
+.content article .sprite-house {
+  width: 26px;
+  height: 26px;
+  margin: 17px 0 0 0;
+  background: url(../images/sprites_contacts.png) no-repeat 0px 0px;
+}
+/* line 654, ../sass/screen.scss */
+.content article .sprite-phone {
+  width: 26px;
+  height: 26px;
+  margin: 0;
+  background: url(../images/sprites_contacts.png) no-repeat 0px -26px;
+}
+/* line 660, ../sass/screen.scss */
+.content article .sprite-skype {
+  width: 26px;
+  height: 26px;
+  margin: 0;
+  background: url(../images/sprites_contacts.png) no-repeat 0px -52px;
+}
+/* line 666, ../sass/screen.scss */
+.content article p.address,
+.content article p.phone,
+.content article p.skype {
+  display: inline-block;
+  margin: 0 0 0 20px;
+}
+/* line 672, ../sass/screen.scss */
+.content article p.address {
+  margin-top: 17px;
+}
 
-/* line 639, ../sass/screen.scss */
+/* line 678, ../sass/screen.scss */
 footer {
   background: linear-gradient(to bottom, #cfcfcf, #707070);
   height: 150px;
   box-shadow: 0 0 15px black;
 }
-/* line 644, ../sass/screen.scss */
+/* line 683, ../sass/screen.scss */
 footer .logo_social_icons {
-  width: 60%;
+  width: 999px;
   margin: 0 auto;
 }
-/* line 648, ../sass/screen.scss */
+/* line 687, ../sass/screen.scss */
 footer .logo_social_icons p {
   display: inline-block;
-  margin: 48px 0 0 100px;
+  margin: 10px 0 0 170px;
 }
-/* line 654, ../sass/screen.scss */
+/* line 693, ../sass/screen.scss */
 footer .logo {
   float: left;
-  margin: 15px 210px 0 15px;
+  margin: 15px 145px 0 15px;
 }
-/* line 659, ../sass/screen.scss */
+/* line 698, ../sass/screen.scss */
 footer .social_icons {
   width: 900px;
 }
-/* line 662, ../sass/screen.scss */
+/* line 701, ../sass/screen.scss */
 footer .social_icons p {
   display: inline-block;
   margin: 40px 0 0 0;
 }
-/* line 667, ../sass/screen.scss */
+/* line 706, ../sass/screen.scss */
 footer .social_icons .sprite-facebook {
   width: 40px;
   height: 40px;
   float: left;
   background: url(../images/sprites_si.png) no-repeat 0px 0px;
 }
-/* line 673, ../sass/screen.scss */
+/* line 712, ../sass/screen.scss */
 footer .social_icons .sprite-linkedin {
   width: 40px;
   height: 40px;
   float: left;
   background: url(../images/sprites_si.png) no-repeat 0px -40px;
 }
-/* line 679, ../sass/screen.scss */
+/* line 718, ../sass/screen.scss */
 footer .social_icons .sprite-twitter {
   width: 40px;
   height: 40px;
   float: left;
   background: url(../images/sprites_si.png) no-repeat 0px -80px;
 }
-/* line 685, ../sass/screen.scss */
+/* line 724, ../sass/screen.scss */
 footer .social_icons .sprite-you-tube {
   width: 40px;
   height: 40px;
