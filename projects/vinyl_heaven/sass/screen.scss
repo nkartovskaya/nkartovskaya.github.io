@@ -66,21 +66,36 @@ header {
 
 .content {
   width: 999px;
+  min-height: 817px;
+  height: auto;
   margin: 0 auto;
+  overflow: hidden;
 
   .foto {
     float: left;
+    height: 284px;
     margin: 30px 30px 0 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 8);
+  }
+
+  article.collection {
+    overflow: hidden;
   }
 
   article {
     background-color: rgba(185, 175, 175, 0.22);
     color: whitesmoke;
     font-size: 1.1em;
-    padding: 30px 50px 30px 50px;
+    padding: 30px 30px 30px 30px;
+    height: auto;
     min-height: 817px;
-    max-height: 1300px;
 
+    p.about {
+      text-align: justify;
+    }
+    img.invitation {
+      margin: 5px;
+    }
     a.invitation {
       text-decoration: none;
       color: whitesmoke;
@@ -95,9 +110,16 @@ header {
       margin: 0 auto;
     }
     div.map {
-        border: solid 1px whitesmoke;
-        padding: 5px;
-        height: 450px;
+      border: solid 1px whitesmoke;
+      padding: 5px;
+      width: 600px;
+      height: 450px;
+    }
+
+    iframe.map {
+      width: 600px;
+      height: 450px;
+
     }
 
     form {
@@ -730,12 +752,269 @@ footer {
   }
 }
 
-@media screen and (max-width: 1980px) and (min-width: 1000px) {
-
-}
-
 @media screen and (max-width: 999px) and (min-width: 800px) {
+  header {
+    width: 100%;
+    height: 86px;
+    .logo_nav {
+      width: 100%;
+      .logo {
+        margin: 0 0 0 10px;
+        height: 86px;
+        img {
+          width: 200px;
+        }
+      }
+      nav {
+        width: 100%;
+        ul {
+          width: 100%;
+          li {
+            margin: 40px 2px 0 2px;
+            height: 35px;
+            a {
+              font-size: 1.1em;
+            }
+          }
+          li:first-child {
+            margin-left: 25px;
+          }
+        }
+      }
+    }
+  }
 
+  .content {
+    width: 100%;
+    .foto {
+      height: 221px;
+      margin: 15px 15px 0 15px;
+      img {
+        width: 300px;
+      }
+    }
+    article {
+      width: 100%;
+      font-size: 0.9em;
+      padding: 20px 0 20px 0;
+      margin: 0;
+
+      div.shelf {
+        img {
+          width: 300px;
+        }
+      }
+
+      img.invitation {
+        margin: 20px;
+      }
+
+      a.invitation {
+        margin: 0 0 0 20px;
+      }
+
+      div.sprite-house,
+      div.sprite-phone,
+      div.sprite-skype {
+        margin-left: 20px;
+      }
+
+      div.map {
+        width: 600px;
+        height: 450px;
+        margin-left: 20px;
+      }
+
+      iframe.map {
+        width: 600px;
+        height: 450px;
+      }
+      form {
+        label {
+          margin: 0 0 0 20px;
+        }
+        input {
+          margin: 0 0 0 20px;
+        }
+        textarea {
+          margin: 0 0 0 20px;
+        }
+      }
+
+      p {
+        margin: 0 20px 0 20px;
+      }
+    }
+  }
+
+  footer {
+    width: 100%;
+    height: 86px;
+    .logo_social_icons {
+      width: 100%;
+      height: 86px;
+      .logo {
+        margin: 0 50px 0 10px;
+        height: 86px;
+        img {
+          width: 200px;
+        }
+      }
+      .social_icons {
+        width: 100%;
+        p {
+          margin: 10px 0 0 0;
+          font-size: 1em;
+        }
+      }
+      p {
+        margin-left: 20px;
+      }
+    }
+  }
 }
+
+@media screen and (max-width: 799px) and (min-width: 320px) {
+  header {
+    width: 100%;
+    height: 200px;
+    .logo_nav {
+      width: 100%;
+
+      .logo {
+        margin: 0 auto;
+        padding-top: 10px;
+        height: 54px;
+        float: none;
+        img {
+          width: 100px;
+          margin: 0 0 0 10px;
+        }
+      }
+      nav {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        ul {
+          width: 100%;
+          margin: 0;
+          padding: 0;
+          li {
+            margin: 0;
+            padding: 0 5px 5px 5px;
+            height: 22px;
+            float: none;
+            text-align: center;
+            a {
+              font-size: 0.9em;
+            }
+          }
+
+        }
+      }
+    }
+  }
+
+  .content {
+    width: 100%;
+    .foto {
+      height: 148px;
+      margin: 8px 8px 0 8px;
+      img {
+        width: 200px;
+      }
+    }
+    article {
+      width: 100%;
+      font-size: 0.8em;
+      padding: 20px 0 20px 0;
+      margin: 0;
+
+      div.shelf {
+        img {
+          width: 150px;
+        }
+      }
+
+      div.sprite-house,
+      div.sprite-phone,
+      div.sprite-skype {
+        visibility: hidden;
+        width: 0;
+      }
+
+      p.address,
+      p.phone,
+      p.skype {
+        margin: 5px 0 5px 20px;
+      }
+
+      div.map {
+        width: 300px;
+        height: 200px;
+      }
+
+      iframe.map {
+        width: 300px;
+        height: 200px;
+      }
+
+      form {
+        label {
+          margin: 0 0 0 10px;
+        }
+        input {
+          width: 200px;
+          margin: 0 0 0 10px;
+        }
+        textarea {
+          width: 250px;
+          height: 150px;
+          margin: 0 0 0 10px;
+        }
+        input.button {
+          height: 28px;
+        }
+      }
+
+      p {
+        margin: 0 20px 0 20px;
+      }
+      img.invitation {
+        width: 300px;
+      }
+    }
+  }
+
+  footer {
+    width: 100%;
+    height: 100px;
+    .logo_social_icons {
+      width: 100%;
+      height: 64px;
+      .logo {
+        margin: 0 30px 0 10px;
+        padding-top: 10px;
+        height: 54px;
+        img {
+          width: 100px;
+        }
+      }
+      .social_icons {
+        width: 100%;
+        float: none;
+        p {
+          margin: 1px 0 0 0;
+          font-size: 0.6em;
+        }
+      }
+      p {
+        margin-left: 20px;
+        font-size: 0.6em;
+      }
+    }
+  }
+}
+
 
 
