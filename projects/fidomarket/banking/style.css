@@ -10,6 +10,7 @@ tr.main_nav a {
 .comments {
     color: red;
     font-size: 12px;
+    width: 600px;
 }
 .sidebar {
     float: left;
