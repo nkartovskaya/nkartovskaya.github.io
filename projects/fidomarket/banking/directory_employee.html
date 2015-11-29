@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Переписка с банком</title>
+    <title>Справочник сотрудников для получения заработной платы</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -68,38 +68,54 @@
 </table>
 <hr>
 <!------------Content----------------->
-<button><a href="new_letter.html">Создать новое письмо</a></button><br><br>
-<label>Переписка с банком</label><br><br>
+<label>Справочник сотрудников для получения заработной платы</label><br>
+<p class="comments">Справочник заполняется автоматически из Б2</p>
+<p class="question">Определить порядок обновления справочника</p>
+<label>Поиск сотрудника </label><input placeholder="Введите счет/ФИО/ИНН"><br>
+<p class="comments">Поиск осуществляется по любому из полей справочника</p>
 <table>
-    <tr class="link">
-        <td>Входящие</td>
-        <td>Новые исходящие</td>
-        <td>Доставленные в банк</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
     <tr class="nav_second_level">
-        <td>Дата</td>
-        <td>Тема</td>
-        <td>Краткое представление</td>
-        <td>Статус</td>
+        <td><input type="checkbox"></td>
+        <td>Счет сотрудника</td>
+        <td>ФИО</td>
+        <td>ИНН</td>
     </tr>
     <tr>
-        <td><a>31.10.2015</a></td>
-        <td><a href="letter_details.html">Уведомление об изменениях</a></td>
-        <td>С 31.10.2015г. внесены изменения в Закон Украины о...</td>
-        <td>Прочитанное</td>
+        <td><input type="checkbox"></td>
+        <td>2625000000000</td>
+        <td>Иванов Иван Иванович</td>
+        <td>7894561231</td>
     </tr>
     <tr>
-        <td><a>31.10.2015</a></td>
-        <td><a href="letter_details.html">Уведомление об изменениях</a></td>
-        <td>С 31.10.2015г. внесены изменения в Закон Украины о...</td>
-        <td>Непрочитанное</td>
+        <td><input type="checkbox"></td>
+        <td>2625000000000</td>
+        <td>Петров Петр Петрович</td>
+        <td>7894561231</td>
     </tr>
-</table>
-<br>
+    <tr>
+        <td><input type="checkbox"></td>
+        <td>2625000000000</td>
+        <td>Сидоров Сидор Сидорович</td>
+        <td>7894561231</td>
+    </tr>
+</table><br>
+<label>1 из 1</label><br><br>
+<label>Показывать на странице</label>
+<select>
+    <option>50 записей</option>
+    <option>100 записей</option>
+    <option>150 записей</option>
+    <option>200 записей</option>
+    <option>Все записи</option>
+</select>
+<p class="comments">По умолчанию показываются все записи, если их меньше 50</p>
+<p class="question">Выяснить, какое максимальное количество записей</p>
+<button><a href="#">Выбрать выделенных</a></button><br>
+<p class="comments">После нажатия на кнопку Выбрать выделенных сотрудников осуществляется
+    возврат на страницу <a href="new_salary.html">создания новой зарплатной ведомости</a>
+    с таблицей, заполенной выбранными записями</p>
+<button><a href="#">Отменить</a></button><br>
+<p class="comments">После нажатия на кнопку Выбрать выделенных сотрудников осуществляется
+    возврат на страницу <a href="new_salary.html">создания новой зарплатной ведомости</a>
+    с незаполненной таблицей</p>
 </body>
-</html>

@@ -21,6 +21,7 @@
         <td><a href="main.html">Главная страница клиента</a></td>
         <td><a href="payments_UAH.html">Платежи и переводы</a></td>
         <td><a href="profile.html">Профиль</a></td>
+        <td><a href="#">Продукты</a></td>
     </tr>
     <tr>
         <td></td>
@@ -67,8 +68,91 @@
 </table>
 <hr>
 <!------------Content----------------->
-    <label>Зарплатная ведомость</label>
-    <button>Сохранить</button>
-    <button><a href="salary.html">Отменить</a></button>
+<label>Зарплатная ведомость</label>
+<p class="comments">Поля приведены для того, чтобы дать пояснения, визуальное отображение полей <br>
+    приводится на <a href="images/new_salary.png" target="_blank">скриншоте</a> (скриншот из реального Бифит)</p>
+<label>Зарплатная ведомость </label><input value="1"><br>
+<p class="comments">В текстовом поле находится номер платежного поручения, нумерация последовательная в рамках раздела</p>
+<label>От </label><input value="03.11.2015"><br>
+<p class="comments">По умолчанию заполняется текущая дата</p>
+<label>Дата валютирования</label><input value="-"><br>
+<p class="comments">Поле недоступно</p>
+<label>Плательщик</label><input value="ТОВ Тестуны"><br>
+<p class="comments">Текущий клиент</p>
+<label>Код ЭДРПОУ</label><input value="01234568"><br>
+<p class="comments">Код ЭДРПОУ текущего клиента</p>
+<label>Банк плательщика</label><input value="ПУАО ФИДОБАНК"><br>
+<p class="comments">Всегда ФИДОБАНК</p>
+<label>Поручаем списать с нашего счета средства для выплаты заработной платы</label><br><br>
+<select>
+    <option selected>2600000000000</option>
+    <option>2600000000000</option>
+    <option>2600000000000</option>
+</select><br>
+<p class="comments">Поле представляет собой выпадающий список. В списке могут быть только счета в гривне и только те, <br>
+    с которых разрешены документы типа Зарплатная ведомость</p>
+<label>МФО</label><input value="380009"><br>
+<p class="comments">Всегда МФО ФИДОБАНКА</p>
+<label>Вид начисления</label><br><br>
+<select>
+    <option>З/п</option>
+    <option>Больничные</option>
+    <option>Материальная помощь</option>
+    <option>Отпускные</option>
+</select><br>
+<p class="question">Надо добавить реальный список</p>
+<label>Период начисления </label><input>
+<p class="comments">Текстовое поле, заполняется пользователем вручную</p>
+<table>
+    <tr class="nav_second_level">
+        <td><input type="checkbox"></td>
+        <td>№</td>
+        <td>Счет сотрудника</td>
+        <td>ФИО</td>
+        <td>ИНН</td>
+        <td>Сумма, грн.</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox"></td>
+        <td>1</td>
+        <td>2625000000000</td>
+        <td>Иванов Иван Иванович</td>
+        <td>1234567891</td>
+        <td>1000</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox"></td>
+        <td>2</td>
+        <td>2625000000000</td>
+        <td>Петров Петр Петрович</td>
+        <td>9876543217</td>
+        <td>1000</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox"></td>
+        <td>3</td>
+        <td>2625000000000</td>
+        <td>Сидоров Сидор Сидорович</td>
+        <td>4567891239</td>
+        <td>1000</td>
+    </tr>
+</table>
+<br>
+
+
+<label>Начислено</label><input><label>Всего</label><input><br>
+<p class="question">Как заполняются эти поля? По каждому добавленному сотруднику? Или как? Может быть поле Сумма в таблице сделать инпутом с ручным вводом?</p>
+<button><a href="directory_employee.html">Добавить</a></button>
+<button>Удалить выделенные записи</button>
+<p class="comments">После нажатия кнопки Добавить, открывается справочник сотрудников</p>
+<p class="comments">После нажатия кнопки платеж сохраняется и осуществляется возврат на страницу платежей в гривнах</p>
+<button><a href="payments_UAH.html">Сформировать платежи</a></button>
+<p class="comments">При нажатии на кнопку зарплатная ведомость сохраняется и формируется 2 платежа
+    (если есть комиссия за перечисление) и 1 платеж (если такой комиссии нет). Осуществляется переход на страницу
+платежей в грн., где можно подписать и отправить платежи</p>
+<p class="question">Требования к формируемым платежам</p>
+</div>
+<button><a href="payments_UAH.html">Отменить</a></button><br>
+<p class="comments">После нажатия кнопки осуществляется возврат на страницу зарплатных ведомостей без сохранения платежа</p>
 </body>
 </html>

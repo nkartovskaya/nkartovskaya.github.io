@@ -21,6 +21,7 @@
         <td><a href="main.html">Главная страница клиента</a></td>
         <td><a href="payments_UAH.html">Платежи и переводы</a></td>
         <td><a href="profile.html">Профиль</a></td>
+        <td><a href="#">Продукты</a></td>
     </tr>
     <tr>
         <td></td>
@@ -96,18 +97,16 @@
 <label>Текущие документы</label><br><br>
 <form>
     <label>Фильтр</label><br><br>
-    <label>Документи с</label><input><label>по</label><input><button>Найти</button><button>Очистить</button>
+    <label>Документи с</label><input><label>по</label><input><button>Найти</button><button>Очистить</button><br><br>
 </form>
 
 <table>
     <tr class="link">
-        <td>Новые</td>
-        <td>Доставленные</td>
+        <td>Все платежи</td>
+        <td>Рабочие</td>
+        <td>На обработке</td>
         <td>Выполненные</td>
-        <td>Отклоненные</td>
-        <td>На рассмотрении</td>
-        <td>Подозрительные</td>
-        <td>Архивные</td>
+        <td></td>
     </tr>
     <tr>
         <td></td>
@@ -120,39 +119,103 @@
         <td></td>
     </tr>
     <tr class="nav_second_level">
-        <td>№ документа</td>
-        <td>Дата создания</td>
-        <td>Счет 1</td>
-        <td>Сумма</td>
-        <td>Статус</td>
+        <td>Выделить все<input type="checkbox"></td>
+        <td>№ документа<br>
+            <button title="Сортировка по возрастанию">&#8593;</button><button title="Сортировка по убыванию">&#8595;</button>
+        </td>
+        <td>Дата создания<br>
+            <button title="Сортировка по возрастанию">&#8593;</button><button title="Сортировка по убыванию">&#8595;</button>
+        </td>
+        <td>Сумма<br>
+            <button title="Сортировка по возрастанию">&#8593;</button><button title="Сортировка по убыванию">&#8595;</button>
+        </td>
+        <td>Статус<br>
+            <button title="Сортировка по возрастанию">&#8593;</button><button title="Сортировка по убыванию">&#8595;</button>
+        </td>
+        <td>Операции с документом</td>
     </tr>
     <tr>
+        <td><input type="checkbox"></td>
         <td><a>1</a></td>
-        <td><a href="salary_details.html">31.10.2015</a></td>
-        <td><a>2600000000000</a></td>
+        <td><a href="payment_UAH_details.html">31.10.2015</a></td>
         <td><a>15000</a></td>
         <td><a>Новый</a></td>
+        <td>
+            <button style="width: 30px"><a href="#"><img src="images/sign.jpg" title="Подписать"></a></button>
+            <button style="width: 30px"><a href="new_payment_UAH.html"><img src="images/edit.png"
+                                                                            title="Редактировать"></a></button>
+            <button style="width: 30px"><a href="new_payment_UAH.html"><img src="images/copy.png"
+                                                                            title="Копировать"></a></button>
+            <button style="width: 30px"><a href="#"><img src="images/print.png" title="Печать"></a></button>
+            <button style="width: 30px"><a href="#"><img src="images/save.png" title="Сохранить"></a></button>
+            <button style="width: 30px"><a href="#"><img src="images/delete.png" title="Удалить"></a></button>
+            <p class="comments">Комментарии к кнопкам управления документом ниже на странице</p>
+        </td>
     </tr>
     <tr>
+        <td><input type="checkbox"></td>
         <td><a>2</a></td>
-        <td><a href="salary_details.html">31.10.2015</a></td>
-        <td><a>2600000000000</a></td>
+        <td><a href="payment_UAH_details.html">31.10.2015</a></td>
         <td><a>15000</a></td>
         <td><a>Новый</a></td>
+        <td>
+            <button style="width: 30px"><a href="#"><img src="images/sign.jpg" title="Подписать"></a></button>
+            <button style="width: 30px"><a href="new_payment_UAH.html"><img src="images/edit.png"
+                                                                            title="Редактировать"></a></button>
+            <button style="width: 30px"><a href="new_payment_UAH.html"><img src="images/copy.png"
+                                                                            title="Копировать"></a></button>
+            <button style="width: 30px"><a href="#"><img src="images/print.png" title="Печать"></a></button>
+            <button style="width: 30px"><a href="#"><img src="images/save.png" title="Сохранить"></a></button>
+            <button style="width: 30px"><a href="#"><img src="images/delete.png" title="Удалить"></a></button>
+        </td>
+    </tr>
+    <tr style="color: red; background-color: #cecece;">
+        <td><input type="checkbox"></td>
+        <td><a>3</a></td>
+        <td><a href="payment_UAH_details.html">31.10.2015</a></td>
+        <td><a>15000</a></td>
+        <td><a>Отклонен</a></td>
+        <td>
+            <button style="width: 30px"><a href="#"><img src="images/sign.jpg" title="Подписать"></a></button>
+            <button style="width: 30px"><a href="new_payment_UAH.html"><img src="images/edit.png"
+                                                                            title="Редактировать"></a></button>
+            <button style="width: 30px"><a href="new_payment_UAH.html"><img src="images/copy.png"
+                                                                            title="Копировать"></a></button>
+            <button style="width: 30px"><a href="#"><img src="images/print.png" title="Печать"></a></button>
+            <button style="width: 30px"><a href="#"><img src="images/save.png" title="Сохранить"></a></button>
+            <button style="width: 30px"><a href="#"><img src="images/delete.png" title="Удалить"></a></button>
+            <p class="comments">Строка с платежом, у которого статус "Отклонен", выделяется цветом. Для примера цвет текста красный, фон серый</p>
+        </td>
     </tr>
     <tr>
-        <td><a>3</a></td>
-        <td><a href="salary_details.html">31.10.2015</a></td>
-        <td><a>2600000000000</a></td>
+        <td><input type="checkbox"></td>
+        <td><a>4</a></td>
+        <td><a href="payment_UAH_details.html">31.10.2015</a></td>
         <td><a>15000</a></td>
         <td><a>Новый</a></td>
+        <td>
+            <button style="width: 30px"><a href="#"><img src="images/sign.jpg" title="Подписать"></a></button>
+            <button style="width: 30px"><a href="new_payment_UAH.html"><img src="images/edit.png"
+                                                                            title="Редактировать"></a></button>
+            <button style="width: 30px"><a href="new_payment_UAH.html"><img src="images/copy.png"
+                                                                            title="Копировать"></a></button>
+            <button style="width: 30px"><a href="#"><img src="images/print.png" title="Печать"></a></button>
+            <button style="width: 30px"><a href="#"><img src="images/save.png" title="Сохранить"></a></button>
+            <button style="width: 30px"><a href="#"><img src="images/delete.png" title="Удалить"></a></button>
+        </td>
     </tr>
 </table>
+        <br>
         <button><a href="#">Подписать и отправить</a></button>
         <p class="comments">При нажатии на кнопку появляется окно для выбора ЭЦП, до нажатия оно скрыто</p>
         <input placeholder="ЭЦП"><button>Обзор</button><button>Применить</button>
-        <p class="comments">При нажатии на кнопку "Обзор" на экран выводится окно проводника для поиска файла ЭЦП. После выбора нужного файла, <br>его название появляется в текстовом поле и становится активной кнопка "Применить". <br>При нажатии на нее инициируется процесс наложения ЭЦП на группу платежей и отправки их в банк</p>
+        <p class="comments">При нажатии на кнопку "Обзор" на экран выводится окно
+            проводника для поиска файла ЭЦП. После выбора нужного файла, <br>
+            его название появляется в текстовом поле и становится активной кнопка
+            "Применить". <br>При нажатии на нее инициируется процесс наложения ЭЦП
+            на группу платежей и отправки их в банк</p>
         </div>
+    <p class="comments">Комментарии к кнопкам управления документом <a href="payments_UAH.html">тут</a></p>
     </div>
 </body>
 </html>
