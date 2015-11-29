@@ -2,6 +2,237 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59426e74-1ed5-4b09-831d-af502f5868fd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/images/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/images/11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/images/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/images/22.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/images/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/images/33.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/images/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/images/44.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/images/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/images/55.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/images/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/images/66.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/9aca1f61875812.lite.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/AlbumArtSmall.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/AlbumArt_{8110D652-C76B-4AAD-AA8F-600471202F47}_Large.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/AlbumArt_{8110D652-C76B-4AAD-AA8F-600471202F47}_Small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/All_you_need_is_love.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Apostol_Andrej.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/project_exam/fonts/Arial Cyr Regular/Arial Cyr Regular.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/project_exam/fonts/ArialBlack/ArialBlack.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/project_exam/fonts/ArialBlack/ArialBlack.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/project_exam/fonts/ArialBlack/ArialBlack.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/project_exam/fonts/ArialBold/ArialBold.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/project_exam/fonts/ArialBold/ArialBold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/project_exam/fonts/ArialBold/ArialBold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/project_exam/fonts/ArialBoldItalic/ArialBoldItalic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/project_exam/fonts/ArialBoldItalic/ArialBoldItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/project_exam/fonts/ArialBoldItalic/ArialBoldItalic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/project_exam/fonts/ArialItalic/ArialItalic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/project_exam/fonts/ArialItalic/ArialItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/project_exam/fonts/ArialItalic/ArialItalic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/project_exam/fonts/ArialRegular/ArialRegular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/project_exam/fonts/ArialRegular/ArialRegular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/project_exam/fonts/ArialRegular/ArialRegular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Ballada_o_borbe.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Ballada_o_liubvi.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Bohemian_Rhapsody.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/images/Business.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Cant_Help_Falling_In_Love_With_You.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Crazy_Little_Thing_Called_Love.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Dont_Leave_Me_Now.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Dont_Stop_Me_Now.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/FS0.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/FS1.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/FS2.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Folder.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Help!.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/project_exam/fonts/Helvetica-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Here_Comes_The_Sun.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Highway_star.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Hold_my_hand.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Hollywood.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/I_put_a_spell_on_you.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/I_want_you_to_back.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Im_Looking_Through_You.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Imagine.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Ja_ne_liublu.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Killer_Queen.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Kiss_me.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Let_It_Be.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Let_my_people_go.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/MJ1.lite.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/MJ1.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Michelle.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Perfect_day.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Please_dont_talk_about_me_whe.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Pretty_woman.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Rok_n_roll.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Somebody_To_Love.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Something.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Tempest.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/The_jean_genie.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Vsie_mogut_koroli.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Wasting_love.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/Yesterday.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/6a4a78d5c4bd4ccd7ff0f2dc1d173b5a318d2a41/_alternating-rows-and-columns.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_animation.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_appearance.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_background-clip.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_background-origin.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_background-size.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_background-size.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/9dfbcee54e058391c2ea8b8404c69fb4abd968fc/_base.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_border-radius.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/6a4a78d5c4bd4ccd7ff0f2dc1d173b5a318d2a41/_borders.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_box-shadow.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_box-sizing.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/cbdcf6aa6a0f7f84a12908d2a16a334fd5684992/_brightness.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/46a95e3b8e3c55fe2e55dd013290f248a8a22a01/_bullets.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_bullets.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/d29c37bf1010d9e6290d6ce343d1790f64b4029e/_clearfix.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/8535cce4ee21130a47282f0852fdaa4b55b1024c/_color.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_columns.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/4bd1ed9df10cb75a82b901b9c61855bbd9006e7d/_compass.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/cbdcf6aa6a0f7f84a12908d2a16a334fd5684992/_contrast.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/1e7402b635daa34f84997103f102c8cb35972f2c/_css3.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_deprecated-support.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/798d78de765ae24b086aed9d85a2e72a17b1214c/_ellipsis.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_filter.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_flexbox.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_float.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/d29c37bf1010d9e6290d6ce343d1790f64b4029e/_float.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_font-face.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/798d78de765ae24b086aed9d85a2e72a17b1214c/_force-wrap.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/8535cce4ee21130a47282f0852fdaa4b55b1024c/_general.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/fdca2e7edeb6fe922a7efab812453c853fb3aaa2/_grid-background.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_hacks.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/d29c37bf1010d9e6290d6ce343d1790f64b4029e/_hacks.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/46a95e3b8e3c55fe2e55dd013290f248a8a22a01/_horizontal-list.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/f37d5c052c3301bc133d4030a99abce86e02dc68/_hover-link.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_hyphenation.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_images.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_images.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/46a95e3b8e3c55fe2e55dd013290f248a8a22a01/_inline-block-list.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_inline-block.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_inline-block.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/46a95e3b8e3c55fe2e55dd013290f248a8a22a01/_inline-list.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/f37d5c052c3301bc133d4030a99abce86e02dc68/_link-colors.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/4fa679e54f904067957a0a1e19907f331b03906a/_links.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_links.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/4fa679e54f904067957a0a1e19907f331b03906a/_lists.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_lists.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/d29c37bf1010d9e6290d6ce343d1790f64b4029e/_min.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/798d78de765ae24b086aed9d85a2e72a17b1214c/_nowrap.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_opacity.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_regions.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/typography/text/_replacement.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/798d78de765ae24b086aed9d85a2e72a17b1214c/_replacement.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/1e7402b635daa34f84997103f102c8cb35972f2c/_reset.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_reset.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/D%058/Homework/goit3/nkartovskaya.github.io/projects/vinyl_heaven/sass/compass/_reset.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/9d6740d53b774048e2c69b92d1edd871a7346b06/_reset.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/d29c37bf1010d9e6290d6ce343d1790f64b4029e/_reset.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/6a4a78d5c4bd4ccd7ff0f2dc1d173b5a318d2a41/_scaffolding.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/9dfbcee54e058391c2ea8b8404c69fb4abd968fc/_sprite-img.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/8535cce4ee21130a47282f0852fdaa4b55b1024c/_sprites.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/1e7402b635daa34f84997103f102c8cb35972f2c/_support.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/_support.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/8535cce4ee21130a47282f0852fdaa4b55b1024c/_tables.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/d29c37bf1010d9e6290d6ce343d1790f64b4029e/_tag-cloud.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_text-shadow.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/4fa679e54f904067957a0a1e19907f331b03906a/_text.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_text.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_transform.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_transition.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/1e7402b635daa34f84997103f102c8cb35972f2c/_typography.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/4fa679e54f904067957a0a1e19907f331b03906a/_units.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/f37d5c052c3301bc133d4030a99abce86e02dc68/_unstyled-link.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_user-interface.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/1e7402b635daa34f84997103f102c8cb35972f2c/_utilities.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/bbe84896b605e063a3cbea18b119d4fe53769a3a/_utilities.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/4fa679e54f904067957a0a1e19907f331b03906a/_vertical_rhythm.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/project_exam/images/arrow_start_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/images/bg.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/images/bg1.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/images/bg2.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/project_exam/images/bg_banner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/project_exam/images/bg_search_course.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/project_exam/images/boy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/project_exam/images/card1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/project_exam/images/card2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/project_exam/images/card3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/images/collection.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/images/css-sprite-coordinates.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/audio/desktop.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/images/fb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/images/foto.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/images/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/d8f135b3f11a321bfdfb8ec0078baf58204754dd/ie.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/images/invitation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/images/ln.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/project_exam/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/images/logo_black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/images/logo_grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/images/main_background.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/images/plast.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/d8f135b3f11a321bfdfb8ec0078baf58204754dd/print.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.sass-cache/d8f135b3f11a321bfdfb8ec0078baf58204754dd/screen.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/project_exam/images/social_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/images/sprites.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/images/sprites_buttons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/images/sprites_contacts.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/images/sprites_si.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/images/tabakerka.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/images/tw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/sass/compass/_reset.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/js/audio.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/club.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/collection.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/config.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/js/contact_me.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/bin/contact_me.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/contacts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/feedback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/stylesheets/ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/sass/ie.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/project_exam/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/traffic_light/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/images/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/js/jqBootstrapValidation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/traffic_light/js.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/message.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/css/modern-business.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ocean/portfolio-3-col.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/stylesheets/print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/sass/print.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/stylesheets/screen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/sass/screen.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/sendmail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/project_exam/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/traffic_light/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.idea/vinyl_heaven.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/vinyl_heaven/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nkartovskaya.github.io.iws" />
@@ -22,38 +253,7 @@
     <favorites_list name="nkartovskaya.github.io" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson1/task4/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson1/task4/pages/index2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769">
-              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lesson1/task2/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33791524">
-              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,7 +286,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="9" />
     <option name="width" value="910" />
-    <option name="height" value="1056" />
+    <option name="height" value="1034" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -130,18 +330,8 @@
               <option name="myItemId" value="nkartovskaya.github.io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="nkartovskaya.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nkartovskaya.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="search" />
+              <option name="myItemId" value="projects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -152,10 +342,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="nkartovskaya.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesson3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -169,109 +355,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lesson1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nkartovskaya.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nkartovskaya.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesson1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nkartovskaya.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nkartovskaya.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesson1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nkartovskaya.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nkartovskaya.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesson1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nkartovskaya.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nkartovskaya.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesson1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nkartovskaya.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nkartovskaya.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesson1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task1" />
+              <option name="myItemId" value="examples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -284,6 +368,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -460,31 +545,37 @@
       <option name="project" value="LOCAL" />
       <updated>1435937243604</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="update">
+      <created>1448785631505</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1448785631505</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="9" y="0" width="910" height="1056" extended-state="0" />
+    <frame x="9" y="0" width="910" height="1034" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36689037" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24655963" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.022151899" sideWeight="0.5044743" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.022604952" sideWeight="0.5044743" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.022151899" sideWeight="0.49552572" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.022151899" sideWeight="0.49552572" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -498,84 +589,5 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/search/search_style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2937788">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/task4/pages/index3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/task4/pages/index1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/task3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19585253">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/task1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64631337">
-          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/task4/images/Koala.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/task4/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/task4/pages/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/task2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33791524">
-          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
