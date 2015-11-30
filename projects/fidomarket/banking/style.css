@@ -12,6 +12,10 @@ tr.main_nav a {
     font-size: 12px;
     width: 600px;
 }
+.topic {
+    background-color: gray;
+    color: black;
+}
 .sidebar {
     float: left;
 }
@@ -23,4 +27,5 @@ tr.main_nav a {
 .question {
     background-color: yellow;
     width: 600px;
+    font-size: 12px;
 }
