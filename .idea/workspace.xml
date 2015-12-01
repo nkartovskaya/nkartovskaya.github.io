@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59426e74-1ed5-4b09-831d-af502f5868fd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/payments_connected_salary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/new_salary.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/new_salary.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/payment_UAH_details.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/payment_UAH_details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/salary.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/salary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/salary_connected_payments.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/salary_connected_payments.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nkartovskaya.github.io.iws" />
@@ -24,57 +28,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="salary.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="salary.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/salary.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.346154">
-              <caret line="98" column="12" selection-start-line="98" selection-start-column="8" selection-end-line="99" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.456">
+              <caret line="248" column="102" selection-start-line="248" selection-start-column="102" selection-end-line="248" selection-end-column="102" />
               <folding>
                 <element signature="n#style#0;n#button#5;n#td#7;n#tr#2;n#table#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#4;n#table#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#5;n#td#7;n#tr#4;n#table#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new_salary.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/new_salary.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.8846154">
-              <caret line="110" column="51" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="salary_connected_payments.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/salary_connected_payments.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-29.076923">
-              <caret line="48" column="59" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="salary_details.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/salary_details.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.538462">
-              <caret line="148" column="76" selection-start-line="148" selection-start-column="76" selection-end-line="148" selection-end-column="76" />
-              <folding>
-                <element signature="n#style#0;n#td#6;n#tr#3;n#table#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -82,31 +45,8 @@
       <file leaf-file-name="payments_UAH.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/payments_UAH.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.961538">
-              <caret line="101" column="12" selection-start-line="101" selection-start-column="12" selection-end-line="101" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="payment_UAH_details.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/payment_UAH_details.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.864">
-              <caret line="79" column="88" selection-start-line="79" selection-start-column="88" selection-end-line="79" selection-end-column="88" />
-              <folding>
-                <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new_payment_UAH.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/new_payment_UAH.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-9.461538">
+              <caret line="269" column="9" selection-start-line="269" selection-start-column="8" selection-end-line="269" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -140,14 +80,16 @@
         <option value="$PROJECT_DIR$/projects/look_inside/index.html" />
         <option value="$PROJECT_DIR$/projects/look_inside/stylesheets/screen.css" />
         <option value="$PROJECT_DIR$/projects/look_inside/sass/screen.scss" />
-        <option value="$PROJECT_DIR$/projects/fidomarket/banking/new_salary.html" />
         <option value="$PROJECT_DIR$/projects/fidomarket/banking/salary_details.html" />
         <option value="$PROJECT_DIR$/projects/fidomarket/banking/directory_employee.html" />
-        <option value="$PROJECT_DIR$/projects/fidomarket/banking/salary.html" />
-        <option value="$PROJECT_DIR$/projects/fidomarket/banking/salary_connected_payments.html" />
         <option value="$PROJECT_DIR$/projects/fidomarket/banking/style.css" />
         <option value="$PROJECT_DIR$/projects/fidomarket/banking/payments_UAH.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/paymant_connected_salary.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/salary_connected_payments.html" />
         <option value="$PROJECT_DIR$/projects/fidomarket/banking/payment_UAH_details.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/payments_connected_salary.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/new_salary.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/salary.html" />
       </list>
     </option>
   </component>
@@ -592,14 +534,20 @@
       <option name="project" value="LOCAL" />
       <updated>1448975701278</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="update">
+      <created>1448976053326</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1448976053326</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="944" height="1034" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34988964" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24613686" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938644" sideWeight="0.5045872" order="11" side_tool="true" content_ui="tabs" />
@@ -618,6 +566,26 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938644" sideWeight="0.5045872" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39935413" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938644" sideWeight="0.49541286" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938644" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24613686" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.022151899" sideWeight="0.49552572" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -646,6 +614,7 @@
           <caret line="207" column="19" selection-start-line="207" selection-start-column="19" selection-end-line="207" selection-end-column="19" />
           <folding>
             <element signature="n#style#0;n#button#5;n#td#7;n#tr#2;n#table#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#4;n#table#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#5;n#td#7;n#tr#4;n#table#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -696,7 +665,7 @@
           <caret line="76" column="93" selection-start-line="72" selection-start-column="0" selection-end-line="78" selection-end-column="105" />
           <folding>
             <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#5;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -854,34 +823,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/new_payment_UAH.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/directory_employee.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.63771427">
           <caret line="107" column="32" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/new_salary.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.8846154">
-          <caret line="110" column="51" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/salary_connected_payments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-29.076923">
-          <caret line="48" column="59" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
           <folding />
         </state>
       </provider>
@@ -891,9 +836,36 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/payments_connected_salary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8834286">
+          <caret line="63" column="74" selection-start-line="63" selection-start-column="74" selection-end-line="63" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/payment_UAH_details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8445714">
+          <caret line="80" column="83" selection-start-line="80" selection-start-column="83" selection-end-line="80" selection-end-column="83" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6226415">
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/salary_details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.538462">
+        <state vertical-scroll-proportion="0.6697143">
           <caret line="148" column="76" selection-start-line="148" selection-start-column="76" selection-end-line="148" selection-end-column="76" />
           <folding>
             <element signature="n#style#0;n#td#6;n#tr#3;n#table#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -901,40 +873,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/salary.html">
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/salary_connected_payments.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.346154">
-          <caret line="98" column="12" selection-start-line="98" selection-start-column="8" selection-end-line="99" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#button#5;n#td#7;n#tr#2;n#table#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#5;n#td#7;n#tr#4;n#table#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-25.23077">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/style.css">
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/new_payment_UAH.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/new_salary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.067428574">
+          <caret line="175" column="39" selection-start-line="175" selection-start-column="39" selection-end-line="175" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/payments_UAH.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.961538">
-          <caret line="101" column="12" selection-start-line="101" selection-start-column="12" selection-end-line="101" selection-end-column="12" />
+        <state vertical-scroll-proportion="-9.461538">
+          <caret line="269" column="9" selection-start-line="269" selection-start-column="8" selection-end-line="269" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/payment_UAH_details.html">
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/salary.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.864">
-          <caret line="79" column="88" selection-start-line="79" selection-start-column="88" selection-end-line="79" selection-end-column="88" />
+        <state vertical-scroll-proportion="0.456">
+          <caret line="248" column="102" selection-start-line="248" selection-start-column="102" selection-end-line="248" selection-end-column="102" />
           <folding>
-            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#5;n#td#7;n#tr#2;n#table#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#4;n#table#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#5;n#td#7;n#tr#4;n#table#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
