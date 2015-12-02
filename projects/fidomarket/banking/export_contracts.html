@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Экспортные контракты</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div>Надежда Картовская ООО "Ромашка"</div>
+<table>
+    <tr>
+        <td><a href="mail.html"><img src="images/emails.png" title="Переписка с банком"></a></td>
+        <td><a href="help.html"><img src="images/help.png" title="Помощь"></a></td>
+        <td><a href="directory.html"><img src="images/directory.png" title="Справочники"></a></td>
+    </tr>
+</table>
+<p class="comments">Синим цветом выделены пункты основного меню, серым - пункты выпадающего меню</p>
+<table>
+    <tr class="main_nav">
+        <td><a href="index.html">Главная страница ЦФК</a></td>
+        <td><a href="main.html">Главная страница клиента</a></td>
+        <td><a href="payments_UAH.html">Платежи и переводы</a></td>
+        <td><a href="profile.html">Профиль</a></td>
+        <td><a href="#">Продукты</a></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td class="nav_second_level"><a href="payments_UAH.html">Платежи в UAH</a></td>
+        <td class="nav_second_level"><a href="data.html">Параметры</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td class="nav_second_level"><a href="payments_currency.html">Платежи в валюте</a></td>
+        <td class="nav_second_level"><a href="employees.html">Сотрудники</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td class="nav_second_level"><a href="salary.html">Зарплатные ведомости</a></td>
+        <td class="nav_second_level"><a href="authorities.html">Права на документы и отчеты</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td class="nav_second_level"><a href="application_buy.html">Заявка на покупку валюты</a></td>
+        <td class="nav_second_level"><a href="sms_email.html">Sms/email информирование</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td class="nav_second_level"><a href="application_sale.html">Заявка на продажу валюты</a></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td class="nav_second_level"><a href="application_exchange.html">Заявка на конвертацию валюты</a></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+<hr>
+<!------------Content----------------->
+<div class="content">
+    <p class="comments">Боковое меню для быстрого перехода между видами платежей и переводов</p>
+
+    <div class="sidebar">
+        <table>
+            <tr class="nav_second_level">
+                <td><a href="payments_UAH.html">Платежи в UAH</a></td>
+            </tr>
+            <tr class="nav_second_level">
+                <td><a href="payments_currency.html">Платежи в валюте</a></td>
+            </tr>
+            <tr class="nav_second_level">
+                <td><a href="salary.html">Зарплатные ведомости</a></td>
+            </tr>
+            <tr class="nav_second_level">
+                <td><a href="application_buy.html">Заявка на покупку валюты</a></td>
+            </tr>
+            <tr class="nav_second_level">
+                <td><a href="application_sale.html">Заявка на продажу валюты</a></td>
+            </tr>
+            <tr class="nav_second_level">
+                <td><a href="application_exchange.html">Заявка на конвертацию валюты</a></td>
+            </tr>
+        </table>
+    </div>
+    <div class="content_account">
+        <button><a href="new_export_contract.html">Создать новый экспортный контракт</a></button>
+        <br><br>
+        <label>Текущие экспортные контракты</label><br><br>
+
+        <form>
+            <label>Фильтр</label><br><br>
+            <label>Документы с </label><input><label> по </label><input>
+            <button>Найти</button>
+            <button>Очистить</button>
+            <br><br>
+            <a href="#">Расширенный фильтр</a>
+
+            <p class="comments">По умолчанию на странице виден фильтр по дате. При нажатии на
+                ссылку "Расширенный фильтр" раскрываются поля фильтра, показанные ниже. На это странице они
+                для удобста открыты</p>
+            <a href="directory_partners.html">Партнер </a><br><br>
+            <label>Название </label><input><br><br>
+            <label>Страна </label><input><br><br>
+
+            <p class="comments">Заполнение полей фильтра может осуществляться вручную или выбором
+                из справочника получателей. В таком случае, заполняются поля МФО, ЭДРПОУ, Счет,
+                Назначение платежа</p>
+            <label>Статус экспортного контракта </label><br><br>
+            <select>
+                <option>Все статусы</option>
+                <option>Новый</option>
+                <option>На верификации</option>
+                <option>Верифицирован</option>
+                <option>Закрыт</option>
+            </select><br>
+
+            <p class="comments">Статус платежа выбирается из выпадающего списка</p>
+            <button>Применить фильтр</button>
+            <p class="comments">При нажатии кнопки в списке отражаются документы, соответствующие ограничениям
+                фильтра</p>
+        </form>
+        <table>
+            <tr class="link">
+                <td>Все</td>
+                <td>Новый</td>
+                <td>На верификации</td>
+                <td>Отклонен</td>
+                <td>Верифицирован</td>
+                <td>Закрыт</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class="nav_second_level">
+                <td>Выделить все<input type="checkbox"></td>
+                <td>№ экспортного контракта<br>
+                    <button title="Сортировка по возрастанию">&#8593;</button>
+                    <button title="Сортировка по убыванию">&#8595;</button>
+                </td>
+                <td>Дата заключения<br>
+                    <button title="Сортировка по возрастанию">&#8593;</button>
+                    <button title="Сортировка по убыванию">&#8595;</button>
+                </td>
+                <td>Дата окончания<br>
+                    <button title="Сортировка по возрастанию">&#8593;</button>
+                    <button title="Сортировка по убыванию">&#8595;</button>
+                </td>
+                <td>Партнер<br>
+                    <button title="Сортировка по возрастанию">&#8593;</button>
+                    <button title="Сортировка по убыванию">&#8595;</button>
+                </td>
+                <td>Сумма<br>
+                    <button title="Сортировка по возрастанию">&#8593;</button>
+                    <button title="Сортировка по убыванию">&#8595;</button>
+                </td>
+                <td>Валюта<br>
+                    <button title="Сортировка по возрастанию">&#8593;</button>
+                    <button title="Сортировка по убыванию">&#8595;</button>
+                </td>
+
+                <td>Статус<br>
+                    <button title="Сортировка по возрастанию">&#8593;</button>
+                    <button title="Сортировка по убыванию">&#8595;</button>
+                </td>
+                <td>Операции с документом</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td><a href="export_contract_details.html">100/12/123456</a></td>
+                <td><a>31.10.2015</a></td>
+                <td><a>30.10.2016</a></td>
+                <td><a>Oduvanchik Ltd</a></td>
+                <td><a>15000</a></td>
+                <td><a>USD</a></td>
+                <td><a>Новый</a></td>
+                <td>
+                    <button style="width: 30px"><a href="new_export_contract.html"><img src="images/edit.png"
+                                                                                        title="Редактировать"></a></button>
+                    <button style="width: 30px"><a href="new_export_contract.html"><img src="images/copy.png"
+                                                                                        title="Копировать"></a></button>
+                    <button style="width: 30px"><a href="export_contracts.html"><img src="images/delete.png" title="Удалить"></a></button><br>
+
+                    <span class="comments">Комментарии к кнопкам управления документом ниже на странице</span>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td><a href="export_contract_details.html">100/12/123456</a></td>
+                <td><a>31.10.2015</a></td>
+                <td><a>30.10.2016</a></td>
+                <td><a>Oduvanchik Ltd</a></td>
+                <td><a>15000</a></td>
+                <td><a>USD</a></td>
+                <td><a>Новый</a></td>
+                <td>
+                    <button style="width: 30px"><a href="new_export_contract.html"><img src="images/edit.png"
+                                                                                        title="Редактировать"></a></button>
+                    <button style="width: 30px"><a href="new_export_contract.html"><img src="images/copy.png"
+                                                                                        title="Копировать"></a></button>
+                    <button style="width: 30px"><a href="export_contracts.html"><img src="images/delete.png" title="Удалить"></a></button><br>
+
+                </td>
+            </tr>
+            <tr style="color: red; background-color: #cecece;">
+                <td><input type="checkbox"></td>
+                <td><a href="export_contract_details.html">100/12/123456</a></td>
+                <td><a>31.10.2015</a></td>
+                <td><a>30.10.2016</a></td>
+                <td><a>Oduvanchik Ltd</a></td>
+                <td><a>15000</a></td>
+                <td><a>USD</a></td>
+                <td><a>Отклонен</a></td>
+                <td>
+                    <button style="width: 30px"><a href="new_export_contract.html"><img src="images/edit.png"
+                                                                                        title="Редактировать"></a></button>
+                    <button style="width: 30px"><a href="new_export_contract.html"><img src="images/copy.png"
+                                                                                        title="Копировать"></a></button>
+                    <button style="width: 30px"><a href="export_contracts.html"><img src="images/delete.png" title="Удалить"></a></button><br>
+
+                    <span class="comments">Строка с платежом, у которого статус "Отклонен", выделяется цветом. Для примера
+                        цвет текста красный, фон серый</span>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td><a href="export_contract_details.xhtml">100/12/123456</a></td>
+                <td><a>31.10.2015</a></td>
+                <td><a>30.10.2016</a></td>
+                <td><a>Oduvanchik Ltd</a></td>
+                <td><a>15000</a></td>
+                <td><a>USD</a></td>
+                <td><a>Новый</a></td>
+                <td>
+                    <button style="width: 30px"><a href="new_export_contract.html"><img src="images/edit.png"
+                                                                                        title="Редактировать"></a></button>
+                    <button style="width: 30px"><a href="new_export_contract.html"><img src="images/copy.png"
+                                                                                        title="Копировать"></a></button>
+                    <button style="width: 30px"><a href="export_contracts.html"><img src="images/delete.png" title="Удалить"></a></button><br>
+
+                </td>
+            </tr>
+        </table>
+        <br>
+        <button><a href="#">Удалить выделенные</a></button>
+    </div>
+    <p class="comments"><span class="topic">Комментарии к кнопкам управления документом (речь идет о
+        профиле контракта, сам контракт-это файл, прикрепленный к профилю контракта</span><br>
+        1.Кнопка редактировать: при нажатии кнопки пользователь возвращается на страницу, аналогичную странице
+        создания нового экспортного контракта, но все поля формы должны быть заполнены.<br><br>
+        2.Кнопка копировать: при нажатии кнопки пользователь возвращается на страницу, аналогичную странице
+        создания нового экспортного контракта, но все поля формы должны быть заполнены.<br><br>
+        6.Кнопка удалить: при нажатии кнопки удаление контракта.<br><br>
+        <span class="topic">Доступность кнопок по статусам:</span><br>
+        Все кнопки доступны при всех статусах.
+    </p>
+</div>
+</body>
+</html>

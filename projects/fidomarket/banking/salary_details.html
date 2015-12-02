@@ -9,7 +9,7 @@
 <div>Надежда Картовская ООО "Ромашка"</div>
 <table>
     <tr>
-        <td><a href="mail.html"><img src="images/emails.png" title="Переписка с банком"></a> </td>
+        <td><a href="mail.html"><img src="images/emails.png" title="Переписка с банком"></a></td>
         <td><a href="help.html"><img src="images/help.png" title="Помощь"></a></td>
         <td><a href="directory.html"><img src="images/directory.png" title="Справочники"></a></td>
     </tr>
@@ -68,32 +68,36 @@
 </table>
 <hr>
 <!------------Content----------------->
-    <label>Зарплатная ведомость №1 от 03.12.2015г.</label>
+<label>Зарплатная ведомость №1 от 03.12.2015г.</label>
 <label>Зарплатная ведомость</label>
 
 <p class="comments">Поля приведены для того, чтобы дать пояснения, визуальное отображение полей <br>
-    приводится на <a href="images/9_Ведомость_для_просмотра.png" target="_blank">скриншоте</a> (скриншот из реального Бифит)</p>
+    приводится на <a href="images/9_Ведомость_для_просмотра.png" target="_blank">скриншоте</a> (скриншот из реального
+    Бифит)</p>
 <label>Зарплатная ведомость </label><input value="1"><br><br>
 
 <label>От </label><input value="03.11.2015"><br><br>
 
 <label>Дата валютирования</label><input value="-"><br><br>
+<label>Вид начисления</label><br><br>
+<input value="З/пл и выплаты, входящие в фонд опл.труда"><br><br>
+
+<label>Период начисления </label><input value="ноябрь 2015г."><br><br>
+
 
 <label>Плательщик</label><input value="ТОВ Тестуны"><br><br>
 
 <label>Код ЭДРПОУ</label><input value="01234568"><br><br>
 
 <label>Банк плательщика</label><input value="ПУАО ФИДОБАНК"><br><br>
-
-<label>Поручаем списать с нашего счета средства для выплаты заработной платы</label><br><br>
-<input value="26000000000000"><br><br>
-
 <label>МФО</label><input value="380009"><br><br>
 
-<label>Вид начисления</label><br><br>
-<input value="З/пл и выплаты, входящие в фонд опл.труда"><br><br>
+<label>Счет для выплаты</label><br><br>
+<input value="26000000000000"><br><br>
 
-<label>Период начисления </label><input value="ноябрь 2015г."><br><br>
+<label>Счет для оплаты комиссии</label><br><br>
+<input value="26000000000000"><br><br>
+
 
 <table>
     <tr class="nav_second_level">
@@ -137,12 +141,21 @@
 
 <label>Количество сотрудников </label><input><label> Общая сумма</label><input><br><br>
 <label><a href="salary_connected_payments.html" target="_blank">Связанные платежи</a></label>
-<p class="comments"><a href="images/8_Документы_по_связям.png" target="_blank">Скриншот связанных платежей из БИФИТа.</a> Если нет связанных документов, пользователь
-получает сообщение "С этой зарплатной ведомостью не связан ни один платежный документ"</p>
-<p class="comments">По ссылке пользователь может перейти на краткое представление сформированных платежей. Для удобства они представлены на отдельной странице</p>
+
+<p class="comments"><a href="images/8_Документы_по_связям.png" target="_blank">Скриншот связанных платежей из
+    БИФИТа.</a> Если нет связанных документов, пользователь получает сообщение "С этой зарплатной
+    ведомостью не связан ни один платежный документ"</p>
+
+<p class="comments">По ссылке пользователь может перейти на краткое представление сформированных платежей. Для удобства
+    они представлены на отдельной странице</p>
+
+<button><a href="payments_UAH.html">Сформировать платежи</a></button>
+<p class="comments">При нажатии на кнопку формируется 2 платежа (если есть комиссия за перечисление)
+    и 1 платеж (если такой комиссии нет). Платежи формируются в статусе Новый.</p>
 
 <button style="width: 30px"><a href="#"><img src="images/sign.jpg" title="Подписать"></a></button>
-<button style="width: 30px"><a href="new_payment_UAH.html"><img src="images/edit.png" title="Редактировать"></a></button>
+<button style="width: 30px"><a href="new_payment_UAH.html"><img src="images/edit.png" title="Редактировать"></a>
+</button>
 <button style="width: 30px"><a href="new_payment_UAH.html"><img src="images/copy.png" title="Копировать"></a></button>
 <button style="width: 30px"><a href="#"><img src="images/print.png" title="Печать"></a></button>
 <button style="width: 30px"><a href="#"><img src="images/save.png" title="Сохранить"></a></button>
