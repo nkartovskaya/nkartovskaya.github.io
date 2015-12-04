@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Справочник бенефициаров</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div>Надежда Картовская ООО "Ромашка"</div>
+<table>
+    <tr>
+        <td><a href="mail.html"><img src="images/emails.png" title="Переписка с банком"></a> </td>
+        <td><a href="help.html"><img src="images/help.png" title="Помощь"></a></td>
+        <td><a href="directory.html"><img src="images/directory.png" title="Справочники"></a></td>
+    </tr>
+</table>
+<p class="comments">Синим цветом выделены пункты основного меню, серым - пункты выпадающего меню</p>
+<table>
+    <tr class="main_nav">
+        <td><a href="index.html">Главная страница ЦФК</a></td>
+        <td><a href="main.html">Главная страница клиента</a></td>
+        <td><a href="payments_UAH.html">Платежи и переводы</a></td>
+        <td><a href="profile.html">Профиль</a></td>
+        <td><a href="#">Продукты</a></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td class="nav_second_level"><a href="payments_UAH.html">Платежи в UAH</a></td>
+        <td class="nav_second_level"><a href="data.html">Параметры</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td class="nav_second_level"><a href="payments_currency.html">Платежи в валюте</a></td>
+        <td class="nav_second_level"><a href="employees.html">Сотрудники</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td class="nav_second_level"><a href="salary.html">Зарплатные ведомости</a></td>
+        <td class="nav_second_level"><a href="authorities.html">Права на документы и отчеты</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td class="nav_second_level"><a href="application_buy.html">Заявка на покупку валюты</a></td>
+        <td class="nav_second_level"><a href="sms_email.html">Sms/email информирование</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td class="nav_second_level"><a href="application_sale.html">Заявка на продажу валюты</a></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td class="nav_second_level"><a href="application_exchange.html">Заявка на конвертацию валюты</a></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+<hr>
+<!------------Content----------------->
+<label>Справочник бенефициаров</label><br><br>
+<label>Поиск получателя </label><input placeholder="Введите бенефициара"><br><br>
+<table>
+    <tr class="nav_second_level">
+        <td><input type="checkbox"></td>
+        <td>Бенефициар</td>
+        <td>Счет бенефициара</td>
+        <td>Страна</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox"></td>
+        <td>ODUVANCHIK LTD</td>
+        <td>GONKONG BANKING CORP LTD</td>
+        <td>817131808838</td>
+    </tr>
+</table><br>
+<button>Удалить выделенных бенефициаров</button><br>
+<p class="comments">При нажатии кнопки удаляются бенефициары с выбранными чекбоксами</p>
+<button>Добавить нового бенефициара</button><br>
+<p class="comments">При нажатии кнопки открывается форма для заполнения параметров нового бенефициара.
+    Все поля формы (кроме полей с особыми комментариями) заполняются вручную</p>
+<hr>
+<label>Бенефициар</label>
+<input><br><br>
+<label>Счет бенефициара</label>
+<input><br><br>
+<label>IBAN</label>
+<input><br><br>
+<label>Город</label>
+<input><br><br>
+<label><a href="directory_countries.html">Код страны</a></label>
+<input><br>
+<p class="comments">Выбор из справочника</p>
+<label>Страна</label>
+<input><br>
+<p class="comments">Поле заполняется автоматически при выборе страны из справочника</p>
+<label>Адрес</label>
+<input><br><br>
+<hr>
+
+<label>Банк бенефициара</label>
+<input><br><br>
+<label>Счет</label>
+<input><br><br>
+<label>ВIC</label>
+<input><br><br>
+<label>Тип</label>
+<input><br><br>
+<label>Город</label>
+<input><br><br>
+<label><a href="directory_countries.html">Код страны</a></label>
+<input><br><br>
+<p class="comments">Выбор из справочника</p>
+<label>Страна</label>
+<input><br><br>
+<p class="comments">Поле заполняется автоматически при выборе страны из справочника</p>
+<label>Адрес</label>
+<input><br><br>
+<hr>
+
+<label>Банк-посредник</label>
+<input><br><br>
+<label>ВIC</label>
+<input><br><br>
+<label>Тип</label>
+<input><br><br>
+<label>Город</label>
+<input><br><br>
+<label><a href="directory_countries.html">Код страны</a></label>
+<input><br><br>
+<p class="comments">Выбор из справочника</p>
+<label>Страна</label>
+<input><br><br>
+<p class="comments">Поле заполняется автоматически при выборе страны из справочника</p>
+<label>Адрес</label>
+<input><br><br>
+<hr>
+
+<button><a href="directory_beneficiary.html">Сохранить</a></button><button><a href="directory_beneficiary.html">Отменить</a></button>
+<p class="comments">После нажатия на кнопку Сохранить дополняется таблица сохраненных бенефициаров,
+    форма для добавления нового бенефициара скрывается</p>
+<p class="comments">После нажатия на кнопку Отменить форма для добавления нового бенефициара скрывается без сохранения
+    содержимого полей</p>
+
+</body>
