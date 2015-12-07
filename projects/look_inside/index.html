@@ -5,43 +5,76 @@
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/screen.css">
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.shuffle.js"></script>
 </head>
 <body>
     <div id='content'>
-        <div id="first"><button class="colorButton">Выбрать</button></div>
-        <div id="second"><button class="colorButton">Выбрать</button></div>
-        <div id="third"><button class="colorButton">Выбрать</button></div>
-        <div id="fourth"><button class="colorButton">Выбрать</button></div>
-        <div id="fifth"><button class="colorButton">Выбрать</button></div>
-        <div id="sixth"><button class="colorButton">Выбрать</button></div>
-        <div id="seventh"><button class="colorButton">Выбрать</button></div>
-        <div id="eighth"><button class="colorButton">Выбрать</button></div>
+        <div id="first"><input type="checkbox"></div>
+        <div id="second"><input type="checkbox"></div>
+        <div id="third"><input type="checkbox"></div>
+        <div id="fourth"><input type="checkbox"></div>
+        <div id="fifth"><input type="checkbox"></div>
+        <div id="sixth"><input type="checkbox"></div>
+        <div id="seventh"><input type="checkbox"></div>
+        <div id="eighth"><input type="checkbox"></div>
 <button onclick="start()">Пройти тест</button>
 </div>
 <script>
     
 function start() {
     var colors=["blue","green","yellow","black","brown","red","grey","violet"];
-$(colors).shuffle();
-colors.sort(function() { return 0.5 - Math.random() });
-    console.log(colors);
-        document.getElementById("first").style.backgroundColor=colors[0];
-        document.getElementById("second").style.backgroundColor=colors[1];
-        document.getElementById("third").style.backgroundColor=colors[2];
-        document.getElementById("fourth").style.backgroundColor=colors[3];
-        document.getElementById("fifth").style.backgroundColor=colors[4];
-        document.getElementById("sixth").style.backgroundColor=colors[5];
-        document.getElementById("seventh").style.backgroundColor=colors[6];
-        document.getElementById("eighth").style.backgroundColor=colors[7];
+    var first=document.getElementById("first");
+    var second=document.getElementById("second");
+    var third=document.getElementById("third");
+    var fourth=document.getElementById("fourth");
+    var fifth=document.getElementById("fifth");
+    var sixth=document.getElementById("sixth");
+    var seventh=document.getElementById("seventh");
+    var eighth=document.getElementById("eighth");
+
+    colors.sort(function() { 
+        return 0.5 - Math.random() 
+    });
+        first.style.backgroundColor=colors[0];
+        first.style.width="100px";
+        first.style.height="100px";
+        first.style.margin="5px";
+        first.style.float="left";
+        second.style.backgroundColor=colors[1];
+        second.style.width="100px";
+        second.style.height="100px";
+        second.style.margin="5px";
+        second.style.float="left";
+        third.style.backgroundColor=colors[2];
+        third.style.width="100px";
+        third.style.height="100px";
+        third.style.margin="5px";
+        third.style.float="left";
+        fourth.style.backgroundColor=colors[3];
+        fourth.style.width="100px";
+        fourth.style.height="100px";
+        fourth.style.margin="5px";
+        fourth.style.float="left";
+        fifth.style.backgroundColor=colors[4];
+        fifth.style.width="100px";
+        fifth.style.height="100px";
+        fifth.style.margin="5px";
+        fifth.style.float="left";
+        sixth.style.backgroundColor=colors[5];
+        sixth.style.width="100px";
+        sixth.style.height="100px";
+        sixth.style.margin="5px";
+        sixth.style.float="left";
+        seventh.style.backgroundColor=colors[6];
+        seventh.style.width="100px";
+        seventh.style.height="100px";
+        seventh.style.margin="5px";
+        seventh.style.float="left";
+        eighth.style.backgroundColor=colors[7];
+        eighth.style.width="100px";
+        eighth.style.height="100px";
+        eighth.style.margin="5px";
+        eighth.style.float="left";
 }
-
-
-
-
-
-
 
 </script>
 </body>
