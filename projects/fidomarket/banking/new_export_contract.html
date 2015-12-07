@@ -7,80 +7,49 @@
 </head>
 <body>
 <div>Надежда Картовская ООО "Ромашка"</div>
-<table>
-    <tr>
-        <td><a href="../mail.html"><img src="images/emails.png" title="Переписка с банком"></a> </td>
-        <td><a href="help.html"><img src="images/help.png" title="Помощь"></a></td>
-        <td><a href="directory.html"><img src="images/directory.png" title="Справочники"></a></td>
-    </tr>
-</table>
-<p class="comments">Синим цветом выделены пункты основного меню, серым - пункты выпадающего меню</p>
-<table>
-    <tr class="main_nav">
-        <td><a href="index.html">Главная страница ЦФК</a></td>
-        <td><a href="main.html">Главная страница клиента</a></td>
-        <td><a href="payments_UAH.html">Платежи и переводы</a></td>
-        <td><a href="profile.html">Профиль</a></td>
-        <td><a href="#">Продукты</a></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td class="nav_second_level"><a href="payments_UAH.html">Платежи в UAH</a></td>
-        <td class="nav_second_level"><a href="data.html">Параметры</a></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td class="nav_second_level"><a href="payments_currency.html">Платежи в валюте</a></td>
-        <td class="nav_second_level"><a href="employees.html">Сотрудники</a></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td class="nav_second_level"><a href="salary.html">Зарплатные ведомости</a></td>
-        <td class="nav_second_level"><a href="authorities.html">Права на документы и отчеты</a></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td class="nav_second_level"><a href="application_buy.html">Заявка на покупку валюты</a></td>
-        <td class="nav_second_level"><a href="sms_email.html">Sms/email информирование</a></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td class="nav_second_level"><a href="application_sale.html">Заявка на продажу валюты</a></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td class="nav_second_level"><a href="application_exchange.html">Заявка на конвертацию валюты</a></td>
-        <td></td>
-        <td></td>
-    </tr>
-</table>
-<hr>
+<iframe id="nav" src="main_navigation.html"></iframe><hr>
 <!------------Content----------------->
 <label>Экспортный контракт</label><br><br>
+<label>Тип контракта</label>
+<select>
+    <option>Контракт</option>
+    <option>Договор</option>
+    <option>Соглашение</option>
+</select><br>
+<p class="comments">Поле заполняется выбором из выпадающего списка</p>
+<p class="question">Выяснить реальный перечень типов контрактов</p>
 <label>Номер контракта</label><input value="12/52/6532"><br>
 <p class="comments">В текстовом поле находится номер контракта, пользователь вводит его вручную</p>
 <label>Дата начала</label><input value="03.11.2015"><br>
 <p class="comments">Дата начала заполняется выбором из календаря</p>
 <label>Дата окончания</label><input value="03.11.2015"><br>
 <p class="comments">Дата окончания заполняется выбором из календаря</p>
-<label><a href="directory_recipient.html">Получатель</a></label><input><br>
+<hr>
+
+<label><a href="directory_beneficiary.html">Партнер</a></label><input><br>
 <p class="comments">Поле может быть заполнено выбором из справочника партнеров или вручную латинницей</p>
-<label>Сумма</label><input value="10000"><br>
+<label><a href="directory_countries.html">Страна партнера</a></label><input><br>
+<p class="comments">Поле может быть заполнено только выбором из справочника стран</p>
+<label><a href="directory_countries.html">Адрес партнера</a></label><input><br>
+<hr>
+
+<p class="question">Может полностью изложить блок бенефициара <a href="new_payment_currency.html">отсюда?</a></p>
+<hr>
+
+<label>Сумма контракта</label><input value="10000"><br>
 <p class="comments">Поле заполняется вручную</p>
 <label><a href="directory_currency.html">Валюта</a></label><input><br>
-<p class="comments">Поле может быть заполнено выбором из справочника валют или вручную латинницей</p>
+<p class="comments">Поле может быть заполнено только выбором из справочника валют</p>
+<hr>
+
+<label>Условия оплаты комиссии</label>
+<select>
+    <option>за счет плательщика</option>
+    <option>за счет бенефициара</option>
+    <option>за счет плательщика и бенефициара</option>
+</select><br>
+<hr>
+
 <label>Загрузка файла контракта</label><br><br>
 <input><button>Обзор</button><button><a>Загрузить</a></button><br><br>
 <p class="comments">При нажатии на кнопку Обзор, открывается окно проводника и пользователь получает возможность

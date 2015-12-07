@@ -2,14 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59426e74-1ed5-4b09-831d-af502f5868fd" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\Homework\goit3\nkartovskaya.github.io\projects\fidomarket\banking\images\10_ПД_на_ЗП.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Homework\goit3\nkartovskaya.github.io\projects\fidomarket\banking\images\11_ПД_на_комиссию.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Homework\goit3\nkartovskaya.github.io\projects\fidomarket\banking\images\8_Документы_по_связям.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Homework\goit3\nkartovskaya.github.io\projects\fidomarket\banking\images\9_Ведомость_для_просмотра.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Homework\goit3\nkartovskaya.github.io\projects\fidomarket\banking\images\ЛК_рахунки_002.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/look_inside/index.html" afterPath="$PROJECT_DIR$/projects/look_inside/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/main_navigation.html" />
+      <change type="DELETED" beforePath="D:\Homework\goit3\nkartovskaya.github.io\projects\challenge\alyie_parusa\index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/account_details.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/account_details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/application_buy.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/application_buy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/application_buy_details.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/application_buy_details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/application_exchange.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/application_exchange.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/application_exchange_details.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/application_exchange_details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/application_sale.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/application_sale.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/application_sale_details.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/application_sale_details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/authorities.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/authorities.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/data.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/data.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/directory.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/directory.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/directory_banks.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/directory_banks.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/directory_beneficiary.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/directory_beneficiary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/directory_countries.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/directory_countries.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/directory_employee.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/directory_employee.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/directory_recipient.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/directory_recipient.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/employee_authorities.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/employee_authorities.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/employees.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/employees.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/export_contract_details.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/export_contract_details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/export_contracts.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/export_contracts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/help.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/help.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/letter_details.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/letter_details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/mail.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/mail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/main.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/new_application_buy.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/new_application_buy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/new_application_exchange.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/new_application_exchange.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/new_application_sale.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/new_application_sale.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/new_export_contract.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/new_export_contract.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/new_export_contract_appendix.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/new_export_contract_appendix.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/new_letter.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/new_letter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/new_payment_UAH.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/new_payment_UAH.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/new_payment_currency.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/new_payment_currency.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/new_salary.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/new_salary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/payment_UAH_details.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/payment_UAH_details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/payment_currency_detail.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/payment_currency_detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/payments_UAH.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/payments_UAH.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/payments_currency.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/payments_currency.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/profile.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/salary.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/salary.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/salary_details.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/salary_details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/sms_email.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/sms_email.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/style.css" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nkartovskaya.github.io.iws" />
@@ -31,35 +66,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="salary.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/salary.html">
+      <file leaf-file-name="main_navigation.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/main_navigation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.461538">
-              <caret line="261" column="48" selection-start-line="261" selection-start-column="48" selection-end-line="261" selection-end-column="48" />
-              <folding>
-                <element signature="n#style#0;n#button#5;n#td#7;n#tr#2;n#table#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#tr#4;n#table#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#5;n#td#7;n#tr#4;n#table#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new_salary.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/new_salary.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.192308">
-              <caret line="90" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+            <state vertical-scroll-proportion="-17.653847">
+              <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="salary_details.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="67" column="11" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new_salary.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/new_salary.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.81858903">
+              <caret line="186" column="22" selection-start-line="186" selection-start-column="22" selection-end-line="186" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="salary_details.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/salary_details.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4548495">
-              <caret line="82" column="62" selection-start-line="82" selection-start-column="62" selection-end-line="82" selection-end-column="62" />
+            <state vertical-scroll-proportion="-16.692308">
+              <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.8846154">
+              <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -70,8 +121,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Xhtml" />
+        <option value="JavaScript File" />
         <option value="Html5" />
       </list>
     </option>
@@ -82,40 +133,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lesson1/task1/index.html" />
-        <option value="$PROJECT_DIR$/lesson1/task3/index.html" />
-        <option value="$PROJECT_DIR$/lesson1/task4/index.html" />
-        <option value="$PROJECT_DIR$/lesson1/task4/pages/index2.html" />
-        <option value="$PROJECT_DIR$/lesson1/task2/index.html" />
-        <option value="$PROJECT_DIR$/projects/look_inside/config.rb" />
-        <option value="$PROJECT_DIR$/projects/look_inside/js/lusher.js" />
-        <option value="$PROJECT_DIR$/projects/look_inside/sass/_susy.scss" />
-        <option value="$PROJECT_DIR$/projects/look_inside/js/susy.js" />
-        <option value="$PROJECT_DIR$/projects/look_inside/index.html" />
         <option value="$PROJECT_DIR$/projects/look_inside/stylesheets/screen.css" />
         <option value="$PROJECT_DIR$/projects/look_inside/sass/screen.scss" />
-        <option value="$PROJECT_DIR$/projects/fidomarket/banking/directory_employee.html" />
-        <option value="$PROJECT_DIR$/projects/fidomarket/banking/style.css" />
         <option value="$PROJECT_DIR$/projects/fidomarket/banking/paymant_connected_salary.html" />
-        <option value="$PROJECT_DIR$/projects/fidomarket/banking/payments_UAH.html" />
         <option value="$PROJECT_DIR$/projects/fidomarket/banking/directory_partners.html" />
         <option value="$PROJECT_DIR$/projects/fidomarket/banking/export_contract_details.xhtml" />
         <option value="$PROJECT_DIR$/projects/fidomarket/banking/directory_currency.html" />
-        <option value="$PROJECT_DIR$/projects/fidomarket/banking/new_export_contract.html" />
-        <option value="$PROJECT_DIR$/projects/fidomarket/banking/export_contract_details.html" />
-        <option value="$PROJECT_DIR$/projects/fidomarket/banking/new_export_contract_appendix.html" />
         <option value="$PROJECT_DIR$/projects/fidomarket/banking/salary_connected_payments.html" />
         <option value="$PROJECT_DIR$/projects/fidomarket/banking/payments_connected_salary.html" />
-        <option value="$PROJECT_DIR$/projects/fidomarket/banking/payment_UAH_details.html" />
-        <option value="$PROJECT_DIR$/projects/fidomarket/banking/directory_countries.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/menu.js" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/account_details.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/application_buy.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/application_buy_details.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/application_exchange.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/application_exchange_details.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/application_sale.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/application_sale_details.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/authorities.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/data.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/directory.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/directory_banks.html" />
         <option value="$PROJECT_DIR$/projects/fidomarket/banking/directory_beneficiary.html" />
-        <option value="$PROJECT_DIR$/projects/fidomarket/banking/payment_currency_detail.html" />
-        <option value="$PROJECT_DIR$/projects/fidomarket/banking/new_payment_currency.html" />
-        <option value="$PROJECT_DIR$/projects/fidomarket/banking/salary.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/directory_countries.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/directory_employee.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/directory_recipient.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/employee_authorities.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/employees.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/export_contract_details.html" />
         <option value="$PROJECT_DIR$/projects/fidomarket/banking/export_contracts.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/help.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/letter_details.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/mail.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/new_application_buy.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/new_application_exchange.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/new_application_sale.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/new_export_contract.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/new_export_contract_appendix.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/new_letter.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/new_payment_currency.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/new_payment_UAH.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/payment_currency_detail.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/payment_UAH_details.html" />
         <option value="$PROJECT_DIR$/projects/fidomarket/banking/payments_currency.html" />
-        <option value="$PROJECT_DIR$/projects/fidomarket/banking/new_salary.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/payments_UAH.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/profile.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/salary.html" />
         <option value="$PROJECT_DIR$/projects/fidomarket/banking/salary_details.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/sms_email.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/main.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/main_navigation.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/style.css" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/new_salary.html" />
       </list>
     </option>
   </component>
@@ -127,10 +195,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
-    <option name="y" value="2" />
     <option name="width" value="942" />
-    <option name="height" value="1056" />
+    <option name="height" value="1052" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -590,15 +656,22 @@
       <option name="project" value="LOCAL" />
       <updated>1449246879427</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="update">
+      <created>1449482175594</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1449482175594</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="2" width="942" height="1056" extended-state="0" />
+    <frame x="0" y="0" width="942" height="1052" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.335177" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22676991" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912722" sideWeight="0.49337748" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938644" sideWeight="0.5066225" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -608,7 +681,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.022151899" sideWeight="0.49552572" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912722" sideWeight="0.49337748" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39935413" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -628,7 +700,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912722" sideWeight="0.49541286" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938644" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.335177" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1460177" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -658,171 +730,115 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/projects/look_inside/stylesheets/screen.css">
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/application_exchange.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/look_inside/index.html">
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/application_exchange_details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/look_inside/js/susy.js">
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/application_sale.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/look_inside/config.rb">
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/application_sale_details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/look_inside/js/lusher.js">
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/authorities.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/look_inside/sass/screen.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/look_inside/stylesheets/screen.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/look_inside/stylesheets/screen.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/look_inside/sass/screen.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.029876977">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/look_inside/js/lusher.js">
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/authorization.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/look_inside/config.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23943663">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/look_inside/js/susy.js">
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/authorization_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/look_inside/index.html">
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/cfk_profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7609842">
-          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/style.css">
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/change_password.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6226415">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/new_export_contract_appendix.html">
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/data.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.728">
-          <caret line="101" column="34" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/new_export_contract.html">
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/directory.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.456">
-          <caret line="76" column="16" selection-start-line="71" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/images/contract_file.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/images/beneficyary_profile.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/directory_banks.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.96114284">
-          <caret line="84" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="84" selection-end-column="7" />
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/images/swift_profile.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/images/plat_curr_2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/images/pd_salary.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/images/pd_main_fee.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/images/beneficyary.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/directory_beneficiary.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="22.0">
-          <caret line="92" column="25" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="25" />
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/directory_countries.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.384615">
-          <caret line="71" column="91" selection-start-line="71" selection-start-column="91" selection-end-line="71" selection-end-column="91" />
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -830,55 +846,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/directory_employee.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.384615">
-          <caret line="107" column="32" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/directory_partners.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/directory_recipient.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.807692">
-          <caret line="106" column="11" selection-start-line="106" selection-start-column="11" selection-end-line="106" selection-end-column="11" />
+        <state vertical-scroll-proportion="-1.0">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/employee_authorities.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/employees.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="61.884617">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/export_contract_details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.038462">
-          <caret line="75" column="49" selection-start-line="75" selection-start-column="49" selection-end-line="75" selection-end-column="49" />
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/export_contracts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.23076923">
-          <caret line="249" column="37" selection-start-line="249" selection-start-column="32" selection-end-line="249" selection-end-column="37" />
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -886,6 +902,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -893,20 +910,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/help.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -914,76 +926,150 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/letter_details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/mail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/new_application_buy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/new_application_exchange.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/new_application_sale.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/new_export_contract.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/new_export_contract_appendix.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3076923">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/new_letter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/new_payment_currency.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.3461537">
-          <caret line="191" column="6" selection-start-line="191" selection-start-column="6" selection-end-line="191" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/payment_currency_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6923077">
-          <caret line="173" column="34" selection-start-line="173" selection-start-column="34" selection-end-line="173" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/payment_UAH_details.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.423077">
-          <caret line="69" column="39" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/payments_connected_salary.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53065777">
-          <caret line="28" column="115" selection-start-line="28" selection-start-column="115" selection-end-line="28" selection-end-column="115" />
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#input#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#12;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/new_payment_UAH.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6020067">
-          <caret line="112" column="63" selection-start-line="112" selection-start-column="63" selection-end-line="112" selection-end-column="63" />
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/payment_currency_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#input#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#12;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/payment_UAH_details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/sms_email.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17133258">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/sigh_up.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/sigh_in.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/salary_connected_payments.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5641026">
+        <state vertical-scroll-proportion="0.5912654">
           <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/payments_UAH.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41248608">
-          <caret line="274" column="53" selection-start-line="274" selection-start-column="53" selection-end-line="274" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/payments_currency.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8294314">
-          <caret line="288" column="61" selection-start-line="288" selection-start-column="61" selection-end-line="288" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/salary.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.461538">
-          <caret line="261" column="48" selection-start-line="261" selection-start-column="48" selection-end-line="261" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.019036954">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
           <folding>
             <element signature="n#style#0;n#button#5;n#td#7;n#tr#2;n#table#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#tr#4;n#table#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -992,18 +1078,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/new_salary.html">
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.192308">
-          <caret line="90" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.17133258">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/payments_UAH.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.019036954">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/payments_currency.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.019036954">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#button#1;n#td#8;n#tr#2;n#table#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#5;n#td#8;n#tr#2;n#table#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#td#8;n#tr#4;n#table#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#5;n#td#8;n#tr#4;n#table#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/payments_connected_salary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53303474">
+          <caret line="28" column="115" selection-start-line="28" selection-start-column="115" selection-end-line="28" selection-end-column="115" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/main_navigation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.653847">
+          <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="67" column="11" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/salary_details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4548495">
-          <caret line="82" column="62" selection-start-line="82" selection-start-column="62" selection-end-line="82" selection-end-column="62" />
+        <state vertical-scroll-proportion="-16.692308">
+          <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/new_salary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.81858903">
+          <caret line="186" column="22" selection-start-line="186" selection-start-column="22" selection-end-line="186" selection-end-column="22" />
           <folding />
         </state>
       </provider>
