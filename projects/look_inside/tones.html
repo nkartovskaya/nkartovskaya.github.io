@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Тест оттенков</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Play:400,700&subset=latin,cyrillic' rel='stylesheet/screen.css'
+          type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/screen.css">
+</head>
+<body>
+
+<section class="wrapper">
+    <header>
+        <div class="logo_nav">
+            <div class="logo">
+                <a href="index.html">
+                    <div class="logo_top_left"></div>
+                </a>
+                <a href="index.html">
+                    <div class="logo_bottom_left"></div>
+                </a>
+                <a href="index.html">
+                    <div class="logo_top_right"></div>
+                </a>
+                <a href="index.html">
+                    <div class="logo_bottom_right"></div>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="lusher.html">Тест Люшера</a></li>
+                    <li><a href="daltonizm.html">Тест на дальтонизм</a></li>
+                    <li><a href="tones.html">Тест оттенков</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="content">
+        <div id="content">
+            <h1 id="task"></h1>
+
+            <div id="resultText">
+                <p id="firstPair"></p>
+
+                <p id="secondPair"></p>
+            </div>
+            <label id="firstLabel" for="firstInput">
+                <div id="first"><input type="checkbox" id="firstInput" onchange="resultCalcFirstQuestion()"></div>
+            </label>
+            <label id="secondLabel" for="secondInput">
+                <div id="second"><input type="checkbox" id="secondInput" onchange="resultCalc()"></div>
+            </label>
+            <label id="thirdLabel" for="thirdInput">
+                <div id="third"><input type="checkbox" id="thirdInput" onchange="resultCalc()"></div>
+            </label>
+            <label id="fourthLabel" for="fourthInput">
+                <div id="fourth"><input type="checkbox" id="fourthInput" onchange="resultCalc()"></div>
+            </label>
+            <label id="fifthLabel" for="fifthInput">
+                <div id="fifth"><input type="checkbox" id="fifthInput" onchange="resultCalc()"></div>
+            </label>
+            <label id="sixthLabel" for="sixthInput">
+                <div id="sixth"><input type="checkbox" id="sixthInput" onchange="resultCalc()"></div>
+            </label>
+            <label id="seventhLabel" for="seventhInput">
+                <div id="seventh"><input type="checkbox" id="seventhInput" onchange="resultCalc()"></div>
+            </label>
+            <label id="eighthLabel" for="eighthInput">
+                <div id="eighth"><input type="checkbox" id="eighthInput" onchange="resultCalc()"></div>
+            </label>
+            <label id="ninthLabel" for="ninthInput">
+                <div id="ninth"><input type="checkbox" id="ninthInput" onchange="resultCalc()"></div>
+            </label>
+            <button id="start" onclick="start()">Пройти тест</button>
+        </div>
+    </div>
+    <footer>
+        <div class="logo_social_icons">
+            <div class="social_icons">
+                <a href="https://www.facebook.com" target="_blank">
+                    <div class="sprite-social_facebook"></div>
+                </a>
+
+                <a href="https://www.linkedin.com" target="_blank">
+                    <div class="sprite-social_linkedin"></div>
+                </a>
+                <a href="https://www.google.com" target="_blank">
+                    <div class="sprite-social_google"></div>
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <div class="sprite-social_twitter"></div>
+                </a>
+
+                <p>&#169; Все права на сайт принадлежат мне. 2015</p>
+            </div>
+        </div>
+
+    </footer>
+</section>
+<script>
+
+    var first = document.getElementById("first");
+    var second = document.getElementById("second");
+    var third = document.getElementById("third");
+    var fourth = document.getElementById("fourth");
+    var fifth = document.getElementById("fifth");
+    var sixth = document.getElementById("sixth");
+    var seventh = document.getElementById("seventh");
+    var eighth = document.getElementById("eighth");
+    var ninth = document.getElementById("ninth");
+    var buttonStart = document.getElementById("start");
+
+    var blocks = [first, second, third, fourth, fifth, sixth, seventh, eighth, ninth];
+
+    var firstInput = document.getElementById("firstInput");
+    var secondInput = document.getElementById("secondInput");
+    var thirdInput = document.getElementById("thirdInput");
+    var fourthInput = document.getElementById("fourthInput");
+    var fifthInput = document.getElementById("fifthInput");
+    var sixthInput = document.getElementById("sixthInput");
+    var seventhInput = document.getElementById("seventhInput");
+    var eighthInput = document.getElementById("eighthInput");
+    var ninthInput = document.getElementById("ninthInput");
+
+    var inputs = [firstInput, secondInput, thirdInput, fourthInput, fifthInput, sixthInput, seventhInput, eighthInput, ninthInput];
+
+    var colors0 = ["#4A3421", "#38281A", "#38281A", "#38281A", "#38281A", "#38281A", "#38281A", "#38281A", "#38281A"];
+    var colors1 = ["#8F3333", "#B03737", "#B03737", "#B03737", "#B03737", "#B03737", "#B03737", "#B03737", "#B03737"];
+    var colors2 = ["#82D18B", "#62B36C", "#62B36C", "#62B36C", "#62B36C", "#62B36C", "#62B36C", "#62B36C", "#62B36C"];
+    var colors3 = ["#EB67E2", "#B53EAD", "#B53EAD", "#B53EAD", "#B53EAD", "#B53EAD", "#B53EAD", "#B53EAD", "#B53EAD"];
+    var colors4 = ["#5148D4", "#3A31BD", "#3A31BD", "#3A31BD", "#3A31BD", "#3A31BD", "#3A31BD", "#3A31BD", "#3A31BD"];
+    var colors5 = ["#EAED45", "#B0B336", "#B0B336", "#B0B336", "#B0B336", "#B0B336", "#B0B336", "#B0B336", "#B0B336"];
+    var colors6 = ["#ED8E45", "#C27336", "#C27336", "#C27336", "#C27336", "#C27336", "#C27336", "#C27336", "#C27336"];
+    var colors7 = ["#9945ED", "#7535B5", "#7535B5", "#7535B5", "#7535B5", "#7535B5", "#7535B5", "#7535B5", "#7535B5"];
+    var colors8 = ["#45EDE8", "#36BAB6", "#36BAB6", "#36BAB6", "#36BAB6", "#36BAB6", "#36BAB6", "#36BAB6", "#36BAB6"];
+    var colors9 = ["#748282", "#5B6666", "#5B6666", "#5B6666", "#5B6666", "#5B6666", "#5B6666", "#5B6666", "#5B6666"];
+
+    var colors = [colors0, colors1, colors2, colors3, colors4, colors5, colors6, colors7, colors8, colors9];
+
+    var count = 0;
+
+    function onloadSort() {
+        colors0.sort(function () {
+            return 0.5 - Math.random();
+        });
+        colors1.sort(function () {
+            return 0.5 - Math.random();
+        });
+        colors2.sort(function () {
+            return 0.5 - Math.random();
+        });
+        colors3.sort(function () {
+            return 0.5 - Math.random();
+        });
+        colors4.sort(function () {
+            return 0.5 - Math.random();
+        });
+        colors5.sort(function () {
+            return 0.5 - Math.random();
+        });
+        colors6.sort(function () {
+            return 0.5 - Math.random();
+        });
+        colors7.sort(function () {
+            return 0.5 - Math.random();
+        });
+        colors8.sort(function () {
+            return 0.5 - Math.random();
+        });
+        colors9.sort(function () {
+            return 0.5 - Math.random();
+        });
+        colors.sort(function () {
+            return 0.5 - Math.random();
+        });
+    }
+
+    function start() {
+
+        document.getElementById("task").innerHTML = "Выберите блок, у которого цвет отличается от остальных";
+        for (var i = 0; i < 9; i++) {
+            blocks[i].style.backgroundColor = colors[0][i];
+            blocks[i].style.width = "150px";
+            blocks[i].style.height = "150px";
+            blocks[i].style.margin = "10px";
+            blocks[i].style.float = "left";
+            blocks[i].style.borderRadius = "7px";
+        }
+
+        document.getElementById("content").removeChild(buttonStart);
+    }
+
+    function resultCalcFirstQuestion() {
+        var uniqueItem = colors[1][0];
+        for (var i=0; i<9; i++) {
+            for (var j = i + 1; j < 9; j++) {
+                if (colors[1][i] == colors[1][j]) {
+                    break;
+                } else {
+                    uniqueItem = colors[1][i];
+                }
+            }
+        }
+        for (var k = 0; k < 9; k++) {
+            if (inputs[k].checked) {
+                if (k=i) {
+                    count++;
+                }
+            }
+        }
+    }
+
+    console.log(count);
+    function secondQuestion() {
+        for (var i = 0; i < 9; i++) {
+            inputs[i].checked = false;
+            blocks[i].style.backgroundColor = colors[1][i];
+            blocks[i].style.width = "150px";
+            blocks[i].style.height = "150px";
+            blocks[i].style.margin = "10px";
+            blocks[i].style.float = "left";
+            blocks[i].style.borderRadius = "7px";
+        }
+    }
+
+
+    if (8) {
+        (function resultOutput() {
+            var firstPair = document.getElementById("firstPair");
+            var secondPair = document.getElementById("secondPair");
+            var thirdPair = document.getElementById("thirdPair");
+            var fourthPair = document.getElementById("fourthPair");
+
+            document.getElementById("resultText").style.border = "solid 2px #bababa";
+            document.getElementById("task").innerHTML = "";
+
+        })();
+
+    }
+
+</script>
+
+</body>
+</html>
