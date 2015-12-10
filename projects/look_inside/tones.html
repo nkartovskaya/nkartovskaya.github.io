@@ -47,33 +47,33 @@
 
                 <p id="secondPair"></p>
             </div>
-            <label id="firstLabel" for="firstInput">
-                <div id="first"><input type="checkbox" id="firstInput" onchange="resultCalcFirstQuestion()"></div>
+            <!--<label id="firstLabel" for="firstInput">
+                <div id="first"><input type="checkbox" id="firstInput" onchange="resultCalcZeroQuestion()"></div>
             </label>
             <label id="secondLabel" for="secondInput">
-                <div id="second"><input type="checkbox" id="secondInput" onchange="resultCalc()"></div>
+                <div id="second"><input type="checkbox" id="secondInput" onchange="resultCalcZeroQuestion()"></div>
             </label>
             <label id="thirdLabel" for="thirdInput">
-                <div id="third"><input type="checkbox" id="thirdInput" onchange="resultCalc()"></div>
+                <div id="third"><input type="checkbox" id="thirdInput" onchange="resultCalcZeroQuestion()"></div>
             </label>
             <label id="fourthLabel" for="fourthInput">
-                <div id="fourth"><input type="checkbox" id="fourthInput" onchange="resultCalc()"></div>
+                <div id="fourth"><input type="checkbox" id="fourthInput" onchange="resultCalcZeroQuestion()"></div>
             </label>
             <label id="fifthLabel" for="fifthInput">
-                <div id="fifth"><input type="checkbox" id="fifthInput" onchange="resultCalc()"></div>
+                <div id="fifth"><input type="checkbox" id="fifthInput" onchange="resultCalcZeroQuestion()"></div>
             </label>
             <label id="sixthLabel" for="sixthInput">
-                <div id="sixth"><input type="checkbox" id="sixthInput" onchange="resultCalc()"></div>
+                <div id="sixth"><input type="checkbox" id="sixthInput" onchange="resultCalcZeroQuestion()"></div>
             </label>
             <label id="seventhLabel" for="seventhInput">
-                <div id="seventh"><input type="checkbox" id="seventhInput" onchange="resultCalc()"></div>
+                <div id="seventh"><input type="checkbox" id="seventhInput" onchange="resultCalcZeroQuestion()"></div>
             </label>
             <label id="eighthLabel" for="eighthInput">
-                <div id="eighth"><input type="checkbox" id="eighthInput" onchange="resultCalc()"></div>
+                <div id="eighth"><input type="checkbox" id="eighthInput" onchange="resultCalcZeroQuestion()"></div>
             </label>
             <label id="ninthLabel" for="ninthInput">
-                <div id="ninth"><input type="checkbox" id="ninthInput" onchange="resultCalc()"></div>
-            </label>
+                <div id="ninth"><input type="checkbox" id="ninthInput" onchange="resultCalcZeroQuestion()"></div>
+            </label>-->
             <button id="start" onclick="start()">Пройти тест</button>
         </div>
     </div>
@@ -179,6 +179,12 @@
     }
 
     function start() {
+        var firstLabel=document.createElement("label");
+        firstLabel.id="firstLabel";
+
+    }
+
+    /*function start() {
 
         document.getElementById("task").innerHTML = "Выберите блок, у которого цвет отличается от остальных";
         for (var i = 0; i < 9; i++) {
@@ -193,28 +199,30 @@
         document.getElementById("content").removeChild(buttonStart);
     }
 
-    function resultCalcFirstQuestion() {
-        var uniqueItem = colors[1][0];
-        for (var i=0; i<9; i++) {
+    function resultCalcZeroQuestion() {
+        var uniqueItem = colors[0][0];
+        var uniqueItemNumber;
+        for (var i = 0; i < 9; i++) {
             for (var j = i + 1; j < 9; j++) {
-                if (colors[1][i] == colors[1][j]) {
+                if (colors[0][i] == colors[0][j]) {
                     break;
                 } else {
-                    uniqueItem = colors[1][i];
+                    uniqueItem = colors[0][i];
+                    uniqueItemNumber = i;
                 }
             }
         }
         for (var k = 0; k < 9; k++) {
             if (inputs[k].checked) {
-                if (k=i) {
+                if (k == uniqueItemNumber) {
                     count++;
                 }
             }
         }
+        firstQuestion();
     }
 
-    console.log(count);
-    function secondQuestion() {
+    function firstQuestion() {
         for (var i = 0; i < 9; i++) {
             inputs[i].checked = false;
             blocks[i].style.backgroundColor = colors[1][i];
@@ -226,20 +234,378 @@
         }
     }
 
+    for (var e=0; e<9; e++) {
+        inputs[e].onchange = resultCalcFirstQuestion();
+    }
 
-    if (8) {
-        (function resultOutput() {
-            var firstPair = document.getElementById("firstPair");
-            var secondPair = document.getElementById("secondPair");
-            var thirdPair = document.getElementById("thirdPair");
-            var fourthPair = document.getElementById("fourthPair");
+    function resultCalcFirstQuestion() {
+        var uniqueItem = colors[1][0];
+        var uniqueItemNumber;
+        for (var i = 0; i < 9; i++) {
+            for (var j = i + 1; j < 9; j++) {
+                if (colors[1][i] == colors[1][j]) {
+                    break;
+                } else {
+                    uniqueItem = colors[1][i];
+                    uniqueItemNumber = i;
+                }
+            }
+        }
+        for (var k = 0; k < 9; k++) {
+            if (inputs[k].checked) {
+                if (k == uniqueItemNumber) {
+                    count++;
+                }
+            }
+        }
+        secondQuestion();
+    }
 
-            document.getElementById("resultText").style.border = "solid 2px #bababa";
-            document.getElementById("task").innerHTML = "";
+    function secondQuestion() {
+        for (var i = 0; i < 9; i++) {
+            inputs[i].checked = false;
+            blocks[i].style.backgroundColor = colors[2][i];
+            blocks[i].style.width = "150px";
+            blocks[i].style.height = "150px";
+            blocks[i].style.margin = "10px";
+            blocks[i].style.float = "left";
+            blocks[i].style.borderRadius = "7px";
+        }
+    }
 
-        })();
+    for (var e=0; e<9; e++) {
+        inputs[e].onchange = resultCalcSecondQuestion();
+    }
+
+    function resultCalcSecondQuestion() {
+        var uniqueItem = colors[2][0];
+        var uniqueItemNumber;
+        for (var i = 0; i < 9; i++) {
+            for (var j = i + 1; j < 9; j++) {
+                if (colors[2][i] == colors[2][j]) {
+                    break;
+                } else {
+                    uniqueItem = colors[2][i];
+                    uniqueItemNumber = i;
+                }
+            }
+        }
+        for (var k = 0; k < 9; k++) {
+            if (inputs[k].checked) {
+                if (k == uniqueItemNumber) {
+                    count++;
+                }
+            }
+        }
+        thirdQuestion();
+    }
+
+    function thirdQuestion() {
+        for (var i = 0; i < 9; i++) {
+            inputs[i].checked = false;
+            blocks[i].style.backgroundColor = colors[3][i];
+            blocks[i].style.width = "150px";
+            blocks[i].style.height = "150px";
+            blocks[i].style.margin = "10px";
+            blocks[i].style.float = "left";
+            blocks[i].style.borderRadius = "7px";
+        }
 
     }
+
+    for (var ch3=0; ch3<9; ch3++) {
+        if (inputs[ch3].checked) {
+            resultCalcThirdQuestion();
+        }
+    }
+
+    function resultCalcThirdQuestion() {
+        var uniqueItem = colors[3][0];
+        var uniqueItemNumber;
+        for (var i = 0; i < 9; i++) {
+            for (var j = i + 1; j < 9; j++) {
+                if (colors[3][i] == colors[3][j]) {
+                    break;
+                } else {
+                    uniqueItem = colors[3][i];
+                    uniqueItemNumber = i;
+                }
+            }
+        }
+        for (var k = 0; k < 9; k++) {
+            if (inputs[k].checked) {
+                if (k == uniqueItemNumber) {
+                    count++;
+                }
+            }
+        }
+        fourthQuestion();
+    }
+
+    function fourthQuestion() {
+        for (var i = 0; i < 9; i++) {
+            inputs[i].checked = false;
+            blocks[i].style.backgroundColor = colors[4][i];
+            blocks[i].style.width = "150px";
+            blocks[i].style.height = "150px";
+            blocks[i].style.margin = "10px";
+            blocks[i].style.float = "left";
+            blocks[i].style.borderRadius = "7px";
+        }
+        resultCalcFourthQuestion();
+    }
+
+    function resultCalcFourthQuestion() {
+        var uniqueItem = colors[4][0];
+        var uniqueItemNumber;
+        for (var i = 0; i < 9; i++) {
+            for (var j = i + 1; j < 9; j++) {
+                if (colors[4][i] == colors[4][j]) {
+                    break;
+                } else {
+                    uniqueItem = colors[4][i];
+                    uniqueItemNumber = i;
+                }
+            }
+        }
+        for (var k = 0; k < 9; k++) {
+            if (inputs[k].checked) {
+                if (k == uniqueItemNumber) {
+                    count++;
+                }
+            }
+        }
+        fifthQuestion();
+    }
+
+    function fifthQuestion() {
+        for (var i = 0; i < 9; i++) {
+            inputs[i].checked = false;
+            blocks[i].style.backgroundColor = colors[5][i];
+            blocks[i].style.width = "150px";
+            blocks[i].style.height = "150px";
+            blocks[i].style.margin = "10px";
+            blocks[i].style.float = "left";
+            blocks[i].style.borderRadius = "7px";
+        }
+        resultCalcFifthQuestion();
+    }
+
+    function resultCalcFifthQuestion() {
+        var uniqueItem = colors[5][0];
+        var uniqueItemNumber;
+        for (var i = 0; i < 9; i++) {
+            for (var j = i + 1; j < 9; j++) {
+                if (colors[5][i] == colors[5][j]) {
+                    break;
+                } else {
+                    uniqueItem = colors[5][i];
+                    uniqueItemNumber = i;
+                }
+            }
+        }
+        for (var k = 0; k < 9; k++) {
+            if (inputs[k].checked) {
+                if (k == uniqueItemNumber) {
+                    count++;
+                }
+            }
+        }
+        sixthQuestion();
+    }
+
+    function sixthQuestion() {
+        for (var i = 0; i < 9; i++) {
+            inputs[i].checked = false;
+            blocks[i].style.backgroundColor = colors[6][i];
+            blocks[i].style.width = "150px";
+            blocks[i].style.height = "150px";
+            blocks[i].style.margin = "10px";
+            blocks[i].style.float = "left";
+            blocks[i].style.borderRadius = "7px";
+        }
+        resultCalcSixthQuestion();
+    }
+
+    function resultCalcSixthQuestion() {
+        var uniqueItem = colors[6][0];
+        var uniqueItemNumber;
+        for (var i = 0; i < 9; i++) {
+            for (var j = i + 1; j < 9; j++) {
+                if (colors[6][i] == colors[6][j]) {
+                    break;
+                } else {
+                    uniqueItem = colors[6][i];
+                    uniqueItemNumber = i;
+                }
+            }
+        }
+        for (var k = 0; k < 9; k++) {
+            if (inputs[k].checked) {
+                if (k == uniqueItemNumber) {
+                    count++;
+                }
+            }
+        }
+        seventhQuestion();
+    }
+
+    function seventhQuestion() {
+        for (var i = 0; i < 9; i++) {
+            inputs[i].checked = false;
+            blocks[i].style.backgroundColor = colors[7][i];
+            blocks[i].style.width = "150px";
+            blocks[i].style.height = "150px";
+            blocks[i].style.margin = "10px";
+            blocks[i].style.float = "left";
+            blocks[i].style.borderRadius = "7px";
+        }
+        resultCalcSeventhQuestion();
+    }
+
+    function resultCalcSeventhQuestion() {
+        var uniqueItem = colors[7][0];
+        var uniqueItemNumber;
+        for (var i = 0; i < 9; i++) {
+            for (var j = i + 1; j < 9; j++) {
+                if (colors[7][i] == colors[7][j]) {
+                    break;
+                } else {
+                    uniqueItem = colors[7][i];
+                    uniqueItemNumber = i;
+                }
+            }
+        }
+        for (var k = 0; k < 9; k++) {
+            if (inputs[k].checked) {
+                if (k == uniqueItemNumber) {
+                    count++;
+                }
+            }
+        }
+        eighthQuestion();
+    }
+
+    function eighthQuestion() {
+        for (var i = 0; i < 9; i++) {
+            inputs[i].checked = false;
+            blocks[i].style.backgroundColor = colors[8][i];
+            blocks[i].style.width = "150px";
+            blocks[i].style.height = "150px";
+            blocks[i].style.margin = "10px";
+            blocks[i].style.float = "left";
+            blocks[i].style.borderRadius = "7px";
+        }
+        resultCalcEighthQuestion();
+    }
+
+    function resultCalcEighthQuestion() {
+        var uniqueItem = colors[8][0];
+        var uniqueItemNumber;
+        for (var i = 0; i < 9; i++) {
+            for (var j = i + 1; j < 9; j++) {
+                if (colors[8][i] == colors[8][j]) {
+                    break;
+                } else {
+                    uniqueItem = colors[8][i];
+                    uniqueItemNumber = i;
+                }
+            }
+        }
+        for (var k = 0; k < 9; k++) {
+            if (inputs[k].checked) {
+                if (k == uniqueItemNumber) {
+                    count++;
+                }
+            }
+        }
+        ninthQuestion();
+    }
+
+    function ninthQuestion() {
+        for (var i = 0; i < 9; i++) {
+            inputs[i].checked = false;
+            blocks[i].style.backgroundColor = colors[9][i];
+            blocks[i].style.width = "150px";
+            blocks[i].style.height = "150px";
+            blocks[i].style.margin = "10px";
+            blocks[i].style.float = "left";
+            blocks[i].style.borderRadius = "7px";
+        }
+        resultCalcNinthQuestion();
+    }
+
+    function resultCalcNinthQuestion() {
+        var uniqueItem = colors[9][0];
+        var uniqueItemNumber;
+        for (var i = 0; i < 9; i++) {
+            for (var j = i + 1; j < 9; j++) {
+                if (colors[9][i] == colors[9][j]) {
+                    break;
+                } else {
+                    uniqueItem = colors[9][i];
+                    uniqueItemNumber = i;
+                }
+            }
+        }
+        for (var k = 0; k < 9; k++) {
+            if (inputs[k].checked) {
+                if (k == uniqueItemNumber) {
+                    count++;
+                }
+            }
+        }
+        outputResult();
+    }
+
+    function outputResult() {
+        for (var i = 0; i < 9; i++) {
+            blocks[i].style.width = 0;
+            blocks[i].style.height = 0;
+            inputs[i].style.width = 0;
+            inputs[i].style.height = 0;
+            blocks[i].margin = 0;
+        }
+        document.getElementById("resultText").style.border = "solid 2px #bababa";
+        switch (count) {
+            case 0:
+                document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответов. Лучше вообще не браться за работу, связанную с цветами, она будет безнадежно испорчена.";
+                break;
+            case 1:
+                document.getElementById("resultText").innerHTML = "У Вас " + count + "правильный ответ. Лучше вообще не браться за работу, связанную с цветами, она будет безнадежно испорчена.";
+                break;
+            case 2:
+                document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответа. Лучше вообще не браться за работу, связанную с цветами, она будет безнадежно испорчена.";
+                break;
+            case 3:
+                document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответа. Лучше вообще не браться за работу, связанную с цветами, она будет безнадежно испорчена.";
+                break;
+            case 4:
+                document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответа. Вы неплохо различаете цвета, но художник или дизайнер из Вас не получится.";
+                break;
+            case 5:
+                document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответов. Вы неплохо различаете цвета, но художник или дизайнер из Вас не получится.";
+                break;
+            case 6:
+                document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответов. Вы неплохо различаете цвета, но художник или дизайнер из Вас не получится.";
+                break;
+            case 7:
+                document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответов. Вы неплохо различаете цвета, но художник или дизайнер из Вас не получится.";
+                break;
+            case 8:
+                document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответов. Вы гениально различаете цвета, поздравляю!";
+                break;
+            case 9:
+                document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответов. Вы гениально различаете цвета, поздравляю!";
+                break;
+            case 10:
+                document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответов. Вы гениально различаете цвета, поздравляю!";
+                break;
+        }
+
+        document.getElementById("resultText").innerHTML = "У Вас " + count + "";
+        document.getElementById("task").innerHTML = "";
+    }*/
 
 </script>
 
