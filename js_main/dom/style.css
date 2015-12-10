@@ -1,0 +1,10 @@
+.todo__check {
+    margin-right: 5px;
+}
+
+.todo__check:checked + .todo__text {
+    text-decoration: line-through;
+}
+.todos, .todos_checked {
+    list-style: none;
+}

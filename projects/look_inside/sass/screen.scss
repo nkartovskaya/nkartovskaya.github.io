@@ -1,0 +1,559 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import "compass/reset";
+
+#content {
+  #first,
+  #second,
+  #third,
+  #fourth,
+  #fifth,
+  #sixth,
+  #seventh,
+  #eighth,
+  #ninth {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin: 5px;
+    input {
+      visibility: hidden;
+    }
+  }
+
+  #first:hover,
+  #second:hover,
+  #third:hover,
+  #fourth:hover,
+  #fifth:hover,
+  #sixth:hover,
+  #seventh:hover,
+  #eighth:hover,
+  #ninth:hover {
+    input {
+      visibility: visible;
+    }
+  }
+
+}
+
+body {
+  background: linear-gradient(to right, #3E5D5F, #081113);
+  margin: 0;
+  padding: 0;
+  font-family: 'Play', sans-serif;
+}
+
+.wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(to right, #203E40, #111F21);
+  height: 230px;
+  margin: 0;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 8);
+
+  .logo_top_left,
+  .logo_bottom_left,
+  .logo_top_right,
+  .logo_bottom_right {
+    width: 70px;
+    height: 70px;
+    box-shadow: #232323 2px 3px;
+    position: absolute;
+  }
+
+  .logo_top_left {
+    background-color: #2121eb;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    left: 500px;
+  }
+
+  .logo_bottom_left {
+    background-color: #51eb39;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    top: 120px;
+    left: 500px;
+  }
+
+  .logo_top_right {
+    background-color: #b3fc10;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    left: 576px;
+  }
+
+  .logo_bottom_right {
+    background-color: #dc3055;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    left: 576px;
+    top: 120px;
+  }
+
+  .logo_nav {
+    width: 999px;
+    height: 220px;
+    background-color: #007cbd;
+    margin: 0 auto;
+  }
+
+  .logo {
+    float: left;
+    margin: 45px 0 0 0;
+  }
+
+  nav {
+
+    ul {
+      margin: 0;
+    }
+
+    ul li {
+      display: block;
+      float: left;
+      height: 40px;
+      margin: 139px 2px 2px 2px;
+      padding: 12px 12px 0 12px;
+      border-radius: 7px;
+      background-color: #30544F;
+      box-shadow: #222222 2px 2px 2px;
+    }
+
+    ul li a {
+      text-decoration: none;
+      color: #bababa;
+      text-shadow: #434343 1px 1px;
+      font-size: 1.5em;
+    }
+
+    ul li:hover {
+      background-color: #b3fc10;
+      border-bottom: solid #696969 1px;
+    }
+
+    ul li:hover a {
+      color: #1a2e29;
+      text-shadow: #bcbcbc 1px 1px;
+    }
+
+    ul li:first-child {
+      margin-left: 170px;
+    }
+  }
+}
+
+.content {
+  width: 999px;
+  min-height: 600px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+
+  #content {
+    padding: 0 15% 0 15%;
+
+h1#task {
+  color: #bababa;
+  text-shadow: #434343 1px 1px;
+  text-align: center;
+  margin: 35px 0 0 0;
+}
+    div#resultText {
+      padding: 20px;
+      border-radius: 7px;
+      margin-top: 35px;
+      p {
+        color: #bababa;
+        font-size: 20px;
+        text-align: center;
+      }
+    }
+
+    #first,
+    #second,
+    #third,
+    #fourth,
+    #fifth,
+    #sixth,
+    #seventh,
+    #eighth,
+    #ninth {
+      input {
+        visibility: hidden;
+      }
+    }
+  }
+
+  button#start {
+    width: 300px;
+    height: 100px;
+    border: solid 2px #B3FC10;
+    background-color: transparent;
+    color: #B3FC10;
+    text-shadow: #bcbcbc 1px 1px;
+    font-size: 25px;
+    border-radius: 7px;
+    position: relative;
+    margin: 0 25% 10% 25%;
+  }
+
+}
+
+footer {
+  background: linear-gradient(to right, #203E40, #111F21);
+  height: 150px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 8);
+
+  .logo_social_icons {
+    width: 999px;
+    margin: 0 auto;
+    background-color: #007cbd;
+
+    .sprite-social_facebook {
+      width: 64px;
+      height: 64px;
+      position: relative;
+      background: url(../images/sprites_icons.png) no-repeat -0px -0px;
+      float: left;
+    }
+    .sprite-social_google {
+      width: 64px;
+      height: 64px;
+      position: relative;
+      background: url(../images/sprites_icons.png) no-repeat -0px -64px;
+      float: left;
+    }
+    .sprite-social_linkedin {
+      width: 64px;
+      height: 64px;
+      position: relative;
+      background: url(../images/sprites_icons.png) no-repeat -0px -128px;
+      float: left;
+    }
+    .sprite-social_twitter {
+      width: 64px;
+      height: 64px;
+      position: relative;
+      background: url(../images/sprites_icons.png) no-repeat -0px -192px;
+      float: left;
+    }
+    p {
+      display: inline-block;
+      margin: 120px 0 0 100px;
+      color: #bababa;
+      text-shadow: #434343 1px 1px;
+    }
+  }
+
+  .logo {
+    float: left;
+    margin: 15px 145px 0 15px;
+  }
+}
+
+@media screen and (max-width: 999px) and (min-width: 800px) {
+  header {
+    width: 100%;
+    height: 86px;
+    .logo_nav {
+      width: 100%;
+      .logo {
+        margin: 0 0 0 10px;
+        height: 86px;
+        img {
+          width: 200px;
+        }
+      }
+      nav {
+        width: 100%;
+        ul {
+          width: 100%;
+          li {
+            margin: 40px 2px 0 2px;
+            height: 35px;
+            a {
+              font-size: 1.1em;
+            }
+          }
+          li:first-child {
+            margin-left: 25px;
+          }
+        }
+      }
+    }
+  }
+
+  .content {
+    width: 100%;
+    .foto {
+      height: 221px;
+      margin: 15px 15px 0 15px;
+      img {
+        width: 300px;
+      }
+    }
+    article {
+      width: 100%;
+      font-size: 0.9em;
+      padding: 20px 0 20px 0;
+      margin: 0;
+
+      div.shelf {
+        img {
+          width: 300px;
+        }
+      }
+
+      img.invitation {
+        margin: 20px;
+      }
+
+      a.invitation {
+        margin: 0 0 0 20px;
+      }
+
+      div.sprite-house,
+      div.sprite-phone,
+      div.sprite-skype {
+        margin-left: 20px;
+      }
+
+      div.map {
+        width: 600px;
+        height: 450px;
+        margin-left: 20px;
+      }
+
+      iframe.map {
+        width: 600px;
+        height: 450px;
+      }
+      form {
+        label {
+          margin: 0 0 0 20px;
+        }
+        input {
+          margin: 0 0 0 20px;
+        }
+        textarea {
+          margin: 0 0 0 20px;
+        }
+      }
+
+      p {
+        margin: 0 20px 0 20px;
+      }
+    }
+  }
+
+  footer {
+    width: 100%;
+    height: 86px;
+    .logo_social_icons {
+      width: 100%;
+      height: 86px;
+      .logo {
+        margin: 0 50px 0 10px;
+        height: 86px;
+        img {
+          width: 200px;
+        }
+      }
+      .social_icons {
+        width: 100%;
+        p {
+          margin: 10px 0 0 0;
+          font-size: 1em;
+        }
+      }
+      p {
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 799px) and (min-width: 320px) {
+  header {
+    width: 100%;
+    height: 200px;
+    .logo_nav {
+      width: 100%;
+
+      .logo {
+        margin: 0 auto;
+        padding-top: 10px;
+        height: 54px;
+        float: none;
+        img {
+          width: 100px;
+          margin: 0 0 0 10px;
+        }
+      }
+      nav {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        ul {
+          width: 100%;
+          margin: 0;
+          padding: 0;
+          li {
+            margin: 0;
+            padding: 0 5px 5px 5px;
+            height: 22px;
+            float: none;
+            text-align: center;
+            a {
+              font-size: 0.9em;
+            }
+          }
+
+        }
+      }
+    }
+  }
+
+  .content {
+    width: 100%;
+    .foto {
+      height: 148px;
+      margin: 8px 8px 0 8px;
+      img {
+        width: 200px;
+      }
+    }
+    article {
+      width: 100%;
+      font-size: 0.8em;
+      padding: 20px 0 20px 0;
+      margin: 0;
+
+      div.shelf {
+        img {
+          width: 150px;
+        }
+      }
+
+      div.sprite-house,
+      div.sprite-phone,
+      div.sprite-skype {
+        visibility: hidden;
+        width: 0;
+      }
+
+      p.address,
+      p.phone,
+      p.skype {
+        margin: 5px 0 5px 20px;
+      }
+
+      div.map {
+        width: 300px;
+        height: 200px;
+      }
+
+      iframe.map {
+        width: 300px;
+        height: 200px;
+      }
+
+      form {
+        label {
+          margin: 0 0 0 10px;
+        }
+        input {
+          width: 200px;
+          margin: 0 0 0 10px;
+        }
+        textarea {
+          width: 250px;
+          height: 150px;
+          margin: 0 0 0 10px;
+        }
+        input.button {
+          height: 28px;
+        }
+      }
+
+      p {
+        margin: 0 20px 0 20px;
+      }
+      img.invitation {
+        width: 300px;
+      }
+    }
+  }
+
+  footer {
+    width: 100%;
+    height: 100px;
+    .logo_social_icons {
+      width: 100%;
+      height: 64px;
+      .logo {
+        margin: 0 30px 0 10px;
+        padding-top: 10px;
+        height: 54px;
+        img {
+          width: 100px;
+        }
+      }
+      .social_icons {
+        width: 100%;
+        float: none;
+        p {
+          margin: 1px 0 0 0;
+          font-size: 0.6em;
+        }
+      }
+      p {
+        margin-left: 20px;
+        font-size: 0.6em;
+      }
+    }
+  }
+}
+
+.sprite-social_facebook_box_blue {
+  width: 60px;
+  height: 60px;
+  background: url(../images/sprites_icons.png) no-repeat -0px -0px;
+}
+
+.sprite-social_google_box_blue {
+  width: 60px;
+  height: 60px;
+  background: url(../images/sprites_icons.png) no-repeat -0px -60px;
+}
+
+.sprite-social_linkedin_box_blue {
+  width: 60px;
+  height: 60px;
+  background: url(../images/sprites_icons.png) no-repeat -0px -120px;
+}
+
+.sprite-social_twitter_box_blue {
+  width: 60px;
+  height: 60px;
+  background: url(../images/sprites_icons.png) no-repeat -0px -180px;
+}
+
+.sprite-social_yahoo_box_lilac {
+  width: 60px;
+  height: 60px;
+  background: url(../images/sprites_icons.png) no-repeat -0px -240px;
+}
+
+
