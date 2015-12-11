@@ -102,31 +102,7 @@
 </section>
 <script>
 
-    var first = document.getElementById("first");
-    var second = document.getElementById("second");
-    var third = document.getElementById("third");
-    var fourth = document.getElementById("fourth");
-    var fifth = document.getElementById("fifth");
-    var sixth = document.getElementById("sixth");
-    var seventh = document.getElementById("seventh");
-    var eighth = document.getElementById("eighth");
-    var ninth = document.getElementById("ninth");
-    var buttonStart = document.getElementById("start");
-
-    var blocks = [first, second, third, fourth, fifth, sixth, seventh, eighth, ninth];
-
-    var firstInput = document.getElementById("firstInput");
-    var secondInput = document.getElementById("secondInput");
-    var thirdInput = document.getElementById("thirdInput");
-    var fourthInput = document.getElementById("fourthInput");
-    var fifthInput = document.getElementById("fifthInput");
-    var sixthInput = document.getElementById("sixthInput");
-    var seventhInput = document.getElementById("seventhInput");
-    var eighthInput = document.getElementById("eighthInput");
-    var ninthInput = document.getElementById("ninthInput");
-
-    var inputs = [firstInput, secondInput, thirdInput, fourthInput, fifthInput, sixthInput, seventhInput, eighthInput, ninthInput];
-
+    var buttonStart=document.getElementById("start");
     var colors0 = ["#4A3421", "#38281A", "#38281A", "#38281A", "#38281A", "#38281A", "#38281A", "#38281A", "#38281A"];
     var colors1 = ["#8F3333", "#B03737", "#B03737", "#B03737", "#B03737", "#B03737", "#B03737", "#B03737", "#B03737"];
     var colors2 = ["#82D18B", "#62B36C", "#62B36C", "#62B36C", "#62B36C", "#62B36C", "#62B36C", "#62B36C", "#62B36C"];
@@ -178,28 +154,185 @@
         });
     }
 
-    function start() {
-        var firstLabel=document.createElement("label");
-        firstLabel.id="firstLabel";
 
-    }
+    var container=document.getElementById("content");
+    var blocks =[];
+    var inputs=[];
 
-    /*function start() {
 
+    function start(newColor) {
         document.getElementById("task").innerHTML = "Выберите блок, у которого цвет отличается от остальных";
-        for (var i = 0; i < 9; i++) {
-            blocks[i].style.backgroundColor = colors[0][i];
-            blocks[i].style.width = "150px";
-            blocks[i].style.height = "150px";
-            blocks[i].style.margin = "10px";
-            blocks[i].style.float = "left";
-            blocks[i].style.borderRadius = "7px";
-        }
+
+        var firstLabel = document.createElement("label");
+        firstLabel.id = "firstLabel";
+        var first = document.createElement("div");
+        first.id = "first";
+        var firstInput = document.createElement("input");
+        firstInput.id = "firstInput";
+        firstInput.setAttribute("type", "checkbox");
+        firstLabel.setAttribute("for", "firstInput");
+        container.appendChild(firstLabel);
+        firstLabel.appendChild(first);
+        first.appendChild(firstInput);
+        first.style.width="9em";
+        first.style.height="9em";
+        first.style.borderRadius="7px";
+        first.style.backgroundColor=newColor[0];
+        blocks.push(first);
+        inputs.push(firstInput);
+        firstInput.onchange=change();
+
+
+        var secondLabel = document.createElement("label");
+        secondLabel.id = "secondLabel";
+        var second = document.createElement("div");
+        second.id = "second";
+        var secondInput = document.createElement("input");
+        secondInput.id = "secondInput";
+        secondInput.setAttribute("type", "checkbox");
+        secondLabel.setAttribute("for", "secondInput");
+        container.appendChild(secondLabel);
+        secondLabel.appendChild(second);
+        second.appendChild(secondInput);
+        second.style.width="9em";
+        second.style.height="9em";
+        second.style.borderRadius="7px";
+        second.style.backgroundColor=newColor[1];
+        blocks.push(second);
+        inputs.push(secondInput);
+
+        var thirdLabel = document.createElement("label");
+        thirdLabel.id = "thirdLabel";
+        var third = document.createElement("div");
+        third.id = "third";
+        var thirdInput = document.createElement("input");
+        thirdInput.id = "thirdInput";
+        thirdInput.setAttribute("type", "checkbox");
+        thirdLabel.setAttribute("for", "thirdInput");
+        container.appendChild(thirdLabel);
+        thirdLabel.appendChild(third);
+        third.appendChild(thirdInput);
+        third.style.width="9em";
+        third.style.height="9em";
+        third.style.borderRadius="7px";
+        third.style.backgroundColor=newColor[2];
+        blocks.push(third);
+        inputs.push(thirdInput);
+
+        var fourthLabel = document.createElement("label");
+        fourthLabel.id = "fourthLabel";
+        var fourth = document.createElement("div");
+        fourth.id = "fourth";
+        var fourthInput = document.createElement("input");
+        fourthInput.id = "fourthInput";
+        fourthInput.setAttribute("type", "checkbox");
+        fourthLabel.setAttribute("for", "fourthInput");
+        container.appendChild(fourthLabel);
+        fourthLabel.appendChild(fourth);
+        fourth.appendChild(fourthInput);
+        fourth.style.width="9em";
+        fourth.style.height="9em";
+        fourth.style.borderRadius="7px";
+        fourth.style.backgroundColor=newColor[3];
+        blocks.push(fourth);
+        inputs.push( fourthInput);
+
+        var fifthLabel = document.createElement("label");
+        fifthLabel.id = "fifthLabel";
+        var fifth = document.createElement("div");
+        fifth.id = "fifth";
+        var fifthInput = document.createElement("input");
+        fifthInput.id = "fifthInput";
+        fifthInput.setAttribute("type", "checkbox");
+        fifthLabel.setAttribute("for", "fifthInput");
+        container.appendChild(fifthLabel);
+        fifthLabel.appendChild(fifth);
+        fifth.appendChild(fifthInput);
+        fifth.style.width="9em";
+        fifth.style.height="9em";
+        fifth.style.borderRadius="7px";
+        fifth.style.backgroundColor=newColor[4];
+        blocks.push(fifth);
+        inputs.push(fifthInput);
+
+        var sixthLabel = document.createElement("label");
+        sixthLabel.id = "sixthLabel";
+        var sixth = document.createElement("div");
+        sixth.id = "sixth";
+        var sixthInput = document.createElement("input");
+        sixthInput.id = "sixthInput";
+        sixthInput.setAttribute("type", "checkbox");
+        sixthLabel.setAttribute("for", "sixthInput");
+        container.appendChild(sixthLabel);
+        sixthLabel.appendChild(sixth);
+        sixth.appendChild(sixthInput);
+        sixth.style.width="9em";
+        sixth.style.height="9em";
+        sixth.style.borderRadius="7px";
+        sixth.style.backgroundColor=newColor[5];
+        blocks.push(sixth);
+        inputs.push(sixthInput);
+
+        var seventhLabel = document.createElement("label");
+        seventhLabel.id = "seventhLabel";
+        var seventh = document.createElement("div");
+        seventh.id = "seventh";
+        var seventhInput = document.createElement("input");
+        seventhInput.id = "seventhInput";
+        seventhInput.setAttribute("type", "checkbox");
+        seventhLabel.setAttribute("for", "seventhInput");
+        container.appendChild(seventhLabel);
+        seventhLabel.appendChild(seventh);
+        seventh.appendChild(seventhInput);
+        seventh.style.width="9em";
+        seventh.style.height="9em";
+        seventh.style.borderRadius="7px";
+        seventh.style.backgroundColor=newColor[6];
+        blocks.push(seventh);
+        inputs.push(seventhInput);
+
+        var eighthLabel = document.createElement("label");
+        eighthLabel.id = "eighthLabel";
+        var eighth = document.createElement("div");
+        eighth.id = "eighth";
+        var eighthInput = document.createElement("input");
+        eighthInput.id = "eighthInput";
+        eighthInput.setAttribute("type", "checkbox");
+        eighthLabel.setAttribute("for", "eighthInput");
+        container.appendChild(eighthLabel);
+        eighthLabel.appendChild(eighth);
+        eighth.appendChild(eighthInput);
+        eighth.style.width="9em";
+        eighth.style.height="9em";
+        eighth.style.borderRadius="7px";
+        eighth.style.backgroundColor=newColor[7];
+        blocks.push(eighth);
+        inputs.push(eighthInput);
+
+        var ninthLabel = document.createElement("label");
+        ninthLabel.id = "ninthLabel";
+        var ninth = document.createElement("div");
+        ninth.id = "ninth";
+        var ninthInput = document.createElement("input");
+        ninthInput.id = "ninthInput";
+        ninthInput.setAttribute("type", "checkbox");
+        ninthLabel.setAttribute("for", "ninthInput");
+        container.appendChild(ninthLabel);
+        ninthLabel.appendChild(ninth);
+        ninth.appendChild(ninthInput);
+        ninth.style.width="9em";
+        ninth.style.height="9em";
+        ninth.style.borderRadius="7px";
+        ninth.style.backgroundColor=newColor[7];
+        blocks.push(ninth);
+        inputs.push(ninthInput);
 
         document.getElementById("content").removeChild(buttonStart);
     }
 
-    function resultCalcZeroQuestion() {
+    start(colors0);
+
+    function change() {
         var uniqueItem = colors[0][0];
         var uniqueItemNumber;
         for (var i = 0; i < 9; i++) {
@@ -219,393 +352,444 @@
                 }
             }
         }
-        firstQuestion();
+        return count;
     }
 
-    function firstQuestion() {
-        for (var i = 0; i < 9; i++) {
-            inputs[i].checked = false;
-            blocks[i].style.backgroundColor = colors[1][i];
-            blocks[i].style.width = "150px";
-            blocks[i].style.height = "150px";
-            blocks[i].style.margin = "10px";
-            blocks[i].style.float = "left";
-            blocks[i].style.borderRadius = "7px";
-        }
+
+
+
+    document.getElementById("resultText").style.border = "solid 2px #bababa";
+    switch (count) {
+        case 0:
+            document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответов. Лучше вообще не браться за работу, связанную с цветами, она будет безнадежно испорчена.";
+            break;
+        case 1:
+            document.getElementById("resultText").innerHTML = "У Вас " + count + "правильный ответ. Лучше вообще не браться за работу, связанную с цветами, она будет безнадежно испорчена.";
+            break;
+        case 2:
+            document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответа. Лучше вообще не браться за работу, связанную с цветами, она будет безнадежно испорчена.";
+            break;
+        case 3:
+            document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответа. Лучше вообще не браться за работу, связанную с цветами, она будет безнадежно испорчена.";
+            break;
+        case 4:
+            document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответа. Вы неплохо различаете цвета, но художник или дизайнер из Вас не получится.";
+            break;
+        case 5:
+            document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответов. Вы неплохо различаете цвета, но художник или дизайнер из Вас не получится.";
+            break;
+        case 6:
+            document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответов. Вы неплохо различаете цвета, но художник или дизайнер из Вас не получится.";
+            break;
+        case 7:
+            document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответов. Вы неплохо различаете цвета, но художник или дизайнер из Вас не получится.";
+            break;
+        case 8:
+            document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответов. Вы гениально различаете цвета, поздравляю!";
+            break;
+        case 9:
+            document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответов. Вы гениально различаете цвета, поздравляю!";
+            break;
+        case 10:
+            document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответов. Вы гениально различаете цвета, поздравляю!";
+            break;
     }
 
-    for (var e=0; e<9; e++) {
-        inputs[e].onchange = resultCalcFirstQuestion();
-    }
+    document.getElementById("resultText").innerHTML = "У Вас " + count + "";
+    document.getElementById("task").innerHTML = "";
 
-    function resultCalcFirstQuestion() {
-        var uniqueItem = colors[1][0];
-        var uniqueItemNumber;
-        for (var i = 0; i < 9; i++) {
-            for (var j = i + 1; j < 9; j++) {
-                if (colors[1][i] == colors[1][j]) {
-                    break;
-                } else {
-                    uniqueItem = colors[1][i];
-                    uniqueItemNumber = i;
-                }
-            }
-        }
-        for (var k = 0; k < 9; k++) {
-            if (inputs[k].checked) {
-                if (k == uniqueItemNumber) {
-                    count++;
-                }
-            }
-        }
-        secondQuestion();
-    }
+    /*function start() {
 
-    function secondQuestion() {
-        for (var i = 0; i < 9; i++) {
-            inputs[i].checked = false;
-            blocks[i].style.backgroundColor = colors[2][i];
-            blocks[i].style.width = "150px";
-            blocks[i].style.height = "150px";
-            blocks[i].style.margin = "10px";
-            blocks[i].style.float = "left";
-            blocks[i].style.borderRadius = "7px";
-        }
-    }
 
-    for (var e=0; e<9; e++) {
-        inputs[e].onchange = resultCalcSecondQuestion();
-    }
+     }
 
-    function resultCalcSecondQuestion() {
-        var uniqueItem = colors[2][0];
-        var uniqueItemNumber;
-        for (var i = 0; i < 9; i++) {
-            for (var j = i + 1; j < 9; j++) {
-                if (colors[2][i] == colors[2][j]) {
-                    break;
-                } else {
-                    uniqueItem = colors[2][i];
-                    uniqueItemNumber = i;
-                }
-            }
-        }
-        for (var k = 0; k < 9; k++) {
-            if (inputs[k].checked) {
-                if (k == uniqueItemNumber) {
-                    count++;
-                }
-            }
-        }
-        thirdQuestion();
-    }
+     function resultCalcZeroQuestion() {
 
-    function thirdQuestion() {
-        for (var i = 0; i < 9; i++) {
-            inputs[i].checked = false;
-            blocks[i].style.backgroundColor = colors[3][i];
-            blocks[i].style.width = "150px";
-            blocks[i].style.height = "150px";
-            blocks[i].style.margin = "10px";
-            blocks[i].style.float = "left";
-            blocks[i].style.borderRadius = "7px";
-        }
 
-    }
+     function firstQuestion() {
+     for (var i = 0; i < 9; i++) {
+     inputs[i].checked = false;
+     blocks[i].style.backgroundColor = colors[1][i];
+     blocks[i].style.width = "150px";
+     blocks[i].style.height = "150px";
+     blocks[i].style.margin = "10px";
+     blocks[i].style.float = "left";
+     blocks[i].style.borderRadius = "7px";
+     }
+     }
 
-    for (var ch3=0; ch3<9; ch3++) {
-        if (inputs[ch3].checked) {
-            resultCalcThirdQuestion();
-        }
-    }
+     for (var e=0; e<9; e++) {
+     inputs[e].onchange = resultCalcFirstQuestion();
+     }
 
-    function resultCalcThirdQuestion() {
-        var uniqueItem = colors[3][0];
-        var uniqueItemNumber;
-        for (var i = 0; i < 9; i++) {
-            for (var j = i + 1; j < 9; j++) {
-                if (colors[3][i] == colors[3][j]) {
-                    break;
-                } else {
-                    uniqueItem = colors[3][i];
-                    uniqueItemNumber = i;
-                }
-            }
-        }
-        for (var k = 0; k < 9; k++) {
-            if (inputs[k].checked) {
-                if (k == uniqueItemNumber) {
-                    count++;
-                }
-            }
-        }
-        fourthQuestion();
-    }
+     function resultCalcFirstQuestion() {
+     var uniqueItem = colors[1][0];
+     var uniqueItemNumber;
+     for (var i = 0; i < 9; i++) {
+     for (var j = i + 1; j < 9; j++) {
+     if (colors[1][i] == colors[1][j]) {
+     break;
+     } else {
+     uniqueItem = colors[1][i];
+     uniqueItemNumber = i;
+     }
+     }
+     }
+     for (var k = 0; k < 9; k++) {
+     if (inputs[k].checked) {
+     if (k == uniqueItemNumber) {
+     count++;
+     }
+     }
+     }
+     secondQuestion();
+     }
 
-    function fourthQuestion() {
-        for (var i = 0; i < 9; i++) {
-            inputs[i].checked = false;
-            blocks[i].style.backgroundColor = colors[4][i];
-            blocks[i].style.width = "150px";
-            blocks[i].style.height = "150px";
-            blocks[i].style.margin = "10px";
-            blocks[i].style.float = "left";
-            blocks[i].style.borderRadius = "7px";
-        }
-        resultCalcFourthQuestion();
-    }
+     function secondQuestion() {
+     for (var i = 0; i < 9; i++) {
+     inputs[i].checked = false;
+     blocks[i].style.backgroundColor = colors[2][i];
+     blocks[i].style.width = "150px";
+     blocks[i].style.height = "150px";
+     blocks[i].style.margin = "10px";
+     blocks[i].style.float = "left";
+     blocks[i].style.borderRadius = "7px";
+     }
+     }
 
-    function resultCalcFourthQuestion() {
-        var uniqueItem = colors[4][0];
-        var uniqueItemNumber;
-        for (var i = 0; i < 9; i++) {
-            for (var j = i + 1; j < 9; j++) {
-                if (colors[4][i] == colors[4][j]) {
-                    break;
-                } else {
-                    uniqueItem = colors[4][i];
-                    uniqueItemNumber = i;
-                }
-            }
-        }
-        for (var k = 0; k < 9; k++) {
-            if (inputs[k].checked) {
-                if (k == uniqueItemNumber) {
-                    count++;
-                }
-            }
-        }
-        fifthQuestion();
-    }
+     for (var e=0; e<9; e++) {
+     inputs[e].onchange = resultCalcSecondQuestion();
+     }
 
-    function fifthQuestion() {
-        for (var i = 0; i < 9; i++) {
-            inputs[i].checked = false;
-            blocks[i].style.backgroundColor = colors[5][i];
-            blocks[i].style.width = "150px";
-            blocks[i].style.height = "150px";
-            blocks[i].style.margin = "10px";
-            blocks[i].style.float = "left";
-            blocks[i].style.borderRadius = "7px";
-        }
-        resultCalcFifthQuestion();
-    }
+     function resultCalcSecondQuestion() {
+     var uniqueItem = colors[2][0];
+     var uniqueItemNumber;
+     for (var i = 0; i < 9; i++) {
+     for (var j = i + 1; j < 9; j++) {
+     if (colors[2][i] == colors[2][j]) {
+     break;
+     } else {
+     uniqueItem = colors[2][i];
+     uniqueItemNumber = i;
+     }
+     }
+     }
+     for (var k = 0; k < 9; k++) {
+     if (inputs[k].checked) {
+     if (k == uniqueItemNumber) {
+     count++;
+     }
+     }
+     }
+     thirdQuestion();
+     }
 
-    function resultCalcFifthQuestion() {
-        var uniqueItem = colors[5][0];
-        var uniqueItemNumber;
-        for (var i = 0; i < 9; i++) {
-            for (var j = i + 1; j < 9; j++) {
-                if (colors[5][i] == colors[5][j]) {
-                    break;
-                } else {
-                    uniqueItem = colors[5][i];
-                    uniqueItemNumber = i;
-                }
-            }
-        }
-        for (var k = 0; k < 9; k++) {
-            if (inputs[k].checked) {
-                if (k == uniqueItemNumber) {
-                    count++;
-                }
-            }
-        }
-        sixthQuestion();
-    }
+     function thirdQuestion() {
+     for (var i = 0; i < 9; i++) {
+     inputs[i].checked = false;
+     blocks[i].style.backgroundColor = colors[3][i];
+     blocks[i].style.width = "150px";
+     blocks[i].style.height = "150px";
+     blocks[i].style.margin = "10px";
+     blocks[i].style.float = "left";
+     blocks[i].style.borderRadius = "7px";
+     }
 
-    function sixthQuestion() {
-        for (var i = 0; i < 9; i++) {
-            inputs[i].checked = false;
-            blocks[i].style.backgroundColor = colors[6][i];
-            blocks[i].style.width = "150px";
-            blocks[i].style.height = "150px";
-            blocks[i].style.margin = "10px";
-            blocks[i].style.float = "left";
-            blocks[i].style.borderRadius = "7px";
-        }
-        resultCalcSixthQuestion();
-    }
+     }
 
-    function resultCalcSixthQuestion() {
-        var uniqueItem = colors[6][0];
-        var uniqueItemNumber;
-        for (var i = 0; i < 9; i++) {
-            for (var j = i + 1; j < 9; j++) {
-                if (colors[6][i] == colors[6][j]) {
-                    break;
-                } else {
-                    uniqueItem = colors[6][i];
-                    uniqueItemNumber = i;
-                }
-            }
-        }
-        for (var k = 0; k < 9; k++) {
-            if (inputs[k].checked) {
-                if (k == uniqueItemNumber) {
-                    count++;
-                }
-            }
-        }
-        seventhQuestion();
-    }
+     for (var ch3=0; ch3<9; ch3++) {
+     if (inputs[ch3].checked) {
+     resultCalcThirdQuestion();
+     }
+     }
 
-    function seventhQuestion() {
-        for (var i = 0; i < 9; i++) {
-            inputs[i].checked = false;
-            blocks[i].style.backgroundColor = colors[7][i];
-            blocks[i].style.width = "150px";
-            blocks[i].style.height = "150px";
-            blocks[i].style.margin = "10px";
-            blocks[i].style.float = "left";
-            blocks[i].style.borderRadius = "7px";
-        }
-        resultCalcSeventhQuestion();
-    }
+     function resultCalcThirdQuestion() {
+     var uniqueItem = colors[3][0];
+     var uniqueItemNumber;
+     for (var i = 0; i < 9; i++) {
+     for (var j = i + 1; j < 9; j++) {
+     if (colors[3][i] == colors[3][j]) {
+     break;
+     } else {
+     uniqueItem = colors[3][i];
+     uniqueItemNumber = i;
+     }
+     }
+     }
+     for (var k = 0; k < 9; k++) {
+     if (inputs[k].checked) {
+     if (k == uniqueItemNumber) {
+     count++;
+     }
+     }
+     }
+     fourthQuestion();
+     }
 
-    function resultCalcSeventhQuestion() {
-        var uniqueItem = colors[7][0];
-        var uniqueItemNumber;
-        for (var i = 0; i < 9; i++) {
-            for (var j = i + 1; j < 9; j++) {
-                if (colors[7][i] == colors[7][j]) {
-                    break;
-                } else {
-                    uniqueItem = colors[7][i];
-                    uniqueItemNumber = i;
-                }
-            }
-        }
-        for (var k = 0; k < 9; k++) {
-            if (inputs[k].checked) {
-                if (k == uniqueItemNumber) {
-                    count++;
-                }
-            }
-        }
-        eighthQuestion();
-    }
+     function fourthQuestion() {
+     for (var i = 0; i < 9; i++) {
+     inputs[i].checked = false;
+     blocks[i].style.backgroundColor = colors[4][i];
+     blocks[i].style.width = "150px";
+     blocks[i].style.height = "150px";
+     blocks[i].style.margin = "10px";
+     blocks[i].style.float = "left";
+     blocks[i].style.borderRadius = "7px";
+     }
+     resultCalcFourthQuestion();
+     }
 
-    function eighthQuestion() {
-        for (var i = 0; i < 9; i++) {
-            inputs[i].checked = false;
-            blocks[i].style.backgroundColor = colors[8][i];
-            blocks[i].style.width = "150px";
-            blocks[i].style.height = "150px";
-            blocks[i].style.margin = "10px";
-            blocks[i].style.float = "left";
-            blocks[i].style.borderRadius = "7px";
-        }
-        resultCalcEighthQuestion();
-    }
+     function resultCalcFourthQuestion() {
+     var uniqueItem = colors[4][0];
+     var uniqueItemNumber;
+     for (var i = 0; i < 9; i++) {
+     for (var j = i + 1; j < 9; j++) {
+     if (colors[4][i] == colors[4][j]) {
+     break;
+     } else {
+     uniqueItem = colors[4][i];
+     uniqueItemNumber = i;
+     }
+     }
+     }
+     for (var k = 0; k < 9; k++) {
+     if (inputs[k].checked) {
+     if (k == uniqueItemNumber) {
+     count++;
+     }
+     }
+     }
+     fifthQuestion();
+     }
 
-    function resultCalcEighthQuestion() {
-        var uniqueItem = colors[8][0];
-        var uniqueItemNumber;
-        for (var i = 0; i < 9; i++) {
-            for (var j = i + 1; j < 9; j++) {
-                if (colors[8][i] == colors[8][j]) {
-                    break;
-                } else {
-                    uniqueItem = colors[8][i];
-                    uniqueItemNumber = i;
-                }
-            }
-        }
-        for (var k = 0; k < 9; k++) {
-            if (inputs[k].checked) {
-                if (k == uniqueItemNumber) {
-                    count++;
-                }
-            }
-        }
-        ninthQuestion();
-    }
+     function fifthQuestion() {
+     for (var i = 0; i < 9; i++) {
+     inputs[i].checked = false;
+     blocks[i].style.backgroundColor = colors[5][i];
+     blocks[i].style.width = "150px";
+     blocks[i].style.height = "150px";
+     blocks[i].style.margin = "10px";
+     blocks[i].style.float = "left";
+     blocks[i].style.borderRadius = "7px";
+     }
+     resultCalcFifthQuestion();
+     }
 
-    function ninthQuestion() {
-        for (var i = 0; i < 9; i++) {
-            inputs[i].checked = false;
-            blocks[i].style.backgroundColor = colors[9][i];
-            blocks[i].style.width = "150px";
-            blocks[i].style.height = "150px";
-            blocks[i].style.margin = "10px";
-            blocks[i].style.float = "left";
-            blocks[i].style.borderRadius = "7px";
-        }
-        resultCalcNinthQuestion();
-    }
+     function resultCalcFifthQuestion() {
+     var uniqueItem = colors[5][0];
+     var uniqueItemNumber;
+     for (var i = 0; i < 9; i++) {
+     for (var j = i + 1; j < 9; j++) {
+     if (colors[5][i] == colors[5][j]) {
+     break;
+     } else {
+     uniqueItem = colors[5][i];
+     uniqueItemNumber = i;
+     }
+     }
+     }
+     for (var k = 0; k < 9; k++) {
+     if (inputs[k].checked) {
+     if (k == uniqueItemNumber) {
+     count++;
+     }
+     }
+     }
+     sixthQuestion();
+     }
 
-    function resultCalcNinthQuestion() {
-        var uniqueItem = colors[9][0];
-        var uniqueItemNumber;
-        for (var i = 0; i < 9; i++) {
-            for (var j = i + 1; j < 9; j++) {
-                if (colors[9][i] == colors[9][j]) {
-                    break;
-                } else {
-                    uniqueItem = colors[9][i];
-                    uniqueItemNumber = i;
-                }
-            }
-        }
-        for (var k = 0; k < 9; k++) {
-            if (inputs[k].checked) {
-                if (k == uniqueItemNumber) {
-                    count++;
-                }
-            }
-        }
-        outputResult();
-    }
+     function sixthQuestion() {
+     for (var i = 0; i < 9; i++) {
+     inputs[i].checked = false;
+     blocks[i].style.backgroundColor = colors[6][i];
+     blocks[i].style.width = "150px";
+     blocks[i].style.height = "150px";
+     blocks[i].style.margin = "10px";
+     blocks[i].style.float = "left";
+     blocks[i].style.borderRadius = "7px";
+     }
+     resultCalcSixthQuestion();
+     }
 
-    function outputResult() {
-        for (var i = 0; i < 9; i++) {
-            blocks[i].style.width = 0;
-            blocks[i].style.height = 0;
-            inputs[i].style.width = 0;
-            inputs[i].style.height = 0;
-            blocks[i].margin = 0;
-        }
-        document.getElementById("resultText").style.border = "solid 2px #bababa";
-        switch (count) {
-            case 0:
-                document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответов. Лучше вообще не браться за работу, связанную с цветами, она будет безнадежно испорчена.";
-                break;
-            case 1:
-                document.getElementById("resultText").innerHTML = "У Вас " + count + "правильный ответ. Лучше вообще не браться за работу, связанную с цветами, она будет безнадежно испорчена.";
-                break;
-            case 2:
-                document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответа. Лучше вообще не браться за работу, связанную с цветами, она будет безнадежно испорчена.";
-                break;
-            case 3:
-                document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответа. Лучше вообще не браться за работу, связанную с цветами, она будет безнадежно испорчена.";
-                break;
-            case 4:
-                document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответа. Вы неплохо различаете цвета, но художник или дизайнер из Вас не получится.";
-                break;
-            case 5:
-                document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответов. Вы неплохо различаете цвета, но художник или дизайнер из Вас не получится.";
-                break;
-            case 6:
-                document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответов. Вы неплохо различаете цвета, но художник или дизайнер из Вас не получится.";
-                break;
-            case 7:
-                document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответов. Вы неплохо различаете цвета, но художник или дизайнер из Вас не получится.";
-                break;
-            case 8:
-                document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответов. Вы гениально различаете цвета, поздравляю!";
-                break;
-            case 9:
-                document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответов. Вы гениально различаете цвета, поздравляю!";
-                break;
-            case 10:
-                document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответов. Вы гениально различаете цвета, поздравляю!";
-                break;
-        }
+     function resultCalcSixthQuestion() {
+     var uniqueItem = colors[6][0];
+     var uniqueItemNumber;
+     for (var i = 0; i < 9; i++) {
+     for (var j = i + 1; j < 9; j++) {
+     if (colors[6][i] == colors[6][j]) {
+     break;
+     } else {
+     uniqueItem = colors[6][i];
+     uniqueItemNumber = i;
+     }
+     }
+     }
+     for (var k = 0; k < 9; k++) {
+     if (inputs[k].checked) {
+     if (k == uniqueItemNumber) {
+     count++;
+     }
+     }
+     }
+     seventhQuestion();
+     }
 
-        document.getElementById("resultText").innerHTML = "У Вас " + count + "";
-        document.getElementById("task").innerHTML = "";
-    }*/
+     function seventhQuestion() {
+     for (var i = 0; i < 9; i++) {
+     inputs[i].checked = false;
+     blocks[i].style.backgroundColor = colors[7][i];
+     blocks[i].style.width = "150px";
+     blocks[i].style.height = "150px";
+     blocks[i].style.margin = "10px";
+     blocks[i].style.float = "left";
+     blocks[i].style.borderRadius = "7px";
+     }
+     resultCalcSeventhQuestion();
+     }
+
+     function resultCalcSeventhQuestion() {
+     var uniqueItem = colors[7][0];
+     var uniqueItemNumber;
+     for (var i = 0; i < 9; i++) {
+     for (var j = i + 1; j < 9; j++) {
+     if (colors[7][i] == colors[7][j]) {
+     break;
+     } else {
+     uniqueItem = colors[7][i];
+     uniqueItemNumber = i;
+     }
+     }
+     }
+     for (var k = 0; k < 9; k++) {
+     if (inputs[k].checked) {
+     if (k == uniqueItemNumber) {
+     count++;
+     }
+     }
+     }
+     eighthQuestion();
+     }
+
+     function eighthQuestion() {
+     for (var i = 0; i < 9; i++) {
+     inputs[i].checked = false;
+     blocks[i].style.backgroundColor = colors[8][i];
+     blocks[i].style.width = "150px";
+     blocks[i].style.height = "150px";
+     blocks[i].style.margin = "10px";
+     blocks[i].style.float = "left";
+     blocks[i].style.borderRadius = "7px";
+     }
+     resultCalcEighthQuestion();
+     }
+
+     function resultCalcEighthQuestion() {
+     var uniqueItem = colors[8][0];
+     var uniqueItemNumber;
+     for (var i = 0; i < 9; i++) {
+     for (var j = i + 1; j < 9; j++) {
+     if (colors[8][i] == colors[8][j]) {
+     break;
+     } else {
+     uniqueItem = colors[8][i];
+     uniqueItemNumber = i;
+     }
+     }
+     }
+     for (var k = 0; k < 9; k++) {
+     if (inputs[k].checked) {
+     if (k == uniqueItemNumber) {
+     count++;
+     }
+     }
+     }
+     ninthQuestion();
+     }
+
+     function ninthQuestion() {
+     for (var i = 0; i < 9; i++) {
+     inputs[i].checked = false;
+     blocks[i].style.backgroundColor = colors[9][i];
+     blocks[i].style.width = "150px";
+     blocks[i].style.height = "150px";
+     blocks[i].style.margin = "10px";
+     blocks[i].style.float = "left";
+     blocks[i].style.borderRadius = "7px";
+     }
+     resultCalcNinthQuestion();
+     }
+
+     function resultCalcNinthQuestion() {
+     var uniqueItem = colors[9][0];
+     var uniqueItemNumber;
+     for (var i = 0; i < 9; i++) {
+     for (var j = i + 1; j < 9; j++) {
+     if (colors[9][i] == colors[9][j]) {
+     break;
+     } else {
+     uniqueItem = colors[9][i];
+     uniqueItemNumber = i;
+     }
+     }
+     }
+     for (var k = 0; k < 9; k++) {
+     if (inputs[k].checked) {
+     if (k == uniqueItemNumber) {
+     count++;
+     }
+     }
+     }
+     outputResult();
+     }
+
+     function outputResult() {
+     for (var i = 0; i < 9; i++) {
+     blocks[i].style.width = 0;
+     blocks[i].style.height = 0;
+     inputs[i].style.width = 0;
+     inputs[i].style.height = 0;
+     blocks[i].margin = 0;
+     }
+     document.getElementById("resultText").style.border = "solid 2px #bababa";
+     switch (count) {
+     case 0:
+     document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответов. Лучше вообще не браться за работу, связанную с цветами, она будет безнадежно испорчена.";
+     break;
+     case 1:
+     document.getElementById("resultText").innerHTML = "У Вас " + count + "правильный ответ. Лучше вообще не браться за работу, связанную с цветами, она будет безнадежно испорчена.";
+     break;
+     case 2:
+     document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответа. Лучше вообще не браться за работу, связанную с цветами, она будет безнадежно испорчена.";
+     break;
+     case 3:
+     document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответа. Лучше вообще не браться за работу, связанную с цветами, она будет безнадежно испорчена.";
+     break;
+     case 4:
+     document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответа. Вы неплохо различаете цвета, но художник или дизайнер из Вас не получится.";
+     break;
+     case 5:
+     document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответов. Вы неплохо различаете цвета, но художник или дизайнер из Вас не получится.";
+     break;
+     case 6:
+     document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответов. Вы неплохо различаете цвета, но художник или дизайнер из Вас не получится.";
+     break;
+     case 7:
+     document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответов. Вы неплохо различаете цвета, но художник или дизайнер из Вас не получится.";
+     break;
+     case 8:
+     document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответов. Вы гениально различаете цвета, поздравляю!";
+     break;
+     case 9:
+     document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответов. Вы гениально различаете цвета, поздравляю!";
+     break;
+     case 10:
+     document.getElementById("resultText").innerHTML = "У Вас " + count + "правильных ответов. Вы гениально различаете цвета, поздравляю!";
+     break;
+     }
+
+     document.getElementById("resultText").innerHTML = "У Вас " + count + "";
+     document.getElementById("task").innerHTML = "";
+     }*/
 
 </script>
 
