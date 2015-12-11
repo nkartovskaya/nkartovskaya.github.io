@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59426e74-1ed5-4b09-831d-af502f5868fd" name="Default" comment="update">
+    <list default="true" id="59426e74-1ed5-4b09-831d-af502f5868fd" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/import_contract_appendix_details.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/new_import_contract_appendix.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/export_contracts.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/export_contracts.html" />
@@ -81,8 +81,8 @@
       <file leaf-file-name="vmd_all.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/vmd_all.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.96114284">
-              <caret line="226" column="7" selection-start-line="226" selection-start-column="7" selection-end-line="226" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.63085717">
+              <caret line="210" column="59" selection-start-line="210" selection-start-column="59" selection-end-line="210" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -642,7 +642,13 @@
       <option name="project" value="LOCAL" />
       <updated>1449845805075</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="update">
+      <created>1449846623527</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1449846623527</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TodoView">
@@ -656,9 +662,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="942" height="1034" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2710177" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2710177" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938644" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912722" sideWeight="0.49337748" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938644" sideWeight="0.5066225" order="11" side_tool="true" content_ui="tabs" />
@@ -1089,8 +1095,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/vmd_all.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.96114284">
-          <caret line="226" column="7" selection-start-line="226" selection-start-column="7" selection-end-line="226" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.63085717">
+          <caret line="210" column="59" selection-start-line="210" selection-start-column="59" selection-end-line="210" selection-end-column="59" />
           <folding />
         </state>
       </provider>
