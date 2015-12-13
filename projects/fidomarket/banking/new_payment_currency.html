@@ -12,13 +12,70 @@
 <label>Платежное поручение в иностранной валюте</label>
 <p class="comments">Поля приведены для того, чтобы дать пояснения, визуальное отображение полей <br> приводится
     на <a href="images/plat_curr_1.png" target="_blank">скриншоте 1 </a> и <a href="images/plat_curr_2.png" target="_blank">скриншоте 2</a> (скриншоты из реального Бифит)</p>
-<label>Платежное поручение</label><input value="1"><br>
+<label>Платежное поручение </label><input value="1"><br>
 <p class="comments">В текстовом поле находится номер платежного поручения, нумерация последовательная в рамках
     раздела</p>
-<label>От</label><input value="03.11.2015"><br>
+<label>От </label><input value="03.11.2015"><br>
 <p class="comments">По умолчанию заполняется текущая дата</p>
-<hr>
+<label>Дата валютирования</label>
+<input><br>
+<p class="question">Как заполняется дата валютирования?</p>
+<label>Контракт </label><br><br>
+<select>
+    <option>0123/523/65</option>
+    <option>0123/523/55</option>
+    <option>0123/523/45</option>
+</select><br>
+<p class="comments">Поле заполняется выбором из выпадающего списка. В выпадающем списке выводятся все импортные контракты
+    в статусе "Верифицирован". Поле является ключевым для заполнения большинства других полей платежного поручения.</p>
+<label>Дата контракта </label><input value="03.11.2015"><br>
+<p class="comments">Поле заполняется автоматически при выборе контракта в поле Контракт.</p>
+<label>ГТД </label><br><br>
+<select>
+    <option>575077</option>
+    <option>575076</option>
+    <option>575075</option>
+</select><br>
+<p class="comments">Поле заполняется выбором из выпадающего списка. В выпадающем списке выводятся все ГТД по импортному
+    контракту, выбранному в поле Контракт и в статусах: Не использована, Использована частично.</p>
+<label>Дата ГТД </label><input value="03.11.2015"><br>
+<p class="comments">Поле заполняется автоматически при выборе ГТД в поле ГТД.</p>
 
+<label>Валютный счет</label>
+<select>
+    <option>2600123123123</option>
+    <option>2600123123125</option>
+    <option>2600123123128</option>
+</select>
+<p class="comments">Поле заполняется выбором счета из списка. В списке показываются счета только
+    в валюте контракта, выбранного в поле Контракт.</p>
+<label>Сумма платежа </label><input value="1000"><br>
+<p class="comments">Поле заполняется вручную</p>
+<label>Валюта платежа </label><input value="USD"><br>
+<p class="comments">Поле заполняется автоматически при выборе контракта в поле Контракт.</p>
+<label>Код валюты платежа </label><input value="840"><br>
+<p class="comments">Поле заполняется автоматически при выборе контракта в поле Контракт.</p>
+<label>Код операции </label><input value=""><br>
+<p class="question">Надо выяснить, как заполняется это поле.</p>
+<label>Счет для списания комиссионных</label>
+<select>
+    <option>2600123123123</option>
+    <option>2600123123125</option>
+    <option>2600123123128</option>
+</select>
+<p class="comments">Выбор осуществляется выбором из выпадающего списка. В списке выводятся
+    только гривневые счета клиента, с которых разрешены платежи</p>
+<label>Срок выполнения</label><br><br>
+<select>
+    <option>Обычный</option>
+    <option>Срочный</option>
+</select><br><br>
+<label>Назначение платежа</label><br><br>
+<textarea cols="80" rows="5"></textarea><br>
+<label>Дополнительная информация</label><br><br>
+<textarea cols="80" rows="3"></textarea><br><br>
+<hr>
+<p class="comments">Все поля ниже заполняются автоматически согласно условий контракта.</p>
 <p class="topic">Блок плательщика</p>
 <label>Банк плательщика</label><br><br>
 <input value="FIDOBANK (FORMERLY SEB BANK)"><br><br>
@@ -28,7 +85,6 @@
 <label>Страна </label><input value="UKRAINE"><br><br>
 <label>Город </label><input value="KIEV"><br><br>
 <label>Адрес </label><input value="01004 KIEV CHERVONOARMIYSKA STREET 10" style="width: 350px"><br>
-<p class="comments">Все поля заполняются автоматически</p>
 <hr>
 
 <label>Плательщик</label><br><br>
@@ -38,30 +94,10 @@
 <label>Адрес </label><input value="12000 Kyiv, bouleward Polevaya 24D" style="width: 350px"><br><br>
 <label>ФИО </label><input value=""><br><br>
 <label>Телефон </label><input value=""><br>
-<p class="comments">Все поля заполняются автоматически</p>
-<hr>
-
-<label>Валютный счет</label>
-<select>
-    <option>2600123123123</option>
-    <option>2600123123125</option>
-    <option>2600123123128</option>
-</select>
-<p class="comments">Поле заполняется выбором счета из списка. В списке показываются счета только в иностранной валюте</p>
-<label>Сумма платежа</label><input value="1000"><br>
-<p class="comments">Поле заполняется вручную</p>
-<label>Валюта платежа</label><input value="USD"><br>
-<p class="comments">Валюта соответствует валюте счета</p>
-<label>Код валюты платежа</label><input value="840"><br>
-<p class="comments">Код валюты соответствует названию валюты</p>
-<label>Код операции</label><input value=""><br>
-<p class="question">Надо понять, как заполняется это поле</p>
-<hr>
-
 <p class="topic">Конец блока плательщика</p>
+
 <p class="topic">Блок бенефициара</p>
-<p class="comments">Все поля блока могут заполняться вручную или выбрать из справочника бенефициаров</p>
-<label><a href="directory_beneficiary.html">Бенефициар</a></label>
+<label>Бенефициар</label>
 <input><br><br>
 <label>Счет бенефициара</label>
 <input><br><br>
@@ -69,12 +105,10 @@
 <input><br><br>
 <label>Город</label>
 <input><br><br>
-<label><a href="directory_countries.html">Код страны</a></label>
-<input><br>
-<p class="comments">Выбор из справочника</p>
+<label>Код страны</label>
+<input><br><br>
 <label>Страна</label>
-<input><br>
-<p class="comments">Поле заполняется автоматически при выборе страны из справочника</p>
+<input><br><br>
 <label>Адрес</label>
 <input><br><br>
 <hr>
@@ -89,12 +123,10 @@
 <input><br><br>
 <label>Город</label>
 <input><br><br>
-<label><a href="directory_countries.html">Код страны</a></label>
+<label>Код страны</label>
 <input><br><br>
-<p class="comments">Выбор из справочника</p>
 <label>Страна</label>
 <input><br><br>
-<p class="comments">Поле заполняется автоматически при выборе страны из справочника</p>
 <label>Адрес</label>
 <input><br><br>
 <hr>
@@ -107,61 +139,29 @@
 <input><br><br>
 <label>Город</label>
 <input><br><br>
-<label><a href="directory_countries.html">Код страны</a></label>
+<label>Код страны</label>
 <input><br><br>
-<p class="comments">Выбор из справочника</p>
 <label>Страна</label>
 <input><br><br>
-<p class="comments">Поле заполняется автоматически при выборе страны из справочника</p>
 <label>Адрес</label>
 <input><br><br>
 <hr>
 <p class="topic">Конец блока бенефициара</p>
 <hr>
-<label>Назначение платежа</label><br>
-<textarea cols="80" rows="5"></textarea><br>
+
+<label>Расходы и комиссионные </label><input value="за счет плательщика"><br><br>
 <hr>
-<label>Расходы и комиссионные</label><br>
-<select>
-    <option>за счет плательщика</option>
-    <option>за счет плательщика и бенефициара</option>
-    <option>за счет бенефициара</option>
-</select>
-<p class="comments">Выбор осуществляется выбором из выпадающего списка</p>
-<label>Счет для списания комиссионных</label>
-<select>
-    <option>2600123123123</option>
-    <option>2600123123125</option>
-    <option>2600123123128</option>
-</select>
-<p class="comments">Выбор осуществляется выбором из выпадающего списка. В списке выводятся только гривневые счета
-    клиента, с которых разрешены платежи</p>
-<label>Срок выполнения</label>
-<select>
-    <option>Обычный</option>
-    <option>Срочный</option>
-    <option>Быстрый</option>
-</select>
-<p class="question">Надо получить полный список</p>
-<p class="comments">Выбор осуществляется выбором из выпадающего списка.</p>
-<label>Дата валютирования</label>
-<input><br><br>
-<label>Дополнительная информация</label><br>
-<textarea cols="80" rows="3"></textarea><br>
-<input type="checkbox"><label>Сохранить бенефициара в справочнике</label><br><br>
-<p class="comments">При сохранении платежа с выбраным чекбоксом, бенефициар добавляется к справочнику бенефициаров.</p>
+
 <button><a href="payments_UAH.html">Сохранить</a></button>
 <p class="comments">После нажатия кнопки платеж сохраняется и осуществляется возврат на страницу платежей в иностранной валюте</p>
 <button><a href="#">Подписать</a></button>
 <p class="comments">При нажатии на кнопку документ сохраняется и появляется окно для выбора ЭЦП, до нажатия оно скрыто</p>
-<input placeholder="ЭЦП"><button>Обзор</button><button><a href="payments_UAH.html">Применить</a></button>
-<p class="comments">При нажатии на кнопку "Обзор" на экран выводится окно проводника для поиска файла ЭЦП. После выбора нужного файла, <br>
-    его название появляется в текстовом поле и становится активной кнопка "Применить". <br>
-    При нажатии на нее инициируется процесс наложения ЭЦП на платеж и отправка их в банк<br>
-    После этого-переход на страницу платежей в иностранной валюте
+<input placeholder="ЭЦП"><button>Обзор</button><button><a href="payments_currency.html">Применить</a></button>
+<p class="comments">При нажатии на кнопку "Обзор" на экран выводится окно проводника для поиска файла ЭЦП. После выбора нужного файла, его название появляется в текстовом поле и становится активной кнопка "Применить".
+    При нажатии на нее инициируется процесс наложения ЭЦП на платеж и отправка их в банк. После этого-переход на страницу платежей в иностранной валюте
 </p>
 </div>
-<button><a href="payments_UAH.html">Отменить</a></button><br>
+<button><a href="payments_currency.html">Отменить</a></button><br>
 <p class="comments">После нажатия кнопки осуществляется возврат на страницу платежей в иностранной валюте
     без сохранения платежа</p>
 </body>

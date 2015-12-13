@@ -10,121 +10,7 @@
 <iframe id="nav" src="main_navigation.html"></iframe><hr>
 <!------------Content----------------->
 <label>Платежное получение в иностранной валюте</label>
-<label>Платежное поручение</label><input value="1"><br>
-<label>От</label><input value="03.11.2015"><br>
-<hr>
-
-<p class="topic">Блок плательщика</p>
-<label>Банк плательщика</label><br><br>
-<input value="FIDOBANK (FORMERLY SEB BANK)"><br><br>
-<label>BIC </label><input value="FDBKUAUX"><br><br>
-<label>Тип </label><input value="SWIFT"><br><br>
-<label>МФО </label><input value="380009"><br><br>
-<label>Страна </label><input value="UKRAINE"><br><br>
-<label>Город </label><input value="KIEV"><br><br>
-<label>Адрес </label><input value="01004 KIEV CHERVONOARMIYSKA STREET 10" style="width: 350px"><br>
-<hr>
-
-<label>Плательщик</label><br><br>
-<input value="TESTERS LTD"><br><br>
-<label>ЭДРПОУ </label><input value="02315602"><br><br>
-<label>Страна </label><input value="UKRAINE"><br><br>
-<label>Адрес </label><input value="12000 Kyiv, bouleward Polevaya 24D" style="width: 350px"><br><br>
-<label>ФИО </label><input value=""><br><br>
-<label>Телефон </label><input value=""><br>
-<hr>
-
-<label>Валютный счет</label>
-<select>
-    <option>2600123123123</option>
-    <option>2600123123125</option>
-    <option>2600123123128</option>
-</select><br><br>
-<label>Сумма платежа</label><input value="1000"><br><br>
-<label>Валюта платежа</label><input value="USD"><br><br>
-<label>Код валюты платежа</label><input value="840"><br><br>
-<label>Код операции</label><input value=""><br><br>
-<hr>
-
-<p class="topic">Конец блока плательщика</p>
-<p class="topic">Блок бенефициара</p>
-<label><a href="directory_beneficiary.html">Бенефициар</a></label>
-<input><br><br>
-<label>Счет бенефициара</label>
-<input><br><br>
-<label>IBAN</label>
-<input><br><br>
-<label>Город</label>
-<input><br><br>
-<label><a href="directory_countries.html">Код страны</a></label>
-<input><br>
-<label>Страна</label>
-<input><br>
-<label>Адрес</label>
-<input><br><br>
-<hr>
-
-<label>Банк бенефициара</label>
-<input><br><br>
-<label>Счет</label>
-<input><br><br>
-<label>ВIC</label>
-<input><br><br>
-<label>Тип</label>
-<input><br><br>
-<label>Город</label>
-<input><br><br>
-<label><a href="directory_countries.html">Код страны</a></label>
-<input><br><br>
-<label>Страна</label>
-<input><br><br>
-<label>Адрес</label>
-<input><br><br>
-<hr>
-
-<label>Банк-посредник</label>
-<input><br><br>
-<label>ВIC</label>
-<input><br><br>
-<label>Тип</label>
-<input><br><br>
-<label>Город</label>
-<input><br><br>
-<label><a href="directory_countries.html">Код страны</a></label>
-<input><br><br>
-<label>Страна</label>
-<input><br><br>
-<label>Адрес</label>
-<input><br><br>
-<hr>
-
-<p class="topic">Конец блока бенефициара</p>
-<hr>
-<label>Назначение платежа</label><br>
-<textarea cols="80" rows="5"></textarea><br>
-<hr>
-<label>Расходы и комиссионные</label><br><br>
-<select>
-    <option>за счет плательщика</option>
-    <option>за счет плательщика и бенефициара</option>
-    <option>за счет бенефициара</option>
-</select><br><br>
-<label>Счет для списания комиссионных</label><br><br>
-<select>
-    <option>2600123123123</option>
-    <option>2600123123125</option>
-    <option>2600123123128</option>
-</select><br><br>
-<label>Срок выполнения</label><br><br>
-<select>
-    <option>Срочный</option>
-    <option>Не срочный</option>
-    <option>Хоть через год</option>
-</select>
-<label>Дата валютирования</label><br><br>
-<input><br><br>
-<label>Дополнительная информация</label><br><br>
-<textarea cols="80" rows="3"></textarea><br><br>
+<p class="changes">Заполнится в зависимости от концепции заполнения <a href="new_payment_currency.html">ПД в ин. валюте</a></p>
 <button style="width: 30px"><a href="#"><img src="images/sign.jpg" title="Подписать"></a></button>
 <button style="width: 30px"><a href="new_payment_UAH.html"><img src="images/edit.png" title="Редактировать"></a></button>
 <button style="width: 30px"><a href="new_payment_UAH.html"><img src="images/copy.png" title="Копировать"></a></button>
@@ -132,9 +18,7 @@
 <button style="width: 30px"><a href="#"><img src="images/save.png" title="Сохранить"></a></button>
 <button style="width: 30px"><a href="#"><img src="images/delete.png" title="Удалить"></a></button>
 <p class="comments">Комментарии к кнопкам управления на <a href="payments_currency.html">этой странице</a></p>
-<label class="changes"><a href="#">Связанные документы</a></label><br>
-<p class="comments">Сейчас в Бифите нет документов, с которым может быть связано ПД в иностранной валюте. Но в случае,
-    если будет реализовываться модуль экспортно-импортных договоров, связь с ними будет. Поэтому пока эта ссылка неактивна,
-    но есть на странице</p>
+<label><a href="#">Связанные контракты</a></label><br>
+<label><a href="#">Связанные ГТД</a></label><br>
 </body>
 </html>

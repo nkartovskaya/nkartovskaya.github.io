@@ -32,6 +32,8 @@ tr.main_nav a {
 
 .changes {
     background-color: magenta;
+    width: 600px;
+    font-size: 12px;
 }
 
 #nav {
