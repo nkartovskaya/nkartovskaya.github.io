@@ -7,11 +7,12 @@
 </head>
 <body>
 <div>Надежда Картовская ООО "Ромашка"</div>
-<iframe id="nav" src="main_navigation.html"></iframe><hr>
+<iframe id="nav" src="main_navigation.html"></iframe>
+<hr>
 <!------------Content----------------->
 
-	<label>Импортный контракт</label><br><br>
-	<p class="comments">Часть полей деталей контракта могут быть скрыты и открываться каким-либо значком, например, "+"</p>
+<label>Импортный контракт</label><br><br>
+<p class="comments">Часть полей деталей контракта могут быть скрыты и открываться каким-либо значком, например, "+"</p>
 <label>Тип контракта</label><input value="Соглашение"><br><br>
 <label>Номер контракта </label><input value="12/52/6532"><br><br>
 <label>Дата начала </label><input value="03.11.2015"><br><br>
@@ -23,9 +24,9 @@
 <label>Адрес партнера </label><input><br><br>
 <hr>
 
-	<label>Сумма контракта</label><input value="10000"><br><br>
-	<label>Валюта </label><input><br><br>
-	<label>Форма оплаты</label><input value="Предоплата"><br><br>
+<label>Сумма контракта</label><input value="10000"><br><br>
+<label>Валюта </label><input><br><br>
+<label>Форма оплаты</label><input value="Предоплата"><br><br>
 <label>Условия оплаты комиссии</label><br><br>
 <select>
     <option>за счет плательщика</option>
@@ -35,7 +36,7 @@
 <hr>
 
 <label>Платежные реквизиты партнера</label><br><br>
-	<label>Бенефициар</label>
+<label>Бенефициар</label>
 <input><br><br>
 <label>Счет бенефициара</label>
 <input><br><br>
@@ -86,31 +87,41 @@
 <hr>
 <label>Файлы контракта</label><br><br>
 <table>
-	<tr class="nav_second_level">
-	<td>Файл</td>
-	<td>Название</td>
-	<td>Последнее изменение</td>
-		<td>Удалить файл</td>
-	</tr>
-	<tr>
-	<td><a href="images/contract_file.png"><img src="images/contract.jpg"></a></td>
-	<td>contract_page1</td>
-	<td>10.12.2015</td>
-		<td><button style="width: 30px"><a href="export_contracts.html"><img src="images/delete.png" title="Удалить"></a></button></td>
-	</tr>
-	<tr>
-	<td><a href="images/contract_file.png"><img src="images/contract.jpg"></a></td>
-	<td>contract_page2</td>
-	<td>10.12.2015</td>
-		<td><button style="width: 30px"><a href="export_contracts.html"><img src="images/delete.png" title="Удалить"></a></button></td>
-	</tr>
-	</table>
-	<hr>
-	<label>Приложения к контракту</label><br>
-	<a href="import_contract_appendix_details.html">Приложение 1</a><br>
-	<a href="import_contract_appendix_details.html">Приложение 1</a><br>
-	<a href="import_contract_appendix_details.html">Приложение 1</a><br>
-	<hr>
+    <tr class="nav_second_level">
+        <td>Файл</td>
+        <td>Название</td>
+        <td>Последнее изменение</td>
+        <td>Удалить файл</td>
+    </tr>
+    <tr>
+        <td><a href="images/contract_file.png"><img src="images/contract.jpg"></a></td>
+        <td>contract_page1</td>
+        <td>10.12.2015</td>
+        <td>
+            <button style="width: 30px"><a href="export_contracts.html"><img src="images/delete.png"
+                                                                             title="Удалить"></a></button>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="images/contract_file.png"><img src="images/contract.jpg"></a></td>
+        <td>contract_page2</td>
+        <td>10.12.2015</td>
+        <td>
+            <button style="width: 30px"><a href="export_contracts.html"><img src="images/delete.png"
+                                                                             title="Удалить"></a></button>
+        </td>
+    </tr>
+</table>
+<hr>
+<label>Приложения к контракту</label><br>
+<a href="import_contract_appendix_details.html">Приложение 1</a><br>
+<a href="import_contract_appendix_details.html">Приложение 1</a><br>
+<a href="import_contract_appendix_details.html">Приложение 1</a><br><br>
+<button><a href=new_export_contract_appendix.html>Добавить новое приложение</a></button>
+<br>
+<p class="comments">При нажатии на кнопку осуществляется переход на страницу создания нового приложения к контракту.</p>
+
+<hr>
 <label>Комментарии по верификации</label><br><br>
 <label>Комментарий банка</label><br>
 <textarea cols="50" rows="5" style="background-color: #cecece"></textarea><br>
@@ -129,26 +140,39 @@
 <label><a href="#">Связанные Заявки на покупку валюты</a></label><br>
 <label><a href="#">Связанные Платежи в валюте</a></label><br><br>
 
-	<button style="width: 30px"><a href="new_import_contract.html"><img src="images/edit.png"
-                                                                title="Редактировать"></a></button>
+<button style="width: 30px"><a href="new_import_contract.html"><img src="images/edit.png"
+                                                                    title="Редактировать"></a></button>
 <button style="width: 30px"><a href="new_import_contract.html"><img src="images/copy.png"
-                                                                title="Копировать"></a></button>
-<button style="width: 30px"><a href="import_contracts.html"><img src="images/delete.png" title="Удалить"></a></button><br><br>
+                                                                    title="Копировать"></a></button>
+<button style="width: 30px"><a href="import_contracts.html"><img src="images/delete.png" title="Удалить"></a></button>
+<br><br>
 
-	<p class="comments">При нажатии кнопки Редактировать (в тех статусах, при которых кнопка активна), становятся доступными кнопки Удалить в таблице файлов контракта, становятся доступными для редактирования поля контракта, появляется блок, расположенный ниже этого комментария. Т. е. пользователь имеет возможности внести необходимые изменения, сохранить их и отправить на верификацию.</p>
+<p class="comments">При нажатии кнопки Редактировать (в тех статусах, при которых кнопка активна), становятся доступными
+    кнопки Удалить в таблице файлов контракта, становятся доступными для редактирования поля контракта, появляется блок,
+    расположенный ниже этого комментария. Т. е. пользователь имеет возможности внести необходимые изменения, сохранить
+    их и отправить на верификацию.</p>
 
 <label>Загрузка файлов контракта</label><br><br>
-<input><button>Обзор</button><button><a>Загрузить</a></button><br><br>
+<input>
+<button>Обзор</button>
+<button><a>Загрузить</a></button>
+<br><br>
 <p class="comments">При нажатии на кнопку Обзор, открывается окно проводника и пользователь получает возможность
-выбрать файлы контракта. При нажатии на кнопку Загрузить, инициируется процесс загрузки файлов контракта Допускается загрузка нескольких файлов. Для контрактов в статусах Новый, Отклонен, На верификации допускается удаление файлов и повторная загрузка.</p>
+    выбрать файлы контракта. При нажатии на кнопку Загрузить, инициируется процесс загрузки файлов контракта Допускается
+    загрузка нескольких файлов. Для контрактов в статусах Новый, Отклонен, На верификации допускается удаление файлов и
+    повторная загрузка.</p>
 
 <p class="question">Уточнить допустимые форматы файлов и размеры. Сделать подсказку по этому поводу.</p>
 <button><a href="export_contracts.html">Сохранить</a></button>
-<p class="comments">После нажатия кнопки профиль контракта сохраняется и осуществляется возврат на страницу импортных контрактов в статусе Новый</p>
-<button><a href="export_contracts.html">Отменить</a></button><br>
-<p class="comments">После нажатия кнопки осуществляется возврат на страницу импортных контрактов без сохранения профиля контракта</p>
+<p class="comments">После нажатия кнопки профиль контракта сохраняется и осуществляется возврат на страницу импортных
+    контрактов в статусе Новый</p>
+<button><a href="export_contracts.html">Отменить</a></button>
+<br>
+<p class="comments">После нажатия кнопки осуществляется возврат на страницу импортных контрактов без сохранения профиля
+    контракта</p>
 
-	<button><a href="export_contracts.html">Отправить на верификацию</a></button><br>
+<button><a href="export_contracts.html">Отправить на верификацию</a></button>
+<br>
 <p class="comments">После нажатия кнопки осуществляется возврат на страницу экспортных контрактов
     без сохранения профиля контракта в статусе На верификации</p>
 

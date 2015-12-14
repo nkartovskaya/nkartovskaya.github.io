@@ -15,9 +15,12 @@
     <option>Контракт</option>
     <option>Договор</option>
     <option>Соглашение</option>
-</select><br>
-<p class="comments">Поле заполняется выбором из выпадающего списка</p>
-<p class="question">Выяснить реальный перечень типов контрактов</p>
+    <option>Ввести вручную</option>
+</select><br></select><br>
+
+<label>Свой вариант</label><input value="какой-то другой тип"><br>
+<p class="comments">Поле заполняется выбором из выпадающего списка. Если выбран пункт ввести вручную, под выпадающим
+    списком появляется текстовое поле для ручного ввода типа контракта.</p>
 <label>Номер контракта</label><input value="12/52/6532"><br>
 <p class="comments">В текстовом поле находится номер контракта, пользователь вводит его вручную</p>
 <label>Дата начала</label><input value="03.11.2015"><br>
@@ -26,20 +29,27 @@
 <p class="comments">Дата окончания заполняется выбором из календаря</p>
 <hr>
 
-<label><a href="directory_beneficiary.html">Партнер</a></label><input><br>
-<p class="comments">Поле может быть заполнено выбором из справочника партнеров или вручную латинницей</p>
-<label><a href="directory_countries.html">Страна партнера</a></label><input><br>
-<p class="comments">Поле может быть заполнено только выбором из справочника стран</p>
-<label><a href="directory_countries.html">Адрес партнера</a></label><input><br>
-<hr>
-
-<p class="question">Может полностью изложить блок бенефициара <a href="new_payment_currency.html">отсюда?</a></p>
-<hr>
-
 <label>Сумма контракта</label><input value="10000"><br>
 <p class="comments">Поле заполняется вручную</p>
 <label><a href="directory_currency.html">Валюта</a></label><input><br>
 <p class="comments">Поле может быть заполнено только выбором из справочника валют</p>
+<hr>
+
+<label>Партнер</label><input><br>
+<p class="comments">Поле может быть заполнено выбором из справочника партнеров или вручную латинницей</p>
+<label><a href="directory_countries.html">Страна партнера</a></label><input><br>
+<p class="comments">Поле может быть заполнено только выбором из справочника стран</p>
+<label>Адрес партнера</label><input><br>
+<hr>
+
+<label>SWIFT</label><input><br>
+<p class="comments">Поле заполняется вручную</p>
+<label>Название банка</a></label><input><br><br>
+<p class="comments">Поле заполняется вручную</p>
+<label><a href="directory_countries.html">Страна банка</a></label><input><br>
+<p class="comments">Поле заполняется выбором из справочника</p>
+<label>Адрес банка</label><input><br>
+<p class="comments">Поле заполняется вручную</p>
 <hr>
 
 <label>Условия оплаты комиссии</label>
