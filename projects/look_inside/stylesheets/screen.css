@@ -1,1 +1,505 @@
-#content #first,#content #second,#content #third,#content #fourth,#content #fifth,#content #sixth,#content #seventh,#content #eighth,#content #ninth{width:30px;height:30px;float:left;margin:5px}#content #first input,#content #second input,#content #third input,#content #fourth input,#content #fifth input,#content #sixth input,#content #seventh input,#content #eighth input,#content #ninth input{visibility:hidden}#content #first:hover input,#content #second:hover input,#content #third:hover input,#content #fourth:hover input,#content #fifth:hover input,#content #sixth:hover input,#content #seventh:hover input,#content #eighth:hover input,#content #ninth:hover input{visibility:visible}body{background:linear-gradient(to right, #3E5D5F, #081113);margin:0;padding:0;font-family:'Play', sans-serif}.wrapper{margin:0;padding:0}header{background:linear-gradient(to right, #203E40, #111F21);height:230px;margin:0;box-shadow:0 0 15px #000}header .logo_top_left,header .logo_bottom_left,header .logo_top_right,header .logo_bottom_right{width:70px;height:70px;box-shadow:#232323 2px 3px;position:absolute}header .logo_top_left{background-color:#2121eb;border-top-right-radius:50%;border-bottom-left-radius:50%;border-top-left-radius:50%;left:500px}header .logo_bottom_left{background-color:#51eb39;border-bottom-left-radius:50%;border-top-left-radius:50%;border-bottom-right-radius:50%;top:120px;left:500px}header .logo_top_right{background-color:#b3fc10;border-top-right-radius:50%;border-top-left-radius:50%;border-bottom-right-radius:50%;left:576px}header .logo_bottom_right{background-color:#dc3055;border-bottom-left-radius:50%;border-top-right-radius:50%;border-bottom-right-radius:50%;left:576px;top:120px}header .logo_nav{width:999px;height:220px;background-color:#007cbd;margin:0 auto}header .logo{float:left;margin:45px 0 0 0}header nav ul{margin:0}header nav ul li{display:block;float:left;height:40px;margin:139px 2px 2px 2px;padding:12px 12px 0 12px;border-radius:7px;background-color:#30544F;box-shadow:#222222 2px 2px 2px}header nav ul li a{text-decoration:none;color:#bababa;text-shadow:#434343 1px 1px;font-size:1.5em}header nav ul li:hover{background-color:#b3fc10;border-bottom:solid #696969 1px}header nav ul li:hover a{color:#1a2e29;text-shadow:#bcbcbc 1px 1px}header nav ul li:first-child{margin-left:170px}.content{width:999px;min-height:600px;height:auto;margin:0 auto;overflow:hidden}.content #content{padding:0 15% 0 15%}.content #content h1#task{color:#bababa;text-shadow:#434343 1px 1px;text-align:center;margin:35px 0 0 0}.content #content div#resultText{padding:20px;border-radius:7px;margin-top:35px}.content #content div#resultText p{color:#bababa;font-size:20px;text-align:center}.content #content #first input,.content #content #second input,.content #content #third input,.content #content #fourth input,.content #content #fifth input,.content #content #sixth input,.content #content #seventh input,.content #content #eighth input,.content #content #ninth input{visibility:hidden}.content button#start{width:300px;height:100px;border:solid 2px #B3FC10;background-color:transparent;color:#B3FC10;text-shadow:#bcbcbc 1px 1px;font-size:25px;border-radius:7px;position:relative;margin:0 25% 10% 25%}footer{background:linear-gradient(to right, #203E40, #111F21);height:150px;box-shadow:0 0 15px #000}footer .logo_social_icons{width:999px;margin:0 auto;background-color:#007cbd}footer .logo_social_icons .sprite-social_facebook{width:64px;height:64px;position:relative;background:url(../images/sprites_icons.png) no-repeat 0px 0px;float:left}footer .logo_social_icons .sprite-social_google{width:64px;height:64px;position:relative;background:url(../images/sprites_icons.png) no-repeat 0px -64px;float:left}footer .logo_social_icons .sprite-social_linkedin{width:64px;height:64px;position:relative;background:url(../images/sprites_icons.png) no-repeat 0px -128px;float:left}footer .logo_social_icons .sprite-social_twitter{width:64px;height:64px;position:relative;background:url(../images/sprites_icons.png) no-repeat 0px -192px;float:left}footer .logo_social_icons p{display:inline-block;margin:120px 0 0 100px;color:#bababa;text-shadow:#434343 1px 1px}footer .logo{float:left;margin:15px 145px 0 15px}@media screen and (max-width: 999px) and (min-width: 800px){header{width:100%;height:86px}header .logo_nav{width:100%}header .logo_nav .logo{margin:0 0 0 10px;height:86px}header .logo_nav .logo img{width:200px}header .logo_nav nav{width:100%}header .logo_nav nav ul{width:100%}header .logo_nav nav ul li{margin:40px 2px 0 2px;height:35px}header .logo_nav nav ul li a{font-size:1.1em}header .logo_nav nav ul li:first-child{margin-left:25px}.content{width:100%}.content .foto{height:221px;margin:15px 15px 0 15px}.content .foto img{width:300px}.content article{width:100%;font-size:0.9em;padding:20px 0 20px 0;margin:0}.content article div.shelf img{width:300px}.content article img.invitation{margin:20px}.content article a.invitation{margin:0 0 0 20px}.content article div.sprite-house,.content article div.sprite-phone,.content article div.sprite-skype{margin-left:20px}.content article div.map{width:600px;height:450px;margin-left:20px}.content article iframe.map{width:600px;height:450px}.content article form label{margin:0 0 0 20px}.content article form input{margin:0 0 0 20px}.content article form textarea{margin:0 0 0 20px}.content article p{margin:0 20px 0 20px}footer{width:100%;height:86px}footer .logo_social_icons{width:100%;height:86px}footer .logo_social_icons .logo{margin:0 50px 0 10px;height:86px}footer .logo_social_icons .logo img{width:200px}footer .logo_social_icons .social_icons{width:100%}footer .logo_social_icons .social_icons p{margin:10px 0 0 0;font-size:1em}footer .logo_social_icons p{margin-left:20px}}@media screen and (max-width: 799px) and (min-width: 320px){header{width:100%;height:200px}header .logo_nav{width:100%}header .logo_nav .logo{margin:0 auto;padding-top:10px;height:54px;float:none}header .logo_nav .logo img{width:100px;margin:0 0 0 10px}header .logo_nav nav{width:100%;margin:0;padding:0}header .logo_nav nav ul{width:100%;margin:0;padding:0}header .logo_nav nav ul li{margin:0;padding:0 5px 5px 5px;height:22px;float:none;text-align:center}header .logo_nav nav ul li a{font-size:0.9em}.content{width:100%}.content .foto{height:148px;margin:8px 8px 0 8px}.content .foto img{width:200px}.content article{width:100%;font-size:0.8em;padding:20px 0 20px 0;margin:0}.content article div.shelf img{width:150px}.content article div.sprite-house,.content article div.sprite-phone,.content article div.sprite-skype{visibility:hidden;width:0}.content article p.address,.content article p.phone,.content article p.skype{margin:5px 0 5px 20px}.content article div.map{width:300px;height:200px}.content article iframe.map{width:300px;height:200px}.content article form label{margin:0 0 0 10px}.content article form input{width:200px;margin:0 0 0 10px}.content article form textarea{width:250px;height:150px;margin:0 0 0 10px}.content article form input.button{height:28px}.content article p{margin:0 20px 0 20px}.content article img.invitation{width:300px}footer{width:100%;height:100px}footer .logo_social_icons{width:100%;height:64px}footer .logo_social_icons .logo{margin:0 30px 0 10px;padding-top:10px;height:54px}footer .logo_social_icons .logo img{width:100px}footer .logo_social_icons .social_icons{width:100%;float:none}footer .logo_social_icons .social_icons p{margin:1px 0 0 0;font-size:0.6em}footer .logo_social_icons p{margin-left:20px;font-size:0.6em}}.sprite-social_facebook_box_blue{width:60px;height:60px;background:url(../images/sprites_icons.png) no-repeat 0px 0px}.sprite-social_google_box_blue{width:60px;height:60px;background:url(../images/sprites_icons.png) no-repeat 0px -60px}.sprite-social_linkedin_box_blue{width:60px;height:60px;background:url(../images/sprites_icons.png) no-repeat 0px -120px}.sprite-social_twitter_box_blue{width:60px;height:60px;background:url(../images/sprites_icons.png) no-repeat 0px -180px}.sprite-social_yahoo_box_lilac{width:60px;height:60px;background:url(../images/sprites_icons.png) no-repeat 0px -240px}
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 8, ../sass/screen.scss */
+#content #first,
+#content #second,
+#content #third,
+#content #fourth,
+#content #fifth,
+#content #sixth,
+#content #seventh,
+#content #eighth,
+#content #ninth {
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin: 5px; }
+  /* line 21, ../sass/screen.scss */
+  #content #first input,
+  #content #second input,
+  #content #third input,
+  #content #fourth input,
+  #content #fifth input,
+  #content #sixth input,
+  #content #seventh input,
+  #content #eighth input,
+  #content #ninth input {
+    visibility: visible; }
+/* line 35, ../sass/screen.scss */
+#content #first:hover input,
+#content #second:hover input,
+#content #third:hover input,
+#content #fourth:hover input,
+#content #fifth:hover input,
+#content #sixth:hover input,
+#content #seventh:hover input,
+#content #eighth:hover input,
+#content #ninth:hover input {
+  visibility: visible; }
+
+/* line 42, ../sass/screen.scss */
+body {
+  background: -webkit-linear-gradient(left, #3E5D5F, #081113);
+  background: linear-gradient(to right, #3E5D5F, #081113);
+  margin: 0;
+  padding: 0;
+  font-family: 'Play', sans-serif; }
+
+/* line 49, ../sass/screen.scss */
+.wrapper {
+  margin: 0;
+  padding: 0; }
+
+/* line 54, ../sass/screen.scss */
+header {
+  background: -webkit-linear-gradient(left, #203E40, #111F21);
+  background: linear-gradient(to right, #203E40, #111F21);
+  height: 230px;
+  margin: 0;
+  box-shadow: 0 0 15px black; }
+  /* line 60, ../sass/screen.scss */
+  header .logo_top_left,
+  header .logo_bottom_left,
+  header .logo_top_right,
+  header .logo_bottom_right {
+    width: 70px;
+    height: 70px;
+    box-shadow: #232323 2px 3px;
+    position: absolute; }
+  /* line 70, ../sass/screen.scss */
+  header .logo_top_left {
+    background-color: #2121eb;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    left: 500px; }
+  /* line 78, ../sass/screen.scss */
+  header .logo_bottom_left {
+    background-color: #51eb39;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    top: 120px;
+    left: 500px; }
+  /* line 87, ../sass/screen.scss */
+  header .logo_top_right {
+    background-color: #b3fc10;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    left: 576px; }
+  /* line 95, ../sass/screen.scss */
+  header .logo_bottom_right {
+    background-color: #dc3055;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    left: 576px;
+    top: 120px; }
+  /* line 104, ../sass/screen.scss */
+  header .logo_nav {
+    width: 999px;
+    height: 220px;
+    background-color: #007cbd;
+    margin: 0 auto; }
+  /* line 111, ../sass/screen.scss */
+  header .logo {
+    float: left;
+    margin: 45px 0 0 0; }
+  /* line 118, ../sass/screen.scss */
+  header nav ul {
+    margin: 0; }
+  /* line 122, ../sass/screen.scss */
+  header nav ul li {
+    display: block;
+    float: left;
+    height: 40px;
+    margin: 139px 2px 2px 2px;
+    padding: 12px 12px 0 12px;
+    border-radius: 7px;
+    background-color: #30544F;
+    box-shadow: #222222 2px 2px 2px; }
+  /* line 133, ../sass/screen.scss */
+  header nav ul li a {
+    text-decoration: none;
+    color: #bababa;
+    text-shadow: #434343 1px 1px;
+    font-size: 1.5em; }
+  /* line 140, ../sass/screen.scss */
+  header nav ul li:hover {
+    background-color: #b3fc10;
+    border-bottom: solid #696969 1px; }
+  /* line 145, ../sass/screen.scss */
+  header nav ul li:hover a {
+    color: #1a2e29;
+    text-shadow: #bcbcbc 1px 1px; }
+  /* line 150, ../sass/screen.scss */
+  header nav ul li:first-child {
+    margin-left: 170px; }
+
+/* line 156, ../sass/screen.scss */
+.content {
+  width: 999px;
+  min-height: 600px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden; }
+  /* line 163, ../sass/screen.scss */
+  .content #content {
+    padding: 0 15% 0 15%; }
+    /* line 166, ../sass/screen.scss */
+    .content #content h1#task {
+      color: #bababa;
+      text-shadow: #434343 1px 1px;
+      text-align: center;
+      margin: 35px 0 0 0; }
+    /* line 172, ../sass/screen.scss */
+    .content #content div#resultText {
+      padding: 20px;
+      border-radius: 7px; }
+      /* line 175, ../sass/screen.scss */
+      .content #content div#resultText p {
+        color: #bababa;
+        font-size: 20px;
+        text-align: center; }
+    /* line 191, ../sass/screen.scss */
+    .content #content #first input,
+    .content #content #second input,
+    .content #content #third input,
+    .content #content #fourth input,
+    .content #content #fifth input,
+    .content #content #sixth input,
+    .content #content #seventh input,
+    .content #content #eighth input,
+    .content #content #ninth input {
+      visibility: hidden; }
+  /* line 197, ../sass/screen.scss */
+  .content button#start {
+    width: 300px;
+    height: 100px;
+    border: solid 2px #B3FC10;
+    background-color: transparent;
+    color: #B3FC10;
+    text-shadow: #bcbcbc 1px 1px;
+    font-size: 25px;
+    border-radius: 7px;
+    position: relative;
+    margin: 0 25% 10% 25%; }
+
+/* line 212, ../sass/screen.scss */
+footer {
+  background: -webkit-linear-gradient(left, #203E40, #111F21);
+  background: linear-gradient(to right, #203E40, #111F21);
+  height: 150px;
+  box-shadow: 0 0 15px black; }
+  /* line 217, ../sass/screen.scss */
+  footer .logo_social_icons {
+    width: 999px;
+    margin: 0 auto;
+    background-color: #007cbd; }
+    /* line 222, ../sass/screen.scss */
+    footer .logo_social_icons .sprite-social_facebook {
+      width: 64px;
+      height: 64px;
+      position: relative;
+      background: url(../images/sprites_icons.png) no-repeat 0px 0px;
+      float: left; }
+    /* line 229, ../sass/screen.scss */
+    footer .logo_social_icons .sprite-social_google {
+      width: 64px;
+      height: 64px;
+      position: relative;
+      background: url(../images/sprites_icons.png) no-repeat 0px -64px;
+      float: left; }
+    /* line 236, ../sass/screen.scss */
+    footer .logo_social_icons .sprite-social_linkedin {
+      width: 64px;
+      height: 64px;
+      position: relative;
+      background: url(../images/sprites_icons.png) no-repeat 0px -128px;
+      float: left; }
+    /* line 243, ../sass/screen.scss */
+    footer .logo_social_icons .sprite-social_twitter {
+      width: 64px;
+      height: 64px;
+      position: relative;
+      background: url(../images/sprites_icons.png) no-repeat 0px -192px;
+      float: left; }
+    /* line 250, ../sass/screen.scss */
+    footer .logo_social_icons p {
+      display: inline-block;
+      margin: 120px 0 0 100px;
+      color: #bababa;
+      text-shadow: #434343 1px 1px; }
+  /* line 258, ../sass/screen.scss */
+  footer .logo {
+    float: left;
+    margin: 15px 145px 0 15px; }
+
+@media screen and (max-width: 999px) and (min-width: 800px) {
+  /* line 265, ../sass/screen.scss */
+  header {
+    width: 100%;
+    height: 86px; }
+    /* line 268, ../sass/screen.scss */
+    header .logo_nav {
+      width: 100%; }
+      /* line 270, ../sass/screen.scss */
+      header .logo_nav .logo {
+        margin: 0 0 0 10px;
+        height: 86px; }
+        /* line 273, ../sass/screen.scss */
+        header .logo_nav .logo img {
+          width: 200px; }
+      /* line 277, ../sass/screen.scss */
+      header .logo_nav nav {
+        width: 100%; }
+        /* line 279, ../sass/screen.scss */
+        header .logo_nav nav ul {
+          width: 100%; }
+          /* line 281, ../sass/screen.scss */
+          header .logo_nav nav ul li {
+            margin: 40px 2px 0 2px;
+            height: 35px; }
+            /* line 284, ../sass/screen.scss */
+            header .logo_nav nav ul li a {
+              font-size: 1.1em; }
+          /* line 288, ../sass/screen.scss */
+          header .logo_nav nav ul li:first-child {
+            margin-left: 25px; }
+
+  /* line 296, ../sass/screen.scss */
+  .content {
+    width: 100%; }
+    /* line 298, ../sass/screen.scss */
+    .content .foto {
+      height: 221px;
+      margin: 15px 15px 0 15px; }
+      /* line 301, ../sass/screen.scss */
+      .content .foto img {
+        width: 300px; }
+    /* line 305, ../sass/screen.scss */
+    .content article {
+      width: 100%;
+      font-size: 0.9em;
+      padding: 20px 0 20px 0;
+      margin: 0; }
+      /* line 312, ../sass/screen.scss */
+      .content article div.shelf img {
+        width: 300px; }
+      /* line 317, ../sass/screen.scss */
+      .content article img.invitation {
+        margin: 20px; }
+      /* line 321, ../sass/screen.scss */
+      .content article a.invitation {
+        margin: 0 0 0 20px; }
+      /* line 325, ../sass/screen.scss */
+      .content article div.sprite-house,
+      .content article div.sprite-phone,
+      .content article div.sprite-skype {
+        margin-left: 20px; }
+      /* line 331, ../sass/screen.scss */
+      .content article div.map {
+        width: 600px;
+        height: 450px;
+        margin-left: 20px; }
+      /* line 337, ../sass/screen.scss */
+      .content article iframe.map {
+        width: 600px;
+        height: 450px; }
+      /* line 342, ../sass/screen.scss */
+      .content article form label {
+        margin: 0 0 0 20px; }
+      /* line 345, ../sass/screen.scss */
+      .content article form input {
+        margin: 0 0 0 20px; }
+      /* line 348, ../sass/screen.scss */
+      .content article form textarea {
+        margin: 0 0 0 20px; }
+      /* line 353, ../sass/screen.scss */
+      .content article p {
+        margin: 0 20px 0 20px; }
+
+  /* line 359, ../sass/screen.scss */
+  footer {
+    width: 100%;
+    height: 86px; }
+    /* line 362, ../sass/screen.scss */
+    footer .logo_social_icons {
+      width: 100%;
+      height: 86px; }
+      /* line 365, ../sass/screen.scss */
+      footer .logo_social_icons .logo {
+        margin: 0 50px 0 10px;
+        height: 86px; }
+        /* line 368, ../sass/screen.scss */
+        footer .logo_social_icons .logo img {
+          width: 200px; }
+      /* line 372, ../sass/screen.scss */
+      footer .logo_social_icons .social_icons {
+        width: 100%; }
+        /* line 374, ../sass/screen.scss */
+        footer .logo_social_icons .social_icons p {
+          margin: 10px 0 0 0;
+          font-size: 1em; }
+      /* line 379, ../sass/screen.scss */
+      footer .logo_social_icons p {
+        margin-left: 20px; } }
+@media screen and (max-width: 799px) and (min-width: 320px) {
+  /* line 387, ../sass/screen.scss */
+  header {
+    width: 100%;
+    height: 200px; }
+    /* line 390, ../sass/screen.scss */
+    header .logo_nav {
+      width: 100%; }
+      /* line 393, ../sass/screen.scss */
+      header .logo_nav .logo {
+        margin: 0 auto;
+        padding-top: 10px;
+        height: 54px;
+        float: none; }
+        /* line 398, ../sass/screen.scss */
+        header .logo_nav .logo img {
+          width: 100px;
+          margin: 0 0 0 10px; }
+      /* line 403, ../sass/screen.scss */
+      header .logo_nav nav {
+        width: 100%;
+        margin: 0;
+        padding: 0; }
+        /* line 407, ../sass/screen.scss */
+        header .logo_nav nav ul {
+          width: 100%;
+          margin: 0;
+          padding: 0; }
+          /* line 411, ../sass/screen.scss */
+          header .logo_nav nav ul li {
+            margin: 0;
+            padding: 0 5px 5px 5px;
+            height: 22px;
+            float: none;
+            text-align: center; }
+            /* line 417, ../sass/screen.scss */
+            header .logo_nav nav ul li a {
+              font-size: 0.9em; }
+
+  /* line 427, ../sass/screen.scss */
+  .content {
+    width: 100%; }
+    /* line 429, ../sass/screen.scss */
+    .content .foto {
+      height: 148px;
+      margin: 8px 8px 0 8px; }
+      /* line 432, ../sass/screen.scss */
+      .content .foto img {
+        width: 200px; }
+    /* line 436, ../sass/screen.scss */
+    .content article {
+      width: 100%;
+      font-size: 0.8em;
+      padding: 20px 0 20px 0;
+      margin: 0; }
+      /* line 443, ../sass/screen.scss */
+      .content article div.shelf img {
+        width: 150px; }
+      /* line 448, ../sass/screen.scss */
+      .content article div.sprite-house,
+      .content article div.sprite-phone,
+      .content article div.sprite-skype {
+        visibility: hidden;
+        width: 0; }
+      /* line 455, ../sass/screen.scss */
+      .content article p.address,
+      .content article p.phone,
+      .content article p.skype {
+        margin: 5px 0 5px 20px; }
+      /* line 461, ../sass/screen.scss */
+      .content article div.map {
+        width: 300px;
+        height: 200px; }
+      /* line 466, ../sass/screen.scss */
+      .content article iframe.map {
+        width: 300px;
+        height: 200px; }
+      /* line 472, ../sass/screen.scss */
+      .content article form label {
+        margin: 0 0 0 10px; }
+      /* line 475, ../sass/screen.scss */
+      .content article form input {
+        width: 200px;
+        margin: 0 0 0 10px; }
+      /* line 479, ../sass/screen.scss */
+      .content article form textarea {
+        width: 250px;
+        height: 150px;
+        margin: 0 0 0 10px; }
+      /* line 484, ../sass/screen.scss */
+      .content article form input.button {
+        height: 28px; }
+      /* line 489, ../sass/screen.scss */
+      .content article p {
+        margin: 0 20px 0 20px; }
+      /* line 492, ../sass/screen.scss */
+      .content article img.invitation {
+        width: 300px; }
+
+  /* line 498, ../sass/screen.scss */
+  footer {
+    width: 100%;
+    height: 100px; }
+    /* line 501, ../sass/screen.scss */
+    footer .logo_social_icons {
+      width: 100%;
+      height: 64px; }
+      /* line 504, ../sass/screen.scss */
+      footer .logo_social_icons .logo {
+        margin: 0 30px 0 10px;
+        padding-top: 10px;
+        height: 54px; }
+        /* line 508, ../sass/screen.scss */
+        footer .logo_social_icons .logo img {
+          width: 100px; }
+      /* line 512, ../sass/screen.scss */
+      footer .logo_social_icons .social_icons {
+        width: 100%;
+        float: none; }
+        /* line 515, ../sass/screen.scss */
+        footer .logo_social_icons .social_icons p {
+          margin: 1px 0 0 0;
+          font-size: 0.6em; }
+      /* line 520, ../sass/screen.scss */
+      footer .logo_social_icons p {
+        margin-left: 20px;
+        font-size: 0.6em; } }
+/* line 528, ../sass/screen.scss */
+.sprite-social_facebook_box_blue {
+  width: 60px;
+  height: 60px;
+  background: url(../images/sprites_icons.png) no-repeat 0px 0px; }
+
+/* line 534, ../sass/screen.scss */
+.sprite-social_google_box_blue {
+  width: 60px;
+  height: 60px;
+  background: url(../images/sprites_icons.png) no-repeat 0px -60px; }
+
+/* line 540, ../sass/screen.scss */
+.sprite-social_linkedin_box_blue {
+  width: 60px;
+  height: 60px;
+  background: url(../images/sprites_icons.png) no-repeat 0px -120px; }
+
+/* line 546, ../sass/screen.scss */
+.sprite-social_twitter_box_blue {
+  width: 60px;
+  height: 60px;
+  background: url(../images/sprites_icons.png) no-repeat 0px -180px; }
+
+/* line 552, ../sass/screen.scss */
+.sprite-social_yahoo_box_lilac {
+  width: 60px;
+  height: 60px;
+  background: url(../images/sprites_icons.png) no-repeat 0px -240px; }
