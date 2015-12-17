@@ -35,25 +35,34 @@
 <label>1.3.Номер контракта </label><input value="12/52/6532"><br>
 <p class="comments">В текстовом поле находится номер контракта, пользователь вводит его вручную</p>
 
-<label>1.4.Дата начала </label><input value="03.11.2015"><br>
+<label>1.4.Дата начала </label><br><br><input value="03.11.2015"><br>
 <p class="comments">Дата начала заполняется выбором из календаря</p>
 
-<label>1.5.Дата окончания </label><input value="03.11.2015"><br>
-<p class="comments">Дата окончания заполняется выбором из календаря</p>
+<input type="radio"><label>1.5.Дата окончания </label><br><br><input value="03.11.2015"><br><br>
+<input type="radio"><label>До полного исполнения</label>
+<p class="comments">Дата окончания заполняется выбором из календаря или выбором варианта До полного исполнения.
+    Если выбран вариант До полного исполнения, поле для выбора даты не активно.</p>
+<p>Тип операции</p>
+<select>
+    <option>Поставка товара</option>
+    <option>Выполнение работ</option>
+</select><br>
 <hr>
 
 <label>Блок 2</label><br><br>
 <label><a href="directory_beneficiary.html">2.1.Партнер</a></label><input><br>
-<p class="comments">Поле может быть заполнено выбором из справочника партнеров или вручную латинницей</p>
+<p class="comments">Поле может быть заполнено выбором из справочника партнеров или вручную латинницей. Если поле заполняется
+из справочника, все поля блоков 2 и 4 заполняются автоматически. Все комментарии к полям из этих блоков касаются варианта заполнения
+блоков вручную.</p>
 <label><a href="directory_countries.html">2.2.Страна партнера</a></label><input><br>
 <p class="comments">Поле может быть заполнено только выбором из справочника стран</p>
-<label><a href="directory_countries.html">2.3.Адрес партнера</a></label><input><br>
+<label>2.3.Адрес партнера </label><input><br>
 <hr>
 
 <label>Блок 3</label><br><br>
 	<label>3.1.Сумма контракта</label><input value="10000"><br>
 <p class="comments">Поле заполняется вручную</p>
-	<label><a href="directory_currency.html">3.2.Валюта </a></label><input><br>
+	<label><a href="directory_currency.html">3.2.Валюта контракта </a></label><input><br>
 <p class="comments">Поле может быть заполнено только выбором из справочника валют</p>
 
 	<label>3.3.Форма оплаты</label><br><br>
@@ -74,59 +83,73 @@
 <label>Платежные реквизиты партнера</label><br><br>
 	<label><a href="directory_beneficiary.html">4.1.Бенефициар</a></label>
 <input><br><br>
-<label>4.2.Счет бенефициара</label>
+<label>4.2.Счет бенефициара (IBAN)</label>
 <input><br><br>
-<label>4.3.IBAN</label>
+<label>4.3.Город</label>
 <input><br><br>
-<label>4.4.Город</label>
-<input><br><br>
-<label><a href="directory_countries.html">4.5.Код страны</a></label>
+<label><a href="directory_countries.html">4.4.Код страны</a></label>
 <input><br>
-<p class="comments">4.6.Выбор из справочника</p>
-<label>4.7.Страна</label>
+<p class="comments">4.5.Выбор из справочника</p>
+<label>4.6.Страна</label>
 <input><br>
 <p class="comments">Поле заполняется автоматически при выборе страны из справочника</p>
-<label>4.8.Адрес</label>
+<label>4.7.Адрес</label>
 <input><br><br>
+<p>Для контрактов в российских рублях</p>
+<p>4.8.ИНН</p><input><br>
+<p>4.9.КПП</p><input><br>
+<p class="comments">Блок для контрактов в российских рублях должен визуально выделяться</p>
 <hr>
 
-<label>4.9.Банк бенефициара</label>
+<p><a href="directory_swift.html">4.10.SWIFT</a></p><input>
+<p class="comments">Поле заполняется путем выбора из справочника</p>
+<p>4.11.Банк бенефициара</p>
 <input><br><br>
-<label>4.10.Счет</label>
-<input><br><br>
-<label>4.11.ВIC</label>
-<input><br><br>
-<label>4.12.Тип</label>
-<input><br><br>
-<label>4.13.Город</label>
-<input><br><br>
-<label><a href="directory_countries.html">4.14.Код страны</a></label>
-<input><br><br>
-<p class="comments">4.15.Выбор из справочника</p>
-<label>4.16.Страна</label>
-<input><br><br>
+<p class="comments">Поле заполняется при выборе поля 4.10. из справочника</p>
+<p>Для контрактов в российских рублях</p>
+<p>4.12.БИК</p>
+<input>/RU</input><input placeholder="9 символов"><input placeholder="." style="width:20px;"><br>
+<p>4.13.Корреспондентский счет</p>
+<input placeholder="20 символов"><br>
+<p class="comments">Содержимое полей [/RU] [.] недоступны для редактирования. Для интеграции поля 4.12. и 4.13. сливаются
+    в одну строку в формате [/RU][9 символов БИК][.][20 символов Корреспондентский счет]</p>
+<p class="comments">Блок для контрактов в российских рублях должен визуально выделяться</p>
+<p>4.13.Город</p>
+<input><br>
+<p><a href="directory_countries.html">4.14.Код страны</a></p>
+<input><br>
+<p class="comments">Выбор из справочника</p>
+<p>4.15.Страна</p>
+<input><br>
 <p class="comments">Поле заполняется автоматически при выборе страны из справочника</p>
-<label>4.17.Адрес</label>
-<input><br><br>
+<p>4.16.Адрес</p>
+<input><br>
 <hr>
 
-<label>4.18.Банк-посредник</label>
-<input><br><br>
-<label>4.19.ВIC</label>
-<input><br><br>
-<label>4.20.Тип</label>
-<input><br><br>
-<label>4.21.Город</label>
-<input><br><br>
-<label><a href="directory_countries.html">4.22.Код страны</a></label>
+<p><a href="directory_swift.html">4.17.SWIFT</a></p><input>
+<p class="comments">Поле заполняется путем выбора из справочника</p>
+<p>4.18.Банк-посредник</p>
 <input><br>
-<p class="comments">4.23.Выбор из справочника</p>
-<label>4.24.Страна</label>
-<input><br><br>
+<p class="comments">Поле заполняется при выборе поля 4.17. из справочника</p>
+<p>Для контрактов в российских рублях</p>
+<p>4.19.БИК</p>
+<input>/RU</input><input placeholder="9 символов"><input placeholder="." style="width:20px;"><br>
+<p>4.20.Корреспондентский счет</p>
+<input placeholder="20 символов"><br>
+<p class="comments">Содержимое полей [/RU] [.] недоступны для редактирования. Для интеграции поля 4.19. и 4.20. сливаются
+    в одну строку в формате [/RU][9 символов БИК][.][20 символов Корреспондентский счет]</p>
+<p class="comments">Блок для контрактов в российских рублях должен визуально выделяться</p>
+<p>4.21.Город</p>
+<input><br>
+<p><a href="directory_countries.html">4.22.Код страны</a></p>
+<input><br>
+<p class="comments">Выбор из справочника</p>
+<p>4.23.Страна</p>
+<input><br>
 <p class="comments">Поле заполняется автоматически при выборе страны из справочника</p>
-<label>4.24.Адрес</label>
-<input><br><br>
-
+<p>4.24.Адрес</p>
+<input><br>
+<hr>
 <input type="checkbox"><label>Сохранить партнера в справочнике бенефициаров</label><br>
 <p class="comments">При отмеченном чекбоксе партнер сохраняется в справочнике бенефициаров.</p>
 <hr>
