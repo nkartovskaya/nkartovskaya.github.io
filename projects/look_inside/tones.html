@@ -93,7 +93,7 @@
 
     function shuffle() {
         colors.sort(function () {
-            return 0.5-Math.random();
+            return 0.5 - Math.random();
         })
         colors0.sort(function () {
             return 0.5 - Math.random();
@@ -135,149 +135,85 @@
     function createBlocks() {
         shuffle();
 
-        var firstLabel = document.createElement("label");
-        firstLabel.id = "firstLabel";
-        var first = document.createElement("div");
-        first.id = "first";
-        var firstInput = document.createElement("input");
-        firstInput.id = "firstInput";
-        firstInput.setAttribute("type", "checkbox");
-        firstLabel.setAttribute("for", "firstInput");
-        container.appendChild(firstLabel);
-        firstLabel.appendChild(first);
-        first.appendChild(firstInput);
-        first.style.width = "9em";
-        first.style.height = "9em";
-        first.style.borderRadius = "7px";
-        first.style.margin="10px";
-        blocks.push(first);
-        inputs.push(firstInput);
+        var firstButton = document.createElement("button");
+        firstButton.id = "firstButton";
+        container.appendChild(firstButton);
+        firstButton.style.width = "150px";
+        firstButton.style.height = "150px";
+        firstButton.style.borderRadius = "7px";
+        firstButton.style.margin = "10px";
+        firstButton.style.border = "none";
+        blocks.push(firstButton);
 
-        var secondLabel = document.createElement("label");
-        secondLabel.id = "secondLabel";
-        var second = document.createElement("div");
-        second.id = "second";
-        var secondInput = document.createElement("input");
-        secondInput.id = "secondInput";
-        secondInput.setAttribute("type", "checkbox");
-        secondLabel.setAttribute("for", "secondInput");
-        container.appendChild(secondLabel);
-        secondLabel.appendChild(second);
-        second.appendChild(secondInput);
-        second.style.width = "9em";
-        second.style.height = "9em";
-        second.style.borderRadius = "7px";
-        second.style.margin="10px";
-        blocks.push(second);
-        inputs.push(secondInput);
+        var secondButton = document.createElement("button");
+        secondButton.id = "secondButton";
+        container.appendChild(secondButton);
+        secondButton.style.width = "150px";
+        secondButton.style.height = "150px";
+        secondButton.style.borderRadius = "7px";
+        secondButton.style.margin = "10px";
+        secondButton.style.border = "none";
+        blocks.push(secondButton);
 
-        var thirdLabel = document.createElement("label");
-        thirdLabel.id = "thirdLabel";
-        var third = document.createElement("div");
-        third.id = "third";
-        var thirdInput = document.createElement("input");
-        thirdInput.id = "thirdInput";
-        thirdInput.setAttribute("type", "checkbox");
-        thirdLabel.setAttribute("for", "thirdInput");
-        container.appendChild(thirdLabel);
-        thirdLabel.appendChild(third);
-        third.appendChild(thirdInput);
-        third.style.width = "9em";
-        third.style.height = "9em";
-        third.style.borderRadius = "7px";
-        third.style.margin="10px";
-        blocks.push(third);
-        inputs.push(thirdInput);
+        var thirdButton = document.createElement("button");
+        thirdButton.id = "thirdButton";
+        container.appendChild(thirdButton);
+        thirdButton.style.width = "150px";
+        thirdButton.style.height = "150px";
+        thirdButton.style.borderRadius = "7px";
+        thirdButton.style.margin = "10px";
+        thirdButton.style.border = "none";
+        blocks.push(thirdButton);
 
-        var fourthLabel = document.createElement("label");
-        fourthLabel.id = "fourthLabel";
-        var fourth = document.createElement("div");
-        fourth.id = "fourth";
-        var fourthInput = document.createElement("input");
-        fourthInput.id = "fourthInput";
-        fourthInput.setAttribute("type", "checkbox");
-        fourthLabel.setAttribute("for", "fourthInput");
-        container.appendChild(fourthLabel);
-        fourthLabel.appendChild(fourth);
-        fourth.appendChild(fourthInput);
-        fourth.style.width = "9em";
-        fourth.style.height = "9em";
-        fourth.style.borderRadius = "7px";
-        fourth.style.margin="10px";
-        blocks.push(fourth);
-        inputs.push(fourthInput);
+        var fourthButton = document.createElement("button");
+        fourthButton.id = "fourthButton";
+        container.appendChild(fourthButton);
+        fourthButton.style.width = "150px";
+        fourthButton.style.height = "150px";
+        fourthButton.style.borderRadius = "7px";
+        fourthButton.style.margin = "10px";
+        fourthButton.style.border = "none";
+        blocks.push(fourthButton);
 
-        var fifthLabel = document.createElement("label");
-        fifthLabel.id = "fifthLabel";
-        var fifth = document.createElement("div");
-        fifth.id = "fifth";
-        var fifthInput = document.createElement("input");
-        fifthInput.id = "fifthInput";
-        fifthInput.setAttribute("type", "checkbox");
-        fifthLabel.setAttribute("for", "fifthInput");
-        container.appendChild(fifthLabel);
-        fifthLabel.appendChild(fifth);
-        fifth.appendChild(fifthInput);
-        fifth.style.width = "9em";
-        fifth.style.height = "9em";
-        fifth.style.borderRadius = "7px";
-        fifth.style.margin="10px";
-        blocks.push(fifth);
-        inputs.push(fifthInput);
+        var fifthButton = document.createElement("button");
+        fifthButton.id = "fifthButton";
+        container.appendChild(fifthButton);
+        fifthButton.style.width = "150px";
+        fifthButton.style.height = "150px";
+        fifthButton.style.borderRadius = "7px";
+        fifthButton.style.margin = "10px";
+        fifthButton.style.border = "none";
+        blocks.push(fifthButton);
 
-        var sixthLabel = document.createElement("label");
-        sixthLabel.id = "sixthLabel";
-        var sixth = document.createElement("div");
-        sixth.id = "sixth";
-        var sixthInput = document.createElement("input");
-        sixthInput.id = "sixthInput";
-        sixthInput.setAttribute("type", "checkbox");
-        sixthLabel.setAttribute("for", "sixthInput");
-        container.appendChild(sixthLabel);
-        sixthLabel.appendChild(sixth);
-        sixth.appendChild(sixthInput);
-        sixth.style.width = "9em";
-        sixth.style.height = "9em";
-        sixth.style.borderRadius = "7px";
-        sixth.style.margin="10px";
-        blocks.push(sixth);
-        inputs.push(sixthInput);
+        var sixthButton = document.createElement("button");
+        sixthButton.id = "sixthButton";
+        container.appendChild(sixthButton);
+        sixthButton.style.width = "150px";
+        sixthButton.style.height = "150px";
+        sixthButton.style.borderRadius = "7px";
+        sixthButton.style.margin = "10px";
+        sixthButton.style.border = "none";
+        blocks.push(sixthButton);
 
-        var seventhLabel = document.createElement("label");
-        seventhLabel.id = "seventhLabel";
-        var seventh = document.createElement("div");
-        seventh.id = "seventh";
-        var seventhInput = document.createElement("input");
-        seventhInput.id = "seventhInput";
-        seventhInput.setAttribute("type", "checkbox");
-        seventhLabel.setAttribute("for", "seventhInput");
-        container.appendChild(seventhLabel);
-        seventhLabel.appendChild(seventh);
-        seventh.appendChild(seventhInput);
-        seventh.style.width = "9em";
-        seventh.style.height = "9em";
-        seventh.style.borderRadius = "7px";
-        seventh.style.margin="10px";
-        blocks.push(seventh);
-        inputs.push(seventhInput);
+        var seventhButton = document.createElement("button");
+        seventhButton.id = "seventhButton";
+        container.appendChild(seventhButton);
+        seventhButton.style.width = "150px";
+        seventhButton.style.height = "150px";
+        seventhButton.style.borderRadius = "3px";
+        seventhButton.style.margin = "10px";
+        seventhButton.style.border = "none";
+        blocks.push(seventhButton);
 
-        var eighthLabel = document.createElement("label");
-        eighthLabel.id = "eighthLabel";
-        var eighth = document.createElement("div");
-        eighth.id = "eighth";
-        var eighthInput = document.createElement("input");
-        eighthInput.id = "eighthInput";
-        eighthInput.setAttribute("type", "checkbox");
-        eighthLabel.setAttribute("for", "eighthInput");
-        container.appendChild(eighthLabel);
-        eighthLabel.appendChild(eighth);
-        eighth.appendChild(eighthInput);
-        eighth.style.width = "9em";
-        eighth.style.height = "9em";
-        eighth.style.borderRadius = "7px";
-        eighth.style.margin="10px";
-        blocks.push(eighth);
-        inputs.push(eighthInput);
+        var eighthButton = document.createElement("button");
+        eighthButton.id = "eighthButton";
+        container.appendChild(eighthButton);
+        eighthButton.style.width = "150px";
+        eighthButton.style.height = "150px";
+        eighthButton.style.borderRadius = "7px";
+        eighthButton.style.margin = "10px";
+        eighthButton.style.border = "none";
+        blocks.push(eighthButton);
 
         buttonStart.style.position = "absolute";
         buttonStart.style.width = 0;
@@ -289,59 +225,22 @@
     }
 
     function renovateBlocks(newColor) {
-        var firstInput = document.getElementById("firstInput");
-        firstInput.checked = false;
-        first.style.backgroundColor = newColor[0];
+        for (var i = 0; i < 8; i++) {
+            blocks[i].style.backgroundColor = newColor[i];
+        }
+    }
 
-        var secondInput = document.createElement("input");
-        secondInput.checked = false;
-        second.style.backgroundColor = newColor[1];
-
-        var thirdInput = document.createElement("input");
-        thirdInput.checked = false;
-        third.style.backgroundColor = newColor[2];
-
-        var fourthInput = document.createElement("input");
-        fourthInput.checked = false;
-        fourth.style.backgroundColor = newColor[3];
-
-        var fifthInput = document.createElement("input");
-        fifthInput.checked = false;
-        fifth.style.backgroundColor = newColor[4];
-
-        var sixthInput = document.createElement("input");
-        sixthInput.checked = false;
-        sixth.style.backgroundColor = newColor[5];
-
-        var seventhInput = document.createElement("input");
-        seventhInput.checked = false;
-        seventh.style.backgroundColor = newColor[6];
-
-        var eighthInput = document.createElement("input");
-        eighthInput.checked = false;
-        eighth.style.backgroundColor = newColor[7];
+    function addEvents() {
+        for (var i = 0; i < 8; i++) {
+            blocks[i].onclick = changeFirst();
+        }
     }
 
     function start(newColor) {
         document.getElementById("task").innerHTML = "Выберите блок, у которого цвет отличается от остальных";
 
-        first.style.backgroundColor = newColor[0];
-        second.style.backgroundColor = newColor[1];
-        third.style.backgroundColor = newColor[2];
-        fourth.style.backgroundColor = newColor[3];
-        fifth.style.backgroundColor = newColor[4];
-        sixth.style.backgroundColor = newColor[5];
-        seventh.style.backgroundColor = newColor[6];
-        eighth.style.backgroundColor = newColor[7];
-
-        document.getElementById("firstInput").onclick=changeFirst;
-        document.getElementById("secondInput").onclick=changeFirst;
-        document.getElementById("thirdInput").onclick=changeFirst;
-        document.getElementById("fourthInput").onclick=changeFirst;
-        document.getElementById("fifthInput").onclick=changeFirst;
-        document.getElementById("sixthInput").onclick=changeFirst;
-        document.getElementById("seventhInput").onclick=changeFirst;
-        document.getElementById("eighthInput").onclick=changeFirst;
+        renovateBlocks(colors[0]);
+        addEvents();
     }
 
     function changeFirst() {
@@ -355,449 +254,90 @@
                 } else {
                     uniqueItem = colors[0][i];
                     uniqueItemNumber = i;
+                    console.log(colors[0][i]);
+                    blocks[uniqueItemNumber].value = "click";
+                    blocks[uniqueItemNumber].color = uniqueItem;
                 }
             }
         }
         for (var k = 0; k < 8; k++) {
-            if (inputs[k].checked) {
-                if (k == uniqueItemNumber) {
-                    count++;
-                    console.log(count);
-                }
+            if (blocks[k].value = "click") {
+                count++;
+                console.log(count);
+                break;
+
             }
         }
-        startSecond();
     }
 
-
-    function startSecond() {
-        console.log("second");
-
-        renovateBlocks(colors[1]);
-
-        document.getElementById("firstInput").onchange=changeSecond;
-        document.getElementById("secondInput").onchange=changeSecond;
-        document.getElementById("thirdInput").onchange=changeSecond;
-        document.getElementById("fourthInput").onchange=changeSecond;
-        document.getElementById("fifthInput").onchange=changeSecond;
-        document.getElementById("sixthInput").onchange=changeSecond;
-        document.getElementById("seventhInput").onchange=changeSecond;
-        document.getElementById("eighthInput").onchange=changeSecond;
-    }
-
-
-    function changeSecond() {
-        var uniqueItem = colors[1][0];
-        var uniqueItemNumber;
-
-        for (var i = 0; i < 8; i++) {
-            for (var j = i + 1; j < 8; j++) {
-                if (colors[1][i] == colors[1][j]) {
-                    break;
-                } else {
-                    uniqueItem = colors[1][i];
-                    uniqueItemNumber = i;
-                }
-            }
-        }
-        for (var k = 0; k < 8; k++) {
-            if (inputs[k].checked) {
-                if (k == uniqueItemNumber) {
-                    count++;
-                    console.log(count);
-                }
-            }
-        }
-        startThird();
-    }
-
-    function startThird() {
-        console.log("third");
-
-        renovateBlocks(colors[2]);
-
-        document.getElementById("firstInput").onchange=changeThird;
-        document.getElementById("secondInput").onchange=changeThird;
-        document.getElementById("thirdInput").onchange=changeThird;
-        document.getElementById("fourthInput").onchange=changeThird;
-        document.getElementById("fifthInput").onchange=changeThird;
-        document.getElementById("sixthInput").onchange=changeThird;
-        document.getElementById("seventhInput").onchange=changeThird;
-        document.getElementById("eighthInput").onchange=changeThird;
-    }
-
-    function changeThird() {
-        var uniqueItem = colors[2][0];
-        var uniqueItemNumber;
-
-        for (var i = 0; i < 8; i++) {
-            for (var j = i + 1; j < 8; j++) {
-                if (colors[2][i] == colors[2][j]) {
-                    break;
-                } else {
-                    uniqueItem = colors[2][i];
-                    uniqueItemNumber = i;
-                }
-            }
-        }
-        for (var k = 0; k < 8; k++) {
-            if (inputs[k].checked) {
-                if (k == uniqueItemNumber) {
-                    count++;
-                    console.log(count);
-                }
-            }
-        }
-        startFourth();
-    }
-
-    function startFourth() {
-        console.log("fourth");
-
-        renovateBlocks(colors[3]);
-
-        document.getElementById("firstInput").onchange=changeFourth;
-        document.getElementById("secondInput").onchange=changeFourth;
-        document.getElementById("thirdInput").onchange=changeFourth;
-        document.getElementById("fourthInput").onchange=changeFourth;
-        document.getElementById("fifthInput").onchange=changeFourth;
-        document.getElementById("sixthInput").onchange=changeFourth;
-        document.getElementById("seventhInput").onchange=changeFourth;
-        document.getElementById("eighthInput").onchange=changeFourth;
-    }
-
-    function changeFourth() {
-        var uniqueItem = colors[3][0];
-        var uniqueItemNumber;
-
-        for (var i = 0; i < 8; i++) {
-            for (var j = i + 1; j < 8; j++) {
-                if (colors[3][i] == colors[3][j]) {
-                    break;
-                } else {
-                    uniqueItem = colors[3][i];
-                    uniqueItemNumber = i;
-                }
-            }
-        }
-        for (var k = 0; k < 8; k++) {
-            if (inputs[k].checked) {
-                if (k == uniqueItemNumber) {
-                    count++;
-                    console.log(count);
-                }
-            }
-        }
-        startFifth();
-    }
-
-    function startFifth() {
-        console.log("fifth");
-
-        renovateBlocks(colors[4]);
-
-        document.getElementById("firstInput").onchange=changeFifth;
-        document.getElementById("secondInput").onchange=changeFifth;
-        document.getElementById("thirdInput").onchange=changeFifth;
-        document.getElementById("fourthInput").onchange=changeFifth;
-        document.getElementById("fifthInput").onchange=changeFifth;
-        document.getElementById("sixthInput").onchange=changeFifth;
-        document.getElementById("seventhInput").onchange=changeFifth;
-        document.getElementById("eighthInput").onchange=changeFifth;
-    }
-
-    function changeFifth() {
-        var uniqueItem = colors[4][0];
-        var uniqueItemNumber;
-
-        for (var i = 0; i < 8; i++) {
-            for (var j = i + 1; j < 8; j++) {
-                if (colors[4][i] == colors[4][j]) {
-                    break;
-                } else {
-                    uniqueItem = colors[4][i];
-                    uniqueItemNumber = i;
-                }
-            }
-        }
-        for (var k = 0; k < 8; k++) {
-            if (inputs[k].checked) {
-                if (k == uniqueItemNumber) {
-                    count++;
-                    console.log(count);
-                }
-            }
-        }
-        startSixth();
-    }
-
-    function startSixth() {
-        console.log("sixth");
-
-        renovateBlocks(colors[5]);
-
-        document.getElementById("firstInput").onchange=changeSixth;
-        document.getElementById("secondInput").onchange=changeSixth;
-        document.getElementById("thirdInput").onchange=changeSixth;
-        document.getElementById("fourthInput").onchange=changeSixth;
-        document.getElementById("fifthInput").onchange=changeSixth;
-        document.getElementById("sixthInput").onchange=changeSixth;
-        document.getElementById("seventhInput").onchange=changeSixth;
-        document.getElementById("eighthInput").onchange=changeSixth;
-    }
-
-    function changeSixth() {
-        var uniqueItem = colors[5][0];
-        var uniqueItemNumber;
-
-        for (var i = 0; i < 8; i++) {
-            for (var j = i + 1; j < 8; j++) {
-                if (colors[5][i] == colors[5][j]) {
-                    break;
-                } else {
-                    uniqueItem = colors[5][i];
-                    uniqueItemNumber = i;
-                }
-            }
-        }
-        for (var k = 0; k < 8; k++) {
-            if (inputs[k].checked) {
-                if (k == uniqueItemNumber) {
-                    count++;
-                    console.log(count);
-                }
-            }
-        }
-        startSeventh();
-    }
-
-    function startSeventh() {
-        console.log("seventh");
-
-        renovateBlocks(colors[6]);
-
-        document.getElementById("firstInput").onchange=changeSeventh;
-        document.getElementById("secondInput").onchange=changeSeventh;
-        document.getElementById("thirdInput").onchange=changeSeventh;
-        document.getElementById("fourthInput").onchange=changeSeventh;
-        document.getElementById("fifthInput").onchange=changeSeventh;
-        document.getElementById("sixthInput").onchange=changeSeventh;
-        document.getElementById("seventhInput").onchange=changeSeventh;
-        document.getElementById("eighthInput").onchange=changeSeventh;
-    }
-
-    function changeSeventh() {
-        var uniqueItem = colors[6][0];
-        var uniqueItemNumber;
-
-        for (var i = 0; i < 8; i++) {
-            for (var j = i + 1; j < 8; j++) {
-                if (colors[6][i] == colors[6][j]) {
-                    break;
-                } else {
-                    uniqueItem = colors[6][i];
-                    uniqueItemNumber = i;
-                }
-            }
-        }
-        for (var k = 0; k < 8; k++) {
-            if (inputs[k].checked) {
-                if (k == uniqueItemNumber) {
-                    count++;
-                    console.log(count);
-                }
-            }
-        }
-        startEighth();
-    }
-
-    function startEighth() {
-        console.log("eighth");
-
-        renovateBlocks(colors[7]);
-
-        document.getElementById("firstInput").onchange=changeEighth;
-        document.getElementById("secondInput").onchange=changeEighth;
-        document.getElementById("thirdInput").onchange=changeEighth;
-        document.getElementById("fourthInput").onchange=changeEighth;
-        document.getElementById("fifthInput").onchange=changeEighth;
-        document.getElementById("sixthInput").onchange=changeEighth;
-        document.getElementById("seventhInput").onchange=changeEighth;
-        document.getElementById("eighthInput").onchange=changeEighth;
-    }
-
-    function changeEighth() {
-        var uniqueItem = colors[7][0];
-        var uniqueItemNumber;
-
-        for (var i = 0; i < 8; i++) {
-            for (var j = i + 1; j < 8; j++) {
-                if (colors[7][i] == colors[7][j]) {
-                    break;
-                } else {
-                    uniqueItem = colors[7][i];
-                    uniqueItemNumber = i;
-                }
-            }
-        }
-        for (var k = 0; k < 8; k++) {
-            if (inputs[k].checked) {
-                if (k == uniqueItemNumber) {
-                    count++;
-                    console.log(count);
-                }
-            }
-        }
-        startNinth();
-    }
-
-    function startNinth() {
-        console.log("ninth");
-
-        renovateBlocks(colors[8]);
-
-        document.getElementById("firstInput").onchange=changeNinth;
-        document.getElementById("secondInput").onchange=changeNinth;
-        document.getElementById("thirdInput").onchange=changeNinth;
-        document.getElementById("fourthInput").onchange=changeNinth;
-        document.getElementById("fifthInput").onchange=changeNinth;
-        document.getElementById("sixthInput").onchange=changeNinth;
-        document.getElementById("seventhInput").onchange=changeNinth;
-        document.getElementById("eighthInput").onchange=changeNinth;
-    }
-
-    function changeNinth() {
-        var uniqueItem = colors[8][0];
-        var uniqueItemNumber;
-
-        for (var i = 0; i < 8; i++) {
-            for (var j = i + 1; j < 8; j++) {
-                if (colors[8][i] == colors[8][j]) {
-                    break;
-                } else {
-                    uniqueItem = colors[8][i];
-                    uniqueItemNumber = i;
-                }
-            }
-        }
-        for (var k = 0; k < 8; k++) {
-            if (inputs[k].checked) {
-                if (k == uniqueItemNumber) {
-                    count++;
-                    console.log(count);
-                }
-            }
-        }
-        startTenth();
-    }
-
-    function startTenth() {
-        console.log("tenth");
-
-        renovateBlocks(colors[9]);
-
-        document.getElementById("firstInput").onchange=changeTenth;
-        document.getElementById("secondInput").onchange=changeTenth;
-        document.getElementById("thirdInput").onchange=changeTenth;
-        document.getElementById("fourthInput").onchange=changeTenth;
-        document.getElementById("fifthInput").onchange=changeTenth;
-        document.getElementById("sixthInput").onchange=changeTenth;
-        document.getElementById("seventhInput").onchange=changeTenth;
-        document.getElementById("eighthInput").onchange=changeTenth;
-    }
-
-    function changeTenth() {
-        var uniqueItem = colors[9][0];
-        var uniqueItemNumber;
-
-        for (var i = 0; i < 8; i++) {
-            for (var j = i + 1; j < 8; j++) {
-                if (colors[9][i] == colors[9][j]) {
-                    break;
-                } else {
-                    uniqueItem = colors[9][i];
-                    uniqueItemNumber = i;
-                }
-            }
-        }
-        for (var k = 0; k < 8; k++) {
-            if (inputs[k].checked) {
-                if (k == uniqueItemNumber) {
-                    count++;
-                    console.log(count);
-                }
-            }
-        }
-        result();
-    }
 
     function result() {
-        var firstLabel=document.getElementById("firstLabel");
+        var firstLabel = document.getElementById("firstLabel");
         container.removeChild(firstLabel);
-        var secondLabel=document.getElementById("secondLabel");
+        var secondLabel = document.getElementById("secondLabel");
         container.removeChild(secondLabel);
-        var thirdLabel=document.getElementById("thirdLabel");
+        var thirdLabel = document.getElementById("thirdLabel");
         container.removeChild(thirdLabel);
-        var fourthLabel=document.getElementById("fourthLabel");
+        var fourthLabel = document.getElementById("fourthLabel");
         container.removeChild(fourthLabel);
-        var fifthLabel=document.getElementById("fifthLabel");
+        var fifthLabel = document.getElementById("fifthLabel");
         container.removeChild(fifthLabel);
-        var sixthLabel=document.getElementById("sixthLabel");
+        var sixthLabel = document.getElementById("sixthLabel");
         container.removeChild(sixthLabel);
-        var seventhLabel=document.getElementById("seventhLabel");
+        var seventhLabel = document.getElementById("seventhLabel");
         container.removeChild(seventhLabel);
-        var eighthLabel=document.getElementById("eighthLabel");
+        var eighthLabel = document.getElementById("eighthLabel");
         container.removeChild(eighthLabel);
 
         document.getElementById("resultText").style.border = "solid 2px #bababa";
 
         switch (count) {
             case 0:
-                document.getElementById("firstPart").innerHTML=count+"";
+                document.getElementById("firstPart").innerHTML = count + "";
                 document.getElementById("secondPart").innerHTML = "Лучше вообще не браться за работу, связанную с цветами, она будет безнадежно испорчена.";
                 break;
             case 1:
-                document.getElementById("firstPart").innerHTML=count+"";
+                document.getElementById("firstPart").innerHTML = count + "";
                 document.getElementById("secondPart").innerHTML = "Лучше вообще не браться за работу, связанную с цветами, она будет безнадежно испорчена.";
                 break;
             case 2:
-                document.getElementById("firstPart").innerHTML=count+"";
+                document.getElementById("firstPart").innerHTML = count + "";
                 document.getElementById("secondPartt").innerHTML = "Лучше вообще не браться за работу, связанную с цветами, она будет безнадежно испорчена.";
                 break;
             case 3:
-                document.getElementById("firstPart").innerHTML=count+"";
+                document.getElementById("firstPart").innerHTML = count + "";
                 document.getElementById("secondPart").innerHTML = "Лучше вообще не браться за работу, связанную с цветами, она будет безнадежно испорчена.";
                 break;
             case 4:
-                document.getElementById("firstPart").innerHTML=count+"";
+                document.getElementById("firstPart").innerHTML = count + "";
                 document.getElementById("secondPart").innerHTML = "Вы неплохо различаете цвета, но художник или дизайнер из Вас не получится.";
                 break;
             case 5:
-                document.getElementById("firstPart").innerHTML=count+"";
+                document.getElementById("firstPart").innerHTML = count + "";
                 document.getElementById("secondPart").innerHTML = "Вы неплохо различаете цвета, но художник или дизайнер из Вас не получится.";
                 break;
             case 6:
-                document.getElementById("firstPart").innerHTML=count+"";
+                document.getElementById("firstPart").innerHTML = count + "";
                 document.getElementById("secondPart").innerHTML = "Вы неплохо различаете цвета, но художник или дизайнер из Вас не получится.";
                 break;
             case 7:
-                document.getElementById("firstPart").innerHTML=count+"";
+                document.getElementById("firstPart").innerHTML = count + "";
                 document.getElementById("secondPart").innerHTML = "Вы неплохо различаете цвета, но художник или дизайнер из Вас не получится.";
                 break;
             case 8:
-                document.getElementById("firstPart").innerHTML=count+"";
+                document.getElementById("firstPart").innerHTML = count + "";
                 document.getElementById("secondPart").innerHTML = "Вы гениально различаете цвета, поздравляю!";
                 break;
             case 9:
-                document.getElementById("firstPart").innerHTML=count+"";
+                document.getElementById("firstPart").innerHTML = count + "";
                 document.getElementById("secondPart").innerHTML = "Вы гениально различаете цвета, поздравляю!";
                 break;
             case 10:
-                document.getElementById("firstPart").innerHTML=count+"";
+                document.getElementById("firstPart").innerHTML = count + "";
                 document.getElementById("secondPart").innerHTML = "Вы гениально различаете цвета, поздравляю!";
                 break;
         }
-        var task=document.getElementById("task");
+        var task = document.getElementById("task");
         container.removeChild(task);
     }
 

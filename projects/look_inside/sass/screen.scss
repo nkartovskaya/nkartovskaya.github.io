@@ -163,6 +163,11 @@ header {
   #content {
     padding: 0 15% 0 15%;
 
+    button {
+      border-style: none;
+      outline: none;
+    }
+
 h1#task {
   color: #bababa;
   text-shadow: #434343 1px 1px;
@@ -205,6 +210,7 @@ h1#task {
     border-radius: 7px;
     position: relative;
     margin: 0 25% 10% 25%;
+    outline: none;
   }
 
 }
