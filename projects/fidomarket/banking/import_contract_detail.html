@@ -111,47 +111,24 @@
                                                                              title="Удалить"></a></button>
         </td>
     </tr>
-</table>
+</table><br>
+<input type="checkbox"><label>Оригиналы в банке</label><br><br>
 <hr>
-<label>Приложения к контракту</label><br>
-<a href="import_contract_appendix_details.html">Приложение 1</a><br>
-<a href="import_contract_appendix_details.html">Приложение 1</a><br>
-<a href="import_contract_appendix_details.html">Приложение 1</a><br><br>
-<button><a href=new_export_contract_appendix.html>Добавить новое приложение</a></button>
-<br>
-<p class="comments">При нажатии на кнопку осуществляется переход на страницу создания нового приложения к контракту.</p>
-
-<hr>
-<label>Комментарии по верификации</label><br><br>
-<label>Комментарий банка</label><br>
-<textarea cols="50" rows="5" style="background-color: #cecece"></textarea><br>
-<label>Комментарий ООО "Ромашка"</label><br>
-<textarea cols="50" rows="5" style="background-color: #cecece"></textarea><br>
-<label>Комментарий банка</label><br>
-<textarea cols="50" rows="5" style="background-color: #cecece"></textarea><br>
-<label>Место для нового комментария</label><br>
-<textarea cols="50" rows="5"></textarea><br>
-<button>Отправить комментарий</button>
-
-
-<hr>
-<label><a href="#">Связанные ГТД</a></label><br>
-<label><a href="#">Связанные инвойсы</a></label><br>
-<label><a href="#">Связанные Заявки на покупку валюты</a></label><br>
-<label><a href="#">Связанные Платежи в валюте</a></label><br><br>
 
 <button style="width: 30px"><a href="new_import_contract.html"><img src="images/edit.png"
                                                                     title="Редактировать"></a></button>
 <button style="width: 30px"><a href="new_import_contract.html"><img src="images/copy.png"
                                                                     title="Копировать"></a></button>
-<button style="width: 30px"><a href="import_contracts.html"><img src="images/delete.png" title="Удалить"></a></button>
+<button style="width: 30px"><a href="import_contract.html"><img src="images/delete.png" title="Удалить"></a></button>
 <br><br>
 
-<p class="comments">При нажатии кнопки Редактировать (в тех статусах, при которых кнопка активна), становятся доступными
-    кнопки Удалить в таблице файлов контракта, становятся доступными для редактирования поля контракта, появляется блок,
-    расположенный ниже этого комментария. Т. е. пользователь имеет возможности внести необходимые изменения, сохранить
+<p class="comments">Для внесения изменений в профиль контракта и/или для загрузки файлов контракта, пользователь должен нажать кнопку Редактировать.
+    При нажатии кнопки Редактировать (в тех статусах, при которых кнопка активна), становятся доступными
+    кнопки Удалить в таблице файлов контракта, становятся доступными для редактирования поля контракта, появляется блок:
+    загрузка файлов контракта и кнопки Сохранить, Отменить, Отправить на верификацию. Для удобаства этот блок на странице
+    помечен, как Блок редактирования. Во всех других случаях этот блок скрыт. Т. е. пользователь имеет возможности внести необходимые изменения, сохранить
     их и отправить на верификацию.</p>
-
+<p class="topic">Блок редактирования</p>
 <label>Загрузка файлов контракта</label><br><br>
 <input>
 <button>Обзор</button>
@@ -163,20 +140,46 @@
     повторная загрузка.</p>
 
 <p class="question">Уточнить допустимые форматы файлов и размеры. Сделать подсказку по этому поводу.</p>
-<button><a href="export_contracts.html">Сохранить</a></button>
-<p class="comments">После нажатия кнопки профиль контракта сохраняется и осуществляется возврат на страницу импортных
-    контрактов в статусе Новый</p>
-<button><a href="export_contracts.html">Отменить</a></button>
-<br>
-<p class="comments">После нажатия кнопки осуществляется возврат на страницу импортных контрактов без сохранения профиля
-    контракта</p>
-
-<button><a href="export_contracts.html">Отправить на верификацию</a></button>
-<br>
-<p class="comments">После нажатия кнопки осуществляется возврат на страницу экспортных контрактов
+<button><a href="import_contract_detail.html">Сохранить</a></button>
+<p class="comments">После нажатия кнопки профиль контракта сохраняется, пользователь остается на той же странице. Кнопка
+    Отменить становится неактивной и пользователь может отправить контракт на верификацию.</p>
+<button><a href="import_contract.html">Отменить</a></button>
+<p class="comments">После нажатия кнопки осуществляется возврат на страницу импортных контрактов
+    без сохранения профиля контракта</p>
+<button><a href="import_contract.html">Отправить на верификацию</a></button>
+<p class="comments">После нажатия кнопки осуществляется возврат на страницу импортных контрактов
     без сохранения профиля контракта в статусе На верификации</p>
+<p class="topic">Блок редактирования</p>
+<hr>
+<p class="comments">В блоке комментирования осуществляется обмен комментариями между пользователем и сотрудником банка,
+    когда контракт находится в статусах "На верификации" или "На верификации с комментариями банка".</p>
+<p class="topic">Блок комментирования</p>
+<label>Комментарии по верификации</label><br><br>
+<label>Комментарий банка </label><label>Дата: 15.12.2015 </label><label>время: 15-00</label><br>
+<textarea cols="50" rows="5" style="background-color: #cecece"></textarea><br>
+<label>Комментарий банка</label><label>Дата: 15.12.2015 </label><label>время: 16-30</label><br>
+<textarea cols="50" rows="5" style="background-color: #cecece"></textarea><br>
 
-<button><a href=new_export_contract_appendix.html>Добавить новое приложение</a></button>
+<hr>
+<label>Связанные документы</label><br><br>
+
+<label>Приложения к контракту</label><br>
+<a href="import_contract_appendix_details.html">Приложение 1</a><br>
+<a href="import_contract_appendix_details.html">Приложение 1</a><br>
+<a href="import_contract_appendix_details.html">Приложение 1</a><br><br>
+<button><a href=new_import_contract_appendix.html>Добавить новое приложение</a></button>
+<br>
+<p class="comments">При нажатии на кнопку осуществляется переход на страницу создания нового приложения к контракту.</p>
+
+<label><a href="vmd_all.html">Связанные ГТД</a></label><br>
+<p class="comments">По ссылке осуществляется переход на страницу ГТД с фильтром по конкретному контракту.</p>
+<label><a href="invoises.html">Связанные инвойсы</a></label><br>
+<p class="comments">По ссылке осуществляется переход на страницу инвойсов с фильтром по конкретному контракту.</p>
+<label><a href="invoises.html">Связанные акты выполненных работ</a></label><br>
+<p class="comments">По ссылке осуществляется переход на страницу инвойсов с фильтром по конкретному контракту.</p>
+<label><a href="#">Связанные Заявки на покупку валюты</a></label><br>
+<label><a href="#">Связанные Заявки на конвертацию валюты</a></label><br>
+<label><a href="#">Связанные Платежи в валюте</a></label><br><br>
 
 </div>
 </body>

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Грузо-таможенные декларации</title>
+    <title>Инвойсы</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -36,7 +36,8 @@
         </table>
     </div>
     <div class="content_account">
-        <label>ГТД</label><br><br>
+        <button><a href="new_invoise.html">Создать новый инвойс</a></button><br><br>
+        <label>Инвойсы</label><br><br>
 
         <form>
             <label>Фильтр</label><br><br>
@@ -57,13 +58,10 @@
                 <option>Импорт</option>
                 <option>Экспорт</option>
             </select><br><br>
-            <label>Номер ГТД </label><input><br><br>
-            <label>Статус ГТД </label><br><br>
+            <label>Номер инвойса </label><input><br><br>
+            <label>Статус инвойса </label><br><br>
             <select>
                 <option>Все статусы</option>
-                <option>Использована</option>
-                <option>Не использована</option>
-                <option>Использована частично</option>
             </select><br>
 
             <p class="comments">Статус контракта выбирается из выпадающего списка</p>
@@ -76,9 +74,6 @@
         <table>
             <tr class="link">
                 <td>Все</td>
-                <td>Использована</td>
-                <td>Не использована</td>
-                <td>Использована частично</td>
             </tr>
         </table>
         <table>
@@ -97,23 +92,19 @@
                     <button title="Сортировка по возрастанию">&#8593;</button>
                     <button title="Сортировка по убыванию">&#8595;</button>
                 </td>
-                <td>Код таможни<br>
-                    <button title="Сортировка по возрастанию">&#8593;</button>
-                    <button title="Сортировка по убыванию">&#8595;</button>
-                </td>
                 <td>Год<br>
                     <button title="Сортировка по возрастанию">&#8593;</button>
                     <button title="Сортировка по убыванию">&#8595;</button>
                 </td>
-                <td>Номер ГТД<br>
+                <td>Номер инвойса<br>
                     <button title="Сортировка по возрастанию">&#8593;</button>
                     <button title="Сортировка по убыванию">&#8595;</button>
                 </td>
-                <td>Дата ГТД<br>
+                <td>Дата инвойса<br>
                     <button title="Сортировка по возрастанию">&#8593;</button>
                     <button title="Сортировка по убыванию">&#8595;</button>
                 </td>
-                <td>Стоимость ГТД в валюте<br>
+                <td>Стоимость инвойса в валюте<br>
                     <button title="Сортировка по возрастанию">&#8593;</button>
                     <button title="Сортировка по убыванию">&#8595;</button>
                 </td>
@@ -127,7 +118,7 @@
                     <button title="Сортировка по убыванию">&#8595;</button>
                 </td>
 
-                <td>Статус ГТД<br>
+                <td>Статус инвойса<br>
                     <button title="Сортировка по возрастанию">&#8593;</button>
                     <button title="Сортировка по убыванию">&#8595;</button>
                 </td>
@@ -146,12 +137,11 @@
             </tr>
             <tr>
                 <td>Импорт</td>
-                <td>100270001</td>
                 <td><a>2015</a></td>
                 <td><a>575077</a></td>
                 <td><a>03.11.2015</a></td>
                 <td><a>10 000</a></td>
-                <td><a><a href="import_contract_detail.html">100/12/123456</a></a></td>
+                <td><a><a href="invoise_detail.html">100/12/123456</a></a></td>
                 <td><a>01.11.2015</a></td>
                 <td><a>Использована</a></td>
                 <td>USD</td>
@@ -160,12 +150,11 @@
             </tr>
             <tr>
                 <td>Импорт</td>
-                <td>100270001</td>
                 <td><a>2015</a></td>
                 <td><a>575077</a></td>
                 <td><a>03.11.2015</a></td>
                 <td><a>10 000</a></td>
-                <td><a><a href="import_contract_detail.html">100/12/123456</a></a></td>
+                <td><a><a href="invoise_detail.html">100/12/123456</a></a></td>
                 <td><a>01.11.2015</a></td>
                 <td><a>Использована</a></td>
                 <td>USD</td>
@@ -173,13 +162,12 @@
                 <td>USA</td>
             </tr>
             <tr>
-                <td>Экспорт</td>
-                <td>100270001</td>
+                <td>Импорт</td>
                 <td><a>2015</a></td>
                 <td><a>575077</a></td>
                 <td><a>03.11.2015</a></td>
                 <td><a>10 000</a></td>
-                <td><a><a href="export_contract_details.html">100/12/123456</a></a></td>
+                <td><a><a href="invoise_detail.html">100/12/123456</a></a></td>
                 <td><a>01.11.2015</a></td>
                 <td><a>Использована</a></td>
                 <td>USD</td>
@@ -189,12 +177,11 @@
 
             <tr>
                 <td>Импорт</td>
-                <td>100270001</td>
                 <td><a>2015</a></td>
                 <td><a>575077</a></td>
                 <td><a>03.11.2015</a></td>
                 <td><a>10 000</a></td>
-                <td><a><a href="import_contract_detail.html">100/12/123456</a></a></td>
+                <td><a><a href="invoise_detail.html">100/12/123456</a></a></td>
                 <td><a>01.11.2015</a></td>
                 <td><a>Использована</a></td>
                 <td>USD</td>
@@ -203,12 +190,11 @@
             </tr>
             <tr>
                 <td>Импорт</td>
-                <td>100270001</td>
                 <td><a>2015</a></td>
                 <td><a>575077</a></td>
                 <td><a>03.11.2015</a></td>
                 <td><a>10 000</a></td>
-                <td><a><a href="import_contract_detail.html">100/12/123456</a></a></td>
+                <td><a><a href="invoise_detail.html">100/12/123456</a></a></td>
                 <td><a>01.11.2015</a></td>
                 <td><a>Использована</a></td>
                 <td>USD</td>
@@ -218,9 +204,6 @@
         </table>
         <br>
     </div>
-    <p class="comments">Все поля импортируются из Б2, пользователь ничего не может менять в блоке ГТД.</p>
-
-    <p class="question">Необходимо определиться, надо ли делать страницу деталей ГТД или достаточно данных в таблице.</p>
 
 </div>
 </body>

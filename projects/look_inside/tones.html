@@ -14,25 +14,16 @@
 <section class="wrapper">
     <header>
         <div class="logo_nav">
-            <div class="logo">
+
                 <a href="index.html">
-                    <div class="logo_top_left"></div>
+                    <div class="logo"></div>
                 </a>
-                <a href="index.html">
-                    <div class="logo_bottom_left"></div>
-                </a>
-                <a href="index.html">
-                    <div class="logo_top_right"></div>
-                </a>
-                <a href="index.html">
-                    <div class="logo_bottom_right"></div>
-                </a>
-            </div>
+
             <nav>
                 <ul>
                     <li><a href="index.html">Главная</a></li>
                     <li><a href="lusher.html">Тест Люшера</a></li>
-                    <li><a href="daltonizm.html">Тест на дальтонизм</a></li>
+                    <li><a href="daltonizm.html">Тест на цветовосприятие</a></li>
                     <li><a href="tones.html">Тест оттенков</a></li>
                 </ul>
             </nav>
@@ -40,14 +31,22 @@
     </header>
     <div class="content">
         <div id="content">
-            <h1 id="task"></h1>
-
-            <div id="resultText">
-                <p id="firstPart"></p>
-                <p id="secondPart"></p>
+            <div id="colors">
+                <h1 id="task"></h1>
+                <div id="resultText">
+                    <p id="firstPart"></p>
+                    <p id="secondPart"></p>
+                </div>
+            <button class="colorButton" name="colorButton" onclick="findClickedButton(this)"></button>
+            <button class="colorButton" name="colorButton" onclick="findClickedButton(this)"></button>
+            <button class="colorButton" name="colorButton" onclick="findClickedButton(this)"></button>
+            <button class="colorButton" name="colorButton" onclick="findClickedButton(this)"></button>
+            <button class="colorButton" name="colorButton" onclick="findClickedButton(this)"></button>
+            <button class="colorButton" name="colorButton" onclick="findClickedButton(this)"></button>
+            <button class="colorButton" name="colorButton" onclick="findClickedButton(this)"></button>
+            <button class="colorButton" name="colorButton" onclick="findClickedButton(this)"></button>
+            <button id="start" onclick="createBlocks()">Пройти тест оттенков</button>
             </div>
-
-            <button id="start" onclick="createBlocks()">Пройти тест</button>
         </div>
     </div>
     <footer>
@@ -76,6 +75,7 @@
 <script>
 
     var buttonStart = document.getElementById("start");
+    var buttons = document.getElementsByClassName("colorButton");
     var colors0 = ["#4A3421", "#38281A", "#38281A", "#38281A", "#38281A", "#38281A", "#38281A", "#38281A"];
     var colors1 = ["#8F3333", "#B03737", "#B03737", "#B03737", "#B03737", "#B03737", "#B03737", "#B03737"];
     var colors2 = ["#82D18B", "#62B36C", "#62B36C", "#62B36C", "#62B36C", "#62B36C", "#62B36C", "#62B36C"];
@@ -92,9 +92,6 @@
     var count = 0;
 
     function shuffle() {
-        colors.sort(function () {
-            return 0.5 - Math.random();
-        })
         colors0.sort(function () {
             return 0.5 - Math.random();
         });
@@ -126,94 +123,19 @@
             return 0.5 - Math.random();
         });
     }
-
-
     var container = document.getElementById("content");
-    var blocks = [];
-    var inputs = [];
 
     function createBlocks() {
         shuffle();
-
-        var firstButton = document.createElement("button");
-        firstButton.id = "firstButton";
-        container.appendChild(firstButton);
-        firstButton.style.width = "150px";
-        firstButton.style.height = "150px";
-        firstButton.style.borderRadius = "7px";
-        firstButton.style.margin = "10px";
-        firstButton.style.border = "none";
-        blocks.push(firstButton);
-
-        var secondButton = document.createElement("button");
-        secondButton.id = "secondButton";
-        container.appendChild(secondButton);
-        secondButton.style.width = "150px";
-        secondButton.style.height = "150px";
-        secondButton.style.borderRadius = "7px";
-        secondButton.style.margin = "10px";
-        secondButton.style.border = "none";
-        blocks.push(secondButton);
-
-        var thirdButton = document.createElement("button");
-        thirdButton.id = "thirdButton";
-        container.appendChild(thirdButton);
-        thirdButton.style.width = "150px";
-        thirdButton.style.height = "150px";
-        thirdButton.style.borderRadius = "7px";
-        thirdButton.style.margin = "10px";
-        thirdButton.style.border = "none";
-        blocks.push(thirdButton);
-
-        var fourthButton = document.createElement("button");
-        fourthButton.id = "fourthButton";
-        container.appendChild(fourthButton);
-        fourthButton.style.width = "150px";
-        fourthButton.style.height = "150px";
-        fourthButton.style.borderRadius = "7px";
-        fourthButton.style.margin = "10px";
-        fourthButton.style.border = "none";
-        blocks.push(fourthButton);
-
-        var fifthButton = document.createElement("button");
-        fifthButton.id = "fifthButton";
-        container.appendChild(fifthButton);
-        fifthButton.style.width = "150px";
-        fifthButton.style.height = "150px";
-        fifthButton.style.borderRadius = "7px";
-        fifthButton.style.margin = "10px";
-        fifthButton.style.border = "none";
-        blocks.push(fifthButton);
-
-        var sixthButton = document.createElement("button");
-        sixthButton.id = "sixthButton";
-        container.appendChild(sixthButton);
-        sixthButton.style.width = "150px";
-        sixthButton.style.height = "150px";
-        sixthButton.style.borderRadius = "7px";
-        sixthButton.style.margin = "10px";
-        sixthButton.style.border = "none";
-        blocks.push(sixthButton);
-
-        var seventhButton = document.createElement("button");
-        seventhButton.id = "seventhButton";
-        container.appendChild(seventhButton);
-        seventhButton.style.width = "150px";
-        seventhButton.style.height = "150px";
-        seventhButton.style.borderRadius = "3px";
-        seventhButton.style.margin = "10px";
-        seventhButton.style.border = "none";
-        blocks.push(seventhButton);
-
-        var eighthButton = document.createElement("button");
-        eighthButton.id = "eighthButton";
-        container.appendChild(eighthButton);
-        eighthButton.style.width = "150px";
-        eighthButton.style.height = "150px";
-        eighthButton.style.borderRadius = "7px";
-        eighthButton.style.margin = "10px";
-        eighthButton.style.border = "none";
-        blocks.push(eighthButton);
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].style.width = "150px";
+            buttons[i].style.height = "150px";
+            buttons[i].style.borderRadius = "7px";
+            buttons[i].style.margin = "10px";
+            buttons[i].style.border = "none";
+            buttons[i].style.visibility = "visible";
+            buttons[i].style.position = "relative";
+        }
 
         buttonStart.style.position = "absolute";
         buttonStart.style.width = 0;
@@ -221,124 +143,120 @@
         buttonStart.innerHTML = "";
         buttonStart.style.visibility = "hidden";
 
-        start(colors[0]);
-    }
-
-    function renovateBlocks(newColor) {
-        for (var i = 0; i < 8; i++) {
-            blocks[i].style.backgroundColor = newColor[i];
-        }
-    }
-
-    function addEvents() {
-        for (var i = 0; i < 8; i++) {
-            blocks[i].onclick = changeFirst();
-        }
-    }
-
-    function start(newColor) {
         document.getElementById("task").innerHTML = "Выберите блок, у которого цвет отличается от остальных";
 
-        renovateBlocks(colors[0]);
-        addEvents();
+        renovateBlocks(0);
     }
 
-    function changeFirst() {
-        var uniqueItem = colors[0][0];
-        var uniqueItemNumber;
+    function renovateBlocks(nextColor) {
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].style.backgroundColor = colors[nextColor][i];
+        }
+    }
+    var countColor = 1;
+    function findClickedButton(e) {
+        var buttons = document.getElementsByName("colorButton");
+        var indexClickedButton;
 
-        for (var i = 0; i < 8; i++) {
-            for (var j = i + 1; j < 8; j++) {
-                if (colors[0][i] == colors[0][j]) {
-                    break;
-                } else {
-                    uniqueItem = colors[0][i];
-                    uniqueItemNumber = i;
-                    console.log(colors[0][i]);
-                    blocks[uniqueItemNumber].value = "click";
-                    blocks[uniqueItemNumber].color = uniqueItem;
+        for (var i = 0; i < buttons.length; i++) {
+            if (buttons[i] == e) {
+                indexClickedButton = i;
+                if (buttons[i].style.backgroundColor == "rgb(74, 52, 33)" ||
+                        buttons[i].style.backgroundColor == "rgb(143, 51, 51)" ||
+                        buttons[i].style.backgroundColor == "rgb(130, 209, 139)" ||
+                        buttons[i].style.backgroundColor == "rgb(235, 103, 226)" ||
+                        buttons[i].style.backgroundColor == "rgb(81, 72, 212)" ||
+                        buttons[i].style.backgroundColor == "rgb(234, 237, 69)" ||
+                        buttons[i].style.backgroundColor == "rgb(237, 142, 69)" ||
+                        buttons[i].style.backgroundColor == "rgb(117, 53, 181)" ||
+                        buttons[i].style.backgroundColor == "rgb(153, 69, 237)" ||
+                        buttons[i].style.backgroundColor == "rgb(69, 237, 232)" ||
+                        buttons[i].style.backgroundColor == "rgb(116, 130, 130)") {
+                    count++;
                 }
             }
         }
-        for (var k = 0; k < 8; k++) {
-            if (blocks[k].value = "click") {
-                count++;
-                console.log(count);
-                break;
 
+            renovateBlocks(countColor);
+            countColor++;
+
+        if (countColor==10) {
+            result();
+            for (var i=0; i<buttons.length; i++) {
+                buttons[i].style.visibility="hidden";
             }
         }
     }
 
-
     function result() {
-        var firstLabel = document.getElementById("firstLabel");
-        container.removeChild(firstLabel);
-        var secondLabel = document.getElementById("secondLabel");
-        container.removeChild(secondLabel);
-        var thirdLabel = document.getElementById("thirdLabel");
-        container.removeChild(thirdLabel);
-        var fourthLabel = document.getElementById("fourthLabel");
-        container.removeChild(fourthLabel);
-        var fifthLabel = document.getElementById("fifthLabel");
-        container.removeChild(fifthLabel);
-        var sixthLabel = document.getElementById("sixthLabel");
-        container.removeChild(sixthLabel);
-        var seventhLabel = document.getElementById("seventhLabel");
-        container.removeChild(seventhLabel);
-        var eighthLabel = document.getElementById("eighthLabel");
-        container.removeChild(eighthLabel);
 
-        document.getElementById("resultText").style.border = "solid 2px #bababa";
+
+        document.
+        getElementById("resultText").style.border = "solid 2px #bababa";
 
         switch (count) {
             case 0:
-                document.getElementById("firstPart").innerHTML = count + "";
-                document.getElementById("secondPart").innerHTML = "Лучше вообще не браться за работу, связанную с цветами, она будет безнадежно испорчена.";
+                document.getElementById("firstPart").innerHTML = count + " правильных ответов";
+                document.
+                getElementById(
+                        "secondPart").innerHTML =
+                        "Лучше вообще не браться за работу, связанную с цветами, она будет безнадежно испорчена.";
                 break;
             case 1:
-                document.getElementById("firstPart").innerHTML = count + "";
-                document.getElementById("secondPart").innerHTML = "Лучше вообще не браться за работу, связанную с цветами, она будет безнадежно испорчена.";
+                document.getElementById("firstPart").innerHTML =
+                        count + " правильный ответ";
+                document.getElementById("secondPart").innerHTML =
+                        "Лучше вообще не браться за работу, связанную с цветами, она будет безнадежно испорчена.";
                 break;
             case 2:
-                document.getElementById("firstPart").innerHTML = count + "";
-                document.getElementById("secondPartt").innerHTML = "Лучше вообще не браться за работу, связанную с цветами, она будет безнадежно испорчена.";
+                document.
+                getElementById(
+                        "firstPart"
+                ).innerHTML = count + " правильных ответа";
+                document.
+                getElementById("secondPart").innerHTML = "Лучше вообще не браться за работу, связанную с цветами, она будет безнадежно испорчена.";
                 break;
             case 3:
-                document.getElementById("firstPart").innerHTML = count + "";
+                document.getElementById("firstPart").innerHTML = count + " правильных ответа";
                 document.getElementById("secondPart").innerHTML = "Лучше вообще не браться за работу, связанную с цветами, она будет безнадежно испорчена.";
                 break;
             case 4:
-                document.getElementById("firstPart").innerHTML = count + "";
+                document.getElementById("firstPart").innerHTML = count + " правильных ответа";
                 document.getElementById("secondPart").innerHTML = "Вы неплохо различаете цвета, но художник или дизайнер из Вас не получится.";
                 break;
             case 5:
-                document.getElementById("firstPart").innerHTML = count + "";
+                document.getElementById("firstPart").innerHTML = count + " правильных ответов";
                 document.getElementById("secondPart").innerHTML = "Вы неплохо различаете цвета, но художник или дизайнер из Вас не получится.";
                 break;
             case 6:
-                document.getElementById("firstPart").innerHTML = count + "";
+                document.getElementById("firstPart").innerHTML = count + " правильных ответов";
                 document.getElementById("secondPart").innerHTML = "Вы неплохо различаете цвета, но художник или дизайнер из Вас не получится.";
                 break;
             case 7:
-                document.getElementById("firstPart").innerHTML = count + "";
-                document.getElementById("secondPart").innerHTML = "Вы неплохо различаете цвета, но художник или дизайнер из Вас не получится.";
+                document.getElementById("firstPart").innerHTML = count + " правильных ответов";
+                document.getElementById("secondPart").innerHTML =
+                        "Вы неплохо различаете цвета, но художник или дизайнер из Вас не получится.";
                 break;
             case 8:
-                document.getElementById("firstPart").innerHTML = count + "";
-                document.getElementById("secondPart").innerHTML = "Вы гениально различаете цвета, поздравляю!";
+                document.getElementById(
+                        "firstPart").innerHTML = count + " правильных ответов";
+                document.getElementById("secondPart").
+                        innerHTML =
+                        "Вы гениально различаете цвета, поздравляю!";
                 break;
             case 9:
-                document.getElementById("firstPart").innerHTML = count + "";
-                document.getElementById("secondPart").innerHTML = "Вы гениально различаете цвета, поздравляю!";
+                document.getElementById("firstPart").innerHTML = count + " правильных ответов";
+                document.
+                getElementById("secondPart").
+                        innerHTML =
+                        "Вы гениально различаете цвета, поздравляю!";
                 break;
             case 10:
-                document.getElementById("firstPart").innerHTML = count + "";
+                document.getElementById("firstPart").innerHTML = count + " правильных ответов";
                 document.getElementById("secondPart").innerHTML = "Вы гениально различаете цвета, поздравляю!";
                 break;
         }
-        var task = document.getElementById("task");
-        container.removeChild(task);
+        document.getElementById("task").innerHTML="";
     }
 
 </script>

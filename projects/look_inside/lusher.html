@@ -14,25 +14,14 @@
 <section class="wrapper">
     <header>
         <div class="logo_nav">
-            <div class="logo">
-                <a href="index.html">
-                    <div class="logo_top_left"></div>
-                </a>
-                <a href="index.html">
-                    <div class="logo_bottom_left"></div>
-                </a>
-                <a href="index.html">
-                    <div class="logo_top_right"></div>
-                </a>
-                <a href="index.html">
-                    <div class="logo_bottom_right"></div>
-                </a>
-            </div>
+            <a href="index.html">
+                <div class="logo"></div>
+            </a>
             <nav>
                 <ul>
                     <li><a href="index.html">Главная</a></li>
                     <li><a href="lusher.html">Тест Люшера</a></li>
-                    <li><a href="daltonizm.html">Тест на дальтонизм</a></li>
+                    <li><a href="daltonizm.html">Тест на цветовосприятие</a></li>
                     <li><a href="tones.html">Тест оттенков</a></li>
                 </ul>
             </nav>
@@ -40,11 +29,12 @@
     </header>
     <div class="content">
         <div id="content">
-            <h1 id="task"></h1>
-            <div id="resultText">
-                <p id="firstPair"></p>
-                <p id="secondPair"></p>
-            </div>
+            <div id="colors">
+                <h1 id="task"></h1>
+                <div id="resultText">
+                    <p id="firstPair"></p>
+                    <p id="secondPair"></p>
+                </div>
             <label id="firstLabel" for="firstInput"><div id="first"><input type="checkbox" id="firstInput" onchange="resultCalc()"></div></label>
             <label id="secondLabel" for="secondInput"><div id="second"><input type="checkbox" id="secondInput" onchange="resultCalc()"></div></label>
             <label id="thirdLabel" for="thirdInput"><div id="third"><input type="checkbox" id="thirdInput" onchange="resultCalc()"></div></label>
@@ -53,8 +43,8 @@
             <label id="sixthLabel" for="sixthInput"><div id="sixth"><input type="checkbox" id="sixthInput" onchange="resultCalc()"></div></label>
             <label id="seventhLabel" for="seventhInput"><div id="seventh"><input type="checkbox" id="seventhInput" onchange="resultCalc()"></div></label>
             <label id="eighthLabel" for="eighthInput"><div id="eighth"><input type="checkbox" id="eighthInput" onchange="resultCalc()"></div></label>
-            <button id="start" onclick="start()">Пройти тест</button>
-
+            <button id="start" onclick="start()">Пройти тест Люшера</button>
+            </div>
         </div>
     </div>
     <footer>
@@ -103,50 +93,65 @@
         first.style.margin = "10px";
         first.style.float = "left";
         first.style.borderRadius="7px";
+        first.style.position="relative";
+
         second.style.backgroundColor = colors[1];
         second.style.width = "150px";
         second.style.height = "150px";
         second.style.margin = "10px";
-        second.style.float = "left"
+        second.style.float = "left";
         second.style.borderRadius="7px";
+        second.style.position="relative";
+
         third.style.backgroundColor = colors[2];
         third.style.width = "150px";
         third.style.height = "150px";
         third.style.margin = "10px";
         third.style.float = "left";
         third.style.borderRadius="7px";
+        third.style.position="relative";
+
         fourth.style.backgroundColor = colors[3];
         fourth.style.width = "150px";
         fourth.style.height = "150px";
         fourth.style.margin = "10px";
         fourth.style.float = "left";
         fourth.style.borderRadius="7px";
+        fourth.style.position="relative";
+
         fifth.style.backgroundColor = colors[4];
         fifth.style.width = "150px";
         fifth.style.height = "150px";
         fifth.style.margin = "10px";
         fifth.style.float = "left";
         fifth.style.borderRadius="7px";
+        fifth.style.position="relative";
+
         sixth.style.backgroundColor = colors[5];
         sixth.style.width = "150px";
         sixth.style.height = "150px";
         sixth.style.margin = "10px";
         sixth.style.float = "left";
         sixth.style.borderRadius="7px";
+        sixth.style.position="relative";
+
         seventh.style.backgroundColor = colors[6];
         seventh.style.width = "150px";
         seventh.style.height = "150px";
         seventh.style.margin = "10px";
         seventh.style.float = "left";
         seventh.style.borderRadius="7px";
+        seventh.style.position="relative";
+
         eighth.style.backgroundColor = colors[7];
         eighth.style.width = "150px";
         eighth.style.height = "150px";
         eighth.style.margin = "10px";
         eighth.style.float = "left";
         eighth.style.borderRadius="7px";
+        eighth.style.position="relative";
 
-        document.getElementById("content").removeChild(buttonStart);
+        document.getElementById("colors").removeChild(buttonStart);
     }
     var result=[];
     var color="";
