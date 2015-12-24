@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59426e74-1ed5-4b09-831d-af502f5868fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/look_inside/images/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/look_inside/images/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/look_inside/images/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/look_inside/images/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/look_inside/images/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/look_inside/images/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/look_inside/images/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/look_inside/images/logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/look_inside/daltonizm.html" afterPath="$PROJECT_DIR$/projects/look_inside/daltonizm.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/look_inside/index.html" afterPath="$PROJECT_DIR$/projects/look_inside/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/look_inside/lusher.html" afterPath="$PROJECT_DIR$/projects/look_inside/lusher.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/look_inside/tones.html" afterPath="$PROJECT_DIR$/projects/look_inside/tones.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/look_inside/favicon.png" afterPath="$PROJECT_DIR$/projects/look_inside/images/favicon.png" />
     </list>
     <ignored path="nkartovskaya.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lusher.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="lusher.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/projects/look_inside/lusher.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.153846">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.05971897">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -62,17 +50,17 @@
       <file leaf-file-name="tones.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/look_inside/tones.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-43.153847">
-              <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
+            <state vertical-scroll-proportion="-1.9615384">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="daltonizm.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="daltonizm.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/look_inside/daltonizm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.1943794">
+            <state vertical-scroll-proportion="-39.23077">
               <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
               <folding />
             </state>
@@ -143,12 +131,12 @@
         <option value="$PROJECT_DIR$/projects/look_inside/stylesheets/screen.css" />
         <option value="$PROJECT_DIR$/projects/look_inside/sass/screen.scss" />
         <option value="$PROJECT_DIR$/projects/look_inside/index.html" />
-        <option value="$PROJECT_DIR$/projects/look_inside/lusher.html" />
         <option value="$PROJECT_DIR$/projects/look_inside/daltonizm.html" />
         <option value="$PROJECT_DIR$/projects/look_inside/tones.html" />
         <option value="$PROJECT_DIR$/projects/look_inside/js/lusher.js" />
         <option value="$PROJECT_DIR$/projects/look_inside/js/daltonizm.js" />
         <option value="$PROJECT_DIR$/projects/look_inside/js/tones.js" />
+        <option value="$PROJECT_DIR$/projects/look_inside/lusher.html" />
       </list>
     </option>
   </component>
@@ -449,12 +437,6 @@
       <option name="number" value="Default" />
       <updated>1434019303130</updated>
     </task>
-    <task id="LOCAL-00006" summary="update">
-      <created>1435935149688</created>
-      <option name="number" value="00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1435935149688</updated>
-    </task>
     <task id="LOCAL-00007" summary="update">
       <created>1435935179516</created>
       <option name="number" value="00007" />
@@ -743,7 +725,13 @@
       <option name="project" value="LOCAL" />
       <updated>1450948823818</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="update">
+      <created>1450949036532</created>
+      <option name="number" value="00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1450949036535</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TodoView">
@@ -757,9 +745,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="0" width="969" height="1040" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22556391" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22556391" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912722" sideWeight="0.49337748" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32815966" sideWeight="0.5066225" order="11" side_tool="true" content_ui="tabs" />
@@ -1191,26 +1179,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/look_inside/lusher.html">
+    <entry file="file://$PROJECT_DIR$/projects/look_inside/daltonizm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.153846">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state vertical-scroll-proportion="-39.23077">
+          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/look_inside/tones.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-43.153847">
-          <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/look_inside/daltonizm.html">
+    <entry file="file://$PROJECT_DIR$/projects/look_inside/lusher.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1943794">
-          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.05971897">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding />
         </state>
       </provider>
