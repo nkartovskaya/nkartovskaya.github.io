@@ -63,7 +63,9 @@
                 <option>Новый</option>
                 <option>На верификации</option>
                 <option>На верификации с комментариями</option>
-                <option>Верифицирован</option>
+                <option>Верифицирован, без оригиналов в банке</option>
+                <option>Верифицирован, оригиналы в банке</option>
+                <option>Отклонен</option>
                 <option>Закрыт</option>
             </select><br>
 
@@ -72,6 +74,13 @@
             <p class="comments">При нажатии кнопки в списке отражаются документы, соответствующие ограничениям
                 фильтра</p>
         </form>
+        <button style="width: 30px"><a href="new_import_contract.html"><img src="images/edit.png"
+                                                                            title="Редактировать"></a></button>
+        <button style="width: 30px"><a href="new_import_contract.html"><img src="images/copy.png"
+                                                                            title="Копировать"></a></button>
+        <button style="width: 30px"><a href="import_contract.html"><img src="images/delete.png" title="Удалить"></a></button><br>
+
+        <span class="comments">Комментарии к кнопкам управления документом ниже на странице</span>
         <table>
             <tr class="link">
                 <td>Все</td>
@@ -132,7 +141,6 @@
                     <button title="Сортировка по убыванию">&#8595;</button>
                 </td>
                 <td>Вложения<br></td>
-                <td>Операции с документом</td>
             </tr>
             <tr>
                 <td><input type="checkbox"></td>
@@ -145,15 +153,6 @@
                 <td><a>USD</a></td>
                 <td><a>Новый</a></td>
                 <td><img src="images/vlozhenie.jpg"></td>
-                <td>
-                    <button style="width: 30px"><a href="new_import_contract.html"><img src="images/edit.png"
-                                                                                        title="Редактировать"></a></button>
-                    <button style="width: 30px"><a href="new_import_contract.html"><img src="images/copy.png"
-                                                                                        title="Копировать"></a></button>
-                    <button style="width: 30px"><a href="import_contract.html"><img src="images/delete.png" title="Удалить"></a></button><br>
-
-                    <span class="comments">Комментарии к кнопкам управления документом ниже на странице</span>
-                </td>
             </tr>
             <tr>
                 <td><input type="checkbox"></td>
@@ -166,15 +165,6 @@
                 <td><a>USD</a></td>
                 <td><a>Новый</a></td>
                 <td>-</td>
-                <td>
-                    <button style="width: 30px"><a href="new_import_contract.html"><img src="images/edit.png"
-                                                                                        title="Редактировать"></a></button>
-                    <button style="width: 30px"><a href="new_import_contract.html"><img src="images/copy.png"
-                                                                                        title="Копировать"></a></button>
-                    <button style="width: 30px"><a href="import_contract.html"><img src="images/delete.png" title="Удалить"></a></button><br>
-
-
-                </td>
             </tr>
 			<tr style="background-color: grey; color: green">
                 <td><input type="checkbox"></td>
@@ -187,15 +177,6 @@
                 <td><a>USD</a></td>
                 <td><a>На верификации с комментариями</a></td>
                 <td><img src="images/vlozhenie.jpg"></td>
-                <td>
-                    <button style="width: 30px"><a href="new_import_contract.html"><img src="images/edit.png"
-                                                                                        title="Редактировать"></a></button>
-                    <button style="width: 30px"><a href="new_import_contract.html"><img src="images/copy.png"
-                                                                                        title="Копировать"></a></button>
-                    <button style="width: 30px"><a href="import_contract.html"><img src="images/delete.png" title="Удалить"></a></button><br>
-<span class="comments">Строка с платежом, у которого статус "На верификации с комментариями", выделяется цветом. Для примера
-                        цвет текста зеленый, фон серый</span>
-                </td>
             </tr>
 
             <tr style="color: red; background-color: #cecece;">
@@ -209,16 +190,6 @@
                 <td><a>USD</a></td>
                 <td><a>Отклонен</a></td>
                 <td><img src="images/vlozhenie.jpg"></td>
-                <td>
-                    <button style="width: 30px"><a href="new_import_contract.html"><img src="images/edit.png"
-                                                                                        title="Редактировать"></a></button>
-                    <button style="width: 30px"><a href="new_import_contract.html"><img src="images/copy.png"
-                                                                                        title="Копировать"></a></button>
-                    <button style="width: 30px"><a href="import_contract.html"><img src="images/delete.png" title="Удалить"></a></button><br>
-
-                    <span class="comments">Строка с платежом, у которого статус "Отклонен", выделяется цветом. Для примера
-                        цвет текста красный, фон серый</span>
-                </td>
             </tr>
             <tr>
                 <td><input type="checkbox"></td>
@@ -231,18 +202,9 @@
                 <td><a>USD</a></td>
                 <td><a>На верификации</a></td>
                 <td><img src="images/vlozhenie.jpg"></td>
-                <td>
-                    <button style="width: 30px"><a href="new_import_contract.html"><img src="images/edit.png"
-                                                                                        title="Редактировать"></a></button>
-                    <button style="width: 30px"><a href="new_import_contract.html"><img src="images/copy.png"
-                                                                                        title="Копировать"></a></button>
-                    <button style="width: 30px"><a href="import_contract.html"><img src="images/delete.png" title="Удалить"></a></button><br>
-
-                </td>
             </tr>
         </table>
         <br>
-        <button><a href="#">Удалить выделенные</a></button>
     </div>
 	<p class="comments"><span class="topic">Комментарии к статусам документа (речь идет о профиле контракта, сам контракт-это файл, прикрепленный к профилю контракта</span><br>
         1.Новый: профиль контракта заполнен и сохранен, файлы контракта могут быть как присоединены, так и нет. Для документа доступны следующие действия: редактирование всех полей, добавление и удаление файлов, копирование, удаление.<br><br>
@@ -257,7 +219,8 @@
         Новый: все кнопки доступны<br>
         На верификации: все кнопки доступны<br>
         На верификации с комментариями: все кнопки доступны<br>
-        Верифицирован: доступна кнопка копировать, удалить<br>
+        Верифицирован, без оригиналов в банке: доступна кнопка копировать, удалить<br>
+        Верифицирован, оригиналы в банке: доступна кнопка копировать<br>
 		Отклонен: доступны кнопки копировать, удалить<br>
         Закрыт: доступна кнопка копировать<br>
 		<br></p>

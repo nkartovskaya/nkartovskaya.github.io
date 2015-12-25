@@ -102,4 +102,11 @@ tr.main_nav a {
 #menu li ul li:hover ul li {
     display: block;
 }
+table.timeline td {
+    width: 80px;
+    height: 80px;
+}
+table.timeline label {
+    font-size: 8px;
+}
 
