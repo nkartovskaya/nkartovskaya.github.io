@@ -175,31 +175,31 @@ function settingPuzzle() {
         }
     }
 
-    for (var i=0; i<inputsPuzzleType; i++) {
-        if(inputsPuzzleType[i].checked) {
-switch (i) {
-    case 0:
-        startPuzzle();
-        break;
-    case 1:
-        startPuzzle();
-        break;
-    case 2:
-        startPuzzle();
-        break;
-    case 3:
-        startPuzzle();
-        break;
-    case 4:
-        startPuzzle();
-        break;
-    case 5:
-        startPuzzle();
-        break;
-    case 6:
-        startPuzzle();
-        break;
-}
+    for (var i = 0; i < inputsPuzzleType.length; i++) {
+        if (inputsPuzzleType[i].checked) {
+            switch (i) {
+                case 0:
+                    startPuzzle();
+                    break;
+                case 1:
+                    startPuzzle();
+                    break;
+                case 2:
+                    startPuzzle();
+                    break;
+                case 3:
+                    startPuzzle();
+                    break;
+                case 4:
+                    startPuzzle();
+                    break;
+                case 5:
+                    startPuzzle();
+                    break;
+                case 6:
+                    startPuzzle();
+                    break;
+            }
         }
     }
 }
@@ -207,15 +207,9 @@ switch (i) {
 function startPuzzle() {
     containerTop.style.visibility = "visible";
     containerBottom.style.visibility = "visible";
-
     for (var i = 0; i < 100; i++) {
         city.push(document.createElement("div"));
-        city[i].set
-        city[i].style.width = "80px";
-        city[i].style.height = "60px";
-        city[i].style.backgroundImage = cityImages[i];
-        city[i].style.float = "left";
-        containerBottom.appendChild(city[i]);
+        city[i].setAttribute("class", "sprites-city_" + i);
     }
 
     for (var i = 0; i < 100; i++) {
@@ -225,5 +219,19 @@ function startPuzzle() {
         containerBottom.appendChild(city[i]);
     }
 }
+containerTop.style.visibility = "visible";
+containerBottom.style.visibility = "visible";
+for (var i = 0; i < 100; i++) {
+    city.push(document.createElement("div"));
+    city[i].setAttribute("class", "sprites-city_" + (i+1));
+}
+
+for (var i = 0; i < 100; i++) {
+    city.sort(function () {
+        return 0.5 - Math.random();
+    });
+    containerBottom.appendChild(city[i]);
+}
+
 
 
