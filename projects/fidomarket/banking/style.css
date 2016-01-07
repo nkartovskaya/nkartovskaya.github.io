@@ -110,3 +110,14 @@ table.timeline label {
     font-size: 8px;
 }
 
+.cfk_list {
+    width: 200px;
+    height: 140px;
+    font-size: 12px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #e0f79f;
+    border: solid 1px grey;
+    float: left;
+}
+

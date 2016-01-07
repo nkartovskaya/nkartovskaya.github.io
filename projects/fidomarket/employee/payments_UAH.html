@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Платежи в UAH</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div>Сергей Ратков</div>
+<iframe id="nav" src="main_navigation.html"></iframe>
+<hr>
+<!------------Content----------------->
+<div class="content">
+    <p class="comments">Боковое меню для быстрого перехода между видами платежей и переводов</p>
+
+    <div class="sidebar">
+        <table>
+            <tr class="nav_second_level">
+                <td><a href="payments_UAH.html">Платежи в UAH</a></td>
+            </tr>
+            <tr class="nav_second_level">
+                <td><a href="payments_currency.html">Платежи в валюте</a></td>
+            </tr>
+            <tr class="nav_second_level">
+                <td><a href="salary.html">Зарплатные ведомости</a></td>
+            </tr>
+            <tr class="nav_second_level">
+                <td><a href="application_buy.html">Заявка на покупку валюты</a></td>
+            </tr>
+            <tr class="nav_second_level">
+                <td><a href="application_sale.html">Заявка на продажу валюты</a></td>
+            </tr>
+            <tr class="nav_second_level">
+                <td><a href="application_exchange.html">Заявка на конвертацию валюты</a></td>
+            </tr>
+        </table>
+    </div>
+    <div class="content_account">
+        <button class="button_inactive"><a href="#">Создать новый платеж</a></button>
+<p class="comments">Кнопки и чекбоксы, выделенные красным пунктиром, видны, но не активны</p>
+        <br><br>
+
+        <button class="button_inactive">Загрузить платежи в грн.</button>
+        <br>
+        <br>
+        <label>Текущие документы</label><br><br>
+
+        <form>
+            <label>Фильтр</label><br><br>
+            <p>Поиск клиента</p>
+            <label>По названию </label><input placeholder="Название / ФИО СПД"><br><br>
+            <label>По ЭДРПОУ </label><input placeholder="11111111"><br><br>
+            <label>По ИНН </label><input placeholder="111111111111"><br><br>
+            <p class="comments">Одно из полей должно быть заполнено согласно требований: Название - текст, ЭДРПОУ - число из 8-ми символов,
+                ИНН - число из 12 символов. Можно объединить все поля в одно и искать по любому из признаков.</p>
+            <button>Найти</button><br>
+            <p class="comments">В результат нажатия кнопки выводится список клиентов, параметры которых удовлетворяют заполненным параметрам
+                поиска</p>
+            <a href="#">СПД Ромашка А. И.</a><br>
+            <a href="main.html">ООО "Ромашка"</a><br>
+            <a href="#">ООО "Ромашка-Плюс"</a><br><br>
+            <label>Документы с </label><input><label> по </label><input>
+            <button>Найти</button>
+            <button>Очистить</button>
+            <br><br>
+            <a href="#">Расширенный фильтр</a>
+
+            <p class="comments">По умолчанию на странице виден фильтр по дате. При нажатии на
+                ссылку "Расширенный фильтр" раскрываются поля фильтра, показанные ниже. На это странице они
+                для удобства открыты</p>
+            <label>Счет клиента </label>
+            <select>
+                <option>26000000000</option>
+                <option>26000000000</option>
+                <option>26000000000</option>
+            </select><br>
+            <p class="comments">Счет клиента выбирается из выпадающего списка</p>
+            <label>Сумма от </label><input><label> до </label><input><br>
+            <p class="comments">Допускается заполнение одного из полей-нижней или верхней границы суммы</p>
+            <a href="#">Получатель </a><br><br>
+            <label>Название </label><input><br><br>
+            <label>МФО </label><input><br><br>
+            <label>ЭДРПОУ </label><input><br><br>
+            <label>Счет </label><input><br><br>
+            <label>Назначение платежа </label><input><br>
+            <p class="comments">Заполнение полей фильтра может осуществляться вручную или выбором
+                из справочника получателей. В таком случае, заполняются поля МФО, ЭДРПОУ, Счет,
+                Назначение платежа</p>
+            <label>Статус платежа </label><br><br>
+            <select>
+                <option>Все статусы</option>
+                <option>Статус 1</option>
+                <option>Статус 2</option>
+                <option>Статус 3</option>
+            </select><br>
+            <p class="comments">Статус платежа выбирается из выпадающего списка</p>
+            <label>Связь с документами типа "зарплатная ведомость"</label><input type="checkbox"><br><br>
+            <button>Применить фильтр</button>
+            <p class="comments">При нажатии кнопки в списке отражаются документы, соответствующие ограничениям фильтра</p>
+        </form>
+        <button class="button_inactive" style="width: 30px"><a href="#"><img src="images/sign.jpg" title="Подписать"></a></button>
+        <button class="button_inactive" style="width: 30px"><a href="#"><img src="images/edit.png"
+                                                                        title="Редактировать"></a></button>
+        <button class="button_inactive" style="width: 30px"><a href="#"><img src="images/copy.png"
+                                                                        title="Копировать"></a></button>
+        <button class="button_inactive" style="width: 30px"><a href="#"><img src="images/print.png" title="Печать"></a></button>
+        <button class="button_inactive" style="width: 30px"><a href="#"><img src="images/save.png" title="Сохранить"></a></button>
+        <button class="button_inactive" style="width: 30px"><a href="#"><img src="images/delete.png" title="Удалить"></a></button>
+        <p class="comments">Кнопки управления документами работают по такой логике: они активны, если отмечен хотя бы один
+        чекбокс, в таком случае операция, соответствующая кнопке, осуществляется для этого документа. Если отмечены
+            несколько чекбоксов, выполняется операция для группы документов.</p>
+        <table>
+            <tr class="link">
+                <td>Все платежи</td>
+                <td>Рабочие</td>
+                <td>На обработке</td>
+                <td>Выполненные</td>
+            </tr>
+        </table>
+        <table>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class="nav_second_level">
+                <td class="button_inactive">Выделить все<input type="checkbox"></td>
+                <td>№ документа<br>
+                    <button title="Сортировка по возрастанию">&#8593;</button><button title="Сортировка по убыванию">&#8595;</button>
+                </td>
+                <td>Дата создания<br>
+                    <button title="Сортировка по возрастанию">&#8593;</button><button title="Сортировка по убыванию">&#8595;</button>
+                </td>
+                <td>Счет 2<br>
+                    <button title="Сортировка по возрастанию">&#8593;</button><button title="Сортировка по убыванию">&#8595;</button>
+                </td>
+                <td>Получатель<br>
+                    <button title="Сортировка по возрастанию">&#8593;</button><button title="Сортировка по убыванию">&#8595;</button>
+                </td>
+                <td>Сумма<br>
+                    <button title="Сортировка по возрастанию">&#8593;</button><button title="Сортировка по убыванию">&#8595;</button>
+                </td>
+                <td>Статус<br>
+                    <button title="Сортировка по возрастанию">&#8593;</button><button title="Сортировка по убыванию">&#8595;</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="button_inactive"><input type="checkbox"></td>
+                <td><a>1</a></td>
+                <td><a href="payment_UAH_details.html">31.10.2015</a></td>
+                <td><a>2600000000000</a></td>
+                <td><a>ООО "Одуванчик"</a></td>
+                <td><a>15000</a></td>
+                <td><a>Новый</a></td>
+            </tr>
+            <tr>
+                <td class="button_inactive"><input type="checkbox"></td>
+                <td><a>2</a></td>
+                <td><a href="payment_UAH_details.html">31.10.2015</a></td>
+                <td><a>2600000000000</a></td>
+                <td><a>ООО "Одуванчик"</a></td>
+                <td><a>15000</a></td>
+                <td><a>Новый</a></td>
+            </tr>
+            <tr style="color: red; background-color: #cecece;">
+                <td class="button_inactive"><input type="checkbox"></td>
+                <td><a>3</a></td>
+                <td><a href="payment_UAH_details.html">31.10.2015</a></td>
+                <td><a>2600000000000</a></td>
+                <td><a>ООО "Одуванчик"</a></td>
+                <td><a>15000</a></td>
+                <td><a>Отклонен</a></td>
+                <p class="comments">Строка с платежом, у которого статус "Отклонен", выделяется цветом. Для примера цвет текста красный, фон серый</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="button_inactive"><input type="checkbox"></td>
+                <td><a>4</a></td>
+                <td><a href="payment_UAH_details.html">31.10.2015</a></td>
+                <td><a>2600000000000</a></td>
+                <td><a>ООО "Одуванчик"</a></td>
+                <td><a>15000</a></td>
+                <td><a>Новый</a></td>
+                <td>
+
+                </td>
+            </tr>
+        </table>
+        <br>
+        <button class="button_inactive" style="width: 30px"><a href="#"><img src="images/sign.jpg" title="Подписать"></a></button>
+        <button class="button_inactive" style="width: 30px"><a href="#"><img src="images/edit.png"
+                                                                        title="Редактировать"></a></button>
+        <button class="button_inactive" style="width: 30px"><a href="#"><img src="images/copy.png"
+                                                                        title="Копировать"></a></button>
+        <button class="button_inactive" style="width: 30px"><a href="#"><img src="images/print.png" title="Печать"></a></button>
+        <button class="button_inactive" style="width: 30px"><a href="#"><img src="images/save.png" title="Сохранить"></a></button>
+        <button class="button_inactive" style="width: 30px"><a href="#"><img src="images/delete.png" title="Удалить"></a></button>
+        <p class="comments">При нажатии на кнопку Подписать появляется окно для выбора ЭЦП, до нажатия оно скрыто</p>
+        <input placeholder="ЭЦП">
+        <button>Обзор</button>
+        <button><a href="payments_UAH.html">Применить</a></button>
+        <p class="comments">При нажатии на кнопку "Обзор" на экран выводится окно проводника для поиска файла ЭЦП. После
+            выбора нужного файла, его название появляется в текстовом поле и становится активной кнопка "Применить". <br>
+            При нажатии на нее инициируется процесс наложения ЭЦП на группу платежей и отправки их в банк. После
+            этого-возврат на страницу платежей.</p>
+    </div>
+    <p class="comments">Комментарии к кнопкам управления документом<br>
+        1.Кнопка подписать: при нажатии кнопки происходит то же, что при нажатии кнопки "Подписать и отправить" <br>
+        под таблицей документов-открытие окна для поиска ЭЦП и его применение, только для конкретного документа, <br>
+        в строке которого нажата кнопка.<br><br>
+        2.Кнопка редактировать: при нажатии кнопки пользователь возвращается на страницу, аналогичную странице<br>
+        создания нового платежа, но
+        все поля платежа должны быть заполнены. Номер и дата документа сохраняется<br><br>
+        3.Кнопка копировать: при нажатии кнопки пользователь возвращается на страницу, аналогичную странице<br>
+        создания нового платежа, но все поля должны быть заполнены. Номер и дата документа-текущие.<br><br>
+        4.Кнопка печать: при нажатии на кнопку платежное поручение отправляется на печать<br><br>
+        5.Кнопка сохранить: при нажатии на кнопку платежное поручение формируется и сохраняется на компьютере в формате
+        .pdf.<br><br>
+        6.Кнопка удалить: при нажатии кнопки удаление документа.<br><br>
+        Доступность кнопок по статусам:<br>
+        Новые-все кнопки доступны.<br>
+        Все другие статусы: доступны кнопки "Копировать", "Печать", "Сохранить"<br>
+    </p>
+</div>
+</body>
+</html>
