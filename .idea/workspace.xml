@@ -5,41 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59426e74-1ed5-4b09-831d-af502f5868fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/SWIFT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/accounts.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/app_buy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/app_exchange.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/app_sale.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/beneficyary.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/beneficyary_profile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/contract.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/contract_file.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/copy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/countries.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/directory.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/directory_employee.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/document_connction.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/edit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/emails.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/help.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/new_comment_contract.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/new_salary.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/payments_currency.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/pd_main_fee.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/pd_salary.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/plat_curr_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/plat_curr_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/plat_dor_UAH.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/print.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/recipients.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/salary_list.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/save.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/sign.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/swift_profile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/typy_opl_komis_val.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/vlozhenie.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/main_navigation.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/main_navigation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/employee/main_navigation.html" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/main_navigation.html" />
     </list>
     <ignored path="nkartovskaya.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,7 +27,28 @@
     <favorites_list name="nkartovskaya.github.io" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main_navigation.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/main_navigation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-24.692308">
+              <caret line="40" column="57" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_navigation.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projects/fidomarket/employee/main_navigation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7962529">
+              <caret line="40" column="61" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -112,7 +101,6 @@
         <option value="$PROJECT_DIR$/projects/fidomarket/banking/new_import_contract_appendix.html" />
         <option value="$PROJECT_DIR$/projects/fidomarket/banking/new_import_contract.html" />
         <option value="$PROJECT_DIR$/projects/fidomarket/banking/import_contract_detail.html" />
-        <option value="$PROJECT_DIR$/projects/fidomarket/banking/main_navigation.html" />
         <option value="$PROJECT_DIR$/projects/fidomarket/banking/new_payment_UAH.html" />
         <option value="D:/ФИДОМАРКЕТ ЮЛ/Разработка/Платежи в грн/Internet-banking/payments-UAH-newpayment.htm" />
         <option value="$PROJECT_DIR$/projects/fidomarket/banking/style.css" />
@@ -125,10 +113,11 @@
         <option value="$PROJECT_DIR$/projects/fidomarket/employee/add_new_person.html" />
         <option value="$PROJECT_DIR$/projects/fidomarket/employee/directories.html" />
         <option value="$PROJECT_DIR$/projects/fidomarket/employee/profile_employee.html" />
-        <option value="$PROJECT_DIR$/projects/fidomarket/employee/main_navigation.html" />
         <option value="$PROJECT_DIR$/projects/fidomarket/employee/main.html" />
         <option value="$PROJECT_DIR$/projects/fidomarket/employee/style.css" />
         <option value="$PROJECT_DIR$/projects/fidomarket/employee/main_employee_navigation.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/banking/main_navigation.html" />
+        <option value="$PROJECT_DIR$/projects/fidomarket/employee/main_navigation.html" />
       </list>
     </option>
   </component>
@@ -412,12 +401,6 @@
       <created>1434019303130</created>
       <option name="number" value="Default" />
       <updated>1434019303130</updated>
-    </task>
-    <task id="LOCAL-00014" summary="update">
-      <created>1435935369261</created>
-      <option name="number" value="00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1435935369261</updated>
     </task>
     <task id="LOCAL-00015" summary="update">
       <created>1435935388364</created>
@@ -707,7 +690,13 @@
       <option name="project" value="LOCAL" />
       <updated>1452175990075</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="update">
+      <created>1452176119842</created>
+      <option name="number" value="00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1452176119842</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1064,14 +1053,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/main_navigation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.576923">
@@ -1136,14 +1117,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/fidomarket/employee/main_navigation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29859486">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/fidomarket/employee/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35362998">
@@ -1164,6 +1137,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="5.3548007">
           <caret line="269" column="27" selection-start-line="269" selection-start-column="27" selection-end-line="269" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/banking/main_navigation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.692308">
+          <caret line="40" column="57" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/fidomarket/employee/main_navigation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7962529">
+          <caret line="40" column="61" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
           <folding />
         </state>
       </provider>
