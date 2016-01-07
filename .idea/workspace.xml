@@ -5,6 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59426e74-1ed5-4b09-831d-af502f5868fd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/SWIFT.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/accounts.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/app_buy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/app_exchange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/app_sale.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/beneficyary.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/beneficyary_profile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/contract.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/contract_file.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/countries.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/directory.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/directory_employee.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/document_connction.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/emails.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/help.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/new_comment_contract.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/new_salary.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/payments_currency.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/pd_main_fee.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/pd_salary.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/plat_curr_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/plat_curr_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/plat_dor_UAH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/print.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/recipients.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/salary_list.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/save.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/sign.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/swift_profile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/typy_opl_komis_val.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/images/vlozhenie.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nkartovskaya.github.io.iws" />
@@ -223,6 +257,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="employee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nkartovskaya.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nkartovskaya.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fidomarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="banking" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -352,12 +412,6 @@
       <created>1434019303130</created>
       <option name="number" value="Default" />
       <updated>1434019303130</updated>
-    </task>
-    <task id="LOCAL-00013" summary="update">
-      <created>1435935348403</created>
-      <option name="number" value="00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1435935348403</updated>
     </task>
     <task id="LOCAL-00014" summary="update">
       <created>1435935369261</created>
@@ -647,7 +701,13 @@
       <option name="project" value="LOCAL" />
       <updated>1452175977356</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="update">
+      <created>1452175990075</created>
+      <option name="number" value="00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1452175990075</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TodoView">
