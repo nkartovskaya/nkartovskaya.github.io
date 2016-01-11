@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="59426e74-1ed5-4b09-831d-af502f5868fd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/banking/main_navigation.html" afterPath="$PROJECT_DIR$/projects/fidomarket/banking/main_navigation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/fidomarket/employee/main_navigation.html" afterPath="$PROJECT_DIR$/projects/fidomarket/employee/main_navigation.html" />
     </list>
     <ignored path="nkartovskaya.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -402,12 +400,6 @@
       <option name="number" value="Default" />
       <updated>1434019303130</updated>
     </task>
-    <task id="LOCAL-00015" summary="update">
-      <created>1435935388364</created>
-      <option name="number" value="00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1435935388364</updated>
-    </task>
     <task id="LOCAL-00016" summary="update">
       <created>1435937129850</created>
       <option name="number" value="00016" />
@@ -696,7 +688,13 @@
       <option name="project" value="LOCAL" />
       <updated>1452176119842</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="update">
+      <created>1452176212628</created>
+      <option name="number" value="00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1452176212628</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TodoView">
