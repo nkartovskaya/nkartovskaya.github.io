@@ -1,0 +1,192 @@
+@media (max-width: 399px) {
+	body {
+		font-size:70%;
+		overflow-x:auto;
+	}
+	
+	.logoCont img {
+    width: 40%;
+    min-width: 95px;
+	margin-bottom: 1.5em;
+}
+.hotline {
+	float:right;
+	text-align:right;
+}
+.pers,
+.help,
+.lang {
+	width:100%;
+	text-align:center;
+}
+.helpIcons {
+	text-align:center;
+}
+.helpIcons img,
+.person {
+	width:2.5em;
+}
+.sidebar {
+	display:none;
+}
+.standardButton, input[type="submit"], input[type="reset"] {
+    display: inline-block;
+    text-align: center;
+}
+.topButtons {
+    float: none;
+}
+.mainContent {
+    padding-left: 0;
+}
+.mainContent input, .mainContent select {
+    margin: 0.7em;
+}
+.advFilter {
+    background: inherit;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.currentDocs a.statusBtn {
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    margin: 0.5em 1em 0 0.5em;
+}
+.socicons,
+.footerlogo {
+	text-align: center;
+}
+.hotline2 {
+    float: none;
+    text-align: center;
+}
+.footerlogo img {
+    margin: 0 auto 2em auto;
+}
+.text-centermy {
+	text-align:center;
+}
+.footermenu {
+	margin-bottom:0;
+	margin-top:0;
+}
+.tab_container {
+	 border: 0px solid #aeb2b4;
+    border-top: 1px solid #aeb2b4;
+}
+.tabs_container .tabs li {
+	font-size:1.2em;
+}
+.navbar-fixed-bottom {
+	position:static;
+}
+}
+@media (min-width: 400px) and (max-width: 767px) {
+	body {
+		font-size:80%;
+		overflow-x:auto;
+	}
+	a.sidebarLink {
+	display:inline-block;
+	text-align:center;
+	margin:0 auto;
+	position:static;
+	}
+	.sidebarLink:hover .sideArrow,
+	.activeSidebarLink .sideArrow,
+	.sideArrow {
+	display:none;
+}
+.logoCont img {
+    width: 30%;
+	min-width:150px;
+	margin-bottom: 1.5em;
+}
+.hotline {
+	float:right;
+	text-align:right;
+}
+.helpIcons {
+    text-align: center;
+}
+.helpIcons img,
+.person {
+	width:2.5em;
+}
+.socicons,
+.footerlogo {
+	text-align: center;
+}
+.hotline2 {
+    float: none;
+    text-align: center;
+}
+.footerlogo img {
+    margin: 0 auto 2em auto;
+}
+.text-centermy {
+	text-align:center;
+}
+. uploadNext {
+	display:block;
+}
+.tab_container {
+	 border: 0px solid #aeb2b4;
+    border-top: 1px solid #aeb2b4;
+}
+.tabs_container .tabs li {
+	font-size:1.2em;
+}
+.navbar-fixed-bottom {
+	position:static;
+}
+.payer, .payer3 {
+	width:100%;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	body {
+		font-size:90%;
+	}
+.mainMenu > li {
+    width: 16.4%;
+    min-height: 9em;
+}
+a.sidebarLink {
+	display:inline-block;
+	text-align:center;
+	margin:0 auto;
+	position:static;
+	}
+	.sidebarLink:hover .sideArrow,
+	.activeSidebarLink .sideArrow,
+	.sideArrow {
+	display:none;
+}
+.helpIcons img,
+.person {
+	width:2.5em;
+}
+.footermenu {
+	margin-bottom:0;
+	margin-top:0;
+}
+.payer3 {
+    width: 84%;
+}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.mainMenu li {
+    width: 16.4%;
+}
+
+}
+@media (min-width: 1200px) {
+	.payer3 {
+    width: 88%;
+}
+.payer3det  {
+    width: 77%;
+}
+}

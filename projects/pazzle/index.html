@@ -7,13 +7,20 @@
     <link rel="stylesheet" type="text/css" href="css/screen.css">
 </head>
 <body>
+<div id="no-drop" class="draggable drag-drop"> #no-drop </div>
 
+<div id="yes-drop" class="draggable drag-drop"> #yes-drop </div>
+
+<div id="outer-dropzone" class="dropzone">
+    #outer-dropzone
+    <div id="inner-dropzone" class="dropzone">#inner-dropzone</div>
+</div>
 <section id="container">
     <button id="start" onclick="startNavigation()">НАЧАТЬ</button>
-    <div id="containerTop">
-    </div>
-    <div id="containerBottom"></div>
+    <div id="containerRight"></div>
+    <div id="containerLeft"></div>
 </section>
 <script defer type="text/javascript" src="js/pazzle.js" charset="utf-8"></script>
+<script defer type="text/javascript" src="js/d&d.js" charset="utf-8"></script>
 </body>
 </html>

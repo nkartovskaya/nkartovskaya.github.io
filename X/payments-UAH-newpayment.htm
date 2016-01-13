@@ -1,0 +1,362 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <title>Платіжне доручення</title>
+    <meta name="description" content="">
+	<link href="css/reset.css" rel="stylesheet" />
+    <link href="bootstrap-3.3.5/css/bootstrap-theme.css" rel="stylesheet" />
+     <link href="bootstrap-3.3.5/css/bootstrap.css" rel="stylesheet" />
+     <link href="css/style.css" rel="stylesheet" />
+     <link href="css/response.css" rel="stylesheet" /> 
+    <script src="js/jquery.js"></script>     
+    <script src="bootstrap-3.3.5/js/bootstrap.js"></script> 
+    <script src="js/script.js"></script>
+	<link rel="shortcut icon" href="i/fav.ico">
+    
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
+    
+
+  </head>
+  <body>
+ <!--Callback-->
+  <a href="" class="callback"><img src="i/callback.png" class="callbackImg" alt="Callback"></a>
+  
+  <!--Header-->
+  
+   <header class="container-fluid">
+   		<div class="container">
+    		<div class="row">
+            	<div class="col-md-3 col-sm-3 col-xs-6 logoCont">
+            		<a href="https://fidobank.ua/" title="Fidobank" target="_blank"><img src="i/logo.png" class="logoimg" alt="Fidobank"></a>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-6 hotline">
+                	<p>Горяча лінія</p>
+                    <p class="hotlineNumber">0 800 30 76 76</p>
+                    <p>Безкоштовно зі стаціонарних<br>та мобільних телефонів в Україні</p>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-4 pers">
+            		<table>
+                    	<tr>
+                        	<td><img src="i/pers.png" class="person" alt="Account"></td>
+                            <td><p>Доброго дня <span class="persName">Олександр Олександров!</span></p>
+                        </td>
+                    </table>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-4 help">
+            		<span class="helpIcons">
+                    	<a href="" data-toggle="tooltip" title="Зв'язатиь з банком"  data-placement="bottom"><img src="i/letter.png" class="letter" alt="Contact us"></a>
+                        <a href="" data-toggle="tooltip" title="Допомога"  data-placement="bottom"><img src="i/quest.png" class="question" alt="Help"></a>
+                        <a href="" data-toggle="tooltip" title="Довідники"  data-placement="left"><img src="i/book.png" class="book" alt="Guides"></a>
+                    </span>
+                    <span class="lang hidden-xs">
+                    	<a href="" class="activeLang">УКР</a>
+                        <a href="">РУС</a>
+                    </span>
+                </div>
+                <span class="lang visible-xs col-xs-4">
+                    	<a href="" class="activeLang">УКР</a>
+                        <a href="">РУС</a>
+                </span>
+            </div>
+    	</div>
+    </header>
+    
+    
+   <!--Menu-->
+  	<nav>
+     <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                <ul class="nav nav-pills mainMenu hidden-xs">
+                 <li><a href="#">СТОРІНКА(ЦФК)</a></li>
+                  <li><a href="#">СТОРІНКА КЛІЄНТА</a></li>
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                      ОПЕРАЦІЇ В ГРИВНЯХ
+                    </a>
+                    <ul class="dropdown-menu">
+                       <li><a href="#">Платежі в UAH</a></li>
+                       <li><a href="#">Зарплатні відомості</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                      ОПЕРАЦІЇ У ВАЛЮТІ
+                    </a>
+                    <ul class="dropdown-menu">
+                       <li><a href="#">Платежі у валюті</a></li>
+                       <li><a href="#">Заяви на купівлю валюти</a></li>
+                       <li><a href="#">Заяви на продаж валюти</a></li>
+                       <li><a href="#">Заяви на конвертацію</a></li>
+                       <li><a href="#">Експортні контракти</a></li>
+                       <li><a href="#">Імпортні контракти</a></li>
+                       <li><a href="#">Вантажно-митні декларації</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                      ПРОФІЛЬ
+                    </a>
+                    <ul class="dropdown-menu">
+                       <li><a href="#">Параметри</a></li>
+                       <li><a href="#">Співпрацівники</a></li>
+                       <li><a href="#">Права на документи та звіти</a></li>
+                       <li><a href="#">SMS та e-mailінформування</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">ПРОДУКТИ</a></li>
+                </ul>
+                <!--Mobile Menu-->
+                <h4 class="visible-xs menuTitle">Меню:</h4>
+                <select class="visible-xs mobMenu">
+                	<option>СТОРІНКА(ЦФК)</option>
+                    <option>СТОРІНКА КЛІЄНТА</option>
+                    <option>ОПЕРАЦІЇ В ГРИВНЯХ</option>
+                    <option>→ Платежі в UAH</option>
+                    <option>→ Зарплатні відомості</option>
+                    <option>ОПЕРАЦІЇ У ВАЛЮТІ</option>
+                    <option>→ Платежі у валюті</option>
+                    <option>→ Заяви на купівлю валюти</option>
+                    <option>→ Заяви на продаж валюти</option>
+                    <option>→ Заяви на конвертацію</option>
+                    <option>→ Експортні контракти</option>
+                    <option>→ Імпортні контракти</option>
+                    <option>→ Вантажно-митні декларації</option>
+                    <option>ПРОФІЛЬ</option>
+                    <option>→ Параметри</option>
+                    <option>→ Співпрацівники</option>
+                    <option>→ Права на документи та звіти</option>
+                    <option>→ SMS та e-mailінформування</option>
+                    <option>ПРОДУКТИ</option>
+                </select>
+                
+                
+                </div>
+            </div>
+        </div>
+ 	 </div>
+    </nav>
+    <!--Menu end-->
+   
+   <main>
+    <!--Breadcrumbs-->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 breadcrumbs">
+                	<span class="linkCrumb"><a href="">Голона сторінка (ЦФК)</a></span>
+                    <span class="arrowCrumb">→</span>
+                    <span class="linkCrumb"><a href="">Платежі в UAH</a></span>
+                    <span class="arrowCrumb">→</span>
+                    <span class="iamhere">Платіжне доручення в UAH</span>
+                </div>
+            </div>
+        </div>
+ 	 </div>
+    <!--Breadcrumbs end-->
+    
+    <!--Pagetitle-->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row pageTitle">
+                <div class="col-md-12">
+                	<h1>Платіжне доручення в UAH</h1>
+                </div>
+            </div>
+            <!--PageDivider-->
+            <div class="row divider"></div>
+            
+           
+            	
+            
+        </div>
+ 	 </div>
+    <!--Pagetitle end-->
+ 
+    
+    <!--Main content-->
+   <div class="container-fluid newpayment">
+       <div class="container">
+            <div class="row">
+     			<div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12 col-xs-12 mainContent"> 
+               			<form>
+                         	<div class="inputrow">
+                                    <label>Платіжне доручення №</label><br class="visible-xs">
+                                    <input type="number" value="1" required>
+                             </div>
+                             <div class="inputrow">
+                                
+                                <label>від</label>
+                                <input type="date" value="2016-01-01" required><br class="visible-xs"><br class="visible-xs">
+                                <label>Дата валютування</label>
+                                <input type="text" value="-">	
+                             </div>
+                             
+                             <table class="payer">
+								<tr>
+                                	<td colspan="4"><h2>Платник</h2></td>
+                                </tr>
+                                <tr>
+                                	<td colspan="4" class="firstinput"><input type="text" value="ТОВ Тестуны" required pattern="^\w{3,}$"></td>
+                                </tr>
+                                <tr>
+                                	<td><label>Код ЄДРПОУ</label></td>
+                                    <td class="minusPad"><input type="number" value="01234568" required pattern="^\d{8}$"></td>
+                                    <td class="tdlabel"><label>Банк платника</label></td>
+                                    <td class="tdinput"><input type="text" value="ПАУТ ФІДОБАНК" required pattern="^\w{3,}$"></td>
+                                </tr>
+                                <tr>
+                                	<td><label>Рахунок отримувача</label></td>
+                                    <td class="minusPad">
+                                    <select>
+                                    	<option>2600000000000 10 000,00 UAH</option>
+                                   	 	<option>2600000000001 5 000,00 UAH</option>
+                                	</select>
+                                    </td>
+                                    <td class="tdlabel"><label>МФО</label></td>
+                                    <td class="tdinput"><input type="number" value="380009" required pattern="^\d{6}$"></td>
+                                </tr>
+                        	</table>
+                            <table class="payer">
+								<tr>
+                                	<td colspan="4"><h2>Отримувач<a class="addReceiver" href="">Додати</a></h2></td>
+                                </tr>
+                                <tr>
+                                	<td colspan="4" class="firstinput"><input type="text" value="ТОВ Тестуны" required pattern="^\w{3,}$"></td>
+                                </tr>
+                                <tr>
+                                	<td><label>Код ЄДРПОУ</label></td>
+                                    <td class="minusPad"><input type="number" value="01234568" required pattern="^\d{8}$"></td>
+                                    <td class="tdlabel"><label>Банк платника</label></td>
+                                    <td class="tdinput"><input type="text" value="МечтаБанк" required pattern="^\w{3,}$"></td>
+                                </tr>
+                                <tr>
+                                	<td><label>Рахунок отримувача</label></td>
+                                    <td class="minusPad">
+                                    	<input type="number" value="2600000000000" class="likeSelect" required pattern="^\d{13}$">                           	
+                                    </td>
+                                    <td class="tdlabel"><label>МФО</label></td>
+                                    <td class="tdinput"><input type="number" value="326459" required pattern="^\d{6}$"></td>
+                                </tr>
+                        	</table>
+                            
+                            <table class="payer payer3">
+                             	<tr>
+                                	
+                                    <td><label>Сумма</label><input type="text" value="10 000,00" required><label>UAH</label></td>
+                                    
+                                    <td class="tdinput"><label>ПДВ</label>
+                                    <select>
+                                    	<option>Враховуючи ПДВ 20%</option>
+                                   	 	<option>Не враховуючи ПДВ 20%</option>
+                                	</select>
+                                    </td>
+                                </tr>
+								<tr>
+                                	<td colspan="2"><label><br>Призначення платежу</label></td>
+                                </tr>
+                                <tr>
+                                	<td colspan="2" class="firstinput"><textarea placeholder="За послуги згідно з договором №1 від 15.10.2015г."></textarea></td>
+                                </tr>
+                                <tr>
+                                	<td colspan="2" class="firstinput"><label class="lessFont">Платіж був відхилений у зв'язку з постановою НБУ №12345 від 01.01.2015 р.</label></td>
+                                </tr>
+                               
+                        	</table>
+                            
+                         
+                            
+                            
+                         <div class="inputrow savecheckbox">
+                         	<input type="checkbox" checked><label>Зберегти отримувача у довіднику</label>
+                         </div>
+                         <div class="inputrow buttonRow">
+                         	<a href="" class="standardButton">Зберегти</a>
+                            <input type="submit" class="standardButton green" value="Підписати">
+                            <input type="reset" class="standardButton grey" value="Відмінити">
+                          
+                         </div>
+                        
+                	</form>
+                  
+                    
+                    <!--Signature-->
+                    <section class="signature">
+                    	<form>
+							 <input id="uploadFile" placeholder="Оберіть файл ЕЦП.." disabled="disabled" />
+							<div class="fileUpload standardButton">
+                            	<span>Вибрати</span>
+                            	<input id="uploadBtn" type="file" class="upload" />
+							</div> 
+                            <a href="" class="standardButton uploadNext">Далі</a>
+                        
+                        </form>
+                   
+                   <!--Fileupload Code-->
+                        <script>
+						document.getElementById("uploadBtn").onchange = function () {
+    					document.getElementById("uploadFile").value = this.value;};
+
+						</script>
+                    </section>
+                    <!--Signature end-->
+                </div>
+           </div>
+       </div>
+    </div>
+    <!--Main content end-->
+    
+    
+    </main>
+    
+ <footer>
+    	<div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footerlogo col-sm-4 col-xs-12">
+                	<a href=""><img src="i/logo2.png" class="logo2" alt="Fidobank"></a>
+                    <p>ПУАТ «ФІДОБАНК». Банківські послуги<br>
+Ліцензія НБУ № 4 від 13.07.2012 р.<br>
+Генеральна ліцензія НБУ № 4-3 від 28.10.2013 р.</p>
+                </div>
+                <div class="col-md-5 col-sm-4 col-xs-12 text-centermy">
+                	<ul class="footermenu">
+                    	<li><a href="">Прес-служба</a></li>
+                        <li><a href="">Тарифи платіжних карток</a></li>
+                        <li><a href="">Про банк</a></li>
+                    </ul>
+                    <ul class="footermenu">
+                    	<li><a href="">Новини</a></li>
+                        <li><a href="">Публічна угода</a></li>
+                        <li><a href="">Контакти та відділення</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-12 footerContact">
+                	<div class="floated">
+                        <div class="socicons">
+                            <a href="https://vk.com/fidobankua" target="_blank" title="Vkontakte"><img src="i/vk.png" class="vk" alt="Fidobank Vkontakte"></a>
+                            <a href="https://www.facebook.com/fidobank.ua" target="_blank" title="Facebook"><img src="i/fb.png" class="fb" alt="Fidobank on Facebook"></a>
+                            <a href="https://twitter.com/FidobankUa" target="_blank" title="Twitter"><img src="i/tw.png" class="tw" alt="Fidobank on Twitter"></a>
+                        </div>
+                        <div class="hotline hotline2">
+                            <p>Горяча лінія</p>
+                        	<p class="hotlineNumber">0 800 30 76 76</p>
+                        	<p>Безкоштовно зі стаціонарних<br>та мобільних телефонів в Україні</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 	 </div>
+    </footer>
+
+  </body>
+</html>
