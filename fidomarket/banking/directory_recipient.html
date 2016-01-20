@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Справочник получателей платежей</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div>Надежда Картовская ООО "Ромашка"</div>
+<iframe id="nav" src="main_navigation.html"></iframe><hr>
+<!------------Content----------------->
+<label>Справочник получателей платежей</label><br><br>
+<label>Поиск получателя </label><input placeholder="Введите получателя"><br><br>
+<table>
+    <tr class="nav_second_level">
+        <td>Удаление получателя</td>
+        <td>Получатель</td>
+        <td>Код ЭДРПОУ</td>
+        <td>Счет получателя</td>
+        <td>Банк получателя</td>
+        <td>МФО Банка</td>
+        <td>Назначение платежа</td>
+    </tr>
+    <tr>
+        <td>X</td>
+        <td>ТОВ "Тестуны 2"</td>
+        <td>45678912</td>
+        <td>2600000000000</td>
+        <td>МечтаБанк</td>
+        <td>321654</td>
+        <td>За услуги согласно договора №1 от 15.10.2015г.</td>
+    </tr>
+</table><br>
+<button>Добавить нового получателя</button><br><br>
+<label>Получатель</label>
+<input><br>
+<p class="comments">Поле заполняется вручную</p>
+<label>Код ЭДРПОУ</label>
+<input><br>
+<p class="comments">Поле заполняется вручную</p>
+<label>Счет получателя</label>
+<input><br>
+<p class="comments">Поле заполяется вручную</p>
+<label><a href="directory_banks.html">Банк получателя</a></label>
+<input><br>
+<p class="comments">Банк выбирается из справочника во всплывающем окне после нажатия ссылки. Содержание справочника по <a href="directory_banks.html">ссылке</a></p>
+<label>МФО Банка</label>
+<input><br>
+<p class="comments">После выбора банка поле заполняется автоматически</p>
+<label>Назначение платежа</label><br>
+<textarea cols="80" rows="5"></textarea><br>
+<p class="comments">Поле заполняется автоматически</p>
+<button><a href="#">Сохранить</a></button><br>
+<p class="comments">После нажатия на кнопку дополняется таблица сохраненных получателей, форма для добавления нового получателя скрывается</p>
+</body>

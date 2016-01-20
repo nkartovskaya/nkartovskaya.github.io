@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Новый экспортный контракт</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div>Надежда Картовская ООО "Ромашка"</div>
+<iframe id="nav" src="main_navigation.html"></iframe><hr>
+<!------------Content----------------->
+<label>Экспортный контракт</label><br><br>
+<label>Тип контракта</label>
+<select>
+    <option>Контракт</option>
+    <option>Договор</option>
+    <option>Соглашение</option>
+    <option>Ввести вручную</option>
+</select><br></select><br>
+
+<label>Свой вариант</label><input value="какой-то другой тип"><br>
+<p class="comments">Поле заполняется выбором из выпадающего списка. Если выбран пункт ввести вручную, под выпадающим
+    списком появляется текстовое поле для ручного ввода типа контракта.</p>
+<label>Номер контракта</label><input value="12/52/6532"><br>
+<p class="comments">В текстовом поле находится номер контракта, пользователь вводит его вручную</p>
+<label>Дата начала</label><input value="03.11.2015"><br>
+<p class="comments">Дата начала заполняется выбором из календаря</p>
+<label>Дата окончания</label><input value="03.11.2015"><br>
+<p class="comments">Дата окончания заполняется выбором из календаря</p>
+<hr>
+
+<label>Сумма контракта</label><input value="10000"><br>
+<p class="comments">Поле заполняется вручную</p>
+<label><a href="directory_currency.html">Валюта</a></label><input><br>
+<p class="comments">Поле может быть заполнено только выбором из справочника валют</p>
+<hr>
+
+<label>Партнер</label><input><br>
+<p class="comments">Поле может быть заполнено выбором из справочника партнеров или вручную латинницей</p>
+<label><a href="directory_countries.html">Страна партнера</a></label><input><br>
+<p class="comments">Поле может быть заполнено только выбором из справочника стран</p>
+<label>Адрес партнера</label><input><br>
+<hr>
+
+<label>SWIFT</label><input><br>
+<p class="comments">Поле заполняется вручную</p>
+<label>Название банка</a></label><input><br><br>
+<p class="comments">Поле заполняется вручную</p>
+<label><a href="directory_countries.html">Страна банка</a></label><input><br>
+<p class="comments">Поле заполняется выбором из справочника</p>
+<label>Адрес банка</label><input><br>
+<p class="comments">Поле заполняется вручную</p>
+<hr>
+
+<label>Условия оплаты комиссии</label>
+<select>
+    <option>за счет плательщика</option>
+    <option>за счет бенефициара</option>
+    <option>за счет плательщика и бенефициара</option>
+</select><br>
+<hr>
+
+<label>Загрузка файла контракта</label><br><br>
+<input><button>Обзор</button><button><a>Загрузить</a></button><br><br>
+<p class="comments">При нажатии на кнопку Обзор, открывается окно проводника и пользователь получает возможность
+выбрать файл контракта</p>
+<p class="comments">При нажатии на кнопку Загрузить, инициируется процесс загрузки файла контракта</p>
+
+<p class="question">Уточнить допустимые форматы файлов и размеры. Сделать подсказку по этому поводу</p>
+<button><a href="export_contracts.html">Сохранить</a></button>
+<p class="comments">После нажатия кнопки профиль контракта сохраняется и осуществляется возврат на страницу экспортных
+    контрактов в статусе Новый</p>
+<button><a href="export_contracts.html">Отменить</a></button><br>
+<p class="comments">После нажатия кнопки осуществляется возврат на страницу экспортных контрактов
+    без сохранения профиля контракта</p>
+<button><a href="export_contracts.html">Отправить на верификацию</a></button><br>
+<p class="comments">После нажатия кнопки осуществляется возврат на страницу экспортных контрактов
+    без сохранения профиля контракта в статусе На верификации</p>
+
+</div>
+</body>
+</html>

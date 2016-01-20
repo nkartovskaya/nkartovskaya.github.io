@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Справочник сотрудников для получения заработной платы</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div>Надежда Картовская ООО "Ромашка"</div>
+<iframe id="nav" src="main_navigation.html"></iframe><hr>
+<!------------Content----------------->
+<label>Справочник сотрудников для получения заработной платы</label><br>
+<p class="comments">Справочник заполняется автоматически из Б2</p>
+<label>Поиск сотрудника </label><input placeholder="Введите счет/ФИО/ИНН"><br>
+<p class="comments">Поиск осуществляется по любому из полей справочника</p>
+<table>
+    <tr class="nav_second_level">
+        <td><input type="checkbox"></td>
+        <td>Счет сотрудника</td>
+        <td>ФИО</td>
+        <td>ИНН</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox"></td>
+        <td>2625000000000</td>
+        <td>Иванов Иван Иванович</td>
+        <td>7894561231</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox"></td>
+        <td>2625000000000</td>
+        <td>Петров Петр Петрович</td>
+        <td>7894561231</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox"></td>
+        <td>2625000000000</td>
+        <td>Сидоров Сидор Сидорович</td>
+        <td>7894561231</td>
+    </tr>
+</table><br>
+<label>1 из 1</label><br><br>
+<label>Показывать на странице</label>
+<select>
+    <option>50 записей</option>
+    <option>100 записей</option>
+    <option>150 записей</option>
+    <option>200 записей</option>
+    <option>300 записей</option>
+    <option>400 записей</option>
+    <option>500 записей</option>
+    <option>Все записи</option>
+</select>
+<p class="comments">По умолчанию показываются все записи, если их меньше 50</p>
+<button><a href="#">Выбрать выделенных</a></button><br>
+<p class="comments">После нажатия на кнопку Выбрать выделенных сотрудников осуществляется
+    возврат на страницу <a href="new_salary.html">создания новой зарплатной ведомости</a>
+    с таблицей, заполенной выбранными записями</p>
+<button><a href="#">Отменить</a></button><br>
+<p class="comments">После нажатия на кнопку Выбрать выделенных сотрудников осуществляется
+    возврат на страницу <a href="new_salary.html">создания новой зарплатной ведомости</a>
+    с незаполненной таблицей</p>
+</body>
