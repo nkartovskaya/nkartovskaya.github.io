@@ -1,0 +1,455 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 8, ../sass/screen.scss */
+#content #first,
+#content #second,
+#content #third,
+#content #fourth,
+#content #fifth,
+#content #sixth,
+#content #seventh,
+#content #eighth,
+#content #ninth {
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin: 5px; }
+  /* line 21, ../sass/screen.scss */
+  #content #first input,
+  #content #second input,
+  #content #third input,
+  #content #fourth input,
+  #content #fifth input,
+  #content #sixth input,
+  #content #seventh input,
+  #content #eighth input,
+  #content #ninth input {
+    visibility: visible; }
+/* line 35, ../sass/screen.scss */
+#content #first:hover input,
+#content #second:hover input,
+#content #third:hover input,
+#content #fourth:hover input,
+#content #fifth:hover input,
+#content #sixth:hover input,
+#content #seventh:hover input,
+#content #eighth:hover input,
+#content #ninth:hover input {
+  visibility: visible; }
+
+/* line 42, ../sass/screen.scss */
+body {
+  background: -webkit-linear-gradient(left, #3E5D5F, #081113);
+  background: linear-gradient(to right, #3E5D5F, #081113);
+  margin: 0;
+  padding: 0;
+  font-family: 'Play', sans-serif; }
+
+/* line 49, ../sass/screen.scss */
+.wrapper {
+  margin: 0;
+  padding: 0; }
+
+/* line 53, ../sass/screen.scss */
+header {
+  background: -webkit-linear-gradient(left, #111F21, #111F21);
+  background: linear-gradient(to right, #111F21, #111F21);
+  height: 230px;
+  margin: 0;
+  box-shadow: 0 0 15px black; }
+  /* line 59, ../sass/screen.scss */
+  header .logo {
+    background-image: url("../images/logo.png");
+    background-size: cover;
+    width: 160px;
+    height: 160px; }
+  /* line 66, ../sass/screen.scss */
+  header .logo_nav {
+    width: 999px;
+    height: 220px;
+    margin: 0 auto; }
+  /* line 72, ../sass/screen.scss */
+  header .logo {
+    float: left;
+    margin: 45px 0 0 0; }
+  /* line 79, ../sass/screen.scss */
+  header nav ul {
+    margin: 0; }
+  /* line 83, ../sass/screen.scss */
+  header nav ul li {
+    display: block;
+    float: left;
+    height: 40px;
+    margin: 139px 2px 2px 2px;
+    padding: 12px 12px 0 12px;
+    border-radius: 7px;
+    background-color: #30544F;
+    box-shadow: #222222 2px 2px 2px; }
+  /* line 94, ../sass/screen.scss */
+  header nav ul li a {
+    text-decoration: none;
+    color: #bababa;
+    text-shadow: #434343 1px 1px;
+    font-size: 1.5em; }
+  /* line 100, ../sass/screen.scss */
+  header nav a {
+    display: block;
+    height: 47px; }
+  /* line 105, ../sass/screen.scss */
+  header nav ul li:hover {
+    background-color: #b3fc10;
+    border-bottom: solid #696969 1px; }
+  /* line 110, ../sass/screen.scss */
+  header nav ul li:hover a {
+    color: #1a2e29;
+    text-shadow: #bcbcbc 1px 1px; }
+  /* line 115, ../sass/screen.scss */
+  header nav ul li:first-child {
+    margin-left: 20px; }
+
+/* line 123, ../sass/screen.scss */
+.content button#nextImage {
+  width: 97%;
+  height: 30px;
+  border: solid 2px #B3FC10;
+  background-color: transparent;
+  color: #B3FC10;
+  text-shadow: #bcbcbc 1px 1px;
+  font-size: 12px;
+  border-radius: 7px;
+  position: relative;
+  outline: none;
+  margin: 0 10px 10px 10px;
+  visibility: hidden; }
+/* line 137, ../sass/screen.scss */
+.content button#nextImage:hover {
+  background-color: rgba(179, 252, 16, 0.07); }
+/* line 140, ../sass/screen.scss */
+.content #content {
+  width: 999px;
+  min-height: 665px;
+  height: auto;
+  overflow: hidden;
+  background-color: rgba(220, 220, 220, 0.09);
+  margin: 0 auto; }
+  /* line 148, ../sass/screen.scss */
+  .content #content #colors {
+    width: 70%;
+    margin: 0 auto; }
+    /* line 152, ../sass/screen.scss */
+    .content #content #colors div#article {
+      border-radius: 7px; }
+      /* line 155, ../sass/screen.scss */
+      .content #content #colors div#article p {
+        color: #bababa;
+        font-size: 20px;
+        text-align: justify; }
+        /* line 160, ../sass/screen.scss */
+        .content #content #colors div#article p span.boldBlue,
+        .content #content #colors div#article p span.boldYellow,
+        .content #content #colors div#article p span.boldGreen,
+        .content #content #colors div#article p span.boldRed {
+          font-weight: bold; }
+        /* line 166, ../sass/screen.scss */
+        .content #content #colors div#article p span.boldBlue {
+          color: #2121eb; }
+        /* line 170, ../sass/screen.scss */
+        .content #content #colors div#article p span.boldYellow {
+          color: #b3fc10; }
+        /* line 174, ../sass/screen.scss */
+        .content #content #colors div#article p span.boldGreen {
+          color: #51eb39; }
+        /* line 178, ../sass/screen.scss */
+        .content #content #colors div#article p span.boldRed {
+          color: #dc3055; }
+    /* line 184, ../sass/screen.scss */
+    .content #content #colors button.colorButton,
+    .content #content #colors button#colorButton {
+      visibility: hidden;
+      width: 0;
+      height: 0;
+      border-style: none;
+      float: none;
+      position: absolute;
+      outline: none;
+      margin: 0 auto;
+      background-size: cover; }
+    /* line 197, ../sass/screen.scss */
+    .content #content #colors div#resultTextCurrent,
+    .content #content #colors div#resultTextGeneral {
+      border-radius: 7px; }
+      /* line 201, ../sass/screen.scss */
+      .content #content #colors div#resultTextCurrent p,
+      .content #content #colors div#resultTextGeneral p {
+        color: #bababa;
+        font-size: 20px;
+        text-align: center; }
+  /* line 208, ../sass/screen.scss */
+  .content #content button.colorButton {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    border-style: none;
+    float: none;
+    position: absolute;
+    outline: none;
+    margin: 0 auto;
+    background-size: cover; }
+  /* line 220, ../sass/screen.scss */
+  .content #content h1#task {
+    color: #bababa;
+    text-shadow: #434343 1px 1px;
+    text-align: center; }
+  /* line 226, ../sass/screen.scss */
+  .content #content div#resultText {
+    border-radius: 7px; }
+    /* line 229, ../sass/screen.scss */
+    .content #content div#resultText p {
+      color: #bababa;
+      font-size: 20px;
+      text-align: center;
+      padding: 0; }
+  /* line 237, ../sass/screen.scss */
+  .content #content #first,
+  .content #content #second,
+  .content #content #third,
+  .content #content #fourth,
+  .content #content #fifth,
+  .content #content #sixth,
+  .content #content #seventh,
+  .content #content #eighth,
+  .content #content #ninth {
+    width: 0;
+    height: 0;
+    position: absolute; }
+    /* line 249, ../sass/screen.scss */
+    .content #content #first input,
+    .content #content #second input,
+    .content #content #third input,
+    .content #content #fourth input,
+    .content #content #fifth input,
+    .content #content #sixth input,
+    .content #content #seventh input,
+    .content #content #eighth input,
+    .content #content #ninth input {
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+/* line 256, ../sass/screen.scss */
+.content button#start {
+  width: 100%;
+  height: 100px;
+  border: solid 2px #B3FC10;
+  background-color: transparent;
+  color: #B3FC10;
+  text-shadow: #bcbcbc 1px 1px;
+  font-size: 25px;
+  border-radius: 7px;
+  position: relative;
+  outline: none;
+  margin-top: 50px; }
+/* line 269, ../sass/screen.scss */
+.content button#start:hover {
+  background-color: rgba(179, 252, 16, 0.07); }
+
+/* line 274, ../sass/screen.scss */
+footer {
+  background: -webkit-linear-gradient(left, #203E40, #111F21);
+  background: linear-gradient(to right, #203E40, #111F21);
+  height: 86px;
+  box-shadow: 0 0 15px black; }
+  /* line 279, ../sass/screen.scss */
+  footer .logo_social_icons {
+    width: 999px;
+    margin: 0 auto; }
+    /* line 283, ../sass/screen.scss */
+    footer .logo_social_icons .social_icons {
+      width: 999px;
+      margin: 0 auto;
+      text-align: right; }
+      /* line 287, ../sass/screen.scss */
+      footer .logo_social_icons .social_icons .sprite-social_facebook {
+        width: 64px;
+        height: 64px;
+        margin-top: 11px;
+        position: relative;
+        background: url(../images/sprites_icons.png) no-repeat 0px 0px;
+        float: left; }
+      /* line 295, ../sass/screen.scss */
+      footer .logo_social_icons .social_icons .sprite-social_google {
+        width: 64px;
+        height: 64px;
+        margin-top: 11px;
+        position: relative;
+        background: url(../images/sprites_icons.png) no-repeat 0px -64px;
+        float: left; }
+      /* line 303, ../sass/screen.scss */
+      footer .logo_social_icons .social_icons .sprite-social_linkedin {
+        width: 64px;
+        height: 64px;
+        margin-top: 11px;
+        position: relative;
+        background: url(../images/sprites_icons.png) no-repeat 0px -128px;
+        float: left; }
+      /* line 311, ../sass/screen.scss */
+      footer .logo_social_icons .social_icons .sprite-social_twitter {
+        width: 64px;
+        height: 64px;
+        margin-top: 11px;
+        position: relative;
+        background: url(../images/sprites_icons.png) no-repeat 0px -192px;
+        float: left; }
+      /* line 319, ../sass/screen.scss */
+      footer .logo_social_icons .social_icons p {
+        display: inline-block;
+        color: #bababa;
+        text-shadow: #434343 1px 1px;
+        font-size: 0.8em;
+        margin: 55px 0 0 400px; }
+
+@media screen and (max-width: 999px) and (min-width: 800px) {
+  /* line 332, ../sass/screen.scss */
+  header {
+    width: 100%;
+    height: 120px; }
+    /* line 335, ../sass/screen.scss */
+    header .logo_nav {
+      width: 100%; }
+      /* line 337, ../sass/screen.scss */
+      header .logo_nav .logo {
+        background-image: url("../images/logo.png");
+        background-size: cover;
+        margin: 0 0 0 10px;
+        height: 120px;
+        width: 120px; }
+    /* line 345, ../sass/screen.scss */
+    header nav {
+      width: 100%; }
+      /* line 347, ../sass/screen.scss */
+      header nav ul {
+        width: 100%; }
+        /* line 349, ../sass/screen.scss */
+        header nav ul li {
+          margin: 40px 2px 0 2px;
+          height: 35px; }
+          /* line 352, ../sass/screen.scss */
+          header nav ul li a {
+            font-size: 1.1em; }
+        /* line 356, ../sass/screen.scss */
+        header nav ul li:first-child {
+          margin-left: 25px; }
+
+  /* line 363, ../sass/screen.scss */
+  .content {
+    width: 100%; }
+    /* line 365, ../sass/screen.scss */
+    .content #content {
+      width: 100%;
+      min-height: 730px;
+      height: auto;
+      overflow: hidden; }
+
+  /* line 373, ../sass/screen.scss */
+  footer {
+    height: 86px; }
+    /* line 375, ../sass/screen.scss */
+    footer .logo_social_icons {
+      width: 100%;
+      height: 86px; }
+      /* line 378, ../sass/screen.scss */
+      footer .logo_social_icons .logo {
+        margin: 0 50px 0 10px;
+        height: 86px; }
+        /* line 381, ../sass/screen.scss */
+        footer .logo_social_icons .logo img {
+          width: 200px; }
+      /* line 385, ../sass/screen.scss */
+      footer .logo_social_icons .social_icons {
+        width: 100%; }
+        /* line 387, ../sass/screen.scss */
+        footer .logo_social_icons .social_icons p {
+          margin: 55px 0 0 0;
+          font-size: 0.8em;
+          text-align: center; }
+      /* line 393, ../sass/screen.scss */
+      footer .logo_social_icons p {
+        margin-left: 20px; } }
+@media screen and (max-width: 799px) and (min-width: 320px) {
+  /* line 401, ../sass/screen.scss */
+  header {
+    width: 100%;
+    height: 225px; }
+    /* line 404, ../sass/screen.scss */
+    header .logo_nav {
+      width: 100%; }
+      /* line 407, ../sass/screen.scss */
+      header .logo_nav .logo {
+        margin: 0 auto;
+        width: 80px;
+        height: 80px;
+        float: none; }
+        /* line 412, ../sass/screen.scss */
+        header .logo_nav .logo img {
+          width: 100px;
+          margin: 0 0 0 10px; }
+      /* line 417, ../sass/screen.scss */
+      header .logo_nav nav {
+        width: 100%;
+        margin: 0;
+        padding: 0; }
+        /* line 421, ../sass/screen.scss */
+        header .logo_nav nav ul {
+          width: 100%;
+          margin: 0;
+          padding: 0; }
+          /* line 425, ../sass/screen.scss */
+          header .logo_nav nav ul li {
+            margin: 2px;
+            padding: 5px;
+            height: 22px;
+            float: none;
+            text-align: center; }
+            /* line 431, ../sass/screen.scss */
+            header .logo_nav nav ul li a {
+              font-size: 0.9em; }
+
+  /* line 441, ../sass/screen.scss */
+  .content {
+    width: 100%; }
+    /* line 443, ../sass/screen.scss */
+    .content #content {
+      width: 100%; }
+      /* line 445, ../sass/screen.scss */
+      .content #content p {
+        margin: 0 20px 0 20px; }
+
+  /* line 450, ../sass/screen.scss */
+  footer {
+    width: 100%;
+    height: 100px; }
+    /* line 453, ../sass/screen.scss */
+    footer .logo_social_icons {
+      width: 100%;
+      height: 64px; }
+      /* line 456, ../sass/screen.scss */
+      footer .logo_social_icons .logo {
+        margin: 0 30px 0 10px;
+        padding-top: 10px;
+        height: 54px; }
+        /* line 460, ../sass/screen.scss */
+        footer .logo_social_icons .logo img {
+          width: 100px; }
+      /* line 464, ../sass/screen.scss */
+      footer .logo_social_icons .social_icons {
+        width: 100%;
+        float: none; }
+        /* line 467, ../sass/screen.scss */
+        footer .logo_social_icons .social_icons p {
+          margin: 1px 0 0 0;
+          font-size: 0.6em; }
+      /* line 472, ../sass/screen.scss */
+      footer .logo_social_icons p {
+        margin-left: 20px;
+        font-size: 0.6em; } }

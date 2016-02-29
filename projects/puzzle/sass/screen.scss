@@ -1,0 +1,2419 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import "compass/reset";
+
+body {
+  background-image: url(../images/bg_default.jpg);
+  font-family: 'Arimo', sans-serif;
+
+  #goHome {
+    width: 80px;
+    height: 80px;
+    background-image: url("../images/home_grey.png");
+  }
+}
+
+#container {
+  width: 83.33%;
+  height: 600px;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  color: #3E3C3C;
+  text-shadow: 1px 1px 2px grey;
+
+  #welcome {
+    margin-top: 10%;
+  }
+
+  .textStyleTable,
+  .textPuzzleType {
+    margin-top: 2%;
+  }
+  .inputsTypeTable {
+    margin: 5px;
+  }
+  .labelsTypeTable {
+    display: block;
+  }
+  .inputsPuzzleType {
+    margin: 5px;
+  }
+  .labelsPuzzleType {
+    display: block;
+  }
+  .formPuzzleType {
+    margin-bottom: 30px;
+  }
+
+  #start {
+    margin-top: 0;
+  }
+
+  #start,
+  .startPuzzleButton {
+    width: 250px;
+    height: 60px;
+    font-size: 25px;
+    box-shadow: 0 0 10px darkgrey;
+    background-color: #d4d4d4;
+    font-family: 'Arimo', sans-serif;
+    color: #3E3C3C;
+    text-shadow: 1px 1px 2px grey;
+    outline: none;
+  }
+
+  #start:hover,
+  .startPuzzleButton:hover {
+    box-shadow: 0 0 10px white;
+    background-color: #848484;
+    color: #e7e7e7;
+  }
+
+  #containerRight {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #471b11;
+    background-size: cover;
+    visibility: hidden;
+    box-shadow: 0 0 10px #211F1F;
+
+    div[class*="pale"] {
+      width: 10%;
+      height: 10%;
+      float: left;
+      box-sizing: border-box;
+    }
+
+    div[class*="city_pale"] {
+      border: 1px solid rgb(187, 184, 163);
+    }
+
+    div[class*="thrones_pale"] {
+      border: 1px solid rgb(187, 184, 163);
+    }
+
+    div[class*="potter_pale"] {
+      border: 1px solid #B3B2A9;
+    }
+
+    div[class*="lake_pale"] {
+      border: 1px solid #BCC5E4;
+    }
+
+    div[class*="year_pale"] {
+      border: 1px solid #E0B796;
+    }
+
+    div[class*="underground_pale"] {
+      border: 1px solid #7B7194;
+    }
+
+    div[class*="wood_pale"] {
+      border: 1px solid #DDE2AC;
+    }
+  }
+  #containerLeft {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    box-shadow: 0 0 10px #211F1F;
+    background-color: rgba(0, 0, 0, 0.39);
+
+    /*Sprite city */
+    div[class*="city"],
+    div[class*="thrones"],
+    div[class*="potter"],
+    div[class*="lake"],
+    div[class*="year"],
+    div[class*="underground"],
+    div[class*="wood"] {
+      width: 10%;
+      height: 10%;
+      float: left;
+    }
+
+    .sprite-city_0 {
+      background: url(../images/sprites_city.png) no-repeat -0px -0px;
+    }
+    .sprite-city_1 {
+      background: url(../images/sprites_city.png) no-repeat -0px -60px;
+    }
+    .sprite-city_2 {
+      background: url(../images/sprites_city.png) no-repeat -0px -120px;
+    }
+    .sprite-city_3 {
+      background: url(../images/sprites_city.png) no-repeat -0px -180px;
+    }
+    .sprite-city_4 {
+      background: url(../images/sprites_city.png) no-repeat -0px -240px;
+    }
+    .sprite-city_5 {
+      background: url(../images/sprites_city.png) no-repeat -0px -300px;
+    }
+    .sprite-city_6 {
+      background: url(../images/sprites_city.png) no-repeat -0px -360px;
+    }
+    .sprite-city_7 {
+      background: url(../images/sprites_city.png) no-repeat -0px -420px;
+    }
+    .sprite-city_8 {
+      background: url(../images/sprites_city.png) no-repeat -0px -480px;
+    }
+    .sprite-city_9 {
+      background: url(../images/sprites_city.png) no-repeat -0px -540px;
+    }
+    .sprite-city_10 {
+      background: url(../images/sprites_city.png) no-repeat -0px -600px;
+    }
+    .sprite-city_11 {
+      background: url(../images/sprites_city.png) no-repeat -0px -660px;
+    }
+    .sprite-city_12 {
+      background: url(../images/sprites_city.png) no-repeat -0px -720px;
+    }
+    .sprite-city_13 {
+      background: url(../images/sprites_city.png) no-repeat -0px -780px;
+    }
+    .sprite-city_14 {
+      background: url(../images/sprites_city.png) no-repeat -0px -840px;
+    }
+    .sprite-city_15 {
+      background: url(../images/sprites_city.png) no-repeat -0px -900px;
+    }
+    .sprite-city_16 {
+      background: url(../images/sprites_city.png) no-repeat -0px -960px;
+    }
+    .sprite-city_17 {
+      background: url(../images/sprites_city.png) no-repeat -0px -1020px;
+    }
+    .sprite-city_18 {
+      background: url(../images/sprites_city.png) no-repeat -0px -1080px;
+    }
+    .sprite-city_19 {
+      background: url(../images/sprites_city.png) no-repeat -0px -1140px;
+    }
+    .sprite-city_20 {
+      background: url(../images/sprites_city.png) no-repeat -0px -1200px;
+    }
+    .sprite-city_21 {
+      background: url(../images/sprites_city.png) no-repeat -0px -1260px;
+    }
+    .sprite-city_22 {
+      background: url(../images/sprites_city.png) no-repeat -0px -1320px;
+    }
+    .sprite-city_23 {
+      background: url(../images/sprites_city.png) no-repeat -0px -1380px;
+    }
+    .sprite-city_24 {
+      background: url(../images/sprites_city.png) no-repeat -0px -1440px;
+    }
+    .sprite-city_25 {
+      background: url(../images/sprites_city.png) no-repeat -0px -1500px;
+    }
+    .sprite-city_26 {
+      background: url(../images/sprites_city.png) no-repeat -0px -1560px;
+    }
+    .sprite-city_27 {
+      background: url(../images/sprites_city.png) no-repeat -0px -1620px;
+    }
+    .sprite-city_28 {
+      background: url(../images/sprites_city.png) no-repeat -0px -1680px;
+    }
+    .sprite-city_29 {
+      background: url(../images/sprites_city.png) no-repeat -0px -1740px;
+    }
+    .sprite-city_30 {
+      background: url(../images/sprites_city.png) no-repeat -0px -1800px;
+    }
+    .sprite-city_31 {
+      background: url(../images/sprites_city.png) no-repeat -0px -1860px;
+    }
+    .sprite-city_32 {
+      background: url(../images/sprites_city.png) no-repeat -0px -1920px;
+    }
+    .sprite-city_33 {
+      background: url(../images/sprites_city.png) no-repeat -0px -1980px;
+    }
+    .sprite-city_34 {
+      background: url(../images/sprites_city.png) no-repeat -0px -2040px;
+    }
+    .sprite-city_35 {
+      background: url(../images/sprites_city.png) no-repeat -0px -2100px;
+    }
+    .sprite-city_36 {
+      background: url(../images/sprites_city.png) no-repeat -0px -2160px;
+    }
+    .sprite-city_37 {
+      background: url(../images/sprites_city.png) no-repeat -0px -2220px;
+    }
+    .sprite-city_38 {
+      background: url(../images/sprites_city.png) no-repeat -0px -2280px;
+    }
+    .sprite-city_39 {
+      background: url(../images/sprites_city.png) no-repeat -0px -2340px;
+    }
+    .sprite-city_40 {
+      background: url(../images/sprites_city.png) no-repeat -0px -2400px;
+    }
+    .sprite-city_41 {
+      background: url(../images/sprites_city.png) no-repeat -0px -2460px;
+    }
+    .sprite-city_42 {
+      background: url(../images/sprites_city.png) no-repeat -0px -2520px;
+    }
+    .sprite-city_43 {
+      background: url(../images/sprites_city.png) no-repeat -0px -2580px;
+    }
+    .sprite-city_44 {
+      background: url(../images/sprites_city.png) no-repeat -0px -2640px;
+    }
+    .sprite-city_45 {
+      background: url(../images/sprites_city.png) no-repeat -0px -2700px;
+    }
+    .sprite-city_46 {
+      background: url(../images/sprites_city.png) no-repeat -0px -2760px;
+    }
+    .sprite-city_47 {
+      background: url(../images/sprites_city.png) no-repeat -0px -2820px;
+    }
+    .sprite-city_48 {
+      background: url(../images/sprites_city.png) no-repeat -0px -2880px;
+    }
+    .sprite-city_49 {
+      background: url(../images/sprites_city.png) no-repeat -0px -2940px;
+    }
+    .sprite-city_50 {
+      background: url(../images/sprites_city.png) no-repeat -0px -3000px;
+    }
+    .sprite-city_51 {
+      background: url(../images/sprites_city.png) no-repeat -0px -3060px;
+    }
+    .sprite-city_52 {
+      background: url(../images/sprites_city.png) no-repeat -0px -3120px;
+    }
+    .sprite-city_53 {
+      background: url(../images/sprites_city.png) no-repeat -0px -3180px;
+    }
+    .sprite-city_54 {
+      background: url(../images/sprites_city.png) no-repeat -0px -3240px;
+    }
+    .sprite-city_55 {
+      background: url(../images/sprites_city.png) no-repeat -0px -3300px;
+    }
+    .sprite-city_56 {
+      background: url(../images/sprites_city.png) no-repeat -0px -3360px;
+    }
+    .sprite-city_57 {
+      background: url(../images/sprites_city.png) no-repeat -0px -3420px;
+    }
+    .sprite-city_58 {
+      background: url(../images/sprites_city.png) no-repeat -0px -3480px;
+    }
+    .sprite-city_59 {
+      background: url(../images/sprites_city.png) no-repeat -0px -3540px;
+    }
+    .sprite-city_60 {
+      background: url(../images/sprites_city.png) no-repeat -0px -3600px;
+    }
+    .sprite-city_61 {
+      background: url(../images/sprites_city.png) no-repeat -0px -3660px;
+    }
+    .sprite-city_62 {
+      background: url(../images/sprites_city.png) no-repeat -0px -3720px;
+    }
+    .sprite-city_63 {
+      background: url(../images/sprites_city.png) no-repeat -0px -3780px;
+    }
+    .sprite-city_64 {
+      background: url(../images/sprites_city.png) no-repeat -0px -3840px;
+    }
+    .sprite-city_65 {
+      background: url(../images/sprites_city.png) no-repeat -0px -3900px;
+    }
+    .sprite-city_66 {
+      background: url(../images/sprites_city.png) no-repeat -0px -3960px;
+    }
+    .sprite-city_67 {
+      background: url(../images/sprites_city.png) no-repeat -0px -4020px;
+    }
+    .sprite-city_68 {
+      background: url(../images/sprites_city.png) no-repeat -0px -4080px;
+    }
+    .sprite-city_69 {
+      background: url(../images/sprites_city.png) no-repeat -0px -4140px;
+    }
+    .sprite-city_70 {
+      background: url(../images/sprites_city.png) no-repeat -0px -4200px;
+    }
+    .sprite-city_71 {
+      background: url(../images/sprites_city.png) no-repeat -0px -4260px;
+    }
+    .sprite-city_72 {
+      background: url(../images/sprites_city.png) no-repeat -0px -4320px;
+    }
+    .sprite-city_73 {
+      background: url(../images/sprites_city.png) no-repeat -0px -4380px;
+    }
+    .sprite-city_74 {
+      background: url(../images/sprites_city.png) no-repeat -0px -4440px;
+    }
+    .sprite-city_75 {
+      background: url(../images/sprites_city.png) no-repeat -0px -4500px;
+    }
+    .sprite-city_76 {
+      background: url(../images/sprites_city.png) no-repeat -0px -4560px;
+    }
+    .sprite-city_77 {
+      background: url(../images/sprites_city.png) no-repeat -0px -4620px;
+    }
+    .sprite-city_78 {
+      background: url(../images/sprites_city.png) no-repeat -0px -4680px;
+    }
+    .sprite-city_79 {
+      background: url(../images/sprites_city.png) no-repeat -0px -4740px;
+    }
+    .sprite-city_80 {
+      background: url(../images/sprites_city.png) no-repeat -0px -4800px;
+    }
+    .sprite-city_81 {
+      background: url(../images/sprites_city.png) no-repeat -0px -4860px;
+    }
+    .sprite-city_82 {
+      background: url(../images/sprites_city.png) no-repeat -0px -4920px;
+    }
+    .sprite-city_83 {
+      background: url(../images/sprites_city.png) no-repeat -0px -4980px;
+    }
+    .sprite-city_84 {
+      background: url(../images/sprites_city.png) no-repeat -0px -5040px;
+    }
+    .sprite-city_85 {
+      background: url(../images/sprites_city.png) no-repeat -0px -5100px;
+    }
+    .sprite-city_86 {
+      background: url(../images/sprites_city.png) no-repeat -0px -5160px;
+    }
+    .sprite-city_87 {
+      background: url(../images/sprites_city.png) no-repeat -0px -5220px;
+    }
+    .sprite-city_88 {
+      background: url(../images/sprites_city.png) no-repeat -0px -5280px;
+    }
+    .sprite-city_89 {
+      background: url(../images/sprites_city.png) no-repeat -0px -5340px;
+    }
+    .sprite-city_90 {
+      background: url(../images/sprites_city.png) no-repeat -0px -5400px;
+    }
+    .sprite-city_91 {
+      background: url(../images/sprites_city.png) no-repeat -0px -5460px;
+    }
+    .sprite-city_92 {
+      background: url(../images/sprites_city.png) no-repeat -0px -5520px;
+    }
+    .sprite-city_93 {
+      background: url(../images/sprites_city.png) no-repeat -0px -5580px;
+    }
+    .sprite-city_94 {
+      background: url(../images/sprites_city.png) no-repeat -0px -5640px;
+    }
+    .sprite-city_95 {
+      background: url(../images/sprites_city.png) no-repeat -0px -5700px;
+    }
+    .sprite-city_96 {
+      background: url(../images/sprites_city.png) no-repeat -0px -5760px;
+    }
+    .sprite-city_97 {
+      background: url(../images/sprites_city.png) no-repeat -0px -5820px;
+    }
+    .sprite-city_98 {
+      background: url(../images/sprites_city.png) no-repeat -0px -5880px;
+    }
+    .sprite-city_99 {
+      background: url(../images/sprites_city.png) no-repeat -0px -5940px;
+    }
+
+    /*Sprite Game of Thrones*/
+    .sprite-game_of_thrones_1 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -0px;
+    }
+    .sprite-game_of_thrones_2 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -60px;
+    }
+    .sprite-game_of_thrones_3 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -120px;
+    }
+    .sprite-game_of_thrones_4 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -180px;
+    }
+    .sprite-game_of_thrones_5 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -240px;
+    }
+    .sprite-game_of_thrones_6 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -300px;
+    }
+    .sprite-game_of_thrones_7 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -360px;
+    }
+    .sprite-game_of_thrones_8 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -420px;
+    }
+    .sprite-game_of_thrones_9 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -480px;
+    }
+    .sprite-game_of_thrones_10 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -540px;
+    }
+    .sprite-game_of_thrones_11 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -600px;
+    }
+    .sprite-game_of_thrones_12 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -660px;
+    }
+    .sprite-game_of_thrones_13 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -720px;
+    }
+    .sprite-game_of_thrones_14 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -780px;
+    }
+    .sprite-game_of_thrones_15 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -840px;
+    }
+    .sprite-game_of_thrones_16 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -900px;
+    }
+    .sprite-game_of_thrones_17 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -960px;
+    }
+    .sprite-game_of_thrones_18 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -1020px;
+    }
+    .sprite-game_of_thrones_19 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -1080px;
+    }
+    .sprite-game_of_thrones_20 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -1140px;
+    }
+    .sprite-game_of_thrones_21 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -1200px;
+    }
+    .sprite-game_of_thrones_22 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -1260px;
+    }
+    .sprite-game_of_thrones_23 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -1320px;
+    }
+    .sprite-game_of_thrones_24 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -1380px;
+    }
+    .sprite-game_of_thrones_25 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -1440px;
+    }
+    .sprite-game_of_thrones_26 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -1500px;
+    }
+    .sprite-game_of_thrones_27 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -1560px;
+    }
+    .sprite-game_of_thrones_28 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -1620px;
+    }
+    .sprite-game_of_thrones_29 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -1680px;
+    }
+    .sprite-game_of_thrones_30 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -1740px;
+    }
+    .sprite-game_of_thrones_31 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -1800px;
+    }
+    .sprite-game_of_thrones_32 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -1860px;
+    }
+    .sprite-game_of_thrones_33 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -1920px;
+    }
+    .sprite-game_of_thrones_34 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -1980px;
+    }
+    .sprite-game_of_thrones_35 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -2040px;
+    }
+    .sprite-game_of_thrones_36 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -2100px;
+    }
+    .sprite-game_of_thrones_37 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -2160px;
+    }
+    .sprite-game_of_thrones_38 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -2220px;
+    }
+    .sprite-game_of_thrones_39 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -2280px;
+    }
+    .sprite-game_of_thrones_40 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -2340px;
+    }
+    .sprite-game_of_thrones_41 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -2400px;
+    }
+    .sprite-game_of_thrones_42 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -2460px;
+    }
+    .sprite-game_of_thrones_43 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -2520px;
+    }
+    .sprite-game_of_thrones_44 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -2580px;
+    }
+    .sprite-game_of_thrones_45 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -2640px;
+    }
+    .sprite-game_of_thrones_46 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -2700px;
+    }
+    .sprite-game_of_thrones_47 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -2760px;
+    }
+    .sprite-game_of_thrones_48 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -2820px;
+    }
+    .sprite-game_of_thrones_49 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -2880px;
+    }
+    .sprite-game_of_thrones_50 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -2940px;
+    }
+    .sprite-game_of_thrones_51 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -3000px;
+    }
+    .sprite-game_of_thrones_52 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -3060px;
+    }
+    .sprite-game_of_thrones_53 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -3120px;
+    }
+    .sprite-game_of_thrones_54 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -3180px;
+    }
+    .sprite-game_of_thrones_55 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -3240px;
+    }
+    .sprite-game_of_thrones_56 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -3300px;
+    }
+    .sprite-game_of_thrones_57 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -3360px;
+    }
+    .sprite-game_of_thrones_58 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -3420px;
+    }
+    .sprite-game_of_thrones_59 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -3480px;
+    }
+    .sprite-game_of_thrones_60 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -3540px;
+    }
+    .sprite-game_of_thrones_61 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -3600px;
+    }
+    .sprite-game_of_thrones_62 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -3660px;
+    }
+    .sprite-game_of_thrones_63 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -3720px;
+    }
+    .sprite-game_of_thrones_64 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -3780px;
+    }
+    .sprite-game_of_thrones_65 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -3840px;
+    }
+    .sprite-game_of_thrones_66 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -3900px;
+    }
+    .sprite-game_of_thrones_67 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -3960px;
+    }
+    .sprite-game_of_thrones_68 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -4020px;
+    }
+    .sprite-game_of_thrones_69 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -4080px;
+    }
+    .sprite-game_of_thrones_70 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -4140px;
+    }
+    .sprite-game_of_thrones_71 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -4200px;
+    }
+    .sprite-game_of_thrones_72 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -4260px;
+    }
+    .sprite-game_of_thrones_73 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -4320px;
+    }
+    .sprite-game_of_thrones_74 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -4380px;
+    }
+    .sprite-game_of_thrones_75 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -4440px;
+    }
+    .sprite-game_of_thrones_76 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -4500px;
+    }
+    .sprite-game_of_thrones_77 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -4560px;
+    }
+    .sprite-game_of_thrones_78 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -4620px;
+    }
+    .sprite-game_of_thrones_79 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -4680px;
+    }
+    .sprite-game_of_thrones_80 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -4740px;
+    }
+    .sprite-game_of_thrones_81 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -4800px;
+    }
+    .sprite-game_of_thrones_82 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -4860px;
+    }
+    .sprite-game_of_thrones_83 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -4920px;
+    }
+    .sprite-game_of_thrones_84 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -4980px;
+    }
+    .sprite-game_of_thrones_85 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -5040px;
+    }
+    .sprite-game_of_thrones_86 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -5100px;
+    }
+    .sprite-game_of_thrones_87 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -5160px;
+    }
+    .sprite-game_of_thrones_88 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -5220px;
+    }
+    .sprite-game_of_thrones_89 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -5280px;
+    }
+    .sprite-game_of_thrones_90 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -5340px;
+    }
+    .sprite-game_of_thrones_91 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -5400px;
+    }
+    .sprite-game_of_thrones_92 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -5460px;
+    }
+    .sprite-game_of_thrones_93 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -5520px;
+    }
+    .sprite-game_of_thrones_94 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -5580px;
+    }
+    .sprite-game_of_thrones_95 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -5640px;
+    }
+    .sprite-game_of_thrones_96 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -5700px;
+    }
+    .sprite-game_of_thrones_97 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -5760px;
+    }
+    .sprite-game_of_thrones_98 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -5820px;
+    }
+    .sprite-game_of_thrones_99 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -5880px;
+    }
+    .sprite-game_of_thrones_100 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat -0px -5940px;
+    }
+
+    /*Hary Potter*/
+    .sprite-hary_potter_1 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -0px;
+    }
+    .sprite-hary_potter_2 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -60px;
+    }
+    .sprite-hary_potter_3 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -120px;
+    }
+    .sprite-hary_potter_4 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -180px;
+    }
+    .sprite-hary_potter_5 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -240px;
+    }
+    .sprite-hary_potter_6 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -300px;
+    }
+    .sprite-hary_potter_7 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -360px;
+    }
+    .sprite-hary_potter_8 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -420px;
+    }
+    .sprite-hary_potter_9 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -480px;
+    }
+    .sprite-hary_potter_10 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -540px;
+    }
+    .sprite-hary_potter_11 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -600px;
+    }
+    .sprite-hary_potter_12 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -660px;
+    }
+    .sprite-hary_potter_13 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -720px;
+    }
+    .sprite-hary_potter_14 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -780px;
+    }
+    .sprite-hary_potter_15 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -840px;
+    }
+    .sprite-hary_potter_16 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -900px;
+    }
+    .sprite-hary_potter_17 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -960px;
+    }
+    .sprite-hary_potter_18 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -1020px;
+    }
+    .sprite-hary_potter_19 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -1080px;
+    }
+    .sprite-hary_potter_20 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -1140px;
+    }
+    .sprite-hary_potter_21 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -1200px;
+    }
+    .sprite-hary_potter_22 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -1260px;
+    }
+    .sprite-hary_potter_23 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -1320px;
+    }
+    .sprite-hary_potter_24 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -1380px;
+    }
+    .sprite-hary_potter_25 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -1440px;
+    }
+    .sprite-hary_potter_26 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -1500px;
+    }
+    .sprite-hary_potter_27 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -1560px;
+    }
+    .sprite-hary_potter_28 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -1620px;
+    }
+    .sprite-hary_potter_29 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -1680px;
+    }
+    .sprite-hary_potter_30 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -1740px;
+    }
+    .sprite-hary_potter_31 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -1800px;
+    }
+    .sprite-hary_potter_32 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -1860px;
+    }
+    .sprite-hary_potter_33 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -1920px;
+    }
+    .sprite-hary_potter_34 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -1980px;
+    }
+    .sprite-hary_potter_35 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -2040px;
+    }
+    .sprite-hary_potter_36 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -2100px;
+    }
+    .sprite-hary_potter_37 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -2160px;
+    }
+    .sprite-hary_potter_38 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -2220px;
+    }
+    .sprite-hary_potter_39 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -2280px;
+    }
+    .sprite-hary_potter_40 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -2340px;
+    }
+    .sprite-hary_potter_41 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -2400px;
+    }
+    .sprite-hary_potter_42 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -2460px;
+    }
+    .sprite-hary_potter_43 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -2520px;
+    }
+    .sprite-hary_potter_44 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -2580px;
+    }
+    .sprite-hary_potter_45 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -2640px;
+    }
+    .sprite-hary_potter_46 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -2700px;
+    }
+    .sprite-hary_potter_47 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -2760px;
+    }
+    .sprite-hary_potter_48 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -2820px;
+    }
+    .sprite-hary_potter_49 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -2880px;
+    }
+    .sprite-hary_potter_50 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -2940px;
+    }
+    .sprite-hary_potter_51 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -3000px;
+    }
+    .sprite-hary_potter_52 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -3060px;
+    }
+    .sprite-hary_potter_53 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -3120px;
+    }
+    .sprite-hary_potter_54 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -3180px;
+    }
+    .sprite-hary_potter_55 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -3240px;
+    }
+    .sprite-hary_potter_56 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -3300px;
+    }
+    .sprite-hary_potter_57 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -3360px;
+    }
+    .sprite-hary_potter_58 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -3420px;
+    }
+    .sprite-hary_potter_59 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -3480px;
+    }
+    .sprite-hary_potter_60 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -3540px;
+    }
+    .sprite-hary_potter_61 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -3600px;
+    }
+    .sprite-hary_potter_62 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -3660px;
+    }
+    .sprite-hary_potter_63 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -3720px;
+    }
+    .sprite-hary_potter_64 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -3780px;
+    }
+    .sprite-hary_potter_65 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -3840px;
+    }
+    .sprite-hary_potter_66 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -3900px;
+    }
+    .sprite-hary_potter_67 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -3960px;
+    }
+    .sprite-hary_potter_68 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -4020px;
+    }
+    .sprite-hary_potter_69 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -4080px;
+    }
+    .sprite-hary_potter_70 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -4140px;
+    }
+    .sprite-hary_potter_71 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -4200px;
+    }
+    .sprite-hary_potter_72 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -4260px;
+    }
+    .sprite-hary_potter_73 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -4320px;
+    }
+    .sprite-hary_potter_74 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -4380px;
+    }
+    .sprite-hary_potter_75 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -4440px;
+    }
+    .sprite-hary_potter_76 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -4500px;
+    }
+    .sprite-hary_potter_77 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -4560px;
+    }
+    .sprite-hary_potter_78 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -4620px;
+    }
+    .sprite-hary_potter_79 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -4680px;
+    }
+    .sprite-hary_potter_80 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -4740px;
+    }
+    .sprite-hary_potter_81 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -4800px;
+    }
+    .sprite-hary_potter_82 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -4860px;
+    }
+    .sprite-hary_potter_83 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -4920px;
+    }
+    .sprite-hary_potter_84 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -4980px;
+    }
+    .sprite-hary_potter_85 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -5040px;
+    }
+    .sprite-hary_potter_86 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -5100px;
+    }
+    .sprite-hary_potter_87 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -5160px;
+    }
+    .sprite-hary_potter_88 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -5220px;
+    }
+    .sprite-hary_potter_89 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -5280px;
+    }
+    .sprite-hary_potter_90 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -5340px;
+    }
+    .sprite-hary_potter_91 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -5400px;
+    }
+    .sprite-hary_potter_92 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -5460px;
+    }
+    .sprite-hary_potter_93 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -5520px;
+    }
+    .sprite-hary_potter_94 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -5580px;
+    }
+    .sprite-hary_potter_95 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -5640px;
+    }
+    .sprite-hary_potter_96 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -5700px;
+    }
+    .sprite-hary_potter_97 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -5760px;
+    }
+    .sprite-hary_potter_98 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -5820px;
+    }
+    .sprite-hary_potter_99 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -5880px;
+    }
+    .sprite-hary_potter_100 {
+      background: url(../images/sprites_hary_potter.png) no-repeat -0px -5940px;
+    }
+
+    /*Lake*/
+    .sprite-lake_1 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -0px;
+    }
+    .sprite-lake_2 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -60px;
+    }
+    .sprite-lake_3 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -120px;
+    }
+    .sprite-lake_4 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -180px;
+    }
+    .sprite-lake_5 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -240px;
+    }
+    .sprite-lake_6 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -300px;
+    }
+    .sprite-lake_7 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -360px;
+    }
+    .sprite-lake_8 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -420px;
+    }
+    .sprite-lake_9 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -480px;
+    }
+    .sprite-lake_10 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -540px;
+    }
+    .sprite-lake_11 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -600px;
+    }
+    .sprite-lake_12 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -660px;
+    }
+    .sprite-lake_13 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -720px;
+    }
+    .sprite-lake_14 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -780px;
+    }
+    .sprite-lake_15 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -840px;
+    }
+    .sprite-lake_16 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -900px;
+    }
+    .sprite-lake_17 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -960px;
+    }
+    .sprite-lake_18 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -1020px;
+    }
+    .sprite-lake_19 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -1080px;
+    }
+    .sprite-lake_20 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -1140px;
+    }
+    .sprite-lake_21 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -1200px;
+    }
+    .sprite-lake_22 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -1260px;
+    }
+    .sprite-lake_23 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -1320px;
+    }
+    .sprite-lake_24 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -1380px;
+    }
+    .sprite-lake_25 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -1440px;
+    }
+    .sprite-lake_26 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -1500px;
+    }
+    .sprite-lake_27 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -1560px;
+    }
+    .sprite-lake_28 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -1620px;
+    }
+    .sprite-lake_29 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -1680px;
+    }
+    .sprite-lake_30 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -1740px;
+    }
+    .sprite-lake_31 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -1800px;
+    }
+    .sprite-lake_32 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -1860px;
+    }
+    .sprite-lake_33 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -1920px;
+    }
+    .sprite-lake_34 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -1980px;
+    }
+    .sprite-lake_35 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -2040px;
+    }
+    .sprite-lake_36 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -2100px;
+    }
+    .sprite-lake_37 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -2160px;
+    }
+    .sprite-lake_38 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -2220px;
+    }
+    .sprite-lake_39 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -2280px;
+    }
+    .sprite-lake_40 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -2340px;
+    }
+    .sprite-lake_41 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -2400px;
+    }
+    .sprite-lake_42 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -2460px;
+    }
+    .sprite-lake_43 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -2520px;
+    }
+    .sprite-lake_44 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -2580px;
+    }
+    .sprite-lake_45 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -2640px;
+    }
+    .sprite-lake_46 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -2700px;
+    }
+    .sprite-lake_47 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -2760px;
+    }
+    .sprite-lake_48 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -2820px;
+    }
+    .sprite-lake_49 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -2880px;
+    }
+    .sprite-lake_50 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -2940px;
+    }
+    .sprite-lake_51 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -3000px;
+    }
+    .sprite-lake_52 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -3060px;
+    }
+    .sprite-lake_53 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -3120px;
+    }
+    .sprite-lake_54 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -3180px;
+    }
+    .sprite-lake_55 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -3240px;
+    }
+    .sprite-lake_56 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -3300px;
+    }
+    .sprite-lake_57 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -3360px;
+    }
+    .sprite-lake_58 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -3420px;
+    }
+    .sprite-lake_59 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -3480px;
+    }
+    .sprite-lake_60 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -3540px;
+    }
+    .sprite-lake_61 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -3600px;
+    }
+    .sprite-lake_62 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -3660px;
+    }
+    .sprite-lake_63 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -3720px;
+    }
+    .sprite-lake_64 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -3780px;
+    }
+    .sprite-lake_65 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -3840px;
+    }
+    .sprite-lake_66 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -3900px;
+    }
+    .sprite-lake_67 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -3960px;
+    }
+    .sprite-lake_68 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -4020px;
+    }
+    .sprite-lake_69 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -4080px;
+    }
+    .sprite-lake_70 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -4140px;
+    }
+    .sprite-lake_71 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -4200px;
+    }
+    .sprite-lake_72 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -4260px;
+    }
+    .sprite-lake_73 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -4320px;
+    }
+    .sprite-lake_74 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -4380px;
+    }
+    .sprite-lake_75 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -4440px;
+    }
+    .sprite-lake_76 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -4500px;
+    }
+    .sprite-lake_77 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -4560px;
+    }
+    .sprite-lake_78 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -4620px;
+    }
+    .sprite-lake_79 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -4680px;
+    }
+    .sprite-lake_80 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -4740px;
+    }
+    .sprite-lake_81 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -4800px;
+    }
+    .sprite-lake_82 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -4860px;
+    }
+    .sprite-lake_83 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -4920px;
+    }
+    .sprite-lake_84 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -4980px;
+    }
+    .sprite-lake_85 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -5040px;
+    }
+    .sprite-lake_86 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -5100px;
+    }
+    .sprite-lake_87 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -5160px;
+    }
+    .sprite-lake_88 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -5220px;
+    }
+    .sprite-lake_89 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -5280px;
+    }
+    .sprite-lake_90 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -5340px;
+    }
+    .sprite-lake_91 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -5400px;
+    }
+    .sprite-lake_92 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -5460px;
+    }
+    .sprite-lake_93 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -5520px;
+    }
+    .sprite-lake_94 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -5580px;
+    }
+    .sprite-lake_95 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -5640px;
+    }
+    .sprite-lake_96 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -5700px;
+    }
+    .sprite-lake_97 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -5760px;
+    }
+    .sprite-lake_98 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -5820px;
+    }
+    .sprite-lake_99 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -5880px;
+    }
+    .sprite-lake_100 {
+      background: url(../images/sprites_lake.png) no-repeat -0px -5940px;
+    }
+
+    /*New Year*/
+    .sprite-new_year_1 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -0px;
+    }
+    .sprite-new_year_2 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -60px;
+    }
+    .sprite-new_year_3 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -120px;
+    }
+    .sprite-new_year_4 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -180px;
+    }
+    .sprite-new_year_5 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -240px;
+    }
+    .sprite-new_year_6 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -300px;
+    }
+    .sprite-new_year_7 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -360px;
+    }
+    .sprite-new_year_8 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -420px;
+    }
+    .sprite-new_year_9 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -480px;
+    }
+    .sprite-new_year_10 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -540px;
+    }
+    .sprite-new_year_11 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -600px;
+    }
+    .sprite-new_year_12 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -660px;
+    }
+    .sprite-new_year_13 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -720px;
+    }
+    .sprite-new_year_14 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -780px;
+    }
+    .sprite-new_year_15 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -840px;
+    }
+    .sprite-new_year_16 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -900px;
+    }
+    .sprite-new_year_17 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -960px;
+    }
+    .sprite-new_year_18 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -1020px;
+    }
+    .sprite-new_year_19 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -1080px;
+    }
+    .sprite-new_year_20 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -1140px;
+    }
+    .sprite-new_year_21 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -1200px;
+    }
+    .sprite-new_year_22 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -1260px;
+    }
+    .sprite-new_year_23 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -1320px;
+    }
+    .sprite-new_year_24 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -1380px;
+    }
+    .sprite-new_year_25 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -1440px;
+    }
+    .sprite-new_year_26 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -1500px;
+    }
+    .sprite-new_year_27 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -1560px;
+    }
+    .sprite-new_year_28 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -1620px;
+    }
+    .sprite-new_year_29 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -1680px;
+    }
+    .sprite-new_year_30 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -1740px;
+    }
+    .sprite-new_year_31 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -1800px;
+    }
+    .sprite-new_year_32 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -1860px;
+    }
+    .sprite-new_year_33 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -1920px;
+    }
+    .sprite-new_year_34 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -1980px;
+    }
+    .sprite-new_year_35 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -2040px;
+    }
+    .sprite-new_year_36 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -2100px;
+    }
+    .sprite-new_year_37 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -2160px;
+    }
+    .sprite-new_year_38 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -2220px;
+    }
+    .sprite-new_year_39 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -2280px;
+    }
+    .sprite-new_year_40 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -2340px;
+    }
+    .sprite-new_year_41 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -2400px;
+    }
+    .sprite-new_year_42 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -2460px;
+    }
+    .sprite-new_year_43 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -2520px;
+    }
+    .sprite-new_year_44 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -2580px;
+    }
+    .sprite-new_year_45 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -2640px;
+    }
+    .sprite-new_year_46 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -2700px;
+    }
+    .sprite-new_year_47 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -2760px;
+    }
+    .sprite-new_year_48 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -2820px;
+    }
+    .sprite-new_year_49 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -2880px;
+    }
+    .sprite-new_year_50 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -2940px;
+    }
+    .sprite-new_year_51 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -3000px;
+    }
+    .sprite-new_year_52 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -3060px;
+    }
+    .sprite-new_year_53 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -3120px;
+    }
+    .sprite-new_year_54 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -3180px;
+    }
+    .sprite-new_year_55 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -3240px;
+    }
+    .sprite-new_year_56 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -3300px;
+    }
+    .sprite-new_year_57 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -3360px;
+    }
+    .sprite-new_year_58 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -3420px;
+    }
+    .sprite-new_year_59 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -3480px;
+    }
+    .sprite-new_year_60 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -3540px;
+    }
+    .sprite-new_year_61 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -3600px;
+    }
+    .sprite-new_year_62 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -3660px;
+    }
+    .sprite-new_year_63 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -3720px;
+    }
+    .sprite-new_year_64 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -3780px;
+    }
+    .sprite-new_year_65 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -3840px;
+    }
+    .sprite-new_year_66 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -3900px;
+    }
+    .sprite-new_year_67 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -3960px;
+    }
+    .sprite-new_year_68 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -4020px;
+    }
+    .sprite-new_year_69 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -4080px;
+    }
+    .sprite-new_year_70 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -4140px;
+    }
+    .sprite-new_year_71 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -4200px;
+    }
+    .sprite-new_year_72 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -4260px;
+    }
+    .sprite-new_year_73 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -4320px;
+    }
+    .sprite-new_year_74 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -4380px;
+    }
+    .sprite-new_year_75 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -4440px;
+    }
+    .sprite-new_year_76 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -4500px;
+    }
+    .sprite-new_year_77 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -4560px;
+    }
+    .sprite-new_year_78 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -4620px;
+    }
+    .sprite-new_year_79 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -4680px;
+    }
+    .sprite-new_year_80 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -4740px;
+    }
+    .sprite-new_year_81 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -4800px;
+    }
+    .sprite-new_year_82 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -4860px;
+    }
+    .sprite-new_year_83 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -4920px;
+    }
+    .sprite-new_year_84 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -4980px;
+    }
+    .sprite-new_year_85 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -5040px;
+    }
+    .sprite-new_year_86 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -5100px;
+    }
+    .sprite-new_year_87 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -5160px;
+    }
+    .sprite-new_year_88 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -5220px;
+    }
+    .sprite-new_year_89 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -5280px;
+    }
+    .sprite-new_year_90 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -5340px;
+    }
+    .sprite-new_year_91 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -5400px;
+    }
+    .sprite-new_year_92 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -5460px;
+    }
+    .sprite-new_year_93 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -5520px;
+    }
+    .sprite-new_year_94 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -5580px;
+    }
+    .sprite-new_year_95 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -5640px;
+    }
+    .sprite-new_year_96 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -5700px;
+    }
+    .sprite-new_year_97 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -5760px;
+    }
+    .sprite-new_year_98 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -5820px;
+    }
+    .sprite-new_year_99 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -5880px;
+    }
+    .sprite-new_year_100 {
+      background: url(../images/sprites_new_year.png) no-repeat -0px -5940px;
+    }
+
+    /*Underground*/
+    .sprite-underground_1 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -0px;
+    }
+    .sprite-underground_2 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -60px;
+    }
+    .sprite-underground_3 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -120px;
+    }
+    .sprite-underground_4 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -180px;
+    }
+    .sprite-underground_5 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -240px;
+    }
+    .sprite-underground_6 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -300px;
+    }
+    .sprite-underground_7 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -360px;
+    }
+    .sprite-underground_8 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -420px;
+    }
+    .sprite-underground_9 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -480px;
+    }
+    .sprite-underground_10 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -540px;
+    }
+    .sprite-underground_11 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -600px;
+    }
+    .sprite-underground_12 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -660px;
+    }
+    .sprite-underground_13 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -720px;
+    }
+    .sprite-underground_14 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -780px;
+    }
+    .sprite-underground_15 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -840px;
+    }
+    .sprite-underground_16 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -900px;
+    }
+    .sprite-underground_17 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -960px;
+    }
+    .sprite-underground_18 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -1020px;
+    }
+    .sprite-underground_19 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -1080px;
+    }
+    .sprite-underground_20 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -1140px;
+    }
+    .sprite-underground_21 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -1200px;
+    }
+    .sprite-underground_22 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -1260px;
+    }
+    .sprite-underground_23 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -1320px;
+    }
+    .sprite-underground_24 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -1380px;
+    }
+    .sprite-underground_25 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -1440px;
+    }
+    .sprite-underground_26 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -1500px;
+    }
+    .sprite-underground_27 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -1560px;
+    }
+    .sprite-underground_28 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -1620px;
+    }
+    .sprite-underground_29 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -1680px;
+    }
+    .sprite-underground_30 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -1740px;
+    }
+    .sprite-underground_31 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -1800px;
+    }
+    .sprite-underground_32 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -1860px;
+    }
+    .sprite-underground_33 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -1920px;
+    }
+    .sprite-underground_34 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -1980px;
+    }
+    .sprite-underground_35 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -2040px;
+    }
+    .sprite-underground_36 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -2100px;
+    }
+    .sprite-underground_37 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -2160px;
+    }
+    .sprite-underground_38 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -2220px;
+    }
+    .sprite-underground_39 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -2280px;
+    }
+    .sprite-underground_40 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -2340px;
+    }
+    .sprite-underground_41 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -2400px;
+    }
+    .sprite-underground_42 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -2460px;
+    }
+    .sprite-underground_43 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -2520px;
+    }
+    .sprite-underground_44 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -2580px;
+    }
+    .sprite-underground_45 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -2640px;
+    }
+    .sprite-underground_46 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -2700px;
+    }
+    .sprite-underground_47 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -2760px;
+    }
+    .sprite-underground_48 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -2820px;
+    }
+    .sprite-underground_49 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -2880px;
+    }
+    .sprite-underground_50 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -2940px;
+    }
+    .sprite-underground_51 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -3000px;
+    }
+    .sprite-underground_52 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -3060px;
+    }
+    .sprite-underground_53 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -3120px;
+    }
+    .sprite-underground_54 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -3180px;
+    }
+    .sprite-underground_55 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -3240px;
+    }
+    .sprite-underground_56 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -3300px;
+    }
+    .sprite-underground_57 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -3360px;
+    }
+    .sprite-underground_58 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -3420px;
+    }
+    .sprite-underground_59 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -3480px;
+    }
+    .sprite-underground_60 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -3540px;
+    }
+    .sprite-underground_61 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -3600px;
+    }
+    .sprite-underground_62 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -3660px;
+    }
+    .sprite-underground_63 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -3720px;
+    }
+    .sprite-underground_64 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -3780px;
+    }
+    .sprite-underground_65 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -3840px;
+    }
+    .sprite-underground_66 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -3900px;
+    }
+    .sprite-underground_67 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -3960px;
+    }
+    .sprite-underground_68 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -4020px;
+    }
+    .sprite-underground_69 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -4080px;
+    }
+    .sprite-underground_70 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -4140px;
+    }
+    .sprite-underground_71 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -4200px;
+    }
+    .sprite-underground_72 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -4260px;
+    }
+    .sprite-underground_73 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -4320px;
+    }
+    .sprite-underground_74 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -4380px;
+    }
+    .sprite-underground_75 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -4440px;
+    }
+    .sprite-underground_76 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -4500px;
+    }
+    .sprite-underground_77 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -4560px;
+    }
+    .sprite-underground_78 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -4620px;
+    }
+    .sprite-underground_79 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -4680px;
+    }
+    .sprite-underground_80 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -4740px;
+    }
+    .sprite-underground_81 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -4800px;
+    }
+    .sprite-underground_82 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -4860px;
+    }
+    .sprite-underground_83 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -4920px;
+    }
+    .sprite-underground_84 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -4980px;
+    }
+    .sprite-underground_85 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -5040px;
+    }
+    .sprite-underground_86 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -5100px;
+    }
+    .sprite-underground_87 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -5160px;
+    }
+    .sprite-underground_88 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -5220px;
+    }
+    .sprite-underground_89 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -5280px;
+    }
+    .sprite-underground_90 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -5340px;
+    }
+    .sprite-underground_91 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -5400px;
+    }
+    .sprite-underground_92 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -5460px;
+    }
+    .sprite-underground_93 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -5520px;
+    }
+    .sprite-underground_94 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -5580px;
+    }
+    .sprite-underground_95 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -5640px;
+    }
+    .sprite-underground_96 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -5700px;
+    }
+    .sprite-underground_97 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -5760px;
+    }
+    .sprite-underground_98 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -5820px;
+    }
+    .sprite-underground_99 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -5880px;
+    }
+    .sprite-underground_100 {
+      background: url(../images/sprites_underground.png) no-repeat -0px -5940px;
+    }
+
+    /*Wood*/
+    .sprite-wood_1 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -0px;
+    }
+    .sprite-wood_2 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -60px;
+    }
+    .sprite-wood_3 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -120px;
+    }
+    .sprite-wood_4 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -180px;
+    }
+    .sprite-wood_5 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -240px;
+    }
+    .sprite-wood_6 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -300px;
+    }
+    .sprite-wood_7 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -360px;
+    }
+    .sprite-wood_8 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -420px;
+    }
+    .sprite-wood_9 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -480px;
+    }
+    .sprite-wood_10 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -540px;
+    }
+    .sprite-wood_11 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -600px;
+    }
+    .sprite-wood_12 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -660px;
+    }
+    .sprite-wood_13 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -720px;
+    }
+    .sprite-wood_14 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -780px;
+    }
+    .sprite-wood_15 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -840px;
+    }
+    .sprite-wood_16 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -900px;
+    }
+    .sprite-wood_17 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -960px;
+    }
+    .sprite-wood_18 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -1020px;
+    }
+    .sprite-wood_19 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -1080px;
+    }
+    .sprite-wood_20 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -1140px;
+    }
+    .sprite-wood_21 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -1200px;
+    }
+    .sprite-wood_22 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -1260px;
+    }
+    .sprite-wood_23 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -1320px;
+    }
+    .sprite-wood_24 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -1380px;
+    }
+    .sprite-wood_25 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -1440px;
+    }
+    .sprite-wood_26 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -1500px;
+    }
+    .sprite-wood_27 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -1560px;
+    }
+    .sprite-wood_28 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -1620px;
+    }
+    .sprite-wood_29 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -1680px;
+    }
+    .sprite-wood_30 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -1740px;
+    }
+    .sprite-wood_31 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -1800px;
+    }
+    .sprite-wood_32 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -1860px;
+    }
+    .sprite-wood_33 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -1920px;
+    }
+    .sprite-wood_34 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -1980px;
+    }
+    .sprite-wood_35 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -2040px;
+    }
+    .sprite-wood_36 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -2100px;
+    }
+    .sprite-wood_37 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -2160px;
+    }
+    .sprite-wood_38 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -2220px;
+    }
+    .sprite-wood_39 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -2280px;
+    }
+    .sprite-wood_40 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -2340px;
+    }
+    .sprite-wood_41 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -2400px;
+    }
+    .sprite-wood_42 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -2460px;
+    }
+    .sprite-wood_43 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -2520px;
+    }
+    .sprite-wood_44 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -2580px;
+    }
+    .sprite-wood_45 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -2640px;
+    }
+    .sprite-wood_46 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -2700px;
+    }
+    .sprite-wood_47 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -2760px;
+    }
+    .sprite-wood_48 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -2820px;
+    }
+    .sprite-wood_49 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -2880px;
+    }
+    .sprite-wood_50 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -2940px;
+    }
+    .sprite-wood_51 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -3000px;
+    }
+    .sprite-wood_52 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -3060px;
+    }
+    .sprite-wood_53 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -3120px;
+    }
+    .sprite-wood_54 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -3180px;
+    }
+    .sprite-wood_55 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -3240px;
+    }
+    .sprite-wood_56 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -3300px;
+    }
+    .sprite-wood_57 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -3360px;
+    }
+    .sprite-wood_58 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -3420px;
+    }
+    .sprite-wood_59 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -3480px;
+    }
+    .sprite-wood_60 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -3540px;
+    }
+    .sprite-wood_61 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -3600px;
+    }
+    .sprite-wood_62 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -3660px;
+    }
+    .sprite-wood_63 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -3720px;
+    }
+    .sprite-wood_64 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -3780px;
+    }
+    .sprite-wood_65 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -3840px;
+    }
+    .sprite-wood_66 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -3900px;
+    }
+    .sprite-wood_67 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -3960px;
+    }
+    .sprite-wood_68 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -4020px;
+    }
+    .sprite-wood_69 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -4080px;
+    }
+    .sprite-wood_70 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -4140px;
+    }
+    .sprite-wood_71 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -4200px;
+    }
+    .sprite-wood_72 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -4260px;
+    }
+    .sprite-wood_73 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -4320px;
+    }
+    .sprite-wood_74 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -4380px;
+    }
+    .sprite-wood_75 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -4440px;
+    }
+    .sprite-wood_76 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -4500px;
+    }
+    .sprite-wood_77 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -4560px;
+    }
+    .sprite-wood_78 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -4620px;
+    }
+    .sprite-wood_79 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -4680px;
+    }
+    .sprite-wood_80 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -4740px;
+    }
+    .sprite-wood_81 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -4800px;
+    }
+    .sprite-wood_82 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -4860px;
+    }
+    .sprite-wood_83 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -4920px;
+    }
+    .sprite-wood_84 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -4980px;
+    }
+    .sprite-wood_85 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -5040px;
+    }
+    .sprite-wood_86 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -5100px;
+    }
+    .sprite-wood_87 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -5160px;
+    }
+    .sprite-wood_88 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -5220px;
+    }
+    .sprite-wood_89 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -5280px;
+    }
+    .sprite-wood_90 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -5340px;
+    }
+    .sprite-wood_91 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -5400px;
+    }
+    .sprite-wood_92 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -5460px;
+    }
+    .sprite-wood_93 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -5520px;
+    }
+    .sprite-wood_94 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -5580px;
+    }
+    .sprite-wood_95 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -5640px;
+    }
+    .sprite-wood_96 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -5700px;
+    }
+    .sprite-wood_97 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -5760px;
+    }
+    .sprite-wood_98 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -5820px;
+    }
+    .sprite-wood_99 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -5880px;
+    }
+    .sprite-wood_100 {
+      background: url(../images/sprites_wood.png) no-repeat -0px -5940px;
+    }
+  }
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1400px) {
+
+  #container {
+    width: 83.33%;
+    height: 499px;
+
+    #containerRight {
+      width: 50%;
+      height: 499px;
+
+      div[class*="pale"] {
+        width: 10%;
+        height: 49.999px;
+
+      }
+    }
+
+  }
+}
+
+@media screen and (max-width: 1399px) and (min-width: 1200px) {
+
+  #container {
+    width: 83.33%;
+    height: 437px;
+
+    #container {
+      width: 83.33%;
+      height: 437px;
+
+      #start,
+      .startPuzzleButton {
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        box-shadow: 0 0 10px darkgrey;
+        background-color: #d4d4d4;
+        font-family: 'Arimo', sans-serif;
+        color: #3E3C3C;
+        text-shadow: 1px 1px 2px grey;
+        outline: none;
+      }
+
+      #containerRight {
+        width: 50%;
+        height: 437px;
+
+        div[class*="pale"] {
+          width: 10%;
+          height: 43.7px;
+
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1000px) {
+
+  #container {
+    width: 83.33%;
+    height: 374px;
+
+    #start,
+    .startPuzzleButton {
+      width: 200px;
+      height: 50px;
+      font-size: 20px;
+      box-shadow: 0 0 10px darkgrey;
+      background-color: #d4d4d4;
+      font-family: 'Arimo', sans-serif;
+      color: #3E3C3C;
+      text-shadow: 1px 1px 2px grey;
+      outline: none;
+    }
+
+    #containerRight {
+      width: 50%;
+      height: 374px;
+
+      div[class*="pale"] {
+        width: 10%;
+        height: 37.4px;
+
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 999px) and (min-width: 800px) {
+
+  #container {
+    width: 83.33%;
+    height: 312px;
+
+    #start,
+    .startPuzzleButton {
+      width: 200px;
+      height: 50px;
+      font-size: 20px;
+      box-shadow: 0 0 10px darkgrey;
+      background-color: #d4d4d4;
+      font-family: 'Arimo', sans-serif;
+      color: #3E3C3C;
+      text-shadow: 1px 1px 2px grey;
+      outline: none;
+    }
+
+    #containerRight {
+      width: 50%;
+      height: 312px;
+
+      div[class*="pale"] {
+        width: 10%;
+        height: 31.2px;
+
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 799px) and (min-width: 480px) {
+
+  #container {
+    width: 83.33%;
+    height: 187px;
+
+    #start,
+    .startPuzzleButton {
+      width: 200px;
+      height: 50px;
+      font-size: 20px;
+      box-shadow: 0 0 10px darkgrey;
+      background-color: #d4d4d4;
+      font-family: 'Arimo', sans-serif;
+      color: #3E3C3C;
+      text-shadow: 1px 1px 2px grey;
+      outline: none;
+    }
+
+    #containerRight {
+      width: 50%;
+      height: 187px;
+
+      div[class*="pale"] {
+        width: 10%;
+        height: 18.7px;
+
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+

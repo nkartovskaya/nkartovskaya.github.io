@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Тест оттенков</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Play:400,700&subset=latin,cyrillic' rel='stylesheet/screen.css'
+          type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/screen.css">
+</head>
+<body>
+<section class="wrapper">
+    <header>
+        <div class="logo_nav">
+            <a href="index.html">
+                <div class="logo"></div>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="lusher.html">Тест Люшера</a></li>
+                    <li><a href="daltonizm.html">Тест на цветовосприятие</a></li>
+                    <li><a href="tones.html">Тест оттенков</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="content">
+        <div id="content">
+            <div id="colors">
+                <h1 id="task"></h1>
+                <div id="resultText">
+                    <p id="firstPart"></p>
+                    <p id="secondPart"></p>
+                </div>
+                <button class="colorButton" name="colorButton" onclick="findClickedButton(this)"></button>
+                <button class="colorButton" name="colorButton" onclick="findClickedButton(this)"></button>
+                <button class="colorButton" name="colorButton" onclick="findClickedButton(this)"></button>
+                <button class="colorButton" name="colorButton" onclick="findClickedButton(this)"></button>
+                <button class="colorButton" name="colorButton" onclick="findClickedButton(this)"></button>
+                <button class="colorButton" name="colorButton" onclick="findClickedButton(this)"></button>
+                <button class="colorButton" name="colorButton" onclick="findClickedButton(this)"></button>
+                <button class="colorButton" name="colorButton" onclick="findClickedButton(this)"></button>
+                <button id="start" onclick="createBlocks()">Пройти тест оттенков</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="logo_social_icons">
+            <div class="social_icons">
+                <a href="https://www.facebook.com" target="_blank">
+                    <div class="sprite-social_facebook"></div>
+                </a>
+                <a href="https://www.linkedin.com" target="_blank">
+                    <div class="sprite-social_linkedin"></div>
+                </a>
+                <a href="https://www.google.com" target="_blank">
+                    <div class="sprite-social_google"></div>
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <div class="sprite-social_twitter"></div>
+                </a>
+                <p>&#169; Все права на сайт принадлежат мне. 2015</p>
+            </div>
+        </div>
+    </footer>
+</section>
+<script defer src="js/tones.js" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,640 @@
+body {
+    background-image: url(../images/bg_default.jpg)
+}
+
+#container {
+    width: 1600px;
+    height: 600px;
+    position: relative;
+    background-color: #0000ef;
+    margin: 0 auto
+}
+
+#container #start {
+    margin-left: 45%;
+    margin-top: 10%
+}
+
+#container #containerRight {
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #471b11;
+    visibility: hidden
+}
+
+#container #containerLeft {
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #499d33;
+    visibility: hidden
+}
+
+#container #containerLeft .sprite-city_1 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px 0px
+}
+
+#container #containerLeft .sprite-city_2 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -60px
+}
+
+#container #containerLeft .sprite-city_3 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -120px
+}
+
+#container #containerLeft .sprite-city_4 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -180px
+}
+
+#container #containerLeft .sprite-city_5 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -240px
+}
+
+#container #containerLeft .sprite-city_6 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -300px
+}
+
+#container #containerLeft .sprite-city_7 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -360px
+}
+
+#container #containerLeft .sprite-city_8 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -420px
+}
+
+#container #containerLeft .sprite-city_9 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -480px
+}
+
+#container #containerLeft .sprite-city_10 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -540px
+}
+
+#container #containerLeft .sprite-city_11 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -600px
+}
+
+#container #containerLeft .sprite-city_12 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -660px
+}
+
+#container #containerLeft .sprite-city_13 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -720px
+}
+
+#container #containerLeft .sprite-city_14 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -780px
+}
+
+#container #containerLeft .sprite-city_15 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -840px
+}
+
+#container #containerLeft .sprite-city_16 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -900px
+}
+
+#container #containerLeft .sprite-city_17 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -960px
+}
+
+#container #containerLeft .sprite-city_18 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -1020px
+}
+
+#container #containerLeft .sprite-city_19 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -1080px
+}
+
+#container #containerLeft .sprite-city_20 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -1140px
+}
+
+#container #containerLeft .sprite-city_21 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -1200px
+}
+
+#container #containerLeft .sprite-city_22 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -1260px
+}
+
+#container #containerLeft .sprite-city_23 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -1320px
+}
+
+#container #containerLeft .sprite-city_24 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -1380px
+}
+
+#container #containerLeft .sprite-city_25 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -1440px
+}
+
+#container #containerLeft .sprite-city_26 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -1500px
+}
+
+#container #containerLeft .sprite-city_27 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -1560px
+}
+
+#container #containerLeft .sprite-city_28 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -1620px
+}
+
+#container #containerLeft .sprite-city_29 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -1680px
+}
+
+#container #containerLeft .sprite-city_30 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -1740px
+}
+
+#container #containerLeft .sprite-city_31 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -1800px
+}
+
+#container #containerLeft .sprite-city_32 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -1860px
+}
+
+#container #containerLeft .sprite-city_33 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -1920px
+}
+
+#container #containerLeft .sprite-city_34 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -1980px
+}
+
+#container #containerLeft .sprite-city_35 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -2040px
+}
+
+#container #containerLeft .sprite-city_36 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -2100px
+}
+
+#container #containerLeft .sprite-city_37 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -2160px
+}
+
+#container #containerLeft .sprite-city_38 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -2220px
+}
+
+#container #containerLeft .sprite-city_39 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -2280px
+}
+
+#container #containerLeft .sprite-city_40 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -2340px
+}
+
+#container #containerLeft .sprite-city_41 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -2400px
+}
+
+#container #containerLeft .sprite-city_42 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -2460px
+}
+
+#container #containerLeft .sprite-city_43 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -2520px
+}
+
+#container #containerLeft .sprite-city_44 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -2580px
+}
+
+#container #containerLeft .sprite-city_45 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -2640px
+}
+
+#container #containerLeft .sprite-city_46 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -2700px
+}
+
+#container #containerLeft .sprite-city_47 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -2760px
+}
+
+#container #containerLeft .sprite-city_48 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -2820px
+}
+
+#container #containerLeft .sprite-city_49 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -2880px
+}
+
+#container #containerLeft .sprite-city_50 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -2940px
+}
+
+#container #containerLeft .sprite-city_51 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -3000px
+}
+
+#container #containerLeft .sprite-city_52 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -3060px
+}
+
+#container #containerLeft .sprite-city_53 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -3120px
+}
+
+#container #containerLeft .sprite-city_54 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -3180px
+}
+
+#container #containerLeft .sprite-city_55 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -3240px
+}
+
+#container #containerLeft .sprite-city_56 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -3300px
+}
+
+#container #containerLeft .sprite-city_57 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -3360px
+}
+
+#container #containerLeft .sprite-city_58 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -3420px
+}
+
+#container #containerLeft .sprite-city_59 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -3480px
+}
+
+#container #containerLeft .sprite-city_60 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -3540px
+}
+
+#container #containerLeft .sprite-city_61 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -3600px
+}
+
+#container #containerLeft .sprite-city_62 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -3660px
+}
+
+#container #containerLeft .sprite-city_63 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -3720px
+}
+
+#container #containerLeft .sprite-city_64 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -3780px
+}
+
+#container #containerLeft .sprite-city_65 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -3840px
+}
+
+#container #containerLeft .sprite-city_66 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -3900px
+}
+
+#container #containerLeft .sprite-city_67 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -3960px
+}
+
+#container #containerLeft .sprite-city_68 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -4020px
+}
+
+#container #containerLeft .sprite-city_69 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -4080px
+}
+
+#container #containerLeft .sprite-city_70 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -4140px
+}
+
+#container #containerLeft .sprite-city_71 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -4200px
+}
+
+#container #containerLeft .sprite-city_72 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -4260px
+}
+
+#container #containerLeft .sprite-city_73 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -4320px
+}
+
+#container #containerLeft .sprite-city_74 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -4380px
+}
+
+#container #containerLeft .sprite-city_75 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -4440px
+}
+
+#container #containerLeft .sprite-city_76 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -4500px
+}
+
+#container #containerLeft .sprite-city_77 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -4560px
+}
+
+#container #containerLeft .sprite-city_78 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -4620px
+}
+
+#container #containerLeft .sprite-city_79 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -4680px
+}
+
+#container #containerLeft .sprite-city_80 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -4740px
+}
+
+#container #containerLeft .sprite-city_81 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -4800px
+}
+
+#container #containerLeft .sprite-city_82 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -4860px
+}
+
+#container #containerLeft .sprite-city_83 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -4920px
+}
+
+#container #containerLeft .sprite-city_84 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -4980px
+}
+
+#container #containerLeft .sprite-city_85 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -5040px
+}
+
+#container #containerLeft .sprite-city_86 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -5100px
+}
+
+#container #containerLeft .sprite-city_87 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -5160px
+}
+
+#container #containerLeft .sprite-city_88 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -5220px
+}
+
+#container #containerLeft .sprite-city_89 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -5280px
+}
+
+#container #containerLeft .sprite-city_90 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -5340px
+}
+
+#container #containerLeft .sprite-city_91 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -5400px
+}
+
+#container #containerLeft .sprite-city_92 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -5460px
+}
+
+#container #containerLeft .sprite-city_93 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -5520px
+}
+
+#container #containerLeft .sprite-city_94 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -5580px
+}
+
+#container #containerLeft .sprite-city_95 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -5640px
+}
+
+#container #containerLeft .sprite-city_96 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -5700px
+}
+
+#container #containerLeft .sprite-city_97 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -5760px
+}
+
+#container #containerLeft .sprite-city_98 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -5820px
+}
+
+#container #containerLeft .sprite-city_99 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -5880px
+}
+
+#container #containerLeft .sprite-city_100 {
+    width: 80px;
+    height: 60px;
+    background: url(../images/sprites_city.png) no-repeat 0px -5940px
+}
+
+
+
+/*# sourceMappingURL=screen.css.map */

@@ -1,0 +1,480 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import "compass/reset";
+
+#content {
+  #first,
+  #second,
+  #third,
+  #fourth,
+  #fifth,
+  #sixth,
+  #seventh,
+  #eighth,
+  #ninth {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin: 5px;
+    input {
+      visibility: visible;
+    }
+  }
+
+  #first:hover,
+  #second:hover,
+  #third:hover,
+  #fourth:hover,
+  #fifth:hover,
+  #sixth:hover,
+  #seventh:hover,
+  #eighth:hover,
+  #ninth:hover {
+    input {
+      visibility: visible;
+    }
+  }
+
+}
+
+body {
+  background: linear-gradient(to right, #3E5D5F, #081113);
+  margin: 0;
+  padding: 0;
+  font-family: 'Play', sans-serif;
+}
+
+.wrapper {
+  margin: 0;
+  padding: 0;
+}
+  header {
+    background: linear-gradient(to right, #111F21, #111F21);
+    height: 230px;
+    margin: 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 8);
+
+    .logo {
+      background-image: url("../images/logo.png");
+      background-size: cover;
+      width: 160px;
+      height: 160px;
+    }
+
+    .logo_nav {
+      width: 999px;
+      height: 220px;
+      margin: 0 auto;
+    }
+
+    .logo {
+      float: left;
+      margin: 45px 0 0 0;
+    }
+
+    nav {
+
+      ul {
+        margin: 0;
+      }
+
+      ul li {
+        display: block;
+        float: left;
+        height: 40px;
+        margin: 139px 2px 2px 2px;
+        padding: 12px 12px 0 12px;
+        border-radius: 7px;
+        background-color: #30544F;
+        box-shadow: #222222 2px 2px 2px;
+      }
+
+      ul li a {
+        text-decoration: none;
+        color: #bababa;
+        text-shadow: #434343 1px 1px;
+        font-size: 1.5em;
+      }
+      a {
+        display: block;
+        height: 47px;
+      }
+
+      ul li:hover {
+        background-color: #b3fc10;
+        border-bottom: solid #696969 1px;
+      }
+
+      ul li:hover a {
+        color: #1a2e29;
+        text-shadow: #bcbcbc 1px 1px;
+      }
+
+      ul li:first-child {
+        margin-left: 20px;
+      }
+    }
+  }
+
+  .content {
+
+    button#nextImage {
+      width: 97%;
+      height: 30px;
+      border: solid 2px #B3FC10;
+      background-color: transparent;
+      color: #B3FC10;
+      text-shadow: #bcbcbc 1px 1px;
+      font-size: 12px;
+      border-radius: 7px;
+      position: relative;
+      outline: none;
+      margin: 0 10px 10px 10px;
+      visibility: hidden;
+    }
+    button#nextImage:hover {
+      background-color: rgba(179, 252, 16, 0.07);
+    }
+    #content {
+      width: 999px;
+      min-height: 665px;
+      height: auto;
+      overflow: hidden;
+      background-color: rgba(220, 220, 220, 0.09);
+      margin: 0 auto;
+
+      #colors {
+        width: 70%;
+        margin: 0 auto;
+
+        div#article {
+          border-radius: 7px;
+
+          p {
+            color: #bababa;
+            font-size: 20px;
+            text-align: justify;
+
+            span.boldBlue,
+            span.boldYellow,
+            span.boldGreen,
+            span.boldRed {
+              font-weight: bold;
+            }
+            span.boldBlue {
+              color: #2121eb;
+            }
+
+            span.boldYellow {
+              color: #b3fc10;
+            }
+
+            span.boldGreen {
+              color: #51eb39;
+            }
+
+            span.boldRed {
+              color: #dc3055;
+            }
+          }
+        }
+
+        button.colorButton,
+        button#colorButton {
+          visibility: hidden;
+          width: 0;
+          height: 0;
+          border-style: none;
+          float: none;
+          position: absolute;
+          outline: none;
+          margin: 0 auto;
+          background-size: cover;
+        }
+
+        div#resultTextCurrent,
+        div#resultTextGeneral {
+          border-radius: 7px;
+
+          p {
+            color: #bababa;
+            font-size: 20px;
+            text-align: center;
+          }
+        }
+      }
+      button.colorButton {
+        visibility: hidden;
+        width: 0;
+        height: 0;
+        border-style: none;
+        float: none;
+        position: absolute;
+        outline: none;
+        margin: 0 auto;
+        background-size: cover;
+      }
+
+      h1#task {
+        color: #bababa;
+        text-shadow: #434343 1px 1px;
+        text-align: center;
+      }
+
+      div#resultText {
+        border-radius: 7px;
+
+        p {
+          color: #bababa;
+          font-size: 20px;
+          text-align: center;
+          padding: 0 10px 0 10px;
+        }
+      }
+
+      #first,
+      #second,
+      #third,
+      #fourth,
+      #fifth,
+      #sixth,
+      #seventh,
+      #eighth,
+      #ninth {
+        width: 0;
+        height: 0;
+        position: absolute;
+        input {
+          visibility: hidden;
+          width: 0;
+          height: 0;
+        }
+      }
+    }
+    button#start {
+      width: 100%;
+      height: 100px;
+      border: solid 2px #B3FC10;
+      background-color: transparent;
+      color: #B3FC10;
+      text-shadow: #bcbcbc 1px 1px;
+      font-size: 25px;
+      border-radius: 7px;
+      position: relative;
+      outline: none;
+      margin-top: 50px;
+    }
+    button#start:hover {
+      background-color: rgba(179, 252, 16, 0.07);
+    }
+  }
+
+  footer {
+    background: linear-gradient(to right, #203E40, #111F21);
+    height: 86px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 8);
+
+    .logo_social_icons {
+      width: 999px;
+      margin: 0 auto;
+
+      .social_icons {
+        width: 999px;
+        margin: 0 auto;
+        text-align: right;
+        .sprite-social_facebook {
+          width: 64px;
+          height: 64px;
+          margin-top: 11px;
+          position: relative;
+          background: url(../images/sprites_icons.png) no-repeat -0px -0px;
+          float: left;
+        }
+        .sprite-social_google {
+          width: 64px;
+          height: 64px;
+          margin-top: 11px;
+          position: relative;
+          background: url(../images/sprites_icons.png) no-repeat -0px -64px;
+          float: left;
+        }
+        .sprite-social_linkedin {
+          width: 64px;
+          height: 64px;
+          margin-top: 11px;
+          position: relative;
+          background: url(../images/sprites_icons.png) no-repeat -0px -128px;
+          float: left;
+        }
+        .sprite-social_twitter {
+          width: 64px;
+          height: 64px;
+          margin-top: 11px;
+          position: relative;
+          background: url(../images/sprites_icons.png) no-repeat -0px -192px;
+          float: left;
+        }
+        p {
+          display: inline-block;
+          color: #bababa;
+          text-shadow: #434343 1px 1px;
+          font-size: 0.8em;
+          margin: 55px 0 0 400px;
+        }
+      }
+    }
+  }
+
+
+@media screen and (max-width: 999px) and (min-width: 800px) {
+  header {
+    width: 100%;
+    height: 120px;
+    .logo_nav {
+      width: 100%;
+      .logo {
+        background-image: url("../images/logo.png");
+        background-size: cover;
+        margin: 0 0 0 10px;
+        height: 120px;
+        width: 120px;
+      }
+    }
+    nav {
+      width: 100%;
+      ul {
+        width: 100%;
+        li {
+          margin: 40px 2px 0 2px;
+          height: 35px;
+          a {
+            font-size: 1.1em;
+          }
+        }
+        li:first-child {
+          margin-left: 25px;
+        }
+      }
+    }
+  }
+
+  .content {
+    width: 100%;
+    #content {
+      width: 100%;
+      min-height: 730px;
+      height: auto;
+      overflow: hidden;
+    }
+  }
+
+  footer {
+    height: 86px;
+    .logo_social_icons {
+      width: 100%;
+      height: 86px;
+      .logo {
+        margin: 0 50px 0 10px;
+        height: 86px;
+        img {
+          width: 200px;
+        }
+      }
+      .social_icons {
+        width: 100%;
+        p {
+          margin: 55px 0 0 0;
+          font-size: 0.8em;
+          text-align: center;
+        }
+      }
+      p {
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 799px) and (min-width: 320px) {
+  header {
+    width: 100%;
+    height: 225px;
+    .logo_nav {
+      width: 100%;
+
+      .logo {
+        margin: 0 auto;
+        width: 80px;
+        height: 80px;
+        float: none;
+        img {
+          width: 100px;
+          margin: 0 0 0 10px;
+        }
+      }
+      nav {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        ul {
+          width: 100%;
+          margin: 0;
+          padding: 0;
+          li {
+            margin: 2px;
+            padding: 5px;
+            height: 22px;
+            float: none;
+            text-align: center;
+            a {
+              font-size: 0.9em;
+            }
+          }
+
+        }
+      }
+    }
+  }
+
+  .content {
+    width: 100%;
+    #content {
+      width: 100%;
+      p {
+        margin: 0 20px 0 20px;
+      }
+    }
+  }
+  footer {
+    width: 100%;
+    height: 100px;
+    .logo_social_icons {
+      width: 100%;
+      height: 64px;
+      .logo {
+        margin: 0 30px 0 10px;
+        padding-top: 10px;
+        height: 54px;
+        img {
+          width: 100px;
+        }
+      }
+      .social_icons {
+        width: 100%;
+        float: none;
+        p {
+          margin: 1px 0 0 0;
+          font-size: 0.6em;
+        }
+      }
+      p {
+        margin-left: 20px;
+        font-size: 0.6em;
+      }
+    }
+  }
+}
+
+

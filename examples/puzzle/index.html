@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Пазлы</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="stylesheets/screen.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Arimo:400,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<a href="index.html"><div id="goHome" title="На главную"></div></a>
+<section id="container">
+    <audio id="audio" src="audio/Koloda.mp3"></audio>
+    <h1 id="welcome">Добро пожаловать!</h1>
+    <p id="welcomeText">На нашем сайте Вы можете насладиться популярной и увлекательной игрой - складыванием пазлов.<br>
+    Выберите стиль стола и сюжет пазла, приятной Вам игры! </p>
+    <button id="start" onclick="startNavigation()" autofocus>НАЧАТЬ</button>
+    <div id="containerRight"></div>
+    <div id="containerLeft"></div>
+
+</section>
+<script defer type="text/javascript" src="js/puzzle.js" charset="utf-8"></script>
+<script type="text/javascript">
+    WebFontConfig = {
+        google: { families: [ 'Arimo:400,700:latin,cyrillic-ext' ] }
+    };
+    (function() {
+        var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+                '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+    })(); </script>
+</body>
+</html>

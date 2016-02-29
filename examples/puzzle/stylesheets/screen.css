@@ -1,0 +1,2350 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 7, ../sass/screen.scss */
+body {
+  background-image: url(../images/bg_default.jpg);
+  font-family: 'Arimo', sans-serif; }
+  /* line 11, ../sass/screen.scss */
+  body #goHome {
+    width: 80px;
+    height: 80px;
+    background-image: url("../images/home_grey.png"); }
+
+/* line 18, ../sass/screen.scss */
+#container {
+  width: 83.33%;
+  height: 600px;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  color: #3E3C3C;
+  text-shadow: 1px 1px 2px grey; }
+  /* line 27, ../sass/screen.scss */
+  #container #welcome {
+    margin-top: 10%; }
+  /* line 31, ../sass/screen.scss */
+  #container .textStyleTable,
+  #container .textPuzzleType {
+    margin-top: 2%; }
+  /* line 35, ../sass/screen.scss */
+  #container .inputsTypeTable {
+    margin: 5px; }
+  /* line 38, ../sass/screen.scss */
+  #container .labelsTypeTable {
+    display: block; }
+  /* line 41, ../sass/screen.scss */
+  #container .inputsPuzzleType {
+    margin: 5px; }
+  /* line 44, ../sass/screen.scss */
+  #container .labelsPuzzleType {
+    display: block; }
+  /* line 47, ../sass/screen.scss */
+  #container .formPuzzleType {
+    margin-bottom: 30px; }
+  /* line 51, ../sass/screen.scss */
+  #container #start {
+    margin-top: 0; }
+  /* line 55, ../sass/screen.scss */
+  #container #start,
+  #container .startPuzzleButton {
+    width: 250px;
+    height: 60px;
+    font-size: 25px;
+    box-shadow: 0 0 10px darkgrey;
+    background-color: #d4d4d4;
+    font-family: 'Arimo', sans-serif;
+    color: #3E3C3C;
+    text-shadow: 1px 1px 2px grey;
+    outline: none; }
+  /* line 68, ../sass/screen.scss */
+  #container #start:hover,
+  #container .startPuzzleButton:hover {
+    box-shadow: 0 0 10px white;
+    background-color: #848484;
+    color: #e7e7e7; }
+  /* line 75, ../sass/screen.scss */
+  #container #containerRight {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #471b11;
+    background-size: cover;
+    visibility: hidden;
+    box-shadow: 0 0 10px #211F1F; }
+    /* line 86, ../sass/screen.scss */
+    #container #containerRight div[class*="pale"] {
+      width: 10%;
+      height: 10%;
+      float: left;
+      box-sizing: border-box; }
+    /* line 93, ../sass/screen.scss */
+    #container #containerRight div[class*="city_pale"] {
+      border: 1px solid #bbb8a3; }
+    /* line 97, ../sass/screen.scss */
+    #container #containerRight div[class*="thrones_pale"] {
+      border: 1px solid #bbb8a3; }
+    /* line 101, ../sass/screen.scss */
+    #container #containerRight div[class*="potter_pale"] {
+      border: 1px solid #B3B2A9; }
+    /* line 105, ../sass/screen.scss */
+    #container #containerRight div[class*="lake_pale"] {
+      border: 1px solid #BCC5E4; }
+    /* line 109, ../sass/screen.scss */
+    #container #containerRight div[class*="year_pale"] {
+      border: 1px solid #E0B796; }
+    /* line 113, ../sass/screen.scss */
+    #container #containerRight div[class*="underground_pale"] {
+      border: 1px solid #7B7194; }
+    /* line 117, ../sass/screen.scss */
+    #container #containerRight div[class*="wood_pale"] {
+      border: 1px solid #DDE2AC; }
+  /* line 121, ../sass/screen.scss */
+  #container #containerLeft {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    box-shadow: 0 0 10px #211F1F;
+    background-color: rgba(0, 0, 0, 0.39)
+    /*Sprite city */
+    /*Sprite Game of Thrones*/
+    /*Hary Potter*/
+    /*Lake*/
+    /*New Year*/
+    /*Underground*/
+    /*Wood*/ }
+    /* line 132, ../sass/screen.scss */
+    #container #containerLeft div[class*="city"],
+    #container #containerLeft div[class*="thrones"],
+    #container #containerLeft div[class*="potter"],
+    #container #containerLeft div[class*="lake"],
+    #container #containerLeft div[class*="year"],
+    #container #containerLeft div[class*="underground"],
+    #container #containerLeft div[class*="wood"] {
+      width: 10%;
+      height: 10%;
+      float: left; }
+    /* line 144, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_0 {
+      background: url(../images/sprites_city.png) no-repeat 0px 0px; }
+    /* line 147, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_1 {
+      background: url(../images/sprites_city.png) no-repeat 0px -60px; }
+    /* line 150, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_2 {
+      background: url(../images/sprites_city.png) no-repeat 0px -120px; }
+    /* line 153, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_3 {
+      background: url(../images/sprites_city.png) no-repeat 0px -180px; }
+    /* line 156, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_4 {
+      background: url(../images/sprites_city.png) no-repeat 0px -240px; }
+    /* line 159, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_5 {
+      background: url(../images/sprites_city.png) no-repeat 0px -300px; }
+    /* line 162, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_6 {
+      background: url(../images/sprites_city.png) no-repeat 0px -360px; }
+    /* line 165, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_7 {
+      background: url(../images/sprites_city.png) no-repeat 0px -420px; }
+    /* line 168, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_8 {
+      background: url(../images/sprites_city.png) no-repeat 0px -480px; }
+    /* line 171, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_9 {
+      background: url(../images/sprites_city.png) no-repeat 0px -540px; }
+    /* line 174, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_10 {
+      background: url(../images/sprites_city.png) no-repeat 0px -600px; }
+    /* line 177, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_11 {
+      background: url(../images/sprites_city.png) no-repeat 0px -660px; }
+    /* line 180, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_12 {
+      background: url(../images/sprites_city.png) no-repeat 0px -720px; }
+    /* line 183, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_13 {
+      background: url(../images/sprites_city.png) no-repeat 0px -780px; }
+    /* line 186, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_14 {
+      background: url(../images/sprites_city.png) no-repeat 0px -840px; }
+    /* line 189, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_15 {
+      background: url(../images/sprites_city.png) no-repeat 0px -900px; }
+    /* line 192, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_16 {
+      background: url(../images/sprites_city.png) no-repeat 0px -960px; }
+    /* line 195, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_17 {
+      background: url(../images/sprites_city.png) no-repeat 0px -1020px; }
+    /* line 198, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_18 {
+      background: url(../images/sprites_city.png) no-repeat 0px -1080px; }
+    /* line 201, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_19 {
+      background: url(../images/sprites_city.png) no-repeat 0px -1140px; }
+    /* line 204, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_20 {
+      background: url(../images/sprites_city.png) no-repeat 0px -1200px; }
+    /* line 207, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_21 {
+      background: url(../images/sprites_city.png) no-repeat 0px -1260px; }
+    /* line 210, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_22 {
+      background: url(../images/sprites_city.png) no-repeat 0px -1320px; }
+    /* line 213, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_23 {
+      background: url(../images/sprites_city.png) no-repeat 0px -1380px; }
+    /* line 216, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_24 {
+      background: url(../images/sprites_city.png) no-repeat 0px -1440px; }
+    /* line 219, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_25 {
+      background: url(../images/sprites_city.png) no-repeat 0px -1500px; }
+    /* line 222, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_26 {
+      background: url(../images/sprites_city.png) no-repeat 0px -1560px; }
+    /* line 225, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_27 {
+      background: url(../images/sprites_city.png) no-repeat 0px -1620px; }
+    /* line 228, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_28 {
+      background: url(../images/sprites_city.png) no-repeat 0px -1680px; }
+    /* line 231, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_29 {
+      background: url(../images/sprites_city.png) no-repeat 0px -1740px; }
+    /* line 234, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_30 {
+      background: url(../images/sprites_city.png) no-repeat 0px -1800px; }
+    /* line 237, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_31 {
+      background: url(../images/sprites_city.png) no-repeat 0px -1860px; }
+    /* line 240, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_32 {
+      background: url(../images/sprites_city.png) no-repeat 0px -1920px; }
+    /* line 243, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_33 {
+      background: url(../images/sprites_city.png) no-repeat 0px -1980px; }
+    /* line 246, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_34 {
+      background: url(../images/sprites_city.png) no-repeat 0px -2040px; }
+    /* line 249, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_35 {
+      background: url(../images/sprites_city.png) no-repeat 0px -2100px; }
+    /* line 252, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_36 {
+      background: url(../images/sprites_city.png) no-repeat 0px -2160px; }
+    /* line 255, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_37 {
+      background: url(../images/sprites_city.png) no-repeat 0px -2220px; }
+    /* line 258, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_38 {
+      background: url(../images/sprites_city.png) no-repeat 0px -2280px; }
+    /* line 261, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_39 {
+      background: url(../images/sprites_city.png) no-repeat 0px -2340px; }
+    /* line 264, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_40 {
+      background: url(../images/sprites_city.png) no-repeat 0px -2400px; }
+    /* line 267, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_41 {
+      background: url(../images/sprites_city.png) no-repeat 0px -2460px; }
+    /* line 270, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_42 {
+      background: url(../images/sprites_city.png) no-repeat 0px -2520px; }
+    /* line 273, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_43 {
+      background: url(../images/sprites_city.png) no-repeat 0px -2580px; }
+    /* line 276, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_44 {
+      background: url(../images/sprites_city.png) no-repeat 0px -2640px; }
+    /* line 279, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_45 {
+      background: url(../images/sprites_city.png) no-repeat 0px -2700px; }
+    /* line 282, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_46 {
+      background: url(../images/sprites_city.png) no-repeat 0px -2760px; }
+    /* line 285, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_47 {
+      background: url(../images/sprites_city.png) no-repeat 0px -2820px; }
+    /* line 288, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_48 {
+      background: url(../images/sprites_city.png) no-repeat 0px -2880px; }
+    /* line 291, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_49 {
+      background: url(../images/sprites_city.png) no-repeat 0px -2940px; }
+    /* line 294, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_50 {
+      background: url(../images/sprites_city.png) no-repeat 0px -3000px; }
+    /* line 297, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_51 {
+      background: url(../images/sprites_city.png) no-repeat 0px -3060px; }
+    /* line 300, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_52 {
+      background: url(../images/sprites_city.png) no-repeat 0px -3120px; }
+    /* line 303, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_53 {
+      background: url(../images/sprites_city.png) no-repeat 0px -3180px; }
+    /* line 306, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_54 {
+      background: url(../images/sprites_city.png) no-repeat 0px -3240px; }
+    /* line 309, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_55 {
+      background: url(../images/sprites_city.png) no-repeat 0px -3300px; }
+    /* line 312, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_56 {
+      background: url(../images/sprites_city.png) no-repeat 0px -3360px; }
+    /* line 315, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_57 {
+      background: url(../images/sprites_city.png) no-repeat 0px -3420px; }
+    /* line 318, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_58 {
+      background: url(../images/sprites_city.png) no-repeat 0px -3480px; }
+    /* line 321, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_59 {
+      background: url(../images/sprites_city.png) no-repeat 0px -3540px; }
+    /* line 324, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_60 {
+      background: url(../images/sprites_city.png) no-repeat 0px -3600px; }
+    /* line 327, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_61 {
+      background: url(../images/sprites_city.png) no-repeat 0px -3660px; }
+    /* line 330, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_62 {
+      background: url(../images/sprites_city.png) no-repeat 0px -3720px; }
+    /* line 333, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_63 {
+      background: url(../images/sprites_city.png) no-repeat 0px -3780px; }
+    /* line 336, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_64 {
+      background: url(../images/sprites_city.png) no-repeat 0px -3840px; }
+    /* line 339, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_65 {
+      background: url(../images/sprites_city.png) no-repeat 0px -3900px; }
+    /* line 342, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_66 {
+      background: url(../images/sprites_city.png) no-repeat 0px -3960px; }
+    /* line 345, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_67 {
+      background: url(../images/sprites_city.png) no-repeat 0px -4020px; }
+    /* line 348, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_68 {
+      background: url(../images/sprites_city.png) no-repeat 0px -4080px; }
+    /* line 351, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_69 {
+      background: url(../images/sprites_city.png) no-repeat 0px -4140px; }
+    /* line 354, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_70 {
+      background: url(../images/sprites_city.png) no-repeat 0px -4200px; }
+    /* line 357, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_71 {
+      background: url(../images/sprites_city.png) no-repeat 0px -4260px; }
+    /* line 360, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_72 {
+      background: url(../images/sprites_city.png) no-repeat 0px -4320px; }
+    /* line 363, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_73 {
+      background: url(../images/sprites_city.png) no-repeat 0px -4380px; }
+    /* line 366, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_74 {
+      background: url(../images/sprites_city.png) no-repeat 0px -4440px; }
+    /* line 369, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_75 {
+      background: url(../images/sprites_city.png) no-repeat 0px -4500px; }
+    /* line 372, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_76 {
+      background: url(../images/sprites_city.png) no-repeat 0px -4560px; }
+    /* line 375, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_77 {
+      background: url(../images/sprites_city.png) no-repeat 0px -4620px; }
+    /* line 378, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_78 {
+      background: url(../images/sprites_city.png) no-repeat 0px -4680px; }
+    /* line 381, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_79 {
+      background: url(../images/sprites_city.png) no-repeat 0px -4740px; }
+    /* line 384, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_80 {
+      background: url(../images/sprites_city.png) no-repeat 0px -4800px; }
+    /* line 387, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_81 {
+      background: url(../images/sprites_city.png) no-repeat 0px -4860px; }
+    /* line 390, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_82 {
+      background: url(../images/sprites_city.png) no-repeat 0px -4920px; }
+    /* line 393, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_83 {
+      background: url(../images/sprites_city.png) no-repeat 0px -4980px; }
+    /* line 396, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_84 {
+      background: url(../images/sprites_city.png) no-repeat 0px -5040px; }
+    /* line 399, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_85 {
+      background: url(../images/sprites_city.png) no-repeat 0px -5100px; }
+    /* line 402, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_86 {
+      background: url(../images/sprites_city.png) no-repeat 0px -5160px; }
+    /* line 405, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_87 {
+      background: url(../images/sprites_city.png) no-repeat 0px -5220px; }
+    /* line 408, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_88 {
+      background: url(../images/sprites_city.png) no-repeat 0px -5280px; }
+    /* line 411, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_89 {
+      background: url(../images/sprites_city.png) no-repeat 0px -5340px; }
+    /* line 414, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_90 {
+      background: url(../images/sprites_city.png) no-repeat 0px -5400px; }
+    /* line 417, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_91 {
+      background: url(../images/sprites_city.png) no-repeat 0px -5460px; }
+    /* line 420, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_92 {
+      background: url(../images/sprites_city.png) no-repeat 0px -5520px; }
+    /* line 423, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_93 {
+      background: url(../images/sprites_city.png) no-repeat 0px -5580px; }
+    /* line 426, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_94 {
+      background: url(../images/sprites_city.png) no-repeat 0px -5640px; }
+    /* line 429, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_95 {
+      background: url(../images/sprites_city.png) no-repeat 0px -5700px; }
+    /* line 432, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_96 {
+      background: url(../images/sprites_city.png) no-repeat 0px -5760px; }
+    /* line 435, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_97 {
+      background: url(../images/sprites_city.png) no-repeat 0px -5820px; }
+    /* line 438, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_98 {
+      background: url(../images/sprites_city.png) no-repeat 0px -5880px; }
+    /* line 441, ../sass/screen.scss */
+    #container #containerLeft .sprite-city_99 {
+      background: url(../images/sprites_city.png) no-repeat 0px -5940px; }
+    /* line 446, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_1 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px 0px; }
+    /* line 449, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_2 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -60px; }
+    /* line 452, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_3 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -120px; }
+    /* line 455, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_4 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -180px; }
+    /* line 458, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_5 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -240px; }
+    /* line 461, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_6 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -300px; }
+    /* line 464, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_7 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -360px; }
+    /* line 467, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_8 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -420px; }
+    /* line 470, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_9 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -480px; }
+    /* line 473, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_10 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -540px; }
+    /* line 476, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_11 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -600px; }
+    /* line 479, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_12 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -660px; }
+    /* line 482, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_13 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -720px; }
+    /* line 485, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_14 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -780px; }
+    /* line 488, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_15 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -840px; }
+    /* line 491, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_16 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -900px; }
+    /* line 494, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_17 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -960px; }
+    /* line 497, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_18 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -1020px; }
+    /* line 500, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_19 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -1080px; }
+    /* line 503, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_20 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -1140px; }
+    /* line 506, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_21 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -1200px; }
+    /* line 509, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_22 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -1260px; }
+    /* line 512, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_23 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -1320px; }
+    /* line 515, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_24 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -1380px; }
+    /* line 518, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_25 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -1440px; }
+    /* line 521, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_26 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -1500px; }
+    /* line 524, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_27 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -1560px; }
+    /* line 527, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_28 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -1620px; }
+    /* line 530, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_29 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -1680px; }
+    /* line 533, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_30 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -1740px; }
+    /* line 536, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_31 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -1800px; }
+    /* line 539, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_32 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -1860px; }
+    /* line 542, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_33 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -1920px; }
+    /* line 545, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_34 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -1980px; }
+    /* line 548, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_35 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -2040px; }
+    /* line 551, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_36 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -2100px; }
+    /* line 554, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_37 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -2160px; }
+    /* line 557, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_38 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -2220px; }
+    /* line 560, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_39 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -2280px; }
+    /* line 563, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_40 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -2340px; }
+    /* line 566, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_41 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -2400px; }
+    /* line 569, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_42 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -2460px; }
+    /* line 572, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_43 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -2520px; }
+    /* line 575, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_44 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -2580px; }
+    /* line 578, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_45 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -2640px; }
+    /* line 581, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_46 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -2700px; }
+    /* line 584, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_47 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -2760px; }
+    /* line 587, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_48 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -2820px; }
+    /* line 590, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_49 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -2880px; }
+    /* line 593, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_50 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -2940px; }
+    /* line 596, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_51 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -3000px; }
+    /* line 599, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_52 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -3060px; }
+    /* line 602, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_53 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -3120px; }
+    /* line 605, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_54 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -3180px; }
+    /* line 608, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_55 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -3240px; }
+    /* line 611, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_56 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -3300px; }
+    /* line 614, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_57 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -3360px; }
+    /* line 617, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_58 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -3420px; }
+    /* line 620, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_59 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -3480px; }
+    /* line 623, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_60 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -3540px; }
+    /* line 626, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_61 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -3600px; }
+    /* line 629, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_62 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -3660px; }
+    /* line 632, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_63 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -3720px; }
+    /* line 635, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_64 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -3780px; }
+    /* line 638, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_65 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -3840px; }
+    /* line 641, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_66 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -3900px; }
+    /* line 644, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_67 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -3960px; }
+    /* line 647, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_68 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -4020px; }
+    /* line 650, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_69 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -4080px; }
+    /* line 653, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_70 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -4140px; }
+    /* line 656, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_71 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -4200px; }
+    /* line 659, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_72 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -4260px; }
+    /* line 662, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_73 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -4320px; }
+    /* line 665, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_74 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -4380px; }
+    /* line 668, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_75 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -4440px; }
+    /* line 671, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_76 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -4500px; }
+    /* line 674, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_77 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -4560px; }
+    /* line 677, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_78 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -4620px; }
+    /* line 680, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_79 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -4680px; }
+    /* line 683, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_80 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -4740px; }
+    /* line 686, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_81 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -4800px; }
+    /* line 689, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_82 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -4860px; }
+    /* line 692, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_83 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -4920px; }
+    /* line 695, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_84 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -4980px; }
+    /* line 698, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_85 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -5040px; }
+    /* line 701, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_86 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -5100px; }
+    /* line 704, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_87 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -5160px; }
+    /* line 707, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_88 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -5220px; }
+    /* line 710, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_89 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -5280px; }
+    /* line 713, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_90 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -5340px; }
+    /* line 716, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_91 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -5400px; }
+    /* line 719, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_92 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -5460px; }
+    /* line 722, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_93 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -5520px; }
+    /* line 725, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_94 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -5580px; }
+    /* line 728, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_95 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -5640px; }
+    /* line 731, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_96 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -5700px; }
+    /* line 734, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_97 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -5760px; }
+    /* line 737, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_98 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -5820px; }
+    /* line 740, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_99 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -5880px; }
+    /* line 743, ../sass/screen.scss */
+    #container #containerLeft .sprite-game_of_thrones_100 {
+      background: url(../images/sprites_game_of_thrones.png) no-repeat 0px -5940px; }
+    /* line 748, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_1 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px 0px; }
+    /* line 751, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_2 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -60px; }
+    /* line 754, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_3 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -120px; }
+    /* line 757, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_4 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -180px; }
+    /* line 760, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_5 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -240px; }
+    /* line 763, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_6 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -300px; }
+    /* line 766, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_7 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -360px; }
+    /* line 769, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_8 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -420px; }
+    /* line 772, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_9 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -480px; }
+    /* line 775, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_10 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -540px; }
+    /* line 778, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_11 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -600px; }
+    /* line 781, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_12 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -660px; }
+    /* line 784, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_13 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -720px; }
+    /* line 787, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_14 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -780px; }
+    /* line 790, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_15 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -840px; }
+    /* line 793, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_16 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -900px; }
+    /* line 796, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_17 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -960px; }
+    /* line 799, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_18 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -1020px; }
+    /* line 802, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_19 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -1080px; }
+    /* line 805, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_20 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -1140px; }
+    /* line 808, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_21 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -1200px; }
+    /* line 811, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_22 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -1260px; }
+    /* line 814, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_23 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -1320px; }
+    /* line 817, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_24 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -1380px; }
+    /* line 820, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_25 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -1440px; }
+    /* line 823, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_26 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -1500px; }
+    /* line 826, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_27 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -1560px; }
+    /* line 829, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_28 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -1620px; }
+    /* line 832, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_29 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -1680px; }
+    /* line 835, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_30 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -1740px; }
+    /* line 838, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_31 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -1800px; }
+    /* line 841, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_32 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -1860px; }
+    /* line 844, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_33 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -1920px; }
+    /* line 847, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_34 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -1980px; }
+    /* line 850, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_35 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -2040px; }
+    /* line 853, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_36 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -2100px; }
+    /* line 856, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_37 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -2160px; }
+    /* line 859, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_38 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -2220px; }
+    /* line 862, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_39 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -2280px; }
+    /* line 865, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_40 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -2340px; }
+    /* line 868, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_41 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -2400px; }
+    /* line 871, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_42 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -2460px; }
+    /* line 874, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_43 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -2520px; }
+    /* line 877, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_44 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -2580px; }
+    /* line 880, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_45 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -2640px; }
+    /* line 883, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_46 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -2700px; }
+    /* line 886, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_47 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -2760px; }
+    /* line 889, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_48 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -2820px; }
+    /* line 892, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_49 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -2880px; }
+    /* line 895, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_50 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -2940px; }
+    /* line 898, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_51 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -3000px; }
+    /* line 901, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_52 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -3060px; }
+    /* line 904, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_53 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -3120px; }
+    /* line 907, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_54 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -3180px; }
+    /* line 910, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_55 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -3240px; }
+    /* line 913, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_56 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -3300px; }
+    /* line 916, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_57 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -3360px; }
+    /* line 919, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_58 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -3420px; }
+    /* line 922, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_59 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -3480px; }
+    /* line 925, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_60 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -3540px; }
+    /* line 928, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_61 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -3600px; }
+    /* line 931, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_62 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -3660px; }
+    /* line 934, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_63 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -3720px; }
+    /* line 937, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_64 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -3780px; }
+    /* line 940, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_65 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -3840px; }
+    /* line 943, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_66 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -3900px; }
+    /* line 946, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_67 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -3960px; }
+    /* line 949, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_68 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -4020px; }
+    /* line 952, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_69 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -4080px; }
+    /* line 955, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_70 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -4140px; }
+    /* line 958, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_71 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -4200px; }
+    /* line 961, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_72 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -4260px; }
+    /* line 964, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_73 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -4320px; }
+    /* line 967, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_74 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -4380px; }
+    /* line 970, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_75 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -4440px; }
+    /* line 973, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_76 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -4500px; }
+    /* line 976, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_77 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -4560px; }
+    /* line 979, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_78 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -4620px; }
+    /* line 982, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_79 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -4680px; }
+    /* line 985, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_80 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -4740px; }
+    /* line 988, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_81 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -4800px; }
+    /* line 991, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_82 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -4860px; }
+    /* line 994, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_83 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -4920px; }
+    /* line 997, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_84 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -4980px; }
+    /* line 1000, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_85 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -5040px; }
+    /* line 1003, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_86 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -5100px; }
+    /* line 1006, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_87 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -5160px; }
+    /* line 1009, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_88 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -5220px; }
+    /* line 1012, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_89 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -5280px; }
+    /* line 1015, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_90 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -5340px; }
+    /* line 1018, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_91 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -5400px; }
+    /* line 1021, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_92 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -5460px; }
+    /* line 1024, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_93 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -5520px; }
+    /* line 1027, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_94 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -5580px; }
+    /* line 1030, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_95 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -5640px; }
+    /* line 1033, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_96 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -5700px; }
+    /* line 1036, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_97 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -5760px; }
+    /* line 1039, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_98 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -5820px; }
+    /* line 1042, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_99 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -5880px; }
+    /* line 1045, ../sass/screen.scss */
+    #container #containerLeft .sprite-hary_potter_100 {
+      background: url(../images/sprites_hary_potter.png) no-repeat 0px -5940px; }
+    /* line 1050, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_1 {
+      background: url(../images/sprites_lake.png) no-repeat 0px 0px; }
+    /* line 1053, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_2 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -60px; }
+    /* line 1056, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_3 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -120px; }
+    /* line 1059, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_4 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -180px; }
+    /* line 1062, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_5 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -240px; }
+    /* line 1065, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_6 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -300px; }
+    /* line 1068, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_7 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -360px; }
+    /* line 1071, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_8 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -420px; }
+    /* line 1074, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_9 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -480px; }
+    /* line 1077, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_10 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -540px; }
+    /* line 1080, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_11 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -600px; }
+    /* line 1083, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_12 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -660px; }
+    /* line 1086, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_13 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -720px; }
+    /* line 1089, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_14 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -780px; }
+    /* line 1092, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_15 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -840px; }
+    /* line 1095, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_16 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -900px; }
+    /* line 1098, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_17 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -960px; }
+    /* line 1101, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_18 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -1020px; }
+    /* line 1104, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_19 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -1080px; }
+    /* line 1107, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_20 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -1140px; }
+    /* line 1110, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_21 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -1200px; }
+    /* line 1113, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_22 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -1260px; }
+    /* line 1116, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_23 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -1320px; }
+    /* line 1119, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_24 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -1380px; }
+    /* line 1122, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_25 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -1440px; }
+    /* line 1125, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_26 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -1500px; }
+    /* line 1128, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_27 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -1560px; }
+    /* line 1131, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_28 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -1620px; }
+    /* line 1134, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_29 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -1680px; }
+    /* line 1137, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_30 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -1740px; }
+    /* line 1140, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_31 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -1800px; }
+    /* line 1143, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_32 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -1860px; }
+    /* line 1146, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_33 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -1920px; }
+    /* line 1149, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_34 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -1980px; }
+    /* line 1152, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_35 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -2040px; }
+    /* line 1155, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_36 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -2100px; }
+    /* line 1158, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_37 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -2160px; }
+    /* line 1161, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_38 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -2220px; }
+    /* line 1164, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_39 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -2280px; }
+    /* line 1167, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_40 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -2340px; }
+    /* line 1170, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_41 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -2400px; }
+    /* line 1173, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_42 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -2460px; }
+    /* line 1176, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_43 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -2520px; }
+    /* line 1179, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_44 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -2580px; }
+    /* line 1182, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_45 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -2640px; }
+    /* line 1185, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_46 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -2700px; }
+    /* line 1188, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_47 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -2760px; }
+    /* line 1191, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_48 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -2820px; }
+    /* line 1194, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_49 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -2880px; }
+    /* line 1197, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_50 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -2940px; }
+    /* line 1200, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_51 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -3000px; }
+    /* line 1203, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_52 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -3060px; }
+    /* line 1206, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_53 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -3120px; }
+    /* line 1209, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_54 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -3180px; }
+    /* line 1212, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_55 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -3240px; }
+    /* line 1215, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_56 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -3300px; }
+    /* line 1218, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_57 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -3360px; }
+    /* line 1221, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_58 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -3420px; }
+    /* line 1224, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_59 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -3480px; }
+    /* line 1227, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_60 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -3540px; }
+    /* line 1230, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_61 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -3600px; }
+    /* line 1233, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_62 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -3660px; }
+    /* line 1236, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_63 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -3720px; }
+    /* line 1239, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_64 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -3780px; }
+    /* line 1242, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_65 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -3840px; }
+    /* line 1245, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_66 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -3900px; }
+    /* line 1248, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_67 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -3960px; }
+    /* line 1251, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_68 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -4020px; }
+    /* line 1254, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_69 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -4080px; }
+    /* line 1257, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_70 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -4140px; }
+    /* line 1260, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_71 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -4200px; }
+    /* line 1263, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_72 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -4260px; }
+    /* line 1266, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_73 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -4320px; }
+    /* line 1269, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_74 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -4380px; }
+    /* line 1272, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_75 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -4440px; }
+    /* line 1275, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_76 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -4500px; }
+    /* line 1278, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_77 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -4560px; }
+    /* line 1281, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_78 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -4620px; }
+    /* line 1284, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_79 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -4680px; }
+    /* line 1287, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_80 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -4740px; }
+    /* line 1290, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_81 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -4800px; }
+    /* line 1293, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_82 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -4860px; }
+    /* line 1296, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_83 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -4920px; }
+    /* line 1299, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_84 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -4980px; }
+    /* line 1302, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_85 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -5040px; }
+    /* line 1305, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_86 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -5100px; }
+    /* line 1308, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_87 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -5160px; }
+    /* line 1311, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_88 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -5220px; }
+    /* line 1314, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_89 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -5280px; }
+    /* line 1317, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_90 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -5340px; }
+    /* line 1320, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_91 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -5400px; }
+    /* line 1323, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_92 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -5460px; }
+    /* line 1326, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_93 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -5520px; }
+    /* line 1329, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_94 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -5580px; }
+    /* line 1332, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_95 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -5640px; }
+    /* line 1335, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_96 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -5700px; }
+    /* line 1338, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_97 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -5760px; }
+    /* line 1341, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_98 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -5820px; }
+    /* line 1344, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_99 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -5880px; }
+    /* line 1347, ../sass/screen.scss */
+    #container #containerLeft .sprite-lake_100 {
+      background: url(../images/sprites_lake.png) no-repeat 0px -5940px; }
+    /* line 1352, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_1 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px 0px; }
+    /* line 1355, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_2 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -60px; }
+    /* line 1358, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_3 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -120px; }
+    /* line 1361, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_4 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -180px; }
+    /* line 1364, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_5 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -240px; }
+    /* line 1367, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_6 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -300px; }
+    /* line 1370, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_7 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -360px; }
+    /* line 1373, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_8 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -420px; }
+    /* line 1376, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_9 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -480px; }
+    /* line 1379, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_10 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -540px; }
+    /* line 1382, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_11 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -600px; }
+    /* line 1385, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_12 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -660px; }
+    /* line 1388, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_13 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -720px; }
+    /* line 1391, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_14 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -780px; }
+    /* line 1394, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_15 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -840px; }
+    /* line 1397, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_16 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -900px; }
+    /* line 1400, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_17 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -960px; }
+    /* line 1403, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_18 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -1020px; }
+    /* line 1406, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_19 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -1080px; }
+    /* line 1409, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_20 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -1140px; }
+    /* line 1412, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_21 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -1200px; }
+    /* line 1415, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_22 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -1260px; }
+    /* line 1418, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_23 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -1320px; }
+    /* line 1421, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_24 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -1380px; }
+    /* line 1424, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_25 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -1440px; }
+    /* line 1427, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_26 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -1500px; }
+    /* line 1430, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_27 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -1560px; }
+    /* line 1433, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_28 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -1620px; }
+    /* line 1436, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_29 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -1680px; }
+    /* line 1439, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_30 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -1740px; }
+    /* line 1442, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_31 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -1800px; }
+    /* line 1445, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_32 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -1860px; }
+    /* line 1448, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_33 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -1920px; }
+    /* line 1451, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_34 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -1980px; }
+    /* line 1454, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_35 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -2040px; }
+    /* line 1457, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_36 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -2100px; }
+    /* line 1460, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_37 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -2160px; }
+    /* line 1463, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_38 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -2220px; }
+    /* line 1466, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_39 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -2280px; }
+    /* line 1469, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_40 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -2340px; }
+    /* line 1472, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_41 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -2400px; }
+    /* line 1475, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_42 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -2460px; }
+    /* line 1478, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_43 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -2520px; }
+    /* line 1481, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_44 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -2580px; }
+    /* line 1484, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_45 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -2640px; }
+    /* line 1487, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_46 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -2700px; }
+    /* line 1490, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_47 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -2760px; }
+    /* line 1493, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_48 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -2820px; }
+    /* line 1496, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_49 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -2880px; }
+    /* line 1499, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_50 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -2940px; }
+    /* line 1502, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_51 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -3000px; }
+    /* line 1505, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_52 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -3060px; }
+    /* line 1508, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_53 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -3120px; }
+    /* line 1511, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_54 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -3180px; }
+    /* line 1514, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_55 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -3240px; }
+    /* line 1517, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_56 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -3300px; }
+    /* line 1520, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_57 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -3360px; }
+    /* line 1523, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_58 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -3420px; }
+    /* line 1526, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_59 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -3480px; }
+    /* line 1529, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_60 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -3540px; }
+    /* line 1532, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_61 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -3600px; }
+    /* line 1535, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_62 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -3660px; }
+    /* line 1538, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_63 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -3720px; }
+    /* line 1541, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_64 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -3780px; }
+    /* line 1544, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_65 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -3840px; }
+    /* line 1547, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_66 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -3900px; }
+    /* line 1550, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_67 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -3960px; }
+    /* line 1553, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_68 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -4020px; }
+    /* line 1556, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_69 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -4080px; }
+    /* line 1559, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_70 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -4140px; }
+    /* line 1562, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_71 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -4200px; }
+    /* line 1565, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_72 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -4260px; }
+    /* line 1568, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_73 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -4320px; }
+    /* line 1571, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_74 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -4380px; }
+    /* line 1574, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_75 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -4440px; }
+    /* line 1577, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_76 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -4500px; }
+    /* line 1580, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_77 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -4560px; }
+    /* line 1583, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_78 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -4620px; }
+    /* line 1586, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_79 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -4680px; }
+    /* line 1589, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_80 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -4740px; }
+    /* line 1592, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_81 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -4800px; }
+    /* line 1595, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_82 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -4860px; }
+    /* line 1598, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_83 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -4920px; }
+    /* line 1601, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_84 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -4980px; }
+    /* line 1604, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_85 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -5040px; }
+    /* line 1607, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_86 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -5100px; }
+    /* line 1610, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_87 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -5160px; }
+    /* line 1613, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_88 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -5220px; }
+    /* line 1616, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_89 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -5280px; }
+    /* line 1619, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_90 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -5340px; }
+    /* line 1622, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_91 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -5400px; }
+    /* line 1625, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_92 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -5460px; }
+    /* line 1628, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_93 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -5520px; }
+    /* line 1631, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_94 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -5580px; }
+    /* line 1634, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_95 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -5640px; }
+    /* line 1637, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_96 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -5700px; }
+    /* line 1640, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_97 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -5760px; }
+    /* line 1643, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_98 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -5820px; }
+    /* line 1646, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_99 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -5880px; }
+    /* line 1649, ../sass/screen.scss */
+    #container #containerLeft .sprite-new_year_100 {
+      background: url(../images/sprites_new_year.png) no-repeat 0px -5940px; }
+    /* line 1654, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_1 {
+      background: url(../images/sprites_underground.png) no-repeat 0px 0px; }
+    /* line 1657, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_2 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -60px; }
+    /* line 1660, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_3 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -120px; }
+    /* line 1663, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_4 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -180px; }
+    /* line 1666, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_5 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -240px; }
+    /* line 1669, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_6 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -300px; }
+    /* line 1672, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_7 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -360px; }
+    /* line 1675, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_8 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -420px; }
+    /* line 1678, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_9 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -480px; }
+    /* line 1681, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_10 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -540px; }
+    /* line 1684, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_11 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -600px; }
+    /* line 1687, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_12 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -660px; }
+    /* line 1690, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_13 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -720px; }
+    /* line 1693, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_14 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -780px; }
+    /* line 1696, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_15 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -840px; }
+    /* line 1699, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_16 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -900px; }
+    /* line 1702, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_17 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -960px; }
+    /* line 1705, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_18 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -1020px; }
+    /* line 1708, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_19 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -1080px; }
+    /* line 1711, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_20 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -1140px; }
+    /* line 1714, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_21 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -1200px; }
+    /* line 1717, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_22 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -1260px; }
+    /* line 1720, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_23 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -1320px; }
+    /* line 1723, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_24 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -1380px; }
+    /* line 1726, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_25 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -1440px; }
+    /* line 1729, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_26 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -1500px; }
+    /* line 1732, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_27 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -1560px; }
+    /* line 1735, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_28 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -1620px; }
+    /* line 1738, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_29 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -1680px; }
+    /* line 1741, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_30 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -1740px; }
+    /* line 1744, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_31 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -1800px; }
+    /* line 1747, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_32 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -1860px; }
+    /* line 1750, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_33 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -1920px; }
+    /* line 1753, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_34 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -1980px; }
+    /* line 1756, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_35 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -2040px; }
+    /* line 1759, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_36 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -2100px; }
+    /* line 1762, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_37 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -2160px; }
+    /* line 1765, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_38 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -2220px; }
+    /* line 1768, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_39 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -2280px; }
+    /* line 1771, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_40 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -2340px; }
+    /* line 1774, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_41 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -2400px; }
+    /* line 1777, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_42 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -2460px; }
+    /* line 1780, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_43 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -2520px; }
+    /* line 1783, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_44 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -2580px; }
+    /* line 1786, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_45 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -2640px; }
+    /* line 1789, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_46 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -2700px; }
+    /* line 1792, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_47 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -2760px; }
+    /* line 1795, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_48 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -2820px; }
+    /* line 1798, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_49 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -2880px; }
+    /* line 1801, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_50 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -2940px; }
+    /* line 1804, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_51 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -3000px; }
+    /* line 1807, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_52 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -3060px; }
+    /* line 1810, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_53 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -3120px; }
+    /* line 1813, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_54 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -3180px; }
+    /* line 1816, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_55 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -3240px; }
+    /* line 1819, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_56 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -3300px; }
+    /* line 1822, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_57 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -3360px; }
+    /* line 1825, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_58 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -3420px; }
+    /* line 1828, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_59 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -3480px; }
+    /* line 1831, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_60 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -3540px; }
+    /* line 1834, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_61 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -3600px; }
+    /* line 1837, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_62 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -3660px; }
+    /* line 1840, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_63 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -3720px; }
+    /* line 1843, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_64 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -3780px; }
+    /* line 1846, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_65 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -3840px; }
+    /* line 1849, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_66 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -3900px; }
+    /* line 1852, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_67 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -3960px; }
+    /* line 1855, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_68 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -4020px; }
+    /* line 1858, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_69 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -4080px; }
+    /* line 1861, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_70 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -4140px; }
+    /* line 1864, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_71 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -4200px; }
+    /* line 1867, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_72 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -4260px; }
+    /* line 1870, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_73 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -4320px; }
+    /* line 1873, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_74 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -4380px; }
+    /* line 1876, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_75 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -4440px; }
+    /* line 1879, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_76 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -4500px; }
+    /* line 1882, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_77 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -4560px; }
+    /* line 1885, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_78 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -4620px; }
+    /* line 1888, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_79 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -4680px; }
+    /* line 1891, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_80 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -4740px; }
+    /* line 1894, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_81 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -4800px; }
+    /* line 1897, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_82 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -4860px; }
+    /* line 1900, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_83 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -4920px; }
+    /* line 1903, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_84 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -4980px; }
+    /* line 1906, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_85 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -5040px; }
+    /* line 1909, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_86 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -5100px; }
+    /* line 1912, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_87 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -5160px; }
+    /* line 1915, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_88 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -5220px; }
+    /* line 1918, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_89 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -5280px; }
+    /* line 1921, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_90 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -5340px; }
+    /* line 1924, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_91 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -5400px; }
+    /* line 1927, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_92 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -5460px; }
+    /* line 1930, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_93 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -5520px; }
+    /* line 1933, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_94 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -5580px; }
+    /* line 1936, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_95 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -5640px; }
+    /* line 1939, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_96 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -5700px; }
+    /* line 1942, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_97 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -5760px; }
+    /* line 1945, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_98 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -5820px; }
+    /* line 1948, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_99 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -5880px; }
+    /* line 1951, ../sass/screen.scss */
+    #container #containerLeft .sprite-underground_100 {
+      background: url(../images/sprites_underground.png) no-repeat 0px -5940px; }
+    /* line 1956, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_1 {
+      background: url(../images/sprites_wood.png) no-repeat 0px 0px; }
+    /* line 1959, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_2 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -60px; }
+    /* line 1962, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_3 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -120px; }
+    /* line 1965, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_4 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -180px; }
+    /* line 1968, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_5 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -240px; }
+    /* line 1971, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_6 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -300px; }
+    /* line 1974, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_7 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -360px; }
+    /* line 1977, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_8 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -420px; }
+    /* line 1980, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_9 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -480px; }
+    /* line 1983, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_10 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -540px; }
+    /* line 1986, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_11 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -600px; }
+    /* line 1989, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_12 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -660px; }
+    /* line 1992, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_13 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -720px; }
+    /* line 1995, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_14 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -780px; }
+    /* line 1998, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_15 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -840px; }
+    /* line 2001, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_16 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -900px; }
+    /* line 2004, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_17 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -960px; }
+    /* line 2007, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_18 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -1020px; }
+    /* line 2010, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_19 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -1080px; }
+    /* line 2013, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_20 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -1140px; }
+    /* line 2016, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_21 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -1200px; }
+    /* line 2019, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_22 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -1260px; }
+    /* line 2022, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_23 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -1320px; }
+    /* line 2025, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_24 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -1380px; }
+    /* line 2028, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_25 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -1440px; }
+    /* line 2031, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_26 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -1500px; }
+    /* line 2034, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_27 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -1560px; }
+    /* line 2037, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_28 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -1620px; }
+    /* line 2040, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_29 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -1680px; }
+    /* line 2043, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_30 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -1740px; }
+    /* line 2046, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_31 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -1800px; }
+    /* line 2049, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_32 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -1860px; }
+    /* line 2052, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_33 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -1920px; }
+    /* line 2055, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_34 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -1980px; }
+    /* line 2058, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_35 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -2040px; }
+    /* line 2061, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_36 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -2100px; }
+    /* line 2064, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_37 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -2160px; }
+    /* line 2067, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_38 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -2220px; }
+    /* line 2070, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_39 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -2280px; }
+    /* line 2073, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_40 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -2340px; }
+    /* line 2076, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_41 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -2400px; }
+    /* line 2079, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_42 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -2460px; }
+    /* line 2082, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_43 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -2520px; }
+    /* line 2085, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_44 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -2580px; }
+    /* line 2088, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_45 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -2640px; }
+    /* line 2091, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_46 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -2700px; }
+    /* line 2094, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_47 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -2760px; }
+    /* line 2097, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_48 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -2820px; }
+    /* line 2100, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_49 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -2880px; }
+    /* line 2103, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_50 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -2940px; }
+    /* line 2106, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_51 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -3000px; }
+    /* line 2109, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_52 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -3060px; }
+    /* line 2112, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_53 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -3120px; }
+    /* line 2115, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_54 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -3180px; }
+    /* line 2118, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_55 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -3240px; }
+    /* line 2121, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_56 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -3300px; }
+    /* line 2124, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_57 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -3360px; }
+    /* line 2127, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_58 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -3420px; }
+    /* line 2130, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_59 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -3480px; }
+    /* line 2133, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_60 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -3540px; }
+    /* line 2136, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_61 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -3600px; }
+    /* line 2139, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_62 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -3660px; }
+    /* line 2142, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_63 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -3720px; }
+    /* line 2145, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_64 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -3780px; }
+    /* line 2148, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_65 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -3840px; }
+    /* line 2151, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_66 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -3900px; }
+    /* line 2154, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_67 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -3960px; }
+    /* line 2157, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_68 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -4020px; }
+    /* line 2160, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_69 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -4080px; }
+    /* line 2163, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_70 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -4140px; }
+    /* line 2166, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_71 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -4200px; }
+    /* line 2169, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_72 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -4260px; }
+    /* line 2172, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_73 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -4320px; }
+    /* line 2175, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_74 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -4380px; }
+    /* line 2178, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_75 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -4440px; }
+    /* line 2181, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_76 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -4500px; }
+    /* line 2184, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_77 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -4560px; }
+    /* line 2187, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_78 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -4620px; }
+    /* line 2190, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_79 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -4680px; }
+    /* line 2193, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_80 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -4740px; }
+    /* line 2196, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_81 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -4800px; }
+    /* line 2199, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_82 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -4860px; }
+    /* line 2202, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_83 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -4920px; }
+    /* line 2205, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_84 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -4980px; }
+    /* line 2208, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_85 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -5040px; }
+    /* line 2211, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_86 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -5100px; }
+    /* line 2214, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_87 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -5160px; }
+    /* line 2217, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_88 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -5220px; }
+    /* line 2220, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_89 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -5280px; }
+    /* line 2223, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_90 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -5340px; }
+    /* line 2226, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_91 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -5400px; }
+    /* line 2229, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_92 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -5460px; }
+    /* line 2232, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_93 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -5520px; }
+    /* line 2235, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_94 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -5580px; }
+    /* line 2238, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_95 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -5640px; }
+    /* line 2241, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_96 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -5700px; }
+    /* line 2244, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_97 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -5760px; }
+    /* line 2247, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_98 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -5820px; }
+    /* line 2250, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_99 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -5880px; }
+    /* line 2253, ../sass/screen.scss */
+    #container #containerLeft .sprite-wood_100 {
+      background: url(../images/sprites_wood.png) no-repeat 0px -5940px; }
+
+@media screen and (max-width: 1600px) and (min-width: 1400px) {
+  /* line 2261, ../sass/screen.scss */
+  #container {
+    width: 83.33%;
+    height: 499px; }
+    /* line 2265, ../sass/screen.scss */
+    #container #containerRight {
+      width: 50%;
+      height: 499px; }
+      /* line 2269, ../sass/screen.scss */
+      #container #containerRight div[class*="pale"] {
+        width: 10%;
+        height: 49.999px; } }
+@media screen and (max-width: 1399px) and (min-width: 1200px) {
+  /* line 2281, ../sass/screen.scss */
+  #container {
+    width: 83.33%;
+    height: 437px; }
+    /* line 2285, ../sass/screen.scss */
+    #container #container {
+      width: 83.33%;
+      height: 437px; }
+      /* line 2289, ../sass/screen.scss */
+      #container #container #start,
+      #container #container .startPuzzleButton {
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        box-shadow: 0 0 10px darkgrey;
+        background-color: #d4d4d4;
+        font-family: 'Arimo', sans-serif;
+        color: #3E3C3C;
+        text-shadow: 1px 1px 2px grey;
+        outline: none; }
+      /* line 2302, ../sass/screen.scss */
+      #container #container #containerRight {
+        width: 50%;
+        height: 437px; }
+        /* line 2306, ../sass/screen.scss */
+        #container #container #containerRight div[class*="pale"] {
+          width: 10%;
+          height: 43.7px; } }
+@media screen and (max-width: 1199px) and (min-width: 1000px) {
+  /* line 2318, ../sass/screen.scss */
+  #container {
+    width: 83.33%;
+    height: 374px; }
+    /* line 2322, ../sass/screen.scss */
+    #container #start,
+    #container .startPuzzleButton {
+      width: 200px;
+      height: 50px;
+      font-size: 20px;
+      box-shadow: 0 0 10px darkgrey;
+      background-color: #d4d4d4;
+      font-family: 'Arimo', sans-serif;
+      color: #3E3C3C;
+      text-shadow: 1px 1px 2px grey;
+      outline: none; }
+    /* line 2335, ../sass/screen.scss */
+    #container #containerRight {
+      width: 50%;
+      height: 374px; }
+      /* line 2339, ../sass/screen.scss */
+      #container #containerRight div[class*="pale"] {
+        width: 10%;
+        height: 37.4px; } }
+@media screen and (max-width: 999px) and (min-width: 800px) {
+  /* line 2350, ../sass/screen.scss */
+  #container {
+    width: 83.33%;
+    height: 312px; }
+    /* line 2354, ../sass/screen.scss */
+    #container #start,
+    #container .startPuzzleButton {
+      width: 200px;
+      height: 50px;
+      font-size: 20px;
+      box-shadow: 0 0 10px darkgrey;
+      background-color: #d4d4d4;
+      font-family: 'Arimo', sans-serif;
+      color: #3E3C3C;
+      text-shadow: 1px 1px 2px grey;
+      outline: none; }
+    /* line 2367, ../sass/screen.scss */
+    #container #containerRight {
+      width: 50%;
+      height: 312px; }
+      /* line 2371, ../sass/screen.scss */
+      #container #containerRight div[class*="pale"] {
+        width: 10%;
+        height: 31.2px; } }
+@media screen and (max-width: 799px) and (min-width: 480px) {
+  /* line 2382, ../sass/screen.scss */
+  #container {
+    width: 83.33%;
+    height: 187px; }
+    /* line 2386, ../sass/screen.scss */
+    #container #start,
+    #container .startPuzzleButton {
+      width: 200px;
+      height: 50px;
+      font-size: 20px;
+      box-shadow: 0 0 10px darkgrey;
+      background-color: #d4d4d4;
+      font-family: 'Arimo', sans-serif;
+      color: #3E3C3C;
+      text-shadow: 1px 1px 2px grey;
+      outline: none; }
+    /* line 2399, ../sass/screen.scss */
+    #container #containerRight {
+      width: 50%;
+      height: 187px; }
+      /* line 2403, ../sass/screen.scss */
+      #container #containerRight div[class*="pale"] {
+        width: 10%;
+        height: 18.7px; } }
